@@ -1,0 +1,30 @@
+{
+  "vivado": "2022.2",
+  "part": "xc7z045fbg676-1",
+  "baseband_clock_mhz": 100,
+  "openwifi_hw": {
+    "url": "https://github.com/open-sdr/openwifi-hw.git",
+    "commit": "fa6c89687e4637f07adbfb41299056b6d18fd80e"
+  },
+  "openwifi": {
+    "url": "https://github.com/open-sdr/openwifi.git",
+    "commit": "674995a130893bd9d0fe94d6ef0790ac8f43ec2a"
+  },
+  "adi_hdl": {
+    "url": "https://github.com/analogdevicesinc/hdl.git",
+    "ref": "2022_R2",
+    "commit": "7ea497b6c24172ee293d6e0a9a387a16973da5ce",
+    "note": "Official prepare_adi_lib.sh checks out 2022_R2; superproject gitlink f61d9707 is intentionally superseded."
+  },
+  "openofdm": {
+    "url": "https://github.com/open-sdr/openofdm.git",
+    "commit": "2bb3ad1a1f0023bfd15168db4e196ebf0d56d76c"
+  },
+  "linux": {
+    "commit": null,
+    "config_sha256": null,
+    "release": null,
+    "status": "Must obtain running board uname, config, Module.symvers and matching source before building modules. Kuiper image label alone is insufficient."
+  },
+  "compatibility": "Candidate source pair downloaded together. FPGA build and driver/board runtime compatibility require validation; not a certified release pair."
+}

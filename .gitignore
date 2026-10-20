@@ -1,0 +1,38 @@
+# Upstream sources are pinned in openwifi/sources.lock.json.
+/upstream/
+
+# Build staging: retain board inputs, exclude generated IP and tool outputs.
+/ow/*
+!/ow/board/
+/ow/board/*
+!/ow/board/src/
+!/ow/board/ps_settings.tcl
+!/ow/board/ip_config/
+/ow/board/src/*
+!/ow/board/src/system.bd
+!/ow/board/src/system_top.v
+!/ow/board/src/board.xdc
+!/ow/board/src/openwifi_timing.xdc
+
+# Vivado products and local state.
+**/.Xil/
+**/*.cache/
+**/*.gen/
+**/*.runs/
+**/*.sim/
+**/*.hw/
+**/*.ip_user_files/
+**/*.dcp
+**/*.xsa
+**/*.bit
+**/*.bin
+**/*.ltx
+**/*.jou
+**/*.log
+**/*.str
+**/*.backup.*
+**/*.bda
+**/ui/
+**/__pycache__/
+**/*.pyc
+/openwifi/schematic_rf_crop.png
