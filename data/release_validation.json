@@ -70,5 +70,14 @@
     "historical_resource_snapshot": "2026-11-03; conditions and limitations retained",
     "code_and_archives_unchanged": true,
     "new_board_or_build_test": false
+  },
+  "project_introduction_update": {
+    "date": "2026-11-04",
+    "scope": "Define A/B as two independent dual-antenna receiving terminals, explain PC role and clarify the four-stage processing chain",
+    "hardware": "Each terminal uses AD9361 and XC7Z045; FPGA and Linux CPU responsibilities stated separately",
+    "positioning": "Two terminal bearings and known geometry are combined on PC; rangeAM/rangeBM are geometric outputs",
+    "identity": "RID parsing and source association do not establish identity authenticity",
+    "code_and_archives_unchanged": true,
+    "new_board_or_build_test": false
   }
 }
