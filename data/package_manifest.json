@@ -1373,13 +1373,13 @@
     },
     {
       "path": "data/release_validation.json",
-      "size": 1620,
-      "sha256": "cc41d6fa5b92555836afb0d9527dddc296c0b79c404363f8bdd13cd14d3b5c3e"
+      "size": 2138,
+      "sha256": "12a64c6e747479ed972b96ea50afc0e910e5e89c516abfe2450f7fc162220281"
     },
     {
       "path": "README.md",
-      "size": 13084,
-      "sha256": "9ea04333c4542a23b7ebef03b912156e77ce3366e6b81a3ec6b23b950684dfb4"
+      "size": 29299,
+      "sha256": "0aa30bec4fa95a54359f27558703b665b49a7e4cec0a19c146a7408775df0f90"
     },
     {
       "path": "report/llm_collaboration.md",

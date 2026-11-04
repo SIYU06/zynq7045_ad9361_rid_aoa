@@ -50,8 +50,25 @@
   "documents": {
     "ok": true,
     "documents": 118,
-    "local_links_checked": 384,
+    "local_links_checked": 404,
     "issues": [],
     "privacy_scope": "heuristic candidates only; manual identity and location review remains necessary"
+  },
+  "readme_documentation_update": {
+    "date": "2026-11-04",
+    "master_sections": [
+      1,
+      2,
+      6
+    ],
+    "added": [
+      "system processing layers and fixed deployment",
+      "PC ground-station startup, architecture and configuration",
+      "device responsibilities, scoring and measured resource usage"
+    ],
+    "configuration_paths": "relative to prepared repository workspace",
+    "historical_resource_snapshot": "2026-11-03; conditions and limitations retained",
+    "code_and_archives_unchanged": true,
+    "new_board_or_build_test": false
   }
 }
