@@ -1,0 +1,4400 @@
+{
+  "checkedAt": "2026-11-03T01:36:44.613422+08:00",
+  "elapsedSeconds": 20.29599999997299,
+  "normalPcOnly": true,
+  "stations": {
+    "A": {
+      "delta": {
+        "rawResponses": 0,
+        "rawBytesServed": 0,
+        "doaResponses": 34,
+        "doaBytesServed": 111655,
+        "doaAccepted": 20,
+        "doaRejected": 0,
+        "candidateWindows": 20
+      },
+      "resultApiPayloadBytesPerSecond": 5501.330311398728,
+      "cpuPercent": {
+        "mean": 21.26881025599208,
+        "min": 17.078189300411523,
+        "max": 27.755102040816325
+      },
+      "state": "capturing",
+      "error": null
+    },
+    "B": {
+      "delta": {
+        "rawResponses": 0,
+        "rawBytesServed": 0,
+        "doaResponses": 34,
+        "doaBytesServed": 111669,
+        "doaAccepted": 20,
+        "doaRejected": 0,
+        "candidateWindows": 20
+      },
+      "resultApiPayloadBytesPerSecond": 5502.02010249057,
+      "cpuPercent": {
+        "mean": 50.904668504884256,
+        "min": 44.39461883408072,
+        "max": 55.51020408163265
+      },
+      "state": "capturing",
+      "error": null
+    }
+  },
+  "start": {
+    "A": {
+      "station": "A",
+      "sessionId": "92fae22dca874e5ca1730290c20d6424",
+      "state": "capturing",
+      "error": null,
+      "task": {
+        "mac": "mac_aa98f353b5",
+        "frequencyMhz": 2437.0,
+        "expires": 1822.041235979,
+        "contextHash": "5e8522d22dc42d8b3bccf1edd9712f8b70e39ab6c59171f2daa19acadf3f95f3"
+      },
+      "metadata": {
+        "rf_hz": 2436999998,
+        "iq_sample_rate_hz": 20000000,
+        "spacing_m": 0.06,
+        "geometryStatus": "software target only; physical geometry not confirmed",
+        "fixed_gain_profile": {
+          "before": [
+            {
+              "mode": "manual",
+              "gain": "0.000000"
+            },
+            {
+              "mode": "manual",
+              "gain": "0.000000"
+            }
+          ],
+          "active_mode": "manual",
+          "active_gains": [
+            "0.000000 dB",
+            "0.000000 dB"
+          ],
+          "requested_gains_db": [
+            0.0,
+            0.0
+          ],
+          "session_id": "92fae22dca874e5ca1730290c20d6424"
+        },
+        "capture_profile": {
+          "registers_before": {
+            "1": 1,
+            "3": 17,
+            "5": 0,
+            "7": 0,
+            "8": 0,
+            "9": 0,
+            "11": 8190,
+            "12": 4096
+          },
+          "manual_trigger_before": "N",
+          "registers_active": {
+            "1": 1,
+            "3": 17,
+            "5": 0,
+            "7": 0,
+            "8": 4,
+            "9": 0,
+            "11": 768,
+            "12": 4096,
+            "20": 0,
+            "21": 8188,
+            "22": 8192
+          }
+        },
+        "kernel": "5.15.0-175919-g427c94e8faa5-openwifi-rx1",
+        "phase_calibration": null,
+        "calibrationStatus": "uncalibrated",
+        "pre_trigger_samples": 1536,
+        "association": "board verifies full MAC/FCS/LTF/TSF and computes single-station phase/reference/angle",
+        "timing_profile": {
+          "signal_latch_after_ltf_us": 19.0,
+          "tolerance_us": 1.5,
+          "verified_reference_rate_mbps": 6,
+          "note": "legacy SIGNAL latch; never apply to HT header latch"
+        },
+        "timing_profiles": {
+          "ht20_sgi_mcs0_5_20261102": {
+            "signal_latch_after_ltf_us": 30.5,
+            "tolerance_us": 1.5,
+            "verified_mcs": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "kernel": "5.15.0-175919-g427c94e8faa5-openwifi-rx1",
+            "evidence": "64 saved dual-RX windows across two actual non-RID video runs; no phase bias fitted"
+          }
+        },
+        "processing": {
+          "location": "board",
+          "schema": "airspace.board-doa.v1",
+          "estimator": "ofdm_ltf_unit_bins_v1",
+          "implementationHash": "e17729a092df847cd3f0015c453564372804d947f91625155d01521b7e80bcf3",
+          "rawTransport": "diagnostic_request_only",
+          "angleReference": "session_and_geometry_bound"
+        }
+      },
+      "counters": {
+        "doaResponses": 53,
+        "doaBytesServed": 177432,
+        "doaAccepted": 34,
+        "candidateWindows": 34
+      },
+      "rfRestored": false,
+      "generatedMonotonic": 1813.545666532,
+      "schema": "airspace.board-doa.v1",
+      "processing": {
+        "location": "board",
+        "schema": "airspace.board-doa.v1",
+        "estimator": "ofdm_ltf_unit_bins_v1",
+        "implementationHash": "e17729a092df847cd3f0015c453564372804d947f91625155d01521b7e80bcf3",
+        "rawTransport": "diagnostic_request_only",
+        "angleReference": "session_and_geometry_bound"
+      },
+      "lastRejection": null,
+      "observations": []
+    },
+    "B": {
+      "station": "B",
+      "sessionId": "87a9d77222b444d99b41114e62efa512",
+      "state": "capturing",
+      "error": null,
+      "task": {
+        "mac": "mac_aa98f353b5",
+        "frequencyMhz": 2437.0,
+        "expires": 1772.171573192,
+        "contextHash": "c57e0c03bcd794a168339cb94cba712e1cd16d819eadbf46ce5d30afa048cb38"
+      },
+      "metadata": {
+        "rf_hz": 2436999998,
+        "iq_sample_rate_hz": 20000000,
+        "spacing_m": 0.06,
+        "geometryStatus": "software target only; physical geometry not confirmed",
+        "fixed_gain_profile": {
+          "before": [
+            {
+              "mode": "manual",
+              "gain": "0.000000"
+            },
+            {
+              "mode": "manual",
+              "gain": "0.000000"
+            }
+          ],
+          "active_mode": "manual",
+          "active_gains": [
+            "0.000000 dB",
+            "0.000000 dB"
+          ],
+          "requested_gains_db": [
+            0.0,
+            0.0
+          ],
+          "session_id": "87a9d77222b444d99b41114e62efa512"
+        },
+        "capture_profile": {
+          "registers_before": {
+            "1": 1,
+            "3": 17,
+            "5": 0,
+            "7": 0,
+            "8": 0,
+            "9": 0,
+            "11": 8190,
+            "12": 4096
+          },
+          "manual_trigger_before": "N",
+          "registers_active": {
+            "1": 1,
+            "3": 17,
+            "5": 0,
+            "7": 0,
+            "8": 4,
+            "9": 0,
+            "11": 768,
+            "12": 4096,
+            "20": 0,
+            "21": 8188,
+            "22": 8192
+          }
+        },
+        "kernel": "5.15.0-175919-g427c94e8faa5-openwifi-rx1",
+        "phase_calibration": null,
+        "calibrationStatus": "uncalibrated",
+        "pre_trigger_samples": 1536,
+        "association": "board verifies full MAC/FCS/LTF/TSF and computes single-station phase/reference/angle",
+        "timing_profile": {
+          "signal_latch_after_ltf_us": 19.0,
+          "tolerance_us": 1.5,
+          "verified_reference_rate_mbps": 6,
+          "note": "legacy SIGNAL latch; never apply to HT header latch"
+        },
+        "timing_profiles": {
+          "ht20_sgi_mcs0_5_20261102": {
+            "signal_latch_after_ltf_us": 30.5,
+            "tolerance_us": 1.5,
+            "verified_mcs": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "kernel": "5.15.0-175919-g427c94e8faa5-openwifi-rx1",
+            "evidence": "64 saved dual-RX windows across two actual non-RID video runs; no phase bias fitted"
+          }
+        },
+        "processing": {
+          "location": "board",
+          "schema": "airspace.board-doa.v1",
+          "estimator": "ofdm_ltf_unit_bins_v1",
+          "implementationHash": "e17729a092df847cd3f0015c453564372804d947f91625155d01521b7e80bcf3",
+          "rawTransport": "diagnostic_request_only",
+          "angleReference": "session_and_geometry_bound"
+        }
+      },
+      "counters": {
+        "doaResponses": 50,
+        "doaBytesServed": 164581,
+        "doaAccepted": 30,
+        "candidateWindows": 30
+      },
+      "rfRestored": false,
+      "generatedMonotonic": 1759.331627874,
+      "schema": "airspace.board-doa.v1",
+      "processing": {
+        "location": "board",
+        "schema": "airspace.board-doa.v1",
+        "estimator": "ofdm_ltf_unit_bins_v1",
+        "implementationHash": "e17729a092df847cd3f0015c453564372804d947f91625155d01521b7e80bcf3",
+        "rawTransport": "diagnostic_request_only",
+        "angleReference": "session_and_geometry_bound"
+      },
+      "lastRejection": null,
+      "observations": []
+    }
+  },
+  "end": {
+    "A": {
+      "station": "A",
+      "sessionId": "92fae22dca874e5ca1730290c20d6424",
+      "state": "capturing",
+      "error": null,
+      "task": {
+        "mac": "mac_aa98f353b5",
+        "frequencyMhz": 2437.0,
+        "expires": 1840.475643242,
+        "contextHash": "5e8522d22dc42d8b3bccf1edd9712f8b70e39ab6c59171f2daa19acadf3f95f3"
+      },
+      "metadata": {
+        "rf_hz": 2436999998,
+        "iq_sample_rate_hz": 20000000,
+        "spacing_m": 0.06,
+        "geometryStatus": "software target only; physical geometry not confirmed",
+        "fixed_gain_profile": {
+          "before": [
+            {
+              "mode": "manual",
+              "gain": "0.000000"
+            },
+            {
+              "mode": "manual",
+              "gain": "0.000000"
+            }
+          ],
+          "active_mode": "manual",
+          "active_gains": [
+            "0.000000 dB",
+            "0.000000 dB"
+          ],
+          "requested_gains_db": [
+            0.0,
+            0.0
+          ],
+          "session_id": "92fae22dca874e5ca1730290c20d6424"
+        },
+        "capture_profile": {
+          "registers_before": {
+            "1": 1,
+            "3": 17,
+            "5": 0,
+            "7": 0,
+            "8": 0,
+            "9": 0,
+            "11": 8190,
+            "12": 4096
+          },
+          "manual_trigger_before": "N",
+          "registers_active": {
+            "1": 1,
+            "3": 17,
+            "5": 0,
+            "7": 0,
+            "8": 4,
+            "9": 0,
+            "11": 768,
+            "12": 4096,
+            "20": 0,
+            "21": 8188,
+            "22": 8192
+          }
+        },
+        "kernel": "5.15.0-175919-g427c94e8faa5-openwifi-rx1",
+        "phase_calibration": null,
+        "calibrationStatus": "uncalibrated",
+        "pre_trigger_samples": 1536,
+        "association": "board verifies full MAC/FCS/LTF/TSF and computes single-station phase/reference/angle",
+        "timing_profile": {
+          "signal_latch_after_ltf_us": 19.0,
+          "tolerance_us": 1.5,
+          "verified_reference_rate_mbps": 6,
+          "note": "legacy SIGNAL latch; never apply to HT header latch"
+        },
+        "timing_profiles": {
+          "ht20_sgi_mcs0_5_20261102": {
+            "signal_latch_after_ltf_us": 30.5,
+            "tolerance_us": 1.5,
+            "verified_mcs": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "kernel": "5.15.0-175919-g427c94e8faa5-openwifi-rx1",
+            "evidence": "64 saved dual-RX windows across two actual non-RID video runs; no phase bias fitted"
+          }
+        },
+        "processing": {
+          "location": "board",
+          "schema": "airspace.board-doa.v1",
+          "estimator": "ofdm_ltf_unit_bins_v1",
+          "implementationHash": "e17729a092df847cd3f0015c453564372804d947f91625155d01521b7e80bcf3",
+          "rawTransport": "diagnostic_request_only",
+          "angleReference": "session_and_geometry_bound"
+        }
+      },
+      "counters": {
+        "doaResponses": 87,
+        "doaBytesServed": 289087,
+        "doaAccepted": 54,
+        "candidateWindows": 54
+      },
+      "rfRestored": false,
+      "generatedMonotonic": 1833.89126264,
+      "schema": "airspace.board-doa.v1",
+      "processing": {
+        "location": "board",
+        "schema": "airspace.board-doa.v1",
+        "estimator": "ofdm_ltf_unit_bins_v1",
+        "implementationHash": "e17729a092df847cd3f0015c453564372804d947f91625155d01521b7e80bcf3",
+        "rawTransport": "diagnostic_request_only",
+        "angleReference": "session_and_geometry_bound"
+      },
+      "lastRejection": null,
+      "observations": []
+    },
+    "B": {
+      "station": "B",
+      "sessionId": "87a9d77222b444d99b41114e62efa512",
+      "state": "capturing",
+      "error": null,
+      "task": {
+        "mac": "mac_aa98f353b5",
+        "frequencyMhz": 2437.0,
+        "expires": 1791.087025738,
+        "contextHash": "c57e0c03bcd794a168339cb94cba712e1cd16d819eadbf46ce5d30afa048cb38"
+      },
+      "metadata": {
+        "rf_hz": 2436999998,
+        "iq_sample_rate_hz": 20000000,
+        "spacing_m": 0.06,
+        "geometryStatus": "software target only; physical geometry not confirmed",
+        "fixed_gain_profile": {
+          "before": [
+            {
+              "mode": "manual",
+              "gain": "0.000000"
+            },
+            {
+              "mode": "manual",
+              "gain": "0.000000"
+            }
+          ],
+          "active_mode": "manual",
+          "active_gains": [
+            "0.000000 dB",
+            "0.000000 dB"
+          ],
+          "requested_gains_db": [
+            0.0,
+            0.0
+          ],
+          "session_id": "87a9d77222b444d99b41114e62efa512"
+        },
+        "capture_profile": {
+          "registers_before": {
+            "1": 1,
+            "3": 17,
+            "5": 0,
+            "7": 0,
+            "8": 0,
+            "9": 0,
+            "11": 8190,
+            "12": 4096
+          },
+          "manual_trigger_before": "N",
+          "registers_active": {
+            "1": 1,
+            "3": 17,
+            "5": 0,
+            "7": 0,
+            "8": 4,
+            "9": 0,
+            "11": 768,
+            "12": 4096,
+            "20": 0,
+            "21": 8188,
+            "22": 8192
+          }
+        },
+        "kernel": "5.15.0-175919-g427c94e8faa5-openwifi-rx1",
+        "phase_calibration": null,
+        "calibrationStatus": "uncalibrated",
+        "pre_trigger_samples": 1536,
+        "association": "board verifies full MAC/FCS/LTF/TSF and computes single-station phase/reference/angle",
+        "timing_profile": {
+          "signal_latch_after_ltf_us": 19.0,
+          "tolerance_us": 1.5,
+          "verified_reference_rate_mbps": 6,
+          "note": "legacy SIGNAL latch; never apply to HT header latch"
+        },
+        "timing_profiles": {
+          "ht20_sgi_mcs0_5_20261102": {
+            "signal_latch_after_ltf_us": 30.5,
+            "tolerance_us": 1.5,
+            "verified_mcs": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "kernel": "5.15.0-175919-g427c94e8faa5-openwifi-rx1",
+            "evidence": "64 saved dual-RX windows across two actual non-RID video runs; no phase bias fitted"
+          }
+        },
+        "processing": {
+          "location": "board",
+          "schema": "airspace.board-doa.v1",
+          "estimator": "ofdm_ltf_unit_bins_v1",
+          "implementationHash": "e17729a092df847cd3f0015c453564372804d947f91625155d01521b7e80bcf3",
+          "rawTransport": "diagnostic_request_only",
+          "angleReference": "session_and_geometry_bound"
+        }
+      },
+      "counters": {
+        "doaResponses": 84,
+        "doaBytesServed": 276250,
+        "doaAccepted": 50,
+        "candidateWindows": 50
+      },
+      "rfRestored": false,
+      "generatedMonotonic": 1779.705201364,
+      "schema": "airspace.board-doa.v1",
+      "processing": {
+        "location": "board",
+        "schema": "airspace.board-doa.v1",
+        "estimator": "ofdm_ltf_unit_bins_v1",
+        "implementationHash": "e17729a092df847cd3f0015c453564372804d947f91625155d01521b7e80bcf3",
+        "rawTransport": "diagnostic_request_only",
+        "angleReference": "session_and_geometry_bound"
+      },
+      "lastRejection": null,
+      "observations": []
+    }
+  },
+  "resourceSamples": [
+    {
+      "A": {
+        "available": true,
+        "cpuPercent": 17.078189300411523,
+        "sampleIntervalSeconds": 2.4317386440000064,
+        "memory": {
+          "percent": 16.086352345598335,
+          "totalBytes": 1040502784,
+          "availableBytes": 873123840
+        },
+        "loadAverage": [
+          0.24,
+          0.36,
+          0.28
+        ],
+        "uptimeSeconds": 1812.61,
+        "monotonic": 1812.613238838,
+        "source": "Linux /proc; aggregate CPU busy, idle and iowait excluded",
+        "cpuCount": 2
+      },
+      "B": {
+        "available": true,
+        "cpuPercent": 48.36065573770492,
+        "sampleIntervalSeconds": 2.4314524020001045,
+        "memory": {
+          "percent": 17.79796794854131,
+          "totalBytes": 1040502784,
+          "availableBytes": 855314432
+        },
+        "loadAverage": [
+          0.97,
+          0.88,
+          0.72
+        ],
+        "uptimeSeconds": 1758.42,
+        "monotonic": 1758.420376209,
+        "source": "Linux /proc; aggregate CPU busy, idle and iowait excluded",
+        "cpuCount": 2
+      }
+    },
+    {
+      "A": {
+        "available": true,
+        "cpuPercent": 21.84873949579832,
+        "sampleIntervalSeconds": 2.3840216820001388,
+        "memory": {
+          "percent": 16.09776836502919,
+          "totalBytes": 1040502784,
+          "availableBytes": 873005056
+        },
+        "loadAverage": [
+          0.22,
+          0.35,
+          0.27
+        ],
+        "uptimeSeconds": 1815.0,
+        "monotonic": 1814.99726052,
+        "source": "Linux /proc; aggregate CPU busy, idle and iowait excluded",
+        "cpuCount": 2
+      },
+      "B": {
+        "available": true,
+        "cpuPercent": 55.04201680672269,
+        "sampleIntervalSeconds": 2.3849995079999644,
+        "memory": {
+          "percent": 17.775529565522046,
+          "totalBytes": 1040502784,
+          "availableBytes": 855547904
+        },
+        "loadAverage": [
+          0.97,
+          0.88,
+          0.72
+        ],
+        "uptimeSeconds": 1760.8,
+        "monotonic": 1760.805375717,
+        "source": "Linux /proc; aggregate CPU busy, idle and iowait excluded",
+        "cpuCount": 2
+      }
+    },
+    {
+      "A": {
+        "available": true,
+        "cpuPercent": 26.371308016877638,
+        "sampleIntervalSeconds": 2.3700083700000505,
+        "memory": {
+          "percent": 16.11981309220601,
+          "totalBytes": 1040502784,
+          "availableBytes": 872775680
+        },
+        "loadAverage": [
+          0.22,
+          0.35,
+          0.27
+        ],
+        "uptimeSeconds": 1817.37,
+        "monotonic": 1817.36726889,
+        "source": "Linux /proc; aggregate CPU busy, idle and iowait excluded",
+        "cpuCount": 2
+      },
+      "B": {
+        "available": true,
+        "cpuPercent": 49.16317991631799,
+        "sampleIntervalSeconds": 2.3748913069998707,
+        "memory": {
+          "percent": 17.838908156155398,
+          "totalBytes": 1040502784,
+          "availableBytes": 854888448
+        },
+        "loadAverage": [
+          0.97,
+          0.88,
+          0.72
+        ],
+        "uptimeSeconds": 1763.27,
+        "monotonic": 1763.180267024,
+        "source": "Linux /proc; aggregate CPU busy, idle and iowait excluded",
+        "cpuCount": 2
+      }
+    },
+    {
+      "A": {
+        "available": true,
+        "cpuPercent": 18.995633187772924,
+        "sampleIntervalSeconds": 2.2845729819998724,
+        "memory": {
+          "percent": 16.11981309220601,
+          "totalBytes": 1040502784,
+          "availableBytes": 872775680
+        },
+        "loadAverage": [
+          0.21,
+          0.35,
+          0.27
+        ],
+        "uptimeSeconds": 1819.65,
+        "monotonic": 1819.651841872,
+        "source": "Linux /proc; aggregate CPU busy, idle and iowait excluded",
+        "cpuCount": 2
+      },
+      "B": {
+        "available": true,
+        "cpuPercent": 44.39461883408072,
+        "sampleIntervalSeconds": 2.2480651299999863,
+        "memory": {
+          "percent": 17.837333532785628,
+          "totalBytes": 1040502784,
+          "availableBytes": 854904832
+        },
+        "loadAverage": [
+          0.97,
+          0.89,
+          0.73
+        ],
+        "uptimeSeconds": 1765.43,
+        "monotonic": 1765.428332154,
+        "source": "Linux /proc; aggregate CPU busy, idle and iowait excluded",
+        "cpuCount": 2
+      }
+    },
+    {
+      "A": {
+        "available": true,
+        "cpuPercent": 20.544554455445546,
+        "sampleIntervalSeconds": 2.0240624780001326,
+        "memory": {
+          "percent": 16.11981309220601,
+          "totalBytes": 1040502784,
+          "availableBytes": 872775680
+        },
+        "loadAverage": [
+          0.21,
+          0.35,
+          0.27
+        ],
+        "uptimeSeconds": 1821.67,
+        "monotonic": 1821.67590435,
+        "source": "Linux /proc; aggregate CPU busy, idle and iowait excluded",
+        "cpuCount": 2
+      },
+      "B": {
+        "available": true,
+        "cpuPercent": 54.95049504950495,
+        "sampleIntervalSeconds": 2.011582508000174,
+        "memory": {
+          "percent": 17.817257084821023,
+          "totalBytes": 1040502784,
+          "availableBytes": 855113728
+        },
+        "loadAverage": [
+          0.97,
+          0.89,
+          0.73
+        ],
+        "uptimeSeconds": 1767.44,
+        "monotonic": 1767.439914662,
+        "source": "Linux /proc; aggregate CPU busy, idle and iowait excluded",
+        "cpuCount": 2
+      }
+    },
+    {
+      "A": {
+        "available": true,
+        "cpuPercent": 21.428571428571427,
+        "sampleIntervalSeconds": 2.029273009999997,
+        "memory": {
+          "percent": 16.12020674804845,
+          "totalBytes": 1040502784,
+          "availableBytes": 872771584
+        },
+        "loadAverage": [
+          0.21,
+          0.35,
+          0.27
+        ],
+        "uptimeSeconds": 1823.7,
+        "monotonic": 1823.70517736,
+        "source": "Linux /proc; aggregate CPU busy, idle and iowait excluded",
+        "cpuCount": 2
+      },
+      "B": {
+        "available": true,
+        "cpuPercent": 53.431372549019606,
+        "sampleIntervalSeconds": 2.0418583109999418,
+        "memory": {
+          "percent": 17.784189994055797,
+          "totalBytes": 1040502784,
+          "availableBytes": 855457792
+        },
+        "loadAverage": [
+          1.06,
+          0.9,
+          0.73
+        ],
+        "uptimeSeconds": 1769.48,
+        "monotonic": 1769.481772973,
+        "source": "Linux /proc; aggregate CPU busy, idle and iowait excluded",
+        "cpuCount": 2
+      }
+    },
+    {
+      "A": {
+        "available": true,
+        "cpuPercent": 20.17543859649123,
+        "sampleIntervalSeconds": 1.137525719999985,
+        "memory": {
+          "percent": 16.119419436363565,
+          "totalBytes": 1040502784,
+          "availableBytes": 872779776
+        },
+        "loadAverage": [
+          0.19,
+          0.34,
+          0.27
+        ],
+        "uptimeSeconds": 1824.84,
+        "monotonic": 1824.84270308,
+        "source": "Linux /proc; aggregate CPU busy, idle and iowait excluded",
+        "cpuCount": 2
+      },
+      "B": {
+        "available": true,
+        "cpuPercent": 52.136752136752136,
+        "sampleIntervalSeconds": 1.1697400609998567,
+        "memory": {
+          "percent": 17.831822350991423,
+          "totalBytes": 1040502784,
+          "availableBytes": 854962176
+        },
+        "loadAverage": [
+          1.06,
+          0.9,
+          0.73
+        ],
+        "uptimeSeconds": 1770.65,
+        "monotonic": 1770.651513034,
+        "source": "Linux /proc; aggregate CPU busy, idle and iowait excluded",
+        "cpuCount": 2
+      }
+    },
+    {
+      "A": {
+        "available": true,
+        "cpuPercent": 27.755102040816325,
+        "sampleIntervalSeconds": 2.454918485999997,
+        "memory": {
+          "percent": 16.115876533781577,
+          "totalBytes": 1040502784,
+          "availableBytes": 872816640
+        },
+        "loadAverage": [
+          0.19,
+          0.34,
+          0.27
+        ],
+        "uptimeSeconds": 1827.3,
+        "monotonic": 1827.297621566,
+        "source": "Linux /proc; aggregate CPU busy, idle and iowait excluded",
+        "cpuCount": 2
+      },
+      "B": {
+        "available": true,
+        "cpuPercent": 55.51020408163265,
+        "sampleIntervalSeconds": 2.4542505490001076,
+        "memory": {
+          "percent": 17.84245105873739,
+          "totalBytes": 1040502784,
+          "availableBytes": 854851584
+        },
+        "loadAverage": [
+          1.06,
+          0.9,
+          0.73
+        ],
+        "uptimeSeconds": 1773.11,
+        "monotonic": 1773.105763583,
+        "source": "Linux /proc; aggregate CPU busy, idle and iowait excluded",
+        "cpuCount": 2
+      }
+    },
+    {
+      "A": {
+        "available": true,
+        "cpuPercent": 17.5,
+        "sampleIntervalSeconds": 2.3955096180000055,
+        "memory": {
+          "percent": 16.11272728704203,
+          "totalBytes": 1040502784,
+          "availableBytes": 872849408
+        },
+        "loadAverage": [
+          0.17,
+          0.34,
+          0.27
+        ],
+        "uptimeSeconds": 1829.69,
+        "monotonic": 1829.693131184,
+        "source": "Linux /proc; aggregate CPU busy, idle and iowait excluded",
+        "cpuCount": 2
+      },
+      "B": {
+        "available": true,
+        "cpuPercent": 47.708333333333336,
+        "sampleIntervalSeconds": 2.3949267899999995,
+        "memory": {
+          "percent": 17.83772718862807,
+          "totalBytes": 1040502784,
+          "availableBytes": 854900736
+        },
+        "loadAverage": [
+          1.05,
+          0.91,
+          0.73
+        ],
+        "uptimeSeconds": 1775.5,
+        "monotonic": 1775.500690373,
+        "source": "Linux /proc; aggregate CPU busy, idle and iowait excluded",
+        "cpuCount": 2
+      }
+    },
+    {
+      "A": {
+        "available": true,
+        "cpuPercent": 20.99056603773585,
+        "sampleIntervalSeconds": 2.1226572209998267,
+        "memory": {
+          "percent": 16.109971696144928,
+          "totalBytes": 1040502784,
+          "availableBytes": 872878080
+        },
+        "loadAverage": [
+          0.17,
+          0.34,
+          0.27
+        ],
+        "uptimeSeconds": 1831.81,
+        "monotonic": 1831.815788405,
+        "source": "Linux /proc; aggregate CPU busy, idle and iowait excluded",
+        "cpuCount": 2
+      },
+      "B": {
+        "available": true,
+        "cpuPercent": 48.34905660377358,
+        "sampleIntervalSeconds": 2.119887519000031,
+        "memory": {
+          "percent": 17.8562290132229,
+          "totalBytes": 1040502784,
+          "availableBytes": 854708224
+        },
+        "loadAverage": [
+          1.05,
+          0.91,
+          0.73
+        ],
+        "uptimeSeconds": 1777.62,
+        "monotonic": 1777.620577892,
+        "source": "Linux /proc; aggregate CPU busy, idle and iowait excluded",
+        "cpuCount": 2
+      }
+    }
+  ],
+  "pcPipeline": {
+    "schema": "airspace.pipeline",
+    "version": 1,
+    "mode": "live",
+    "timestamp": 1793641004579.8718,
+    "stages": [
+      "检测采集",
+      "特征识别",
+      "身份解析",
+      "测向定位"
+    ],
+    "sources": [
+      {
+        "key": "mac_aa98f353b5@2437.0",
+        "mac": "mac_aa98f353b5",
+        "frequencyMhz": 2437,
+        "ssid": "RID-TEST",
+        "doaSupported": true,
+        "positioning": {
+          "method": "aoa",
+          "label": "AOA测向",
+          "position": null,
+          "reason": "RID位置缺失，等待同源IQ"
+        },
+        "features": {
+          "phy": [
+            "OFDM"
+          ],
+          "protocols": [
+            "802.11"
+          ],
+          "payloadProtocols": [
+            "RID"
+          ]
+        },
+        "receiverStations": [
+          "B"
+        ],
+        "fresh": true,
+        "ageSeconds": 0.7456160669680685,
+        "frames": 1744,
+        "recognition": {
+          "kind": "rid",
+          "label": "RID广播",
+          "evidenceScore": 100,
+          "scoreMeaning": "协议结构匹配；不是身份真实性概率",
+          "eligible": true,
+          "evidence": [
+            "FCS有效",
+            "RID专用传输标识匹配",
+            "25字节消息/消息包结构有效",
+            "支持的消息类型与版本"
+          ],
+          "identities": [
+            "RIDTEST-ESP32S3-0001"
+          ],
+          "messages": [
+            {
+              "type": 0,
+              "version": 2,
+              "raw": "0212524944544553542d455350333253332d30303031000000",
+              "id_type": 1,
+              "ua_type": 2,
+              "uas_id": "RIDTEST-ESP32S3-0001",
+              "type_name": "Basic ID"
+            },
+            {
+              "type": 1,
+              "version": 2,
+              "raw": "1213b5ff7e00000000000000000000000000000000ffff0000",
+              "status": 1,
+              "direction": null,
+              "speed_horizontal": null,
+              "speed_vertical": null,
+              "latitude": null,
+              "longitude": null,
+              "altitude_baro": null,
+              "altitude_geo": null,
+              "height": null,
+              "height_reference": "takeoff",
+              "horizontal_accuracy": 0,
+              "vertical_accuracy": 0,
+              "speed_accuracy": 0,
+              "baro_accuracy": 0,
+              "timestamp": null,
+              "timestamp_accuracy": 0.0,
+              "type_name": "Location/Vector"
+            },
+            {
+              "type": 4,
+              "version": 2,
+              "raw": "42000000000000000000010000000000000000000000000000",
+              "operator_location_type": 0,
+              "classification_type": 0,
+              "operator_latitude": null,
+              "operator_longitude": null,
+              "area_count": 1,
+              "area_radius": 0,
+              "area_ceiling": null,
+              "area_floor": null,
+              "category_eu": 0,
+              "class_eu": 0,
+              "operator_altitude_geo": null,
+              "timestamp": 0,
+              "type_name": "System"
+            }
+          ],
+          "transports": [
+            "Wi-Fi Beacon"
+          ],
+          "identityStatus": "已解析广播身份／未认证",
+          "authenticated": false
+        },
+        "stages": {
+          "capture": "observed",
+          "features": "rid",
+          "identity": "parsed",
+          "direction": "diagnostic"
+        },
+        "direction": {
+          "timestamp": 1793641003422.3384,
+          "stations": {
+            "A": {
+              "angleDeg": null,
+              "phaseDeg": 20.080978640667546,
+              "rawPhaseDeg": 20.080978640667546,
+              "phaseBiasAppliedDeg": 0,
+              "calibrationStatus": "uncalibrated",
+              "referenceSessionId": null,
+              "referenceHash": null,
+              "referenceStationId": null,
+              "referenceMatched": false,
+              "sessionId": "92fae22dca874e5ca1730290c20d6424",
+              "productionAccepted": false,
+              "frameKey": "8c5dfa5f908df5f9bca2294f44ea7b5d6e47b037b4a56bb9a4532531f6c3529a",
+              "timestamp": 1793641003418.6067,
+              "processingLocation": "board",
+              "directionContextHash": "5e8522d22dc42d8b3bccf1edd9712f8b70e39ab6c59171f2daa19acadf3f95f3"
+            },
+            "B": {
+              "angleDeg": null,
+              "phaseDeg": 101.3497927385203,
+              "rawPhaseDeg": 101.3497927385203,
+              "phaseBiasAppliedDeg": 0,
+              "calibrationStatus": "uncalibrated",
+              "referenceSessionId": null,
+              "referenceHash": null,
+              "referenceStationId": null,
+              "referenceMatched": false,
+              "sessionId": "87a9d77222b444d99b41114e62efa512",
+              "productionAccepted": false,
+              "frameKey": "8c5dfa5f908df5f9bca2294f44ea7b5d6e47b037b4a56bb9a4532531f6c3529a",
+              "timestamp": 1793641003422.3384,
+              "processingLocation": "board",
+              "directionContextHash": "c57e0c03bcd794a168339cb94cba712e1cd16d819eadbf46ce5d30afa048cb38"
+            }
+          },
+          "calibrationStatus": "uncalibrated",
+          "geometryVerified": false
+        }
+      },
+      {
+        "key": "mac_8bd80039c8@2437.0",
+        "mac": "mac_8bd80039c8",
+        "frequencyMhz": 2437,
+        "ssid": "225-1",
+        "doaSupported": false,
+        "positioning": {
+          "method": "observe",
+          "label": "继续识别",
+          "position": null,
+          "reason": "尚无足够无人机识别依据；无RID不等于黑飞"
+        },
+        "features": {
+          "phy": [
+            "DSSS"
+          ],
+          "protocols": [
+            "802.11"
+          ],
+          "payloadProtocols": [
+            "802.11"
+          ]
+        },
+        "receiverStations": [
+          "B"
+        ],
+        "fresh": true,
+        "ageSeconds": 1.153228638926521,
+        "frames": 1561,
+        "recognition": {
+          "kind": "wifi",
+          "label": "普通/未知Wi-Fi",
+          "evidenceScore": 0,
+          "scoreMeaning": "启发式证据分；未经概率校准",
+          "eligible": false,
+          "evidence": [
+            "尚无RID或足够图传特征；继续观测"
+          ],
+          "identities": [],
+          "messages": [],
+          "identityStatus": "无RID身份",
+          "identitySkipped": false,
+          "profiles": [],
+          "authenticated": false
+        },
+        "stages": {
+          "capture": "observed",
+          "features": "wifi",
+          "identity": "not_applicable",
+          "direction": "not_eligible"
+        }
+      },
+      {
+        "key": "mac_252ab4e636@2437.0",
+        "mac": "mac_252ab4e636",
+        "frequencyMhz": 2437,
+        "ssid": null,
+        "doaSupported": false,
+        "positioning": {
+          "method": "observe",
+          "label": "继续识别",
+          "position": null,
+          "reason": "尚无足够无人机识别依据；无RID不等于黑飞"
+        },
+        "features": {
+          "phy": [
+            "DSSS"
+          ],
+          "protocols": [
+            "802.11"
+          ],
+          "payloadProtocols": [
+            "802.11"
+          ]
+        },
+        "receiverStations": [
+          "B"
+        ],
+        "fresh": true,
+        "ageSeconds": 2.2469289599685,
+        "frames": 20,
+        "recognition": {
+          "kind": "wifi",
+          "label": "普通/未知Wi-Fi",
+          "evidenceScore": 0,
+          "scoreMeaning": "启发式证据分；未经概率校准",
+          "eligible": false,
+          "evidence": [
+            "尚无RID或足够图传特征；继续观测"
+          ],
+          "identities": [],
+          "messages": [],
+          "identityStatus": "无RID身份",
+          "identitySkipped": false,
+          "profiles": [],
+          "authenticated": false
+        },
+        "stages": {
+          "capture": "observed",
+          "features": "wifi",
+          "identity": "not_applicable",
+          "direction": "not_eligible"
+        }
+      },
+      {
+        "key": "mac_d1f2f68dfb@2437.0",
+        "mac": "mac_d1f2f68dfb",
+        "frequencyMhz": 2437,
+        "ssid": null,
+        "doaSupported": false,
+        "positioning": {
+          "method": "observe",
+          "label": "继续识别",
+          "position": null,
+          "reason": "尚无足够无人机识别依据；无RID不等于黑飞"
+        },
+        "features": {
+          "phy": [
+            "DSSS"
+          ],
+          "protocols": [
+            "802.11"
+          ],
+          "payloadProtocols": [
+            "802.11"
+          ]
+        },
+        "receiverStations": [
+          "B"
+        ],
+        "fresh": true,
+        "ageSeconds": 3.3154792489949614,
+        "frames": 306,
+        "recognition": {
+          "kind": "wifi",
+          "label": "普通/未知Wi-Fi",
+          "evidenceScore": 0,
+          "scoreMeaning": "启发式证据分；未经概率校准",
+          "eligible": false,
+          "evidence": [
+            "尚无RID或足够图传特征；继续观测"
+          ],
+          "identities": [],
+          "messages": [],
+          "identityStatus": "无RID身份",
+          "identitySkipped": false,
+          "profiles": [],
+          "authenticated": false
+        },
+        "stages": {
+          "capture": "observed",
+          "features": "wifi",
+          "identity": "not_applicable",
+          "direction": "not_eligible"
+        }
+      },
+      {
+        "key": "mac_0b1c64bd39@2437.0",
+        "mac": "mac_0b1c64bd39",
+        "frequencyMhz": 2437,
+        "ssid": "NewE325",
+        "doaSupported": false,
+        "positioning": {
+          "method": "observe",
+          "label": "继续识别",
+          "position": null,
+          "reason": "尚无足够无人机识别依据；无RID不等于黑飞"
+        },
+        "features": {
+          "phy": [
+            "DSSS"
+          ],
+          "protocols": [
+            "802.11"
+          ],
+          "payloadProtocols": [
+            "802.11",
+            "802.11 Protected"
+          ]
+        },
+        "receiverStations": [
+          "B"
+        ],
+        "fresh": true,
+        "ageSeconds": 3.4318379879696295,
+        "frames": 1574,
+        "recognition": {
+          "kind": "wifi",
+          "label": "普通/未知Wi-Fi",
+          "evidenceScore": 0,
+          "scoreMeaning": "启发式证据分；未经概率校准",
+          "eligible": false,
+          "evidence": [
+            "尚无RID或足够图传特征；继续观测"
+          ],
+          "identities": [],
+          "messages": [],
+          "identityStatus": "无RID身份",
+          "identitySkipped": false,
+          "profiles": [],
+          "authenticated": false
+        },
+        "stages": {
+          "capture": "observed",
+          "features": "wifi",
+          "identity": "not_applicable",
+          "direction": "not_eligible"
+        }
+      },
+      {
+        "key": "mac_126d52d991@2437.0",
+        "mac": "mac_126d52d991",
+        "frequencyMhz": 2437,
+        "ssid": null,
+        "doaSupported": false,
+        "positioning": {
+          "method": "observe",
+          "label": "继续识别",
+          "position": null,
+          "reason": "尚无足够无人机识别依据；无RID不等于黑飞"
+        },
+        "features": {
+          "phy": [
+            "DSSS"
+          ],
+          "protocols": [
+            "802.11"
+          ],
+          "payloadProtocols": [
+            "802.11"
+          ]
+        },
+        "receiverStations": [
+          "B"
+        ],
+        "fresh": true,
+        "ageSeconds": 5.021793711930513,
+        "frames": 163,
+        "recognition": {
+          "kind": "wifi",
+          "label": "普通/未知Wi-Fi",
+          "evidenceScore": 0,
+          "scoreMeaning": "启发式证据分；未经概率校准",
+          "eligible": false,
+          "evidence": [
+            "尚无RID或足够图传特征；继续观测"
+          ],
+          "identities": [],
+          "messages": [],
+          "identityStatus": "无RID身份",
+          "identitySkipped": false,
+          "profiles": [],
+          "authenticated": false
+        },
+        "stages": {
+          "capture": "observed",
+          "features": "wifi",
+          "identity": "not_applicable",
+          "direction": "not_eligible"
+        }
+      },
+      {
+        "key": "mac_234c67e319@2437.0",
+        "mac": "mac_234c67e319",
+        "frequencyMhz": 2437,
+        "ssid": null,
+        "doaSupported": false,
+        "positioning": {
+          "method": "observe",
+          "label": "继续识别",
+          "position": null,
+          "reason": "尚无足够无人机识别依据；无RID不等于黑飞"
+        },
+        "features": {
+          "phy": [
+            "DSSS"
+          ],
+          "protocols": [
+            "802.11"
+          ],
+          "payloadProtocols": [
+            "802.11"
+          ]
+        },
+        "receiverStations": [
+          "B"
+        ],
+        "fresh": true,
+        "ageSeconds": 7.65723083994817,
+        "frames": 15,
+        "recognition": {
+          "kind": "wifi",
+          "label": "普通/未知Wi-Fi",
+          "evidenceScore": 0,
+          "scoreMeaning": "启发式证据分；未经概率校准",
+          "eligible": false,
+          "evidence": [
+            "尚无RID或足够图传特征；继续观测"
+          ],
+          "identities": [],
+          "messages": [],
+          "identityStatus": "无RID身份",
+          "identitySkipped": false,
+          "profiles": [],
+          "authenticated": false
+        },
+        "stages": {
+          "capture": "observed",
+          "features": "wifi",
+          "identity": "not_applicable",
+          "direction": "not_eligible"
+        }
+      },
+      {
+        "key": "mac_2632228a92@2437.0",
+        "mac": "mac_2632228a92",
+        "frequencyMhz": 2437,
+        "ssid": null,
+        "doaSupported": false,
+        "positioning": {
+          "method": "observe",
+          "label": "继续识别",
+          "position": null,
+          "reason": "尚无足够无人机识别依据；无RID不等于黑飞"
+        },
+        "features": {
+          "phy": [
+            "DSSS"
+          ],
+          "protocols": [
+            "802.11"
+          ],
+          "payloadProtocols": []
+        },
+        "receiverStations": [],
+        "fresh": false,
+        "ageSeconds": 13.473073623958044,
+        "frames": 134,
+        "recognition": {
+          "kind": "wifi",
+          "label": "普通/未知Wi-Fi",
+          "evidenceScore": 0,
+          "scoreMeaning": "启发式证据分；未经概率校准",
+          "eligible": false,
+          "evidence": [
+            "尚无RID或足够图传特征；继续观测"
+          ],
+          "identities": [],
+          "messages": [],
+          "identityStatus": "无RID身份",
+          "identitySkipped": false,
+          "profiles": [],
+          "authenticated": false
+        },
+        "stages": {
+          "capture": "stale",
+          "features": "wifi",
+          "identity": "not_applicable",
+          "direction": "not_eligible"
+        }
+      },
+      {
+        "key": "mac_3d469c96ef@2437.0",
+        "mac": "mac_3d469c96ef",
+        "frequencyMhz": 2437,
+        "ssid": null,
+        "doaSupported": true,
+        "positioning": {
+          "method": "observe",
+          "label": "继续识别",
+          "position": null,
+          "reason": "尚无足够无人机识别依据；无RID不等于黑飞"
+        },
+        "features": {
+          "phy": [
+            "OFDM"
+          ],
+          "protocols": [
+            "802.11"
+          ],
+          "payloadProtocols": []
+        },
+        "receiverStations": [],
+        "fresh": false,
+        "ageSeconds": 15.351448095985688,
+        "frames": 19,
+        "recognition": {
+          "kind": "wifi",
+          "label": "普通/未知Wi-Fi",
+          "evidenceScore": 0,
+          "scoreMeaning": "启发式证据分；未经概率校准",
+          "eligible": false,
+          "evidence": [
+            "尚无RID或足够图传特征；继续观测"
+          ],
+          "identities": [],
+          "messages": [],
+          "identityStatus": "无RID身份",
+          "identitySkipped": false,
+          "profiles": [],
+          "authenticated": false
+        },
+        "stages": {
+          "capture": "stale",
+          "features": "wifi",
+          "identity": "not_applicable",
+          "direction": "not_eligible"
+        }
+      },
+      {
+        "key": "mac_cba335d31b@2437.0",
+        "mac": "mac_cba335d31b",
+        "frequencyMhz": 2437,
+        "ssid": null,
+        "doaSupported": true,
+        "positioning": {
+          "method": "observe",
+          "label": "继续识别",
+          "position": null,
+          "reason": "尚无足够无人机识别依据；无RID不等于黑飞"
+        },
+        "features": {
+          "phy": [
+            "OFDM"
+          ],
+          "protocols": [
+            "802.11"
+          ],
+          "payloadProtocols": []
+        },
+        "receiverStations": [],
+        "fresh": false,
+        "ageSeconds": 16.911233018036,
+        "frames": 85,
+        "recognition": {
+          "kind": "wifi",
+          "label": "普通/未知Wi-Fi",
+          "evidenceScore": 0,
+          "scoreMeaning": "启发式证据分；未经概率校准",
+          "eligible": false,
+          "evidence": [
+            "尚无RID或足够图传特征；继续观测"
+          ],
+          "identities": [],
+          "messages": [],
+          "identityStatus": "无RID身份",
+          "identitySkipped": false,
+          "profiles": [],
+          "authenticated": false
+        },
+        "stages": {
+          "capture": "stale",
+          "features": "wifi",
+          "identity": "not_applicable",
+          "direction": "not_eligible"
+        }
+      },
+      {
+        "key": "mac_2766af19c7@2437.0",
+        "mac": "mac_2766af19c7",
+        "frequencyMhz": 2437,
+        "ssid": null,
+        "doaSupported": true,
+        "positioning": {
+          "method": "observe",
+          "label": "继续识别",
+          "position": null,
+          "reason": "尚无足够无人机识别依据；无RID不等于黑飞"
+        },
+        "features": {
+          "phy": [
+            "OFDM"
+          ],
+          "protocols": [
+            "802.11"
+          ],
+          "payloadProtocols": []
+        },
+        "receiverStations": [],
+        "fresh": false,
+        "ageSeconds": 42.75175534200389,
+        "frames": 8,
+        "recognition": {
+          "kind": "wifi",
+          "label": "普通/未知Wi-Fi",
+          "evidenceScore": 0,
+          "scoreMeaning": "启发式证据分；未经概率校准",
+          "eligible": false,
+          "evidence": [
+            "尚无RID或足够图传特征；继续观测"
+          ],
+          "identities": [],
+          "messages": [],
+          "identityStatus": "无RID身份",
+          "identitySkipped": false,
+          "profiles": [],
+          "authenticated": false
+        },
+        "stages": {
+          "capture": "stale",
+          "features": "wifi",
+          "identity": "not_applicable",
+          "direction": "not_eligible"
+        }
+      },
+      {
+        "key": "mac_6d89250159@2437.0",
+        "mac": "mac_6d89250159",
+        "frequencyMhz": 2437,
+        "ssid": null,
+        "doaSupported": true,
+        "positioning": {
+          "method": "observe",
+          "label": "继续识别",
+          "position": null,
+          "reason": "尚无足够无人机识别依据；无RID不等于黑飞"
+        },
+        "features": {
+          "phy": [
+            "OFDM"
+          ],
+          "protocols": [
+            "802.11"
+          ],
+          "payloadProtocols": []
+        },
+        "receiverStations": [],
+        "fresh": false,
+        "ageSeconds": 42.75444479996804,
+        "frames": 27,
+        "recognition": {
+          "kind": "wifi",
+          "label": "普通/未知Wi-Fi",
+          "evidenceScore": 0,
+          "scoreMeaning": "启发式证据分；未经概率校准",
+          "eligible": false,
+          "evidence": [
+            "尚无RID或足够图传特征；继续观测"
+          ],
+          "identities": [],
+          "messages": [],
+          "identityStatus": "无RID身份",
+          "identitySkipped": false,
+          "profiles": [],
+          "authenticated": false
+        },
+        "stages": {
+          "capture": "stale",
+          "features": "wifi",
+          "identity": "not_applicable",
+          "direction": "not_eligible"
+        }
+      },
+      {
+        "key": "mac_f30d37e2b6@2437.0",
+        "mac": "mac_f30d37e2b6",
+        "frequencyMhz": 2437,
+        "ssid": null,
+        "doaSupported": true,
+        "positioning": {
+          "method": "observe",
+          "label": "继续识别",
+          "position": null,
+          "reason": "尚无足够无人机识别依据；无RID不等于黑飞"
+        },
+        "features": {
+          "phy": [
+            "OFDM"
+          ],
+          "protocols": [
+            "802.11"
+          ],
+          "payloadProtocols": []
+        },
+        "receiverStations": [],
+        "fresh": false,
+        "ageSeconds": 50.74533123802394,
+        "frames": 78,
+        "recognition": {
+          "kind": "wifi",
+          "label": "普通/未知Wi-Fi",
+          "evidenceScore": 0,
+          "scoreMeaning": "启发式证据分；未经概率校准",
+          "eligible": false,
+          "evidence": [
+            "尚无RID或足够图传特征；继续观测"
+          ],
+          "identities": [],
+          "messages": [],
+          "identityStatus": "无RID身份",
+          "identitySkipped": false,
+          "profiles": [],
+          "authenticated": false
+        },
+        "stages": {
+          "capture": "stale",
+          "features": "wifi",
+          "identity": "not_applicable",
+          "direction": "not_eligible"
+        }
+      },
+      {
+        "key": "mac_a94e3d1adf@2437.0",
+        "mac": "mac_a94e3d1adf",
+        "frequencyMhz": 2437,
+        "ssid": null,
+        "doaSupported": true,
+        "positioning": {
+          "method": "observe",
+          "label": "继续识别",
+          "position": null,
+          "reason": "尚无足够无人机识别依据；无RID不等于黑飞"
+        },
+        "features": {
+          "phy": [
+            "OFDM"
+          ],
+          "protocols": [
+            "802.11"
+          ],
+          "payloadProtocols": []
+        },
+        "receiverStations": [],
+        "fresh": false,
+        "ageSeconds": 57.11460658092983,
+        "frames": 76,
+        "recognition": {
+          "kind": "wifi",
+          "label": "普通/未知Wi-Fi",
+          "evidenceScore": 0,
+          "scoreMeaning": "启发式证据分；未经概率校准",
+          "eligible": false,
+          "evidence": [
+            "尚无RID或足够图传特征；继续观测"
+          ],
+          "identities": [],
+          "messages": [],
+          "identityStatus": "无RID身份",
+          "identitySkipped": false,
+          "profiles": [],
+          "authenticated": false
+        },
+        "stages": {
+          "capture": "stale",
+          "features": "wifi",
+          "identity": "not_applicable",
+          "direction": "not_eligible"
+        }
+      },
+      {
+        "key": "mac_938f07e161@2437.0",
+        "mac": "mac_938f07e161",
+        "frequencyMhz": 2437,
+        "ssid": null,
+        "doaSupported": true,
+        "positioning": {
+          "method": "observe",
+          "label": "继续识别",
+          "position": null,
+          "reason": "尚无足够无人机识别依据；无RID不等于黑飞"
+        },
+        "features": {
+          "phy": [
+            "OFDM"
+          ],
+          "protocols": [
+            "802.11"
+          ],
+          "payloadProtocols": []
+        },
+        "receiverStations": [],
+        "fresh": false,
+        "ageSeconds": 65.3341397489421,
+        "frames": 75,
+        "recognition": {
+          "kind": "wifi",
+          "label": "普通/未知Wi-Fi",
+          "evidenceScore": 0,
+          "scoreMeaning": "启发式证据分；未经概率校准",
+          "eligible": false,
+          "evidence": [
+            "尚无RID或足够图传特征；继续观测"
+          ],
+          "identities": [],
+          "messages": [],
+          "identityStatus": "无RID身份",
+          "identitySkipped": false,
+          "profiles": [],
+          "authenticated": false
+        },
+        "stages": {
+          "capture": "stale",
+          "features": "wifi",
+          "identity": "not_applicable",
+          "direction": "not_eligible"
+        }
+      },
+      {
+        "key": "mac_ece4ee3a57@2437.0",
+        "mac": "mac_ece4ee3a57",
+        "frequencyMhz": 2437,
+        "ssid": null,
+        "doaSupported": true,
+        "positioning": {
+          "method": "observe",
+          "label": "继续识别",
+          "position": null,
+          "reason": "尚无足够无人机识别依据；无RID不等于黑飞"
+        },
+        "features": {
+          "phy": [
+            "OFDM"
+          ],
+          "protocols": [
+            "802.11"
+          ],
+          "payloadProtocols": []
+        },
+        "receiverStations": [],
+        "fresh": false,
+        "ageSeconds": 113.22226925194263,
+        "frames": 38,
+        "recognition": {
+          "kind": "wifi",
+          "label": "普通/未知Wi-Fi",
+          "evidenceScore": 0,
+          "scoreMeaning": "启发式证据分；未经概率校准",
+          "eligible": false,
+          "evidence": [
+            "尚无RID或足够图传特征；继续观测"
+          ],
+          "identities": [],
+          "messages": [],
+          "identityStatus": "无RID身份",
+          "identitySkipped": false,
+          "profiles": [],
+          "authenticated": false
+        },
+        "stages": {
+          "capture": "stale",
+          "features": "wifi",
+          "identity": "not_applicable",
+          "direction": "not_eligible"
+        }
+      },
+      {
+        "key": "mac_a287d3517a@2437.0",
+        "mac": "mac_a287d3517a",
+        "frequencyMhz": 2437,
+        "ssid": null,
+        "doaSupported": false,
+        "positioning": {
+          "method": "observe",
+          "label": "继续识别",
+          "position": null,
+          "reason": "尚无足够无人机识别依据；无RID不等于黑飞"
+        },
+        "features": {
+          "phy": [
+            "DSSS"
+          ],
+          "protocols": [
+            "802.11"
+          ],
+          "payloadProtocols": []
+        },
+        "receiverStations": [],
+        "fresh": false,
+        "ageSeconds": 124.52262251102366,
+        "frames": 7,
+        "recognition": {
+          "kind": "wifi",
+          "label": "普通/未知Wi-Fi",
+          "evidenceScore": 0,
+          "scoreMeaning": "启发式证据分；未经概率校准",
+          "eligible": false,
+          "evidence": [
+            "尚无RID或足够图传特征；继续观测"
+          ],
+          "identities": [],
+          "messages": [],
+          "identityStatus": "无RID身份",
+          "identitySkipped": false,
+          "profiles": [],
+          "authenticated": false
+        },
+        "stages": {
+          "capture": "stale",
+          "features": "wifi",
+          "identity": "not_applicable",
+          "direction": "not_eligible"
+        }
+      },
+      {
+        "key": "mac_962537b28f@2437.0",
+        "mac": "mac_962537b28f",
+        "frequencyMhz": 2437,
+        "ssid": null,
+        "doaSupported": true,
+        "positioning": {
+          "method": "observe",
+          "label": "继续识别",
+          "position": null,
+          "reason": "尚无足够无人机识别依据；无RID不等于黑飞"
+        },
+        "features": {
+          "phy": [
+            "OFDM"
+          ],
+          "protocols": [
+            "802.11"
+          ],
+          "payloadProtocols": []
+        },
+        "receiverStations": [],
+        "fresh": false,
+        "ageSeconds": 147.7877825879259,
+        "frames": 24,
+        "recognition": {
+          "kind": "wifi",
+          "label": "普通/未知Wi-Fi",
+          "evidenceScore": 0,
+          "scoreMeaning": "启发式证据分；未经概率校准",
+          "eligible": false,
+          "evidence": [
+            "尚无RID或足够图传特征；继续观测"
+          ],
+          "identities": [],
+          "messages": [],
+          "identityStatus": "无RID身份",
+          "identitySkipped": false,
+          "profiles": [],
+          "authenticated": false
+        },
+        "stages": {
+          "capture": "stale",
+          "features": "wifi",
+          "identity": "not_applicable",
+          "direction": "not_eligible"
+        }
+      },
+      {
+        "key": "mac_d8eb6fd25f@2437.0",
+        "mac": "mac_d8eb6fd25f",
+        "frequencyMhz": 2437,
+        "ssid": null,
+        "doaSupported": false,
+        "positioning": {
+          "method": "observe",
+          "label": "继续识别",
+          "position": null,
+          "reason": "尚无足够无人机识别依据；无RID不等于黑飞"
+        },
+        "features": {
+          "phy": [
+            "DSSS"
+          ],
+          "protocols": [
+            "802.11"
+          ],
+          "payloadProtocols": []
+        },
+        "receiverStations": [],
+        "fresh": false,
+        "ageSeconds": 166.4353814990027,
+        "frames": 20,
+        "recognition": {
+          "kind": "wifi",
+          "label": "普通/未知Wi-Fi",
+          "evidenceScore": 0,
+          "scoreMeaning": "启发式证据分；未经概率校准",
+          "eligible": false,
+          "evidence": [
+            "尚无RID或足够图传特征；继续观测"
+          ],
+          "identities": [],
+          "messages": [],
+          "identityStatus": "无RID身份",
+          "identitySkipped": false,
+          "profiles": [],
+          "authenticated": false
+        },
+        "stages": {
+          "capture": "stale",
+          "features": "wifi",
+          "identity": "not_applicable",
+          "direction": "not_eligible"
+        }
+      },
+      {
+        "key": "mac_37bd7546df@2437.0",
+        "mac": "mac_37bd7546df",
+        "frequencyMhz": 2437,
+        "ssid": null,
+        "doaSupported": false,
+        "positioning": {
+          "method": "observe",
+          "label": "继续识别",
+          "position": null,
+          "reason": "尚无足够无人机识别依据；无RID不等于黑飞"
+        },
+        "features": {
+          "phy": [
+            "DSSS"
+          ],
+          "protocols": [
+            "802.11"
+          ],
+          "payloadProtocols": []
+        },
+        "receiverStations": [],
+        "fresh": false,
+        "ageSeconds": 173.6201076399302,
+        "frames": 1,
+        "recognition": {
+          "kind": "wifi",
+          "label": "普通/未知Wi-Fi",
+          "evidenceScore": 0,
+          "scoreMeaning": "启发式证据分；未经概率校准",
+          "eligible": false,
+          "evidence": [
+            "尚无RID或足够图传特征；继续观测"
+          ],
+          "identities": [],
+          "messages": [],
+          "identityStatus": "无RID身份",
+          "identitySkipped": false,
+          "profiles": [],
+          "authenticated": false
+        },
+        "stages": {
+          "capture": "stale",
+          "features": "wifi",
+          "identity": "not_applicable",
+          "direction": "not_eligible"
+        }
+      },
+      {
+        "key": "mac_bac4342a95@2437.0",
+        "mac": "mac_bac4342a95",
+        "frequencyMhz": 2437,
+        "ssid": null,
+        "doaSupported": true,
+        "positioning": {
+          "method": "observe",
+          "label": "继续识别",
+          "position": null,
+          "reason": "尚无足够无人机识别依据；无RID不等于黑飞"
+        },
+        "features": {
+          "phy": [
+            "OFDM"
+          ],
+          "protocols": [
+            "802.11"
+          ],
+          "payloadProtocols": []
+        },
+        "receiverStations": [],
+        "fresh": false,
+        "ageSeconds": 206.72824274701998,
+        "frames": 2,
+        "recognition": {
+          "kind": "wifi",
+          "label": "普通/未知Wi-Fi",
+          "evidenceScore": 0,
+          "scoreMeaning": "启发式证据分；未经概率校准",
+          "eligible": false,
+          "evidence": [
+            "尚无RID或足够图传特征；继续观测"
+          ],
+          "identities": [],
+          "messages": [],
+          "identityStatus": "无RID身份",
+          "identitySkipped": false,
+          "profiles": [],
+          "authenticated": false
+        },
+        "stages": {
+          "capture": "stale",
+          "features": "wifi",
+          "identity": "not_applicable",
+          "direction": "not_eligible"
+        }
+      },
+      {
+        "key": "mac_74c95619a2@2437.0",
+        "mac": "mac_74c95619a2",
+        "frequencyMhz": 2437,
+        "ssid": null,
+        "doaSupported": false,
+        "positioning": {
+          "method": "observe",
+          "label": "继续识别",
+          "position": null,
+          "reason": "尚无足够无人机识别依据；无RID不等于黑飞"
+        },
+        "features": {
+          "phy": [
+            "DSSS"
+          ],
+          "protocols": [
+            "802.11"
+          ],
+          "payloadProtocols": []
+        },
+        "receiverStations": [],
+        "fresh": false,
+        "ageSeconds": 234.15532854595222,
+        "frames": 8,
+        "recognition": {
+          "kind": "wifi",
+          "label": "普通/未知Wi-Fi",
+          "evidenceScore": 0,
+          "scoreMeaning": "启发式证据分；未经概率校准",
+          "eligible": false,
+          "evidence": [
+            "尚无RID或足够图传特征；继续观测"
+          ],
+          "identities": [],
+          "messages": [],
+          "identityStatus": "无RID身份",
+          "identitySkipped": false,
+          "profiles": [],
+          "authenticated": false
+        },
+        "stages": {
+          "capture": "stale",
+          "features": "wifi",
+          "identity": "not_applicable",
+          "direction": "not_eligible"
+        }
+      },
+      {
+        "key": "mac_daf7f3a272@2437.0",
+        "mac": "mac_daf7f3a272",
+        "frequencyMhz": 2437,
+        "ssid": null,
+        "doaSupported": false,
+        "positioning": {
+          "method": "observe",
+          "label": "继续识别",
+          "position": null,
+          "reason": "尚无足够无人机识别依据；无RID不等于黑飞"
+        },
+        "features": {
+          "phy": [
+            "DSSS"
+          ],
+          "protocols": [
+            "802.11"
+          ],
+          "payloadProtocols": []
+        },
+        "receiverStations": [],
+        "fresh": false,
+        "ageSeconds": 243.64666845998727,
+        "frames": 1,
+        "recognition": {
+          "kind": "wifi",
+          "label": "普通/未知Wi-Fi",
+          "evidenceScore": 0,
+          "scoreMeaning": "启发式证据分；未经概率校准",
+          "eligible": false,
+          "evidence": [
+            "尚无RID或足够图传特征；继续观测"
+          ],
+          "identities": [],
+          "messages": [],
+          "identityStatus": "无RID身份",
+          "identitySkipped": false,
+          "profiles": [],
+          "authenticated": false
+        },
+        "stages": {
+          "capture": "stale",
+          "features": "wifi",
+          "identity": "not_applicable",
+          "direction": "not_eligible"
+        }
+      },
+      {
+        "key": "mac_2e7896532a@2437.0",
+        "mac": "mac_2e7896532a",
+        "frequencyMhz": 2437,
+        "ssid": null,
+        "doaSupported": false,
+        "positioning": {
+          "method": "observe",
+          "label": "继续识别",
+          "position": null,
+          "reason": "尚无足够无人机识别依据；无RID不等于黑飞"
+        },
+        "features": {
+          "phy": [
+            "DSSS"
+          ],
+          "protocols": [
+            "802.11"
+          ],
+          "payloadProtocols": []
+        },
+        "receiverStations": [],
+        "fresh": false,
+        "ageSeconds": 260.85988263692707,
+        "frames": 1,
+        "recognition": {
+          "kind": "wifi",
+          "label": "普通/未知Wi-Fi",
+          "evidenceScore": 0,
+          "scoreMeaning": "启发式证据分；未经概率校准",
+          "eligible": false,
+          "evidence": [
+            "尚无RID或足够图传特征；继续观测"
+          ],
+          "identities": [],
+          "messages": [],
+          "identityStatus": "无RID身份",
+          "identitySkipped": false,
+          "profiles": [],
+          "authenticated": false
+        },
+        "stages": {
+          "capture": "stale",
+          "features": "wifi",
+          "identity": "not_applicable",
+          "direction": "not_eligible"
+        }
+      },
+      {
+        "key": "mac_7872d95912@2437.0",
+        "mac": "mac_7872d95912",
+        "frequencyMhz": 2437,
+        "ssid": null,
+        "doaSupported": true,
+        "positioning": {
+          "method": "observe",
+          "label": "继续识别",
+          "position": null,
+          "reason": "尚无足够无人机识别依据；无RID不等于黑飞"
+        },
+        "features": {
+          "phy": [
+            "OFDM"
+          ],
+          "protocols": [
+            "802.11"
+          ],
+          "payloadProtocols": []
+        },
+        "receiverStations": [],
+        "fresh": false,
+        "ageSeconds": 353.7794814539375,
+        "frames": 3,
+        "recognition": {
+          "kind": "wifi",
+          "label": "普通/未知Wi-Fi",
+          "evidenceScore": 0,
+          "scoreMeaning": "启发式证据分；未经概率校准",
+          "eligible": false,
+          "evidence": [
+            "尚无RID或足够图传特征；继续观测"
+          ],
+          "identities": [],
+          "messages": [],
+          "identityStatus": "无RID身份",
+          "identitySkipped": false,
+          "profiles": [],
+          "authenticated": false
+        },
+        "stages": {
+          "capture": "stale",
+          "features": "wifi",
+          "identity": "not_applicable",
+          "direction": "not_eligible"
+        }
+      },
+      {
+        "key": "mac_b739fb1c13@2437.0",
+        "mac": "mac_b739fb1c13",
+        "frequencyMhz": 2437,
+        "ssid": null,
+        "doaSupported": true,
+        "positioning": {
+          "method": "observe",
+          "label": "继续识别",
+          "position": null,
+          "reason": "尚无足够无人机识别依据；无RID不等于黑飞"
+        },
+        "features": {
+          "phy": [
+            "OFDM"
+          ],
+          "protocols": [
+            "802.11"
+          ],
+          "payloadProtocols": []
+        },
+        "receiverStations": [],
+        "fresh": false,
+        "ageSeconds": 366.9887804869795,
+        "frames": 6,
+        "recognition": {
+          "kind": "wifi",
+          "label": "普通/未知Wi-Fi",
+          "evidenceScore": 0,
+          "scoreMeaning": "启发式证据分；未经概率校准",
+          "eligible": false,
+          "evidence": [
+            "尚无RID或足够图传特征；继续观测"
+          ],
+          "identities": [],
+          "messages": [],
+          "identityStatus": "无RID身份",
+          "identitySkipped": false,
+          "profiles": [],
+          "authenticated": false
+        },
+        "stages": {
+          "capture": "stale",
+          "features": "wifi",
+          "identity": "not_applicable",
+          "direction": "not_eligible"
+        }
+      },
+      {
+        "key": "mac_1d720fcd86@2437.0",
+        "mac": "mac_1d720fcd86",
+        "frequencyMhz": 2437,
+        "ssid": null,
+        "doaSupported": false,
+        "positioning": {
+          "method": "observe",
+          "label": "继续识别",
+          "position": null,
+          "reason": "尚无足够无人机识别依据；无RID不等于黑飞"
+        },
+        "features": {
+          "phy": [
+            "DSSS"
+          ],
+          "protocols": [
+            "802.11"
+          ],
+          "payloadProtocols": []
+        },
+        "receiverStations": [],
+        "fresh": false,
+        "ageSeconds": 368.0357661159942,
+        "frames": 16,
+        "recognition": {
+          "kind": "wifi",
+          "label": "普通/未知Wi-Fi",
+          "evidenceScore": 0,
+          "scoreMeaning": "启发式证据分；未经概率校准",
+          "eligible": false,
+          "evidence": [
+            "尚无RID或足够图传特征；继续观测"
+          ],
+          "identities": [],
+          "messages": [],
+          "identityStatus": "无RID身份",
+          "identitySkipped": false,
+          "profiles": [],
+          "authenticated": false
+        },
+        "stages": {
+          "capture": "stale",
+          "features": "wifi",
+          "identity": "not_applicable",
+          "direction": "not_eligible"
+        }
+      },
+      {
+        "key": "mac_4b2b1fd0b9@2437.0",
+        "mac": "mac_4b2b1fd0b9",
+        "frequencyMhz": 2437,
+        "ssid": null,
+        "doaSupported": false,
+        "positioning": {
+          "method": "observe",
+          "label": "继续识别",
+          "position": null,
+          "reason": "尚无足够无人机识别依据；无RID不等于黑飞"
+        },
+        "features": {
+          "phy": [
+            "DSSS"
+          ],
+          "protocols": [
+            "802.11"
+          ],
+          "payloadProtocols": []
+        },
+        "receiverStations": [],
+        "fresh": false,
+        "ageSeconds": 545.5344262770377,
+        "frames": 1,
+        "recognition": {
+          "kind": "wifi",
+          "label": "普通/未知Wi-Fi",
+          "evidenceScore": 0,
+          "scoreMeaning": "启发式证据分；未经概率校准",
+          "eligible": false,
+          "evidence": [
+            "尚无RID或足够图传特征；继续观测"
+          ],
+          "identities": [],
+          "messages": [],
+          "identityStatus": "无RID身份",
+          "identitySkipped": false,
+          "profiles": [],
+          "authenticated": false
+        },
+        "stages": {
+          "capture": "stale",
+          "features": "wifi",
+          "identity": "not_applicable",
+          "direction": "not_eligible"
+        }
+      },
+      {
+        "key": "mac_f232c66260@2437.0",
+        "mac": "mac_f232c66260",
+        "frequencyMhz": 2437,
+        "ssid": null,
+        "doaSupported": false,
+        "positioning": {
+          "method": "observe",
+          "label": "继续识别",
+          "position": null,
+          "reason": "尚无足够无人机识别依据；无RID不等于黑飞"
+        },
+        "features": {
+          "phy": [
+            "DSSS"
+          ],
+          "protocols": [
+            "802.11"
+          ],
+          "payloadProtocols": []
+        },
+        "receiverStations": [],
+        "fresh": false,
+        "ageSeconds": 627.5639006239362,
+        "frames": 4,
+        "recognition": {
+          "kind": "wifi",
+          "label": "普通/未知Wi-Fi",
+          "evidenceScore": 0,
+          "scoreMeaning": "启发式证据分；未经概率校准",
+          "eligible": false,
+          "evidence": [
+            "尚无RID或足够图传特征；继续观测"
+          ],
+          "identities": [],
+          "messages": [],
+          "identityStatus": "无RID身份",
+          "identitySkipped": false,
+          "profiles": [],
+          "authenticated": false
+        },
+        "stages": {
+          "capture": "stale",
+          "features": "wifi",
+          "identity": "not_applicable",
+          "direction": "not_eligible"
+        }
+      },
+      {
+        "key": "mac_52be46995b@2437.0",
+        "mac": "mac_52be46995b",
+        "frequencyMhz": 2437,
+        "ssid": null,
+        "doaSupported": false,
+        "positioning": {
+          "method": "observe",
+          "label": "继续识别",
+          "position": null,
+          "reason": "尚无足够无人机识别依据；无RID不等于黑飞"
+        },
+        "features": {
+          "phy": [
+            "DSSS"
+          ],
+          "protocols": [
+            "802.11"
+          ],
+          "payloadProtocols": []
+        },
+        "receiverStations": [],
+        "fresh": false,
+        "ageSeconds": 628.6149301199475,
+        "frames": 1,
+        "recognition": {
+          "kind": "wifi",
+          "label": "普通/未知Wi-Fi",
+          "evidenceScore": 0,
+          "scoreMeaning": "启发式证据分；未经概率校准",
+          "eligible": false,
+          "evidence": [
+            "尚无RID或足够图传特征；继续观测"
+          ],
+          "identities": [],
+          "messages": [],
+          "identityStatus": "无RID身份",
+          "identitySkipped": false,
+          "profiles": [],
+          "authenticated": false
+        },
+        "stages": {
+          "capture": "stale",
+          "features": "wifi",
+          "identity": "not_applicable",
+          "direction": "not_eligible"
+        }
+      },
+      {
+        "key": "mac_b5dbcd2ec0@2437.0",
+        "mac": "mac_b5dbcd2ec0",
+        "frequencyMhz": 2437,
+        "ssid": null,
+        "doaSupported": false,
+        "positioning": {
+          "method": "observe",
+          "label": "继续识别",
+          "position": null,
+          "reason": "尚无足够无人机识别依据；无RID不等于黑飞"
+        },
+        "features": {
+          "phy": [
+            "DSSS"
+          ],
+          "protocols": [
+            "802.11"
+          ],
+          "payloadProtocols": []
+        },
+        "receiverStations": [],
+        "fresh": false,
+        "ageSeconds": 800.2735949059715,
+        "frames": 1,
+        "recognition": {
+          "kind": "wifi",
+          "label": "普通/未知Wi-Fi",
+          "evidenceScore": 0,
+          "scoreMeaning": "启发式证据分；未经概率校准",
+          "eligible": false,
+          "evidence": [
+            "尚无RID或足够图传特征；继续观测"
+          ],
+          "identities": [],
+          "messages": [],
+          "identityStatus": "无RID身份",
+          "identitySkipped": false,
+          "profiles": [],
+          "authenticated": false
+        },
+        "stages": {
+          "capture": "stale",
+          "features": "wifi",
+          "identity": "not_applicable",
+          "direction": "not_eligible"
+        }
+      },
+      {
+        "key": "mac_e2d28982b3@2437.0",
+        "mac": "mac_e2d28982b3",
+        "frequencyMhz": 2437,
+        "ssid": null,
+        "doaSupported": false,
+        "positioning": {
+          "method": "observe",
+          "label": "继续识别",
+          "position": null,
+          "reason": "尚无足够无人机识别依据；无RID不等于黑飞"
+        },
+        "features": {
+          "phy": [
+            "DSSS"
+          ],
+          "protocols": [
+            "802.11"
+          ],
+          "payloadProtocols": []
+        },
+        "receiverStations": [],
+        "fresh": false,
+        "ageSeconds": 804.867967018974,
+        "frames": 1,
+        "recognition": {
+          "kind": "wifi",
+          "label": "普通/未知Wi-Fi",
+          "evidenceScore": 0,
+          "scoreMeaning": "启发式证据分；未经概率校准",
+          "eligible": false,
+          "evidence": [
+            "尚无RID或足够图传特征；继续观测"
+          ],
+          "identities": [],
+          "messages": [],
+          "identityStatus": "无RID身份",
+          "identitySkipped": false,
+          "profiles": [],
+          "authenticated": false
+        },
+        "stages": {
+          "capture": "stale",
+          "features": "wifi",
+          "identity": "not_applicable",
+          "direction": "not_eligible"
+        }
+      },
+      {
+        "key": "mac_132b32582a@2437.0",
+        "mac": "mac_132b32582a",
+        "frequencyMhz": 2437,
+        "ssid": null,
+        "doaSupported": false,
+        "positioning": {
+          "method": "observe",
+          "label": "继续识别",
+          "position": null,
+          "reason": "尚无足够无人机识别依据；无RID不等于黑飞"
+        },
+        "features": {
+          "phy": [
+            "DSSS"
+          ],
+          "protocols": [
+            "802.11"
+          ],
+          "payloadProtocols": []
+        },
+        "receiverStations": [],
+        "fresh": false,
+        "ageSeconds": 808.2523987529567,
+        "frames": 1,
+        "recognition": {
+          "kind": "wifi",
+          "label": "普通/未知Wi-Fi",
+          "evidenceScore": 0,
+          "scoreMeaning": "启发式证据分；未经概率校准",
+          "eligible": false,
+          "evidence": [
+            "尚无RID或足够图传特征；继续观测"
+          ],
+          "identities": [],
+          "messages": [],
+          "identityStatus": "无RID身份",
+          "identitySkipped": false,
+          "profiles": [],
+          "authenticated": false
+        },
+        "stages": {
+          "capture": "stale",
+          "features": "wifi",
+          "identity": "not_applicable",
+          "direction": "not_eligible"
+        }
+      },
+      {
+        "key": "mac_667436343b@2437.0",
+        "mac": "mac_667436343b",
+        "frequencyMhz": 2437,
+        "ssid": "hw_manage_c0f0",
+        "doaSupported": false,
+        "positioning": {
+          "method": "observe",
+          "label": "继续识别",
+          "position": null,
+          "reason": "尚无足够无人机识别依据；无RID不等于黑飞"
+        },
+        "features": {
+          "phy": [
+            "DSSS"
+          ],
+          "protocols": [
+            "802.11"
+          ],
+          "payloadProtocols": []
+        },
+        "receiverStations": [],
+        "fresh": false,
+        "ageSeconds": 985.9385179600213,
+        "frames": 2,
+        "recognition": {
+          "kind": "wifi",
+          "label": "普通/未知Wi-Fi",
+          "evidenceScore": 0,
+          "scoreMeaning": "启发式证据分；未经概率校准",
+          "eligible": false,
+          "evidence": [
+            "尚无RID或足够图传特征；继续观测"
+          ],
+          "identities": [],
+          "messages": [],
+          "identityStatus": "无RID身份",
+          "identitySkipped": false,
+          "profiles": [],
+          "authenticated": false
+        },
+        "stages": {
+          "capture": "stale",
+          "features": "wifi",
+          "identity": "not_applicable",
+          "direction": "not_eligible"
+        }
+      },
+      {
+        "key": "mac_cb0a8d4661@2437.0",
+        "mac": "mac_cb0a8d4661",
+        "frequencyMhz": 2437,
+        "ssid": null,
+        "doaSupported": false,
+        "positioning": {
+          "method": "observe",
+          "label": "继续识别",
+          "position": null,
+          "reason": "尚无足够无人机识别依据；无RID不等于黑飞"
+        },
+        "features": {
+          "phy": [
+            "DSSS"
+          ],
+          "protocols": [
+            "802.11"
+          ],
+          "payloadProtocols": []
+        },
+        "receiverStations": [],
+        "fresh": false,
+        "ageSeconds": 1027.4002928179689,
+        "frames": 3,
+        "recognition": {
+          "kind": "wifi",
+          "label": "普通/未知Wi-Fi",
+          "evidenceScore": 0,
+          "scoreMeaning": "启发式证据分；未经概率校准",
+          "eligible": false,
+          "evidence": [
+            "尚无RID或足够图传特征；继续观测"
+          ],
+          "identities": [],
+          "messages": [],
+          "identityStatus": "无RID身份",
+          "identitySkipped": false,
+          "profiles": [],
+          "authenticated": false
+        },
+        "stages": {
+          "capture": "stale",
+          "features": "wifi",
+          "identity": "not_applicable",
+          "direction": "not_eligible"
+        }
+      },
+      {
+        "key": "mac_9639082a56@2437.0",
+        "mac": "mac_9639082a56",
+        "frequencyMhz": 2437,
+        "ssid": null,
+        "doaSupported": false,
+        "positioning": {
+          "method": "observe",
+          "label": "继续识别",
+          "position": null,
+          "reason": "尚无足够无人机识别依据；无RID不等于黑飞"
+        },
+        "features": {
+          "phy": [
+            "DSSS"
+          ],
+          "protocols": [
+            "802.11"
+          ],
+          "payloadProtocols": []
+        },
+        "receiverStations": [],
+        "fresh": false,
+        "ageSeconds": 1067.1363949750084,
+        "frames": 1,
+        "recognition": {
+          "kind": "wifi",
+          "label": "普通/未知Wi-Fi",
+          "evidenceScore": 0,
+          "scoreMeaning": "启发式证据分；未经概率校准",
+          "eligible": false,
+          "evidence": [
+            "尚无RID或足够图传特征；继续观测"
+          ],
+          "identities": [],
+          "messages": [],
+          "identityStatus": "无RID身份",
+          "identitySkipped": false,
+          "profiles": [],
+          "authenticated": false
+        },
+        "stages": {
+          "capture": "stale",
+          "features": "wifi",
+          "identity": "not_applicable",
+          "direction": "not_eligible"
+        }
+      },
+      {
+        "key": "mac_51887c932f@2437.0",
+        "mac": "mac_51887c932f",
+        "frequencyMhz": 2437,
+        "ssid": null,
+        "doaSupported": true,
+        "positioning": {
+          "method": "observe",
+          "label": "继续识别",
+          "position": null,
+          "reason": "尚无足够无人机识别依据；无RID不等于黑飞"
+        },
+        "features": {
+          "phy": [
+            "OFDM"
+          ],
+          "protocols": [
+            "802.11"
+          ],
+          "payloadProtocols": []
+        },
+        "receiverStations": [],
+        "fresh": false,
+        "ageSeconds": 1089.336124907015,
+        "frames": 1,
+        "recognition": {
+          "kind": "wifi",
+          "label": "普通/未知Wi-Fi",
+          "evidenceScore": 0,
+          "scoreMeaning": "启发式证据分；未经概率校准",
+          "eligible": false,
+          "evidence": [
+            "尚无RID或足够图传特征；继续观测"
+          ],
+          "identities": [],
+          "messages": [],
+          "identityStatus": "无RID身份",
+          "identitySkipped": false,
+          "profiles": [],
+          "authenticated": false
+        },
+        "stages": {
+          "capture": "stale",
+          "features": "wifi",
+          "identity": "not_applicable",
+          "direction": "not_eligible"
+        }
+      },
+      {
+        "key": "mac_b34573b5c1@2437.0",
+        "mac": "mac_b34573b5c1",
+        "frequencyMhz": 2437,
+        "ssid": null,
+        "doaSupported": false,
+        "positioning": {
+          "method": "observe",
+          "label": "继续识别",
+          "position": null,
+          "reason": "尚无足够无人机识别依据；无RID不等于黑飞"
+        },
+        "features": {
+          "phy": [
+            "DSSS"
+          ],
+          "protocols": [
+            "802.11"
+          ],
+          "payloadProtocols": []
+        },
+        "receiverStations": [],
+        "fresh": false,
+        "ageSeconds": 1153.9160855390364,
+        "frames": 2,
+        "recognition": {
+          "kind": "wifi",
+          "label": "普通/未知Wi-Fi",
+          "evidenceScore": 0,
+          "scoreMeaning": "启发式证据分；未经概率校准",
+          "eligible": false,
+          "evidence": [
+            "尚无RID或足够图传特征；继续观测"
+          ],
+          "identities": [],
+          "messages": [],
+          "identityStatus": "无RID身份",
+          "identitySkipped": false,
+          "profiles": [],
+          "authenticated": false
+        },
+        "stages": {
+          "capture": "stale",
+          "features": "wifi",
+          "identity": "not_applicable",
+          "direction": "not_eligible"
+        }
+      },
+      {
+        "key": "mac_7475b43b2b@2437.0",
+        "mac": "mac_7475b43b2b",
+        "frequencyMhz": 2437,
+        "ssid": null,
+        "doaSupported": false,
+        "positioning": {
+          "method": "observe",
+          "label": "继续识别",
+          "position": null,
+          "reason": "尚无足够无人机识别依据；无RID不等于黑飞"
+        },
+        "features": {
+          "phy": [
+            "DSSS"
+          ],
+          "protocols": [
+            "802.11"
+          ],
+          "payloadProtocols": []
+        },
+        "receiverStations": [],
+        "fresh": false,
+        "ageSeconds": 1171.761601657956,
+        "frames": 1,
+        "recognition": {
+          "kind": "wifi",
+          "label": "普通/未知Wi-Fi",
+          "evidenceScore": 0,
+          "scoreMeaning": "启发式证据分；未经概率校准",
+          "eligible": false,
+          "evidence": [
+            "尚无RID或足够图传特征；继续观测"
+          ],
+          "identities": [],
+          "messages": [],
+          "identityStatus": "无RID身份",
+          "identitySkipped": false,
+          "profiles": [],
+          "authenticated": false
+        },
+        "stages": {
+          "capture": "stale",
+          "features": "wifi",
+          "identity": "not_applicable",
+          "direction": "not_eligible"
+        }
+      },
+      {
+        "key": "mac_2c92e2190a@2437.0",
+        "mac": "mac_2c92e2190a",
+        "frequencyMhz": 2437,
+        "ssid": "Kotori-Mifi",
+        "doaSupported": false,
+        "positioning": {
+          "method": "observe",
+          "label": "继续识别",
+          "position": null,
+          "reason": "尚无足够无人机识别依据；无RID不等于黑飞"
+        },
+        "features": {
+          "phy": [
+            "DSSS"
+          ],
+          "protocols": [
+            "802.11"
+          ],
+          "payloadProtocols": []
+        },
+        "receiverStations": [],
+        "fresh": false,
+        "ageSeconds": 1297.1310095279478,
+        "frames": 252,
+        "recognition": {
+          "kind": "wifi",
+          "label": "普通/未知Wi-Fi",
+          "evidenceScore": 0,
+          "scoreMeaning": "启发式证据分；未经概率校准",
+          "eligible": false,
+          "evidence": [
+            "尚无RID或足够图传特征；继续观测"
+          ],
+          "identities": [],
+          "messages": [],
+          "identityStatus": "无RID身份",
+          "identitySkipped": false,
+          "profiles": [],
+          "authenticated": false
+        },
+        "stages": {
+          "capture": "stale",
+          "features": "wifi",
+          "identity": "not_applicable",
+          "direction": "not_eligible"
+        }
+      },
+      {
+        "key": "mac_b658260cf0@2437.0",
+        "mac": "mac_b658260cf0",
+        "frequencyMhz": 2437,
+        "ssid": null,
+        "doaSupported": true,
+        "positioning": {
+          "method": "observe",
+          "label": "继续识别",
+          "position": null,
+          "reason": "尚无足够无人机识别依据；无RID不等于黑飞"
+        },
+        "features": {
+          "phy": [
+            "OFDM"
+          ],
+          "protocols": [
+            "802.11"
+          ],
+          "payloadProtocols": []
+        },
+        "receiverStations": [],
+        "fresh": false,
+        "ageSeconds": 1352.7815181779442,
+        "frames": 3,
+        "recognition": {
+          "kind": "wifi",
+          "label": "普通/未知Wi-Fi",
+          "evidenceScore": 0,
+          "scoreMeaning": "启发式证据分；未经概率校准",
+          "eligible": false,
+          "evidence": [
+            "尚无RID或足够图传特征；继续观测"
+          ],
+          "identities": [],
+          "messages": [],
+          "identityStatus": "无RID身份",
+          "identitySkipped": false,
+          "profiles": [],
+          "authenticated": false
+        },
+        "stages": {
+          "capture": "stale",
+          "features": "wifi",
+          "identity": "not_applicable",
+          "direction": "not_eligible"
+        }
+      },
+      {
+        "key": "mac_519202f57d@2437.0",
+        "mac": "mac_519202f57d",
+        "frequencyMhz": 2437,
+        "ssid": null,
+        "doaSupported": false,
+        "positioning": {
+          "method": "observe",
+          "label": "继续识别",
+          "position": null,
+          "reason": "尚无足够无人机识别依据；无RID不等于黑飞"
+        },
+        "features": {
+          "phy": [
+            "DSSS"
+          ],
+          "protocols": [
+            "802.11"
+          ],
+          "payloadProtocols": []
+        },
+        "receiverStations": [],
+        "fresh": false,
+        "ageSeconds": 1458.0318982099416,
+        "frames": 1,
+        "recognition": {
+          "kind": "wifi",
+          "label": "普通/未知Wi-Fi",
+          "evidenceScore": 0,
+          "scoreMeaning": "启发式证据分；未经概率校准",
+          "eligible": false,
+          "evidence": [
+            "尚无RID或足够图传特征；继续观测"
+          ],
+          "identities": [],
+          "messages": [],
+          "identityStatus": "无RID身份",
+          "identitySkipped": false,
+          "profiles": [],
+          "authenticated": false
+        },
+        "stages": {
+          "capture": "stale",
+          "features": "wifi",
+          "identity": "not_applicable",
+          "direction": "not_eligible"
+        }
+      },
+      {
+        "key": "mac_4c1104fc31@2437.0",
+        "mac": "mac_4c1104fc31",
+        "frequencyMhz": 2437,
+        "ssid": null,
+        "doaSupported": false,
+        "positioning": {
+          "method": "observe",
+          "label": "继续识别",
+          "position": null,
+          "reason": "尚无足够无人机识别依据；无RID不等于黑飞"
+        },
+        "features": {
+          "phy": [
+            "DSSS"
+          ],
+          "protocols": [
+            "802.11"
+          ],
+          "payloadProtocols": []
+        },
+        "receiverStations": [],
+        "fresh": false,
+        "ageSeconds": 1536.2495754950214,
+        "frames": 2,
+        "recognition": {
+          "kind": "wifi",
+          "label": "普通/未知Wi-Fi",
+          "evidenceScore": 0,
+          "scoreMeaning": "启发式证据分；未经概率校准",
+          "eligible": false,
+          "evidence": [
+            "尚无RID或足够图传特征；继续观测"
+          ],
+          "identities": [],
+          "messages": [],
+          "identityStatus": "无RID身份",
+          "identitySkipped": false,
+          "profiles": [],
+          "authenticated": false
+        },
+        "stages": {
+          "capture": "stale",
+          "features": "wifi",
+          "identity": "not_applicable",
+          "direction": "not_eligible"
+        }
+      },
+      {
+        "key": "mac_9d03829fba@2437.0",
+        "mac": "mac_9d03829fba",
+        "frequencyMhz": 2437,
+        "ssid": null,
+        "doaSupported": false,
+        "positioning": {
+          "method": "observe",
+          "label": "继续识别",
+          "position": null,
+          "reason": "尚无足够无人机识别依据；无RID不等于黑飞"
+        },
+        "features": {
+          "phy": [
+            "DSSS"
+          ],
+          "protocols": [
+            "802.11"
+          ],
+          "payloadProtocols": []
+        },
+        "receiverStations": [],
+        "fresh": false,
+        "ageSeconds": 1548.1102923690341,
+        "frames": 2,
+        "recognition": {
+          "kind": "wifi",
+          "label": "普通/未知Wi-Fi",
+          "evidenceScore": 0,
+          "scoreMeaning": "启发式证据分；未经概率校准",
+          "eligible": false,
+          "evidence": [
+            "尚无RID或足够图传特征；继续观测"
+          ],
+          "identities": [],
+          "messages": [],
+          "identityStatus": "无RID身份",
+          "identitySkipped": false,
+          "profiles": [],
+          "authenticated": false
+        },
+        "stages": {
+          "capture": "stale",
+          "features": "wifi",
+          "identity": "not_applicable",
+          "direction": "not_eligible"
+        }
+      },
+      {
+        "key": "mac_82f931dd2e@2437.0",
+        "mac": "mac_82f931dd2e",
+        "frequencyMhz": 2437,
+        "ssid": null,
+        "doaSupported": false,
+        "positioning": {
+          "method": "observe",
+          "label": "继续识别",
+          "position": null,
+          "reason": "尚无足够无人机识别依据；无RID不等于黑飞"
+        },
+        "features": {
+          "phy": [
+            "DSSS"
+          ],
+          "protocols": [
+            "802.11"
+          ],
+          "payloadProtocols": []
+        },
+        "receiverStations": [],
+        "fresh": false,
+        "ageSeconds": 1578.6462608280126,
+        "frames": 2,
+        "recognition": {
+          "kind": "wifi",
+          "label": "普通/未知Wi-Fi",
+          "evidenceScore": 0,
+          "scoreMeaning": "启发式证据分；未经概率校准",
+          "eligible": false,
+          "evidence": [
+            "尚无RID或足够图传特征；继续观测"
+          ],
+          "identities": [],
+          "messages": [],
+          "identityStatus": "无RID身份",
+          "identitySkipped": false,
+          "profiles": [],
+          "authenticated": false
+        },
+        "stages": {
+          "capture": "stale",
+          "features": "wifi",
+          "identity": "not_applicable",
+          "direction": "not_eligible"
+        }
+      },
+      {
+        "key": "mac_e422ca0133@2437.0",
+        "mac": "mac_e422ca0133",
+        "frequencyMhz": 2437,
+        "ssid": null,
+        "doaSupported": false,
+        "positioning": {
+          "method": "observe",
+          "label": "继续识别",
+          "position": null,
+          "reason": "尚无足够无人机识别依据；无RID不等于黑飞"
+        },
+        "features": {
+          "phy": [
+            "DSSS"
+          ],
+          "protocols": [
+            "802.11"
+          ],
+          "payloadProtocols": []
+        },
+        "receiverStations": [],
+        "fresh": false,
+        "ageSeconds": 1579.9152104830137,
+        "frames": 2,
+        "recognition": {
+          "kind": "wifi",
+          "label": "普通/未知Wi-Fi",
+          "evidenceScore": 0,
+          "scoreMeaning": "启发式证据分；未经概率校准",
+          "eligible": false,
+          "evidence": [
+            "尚无RID或足够图传特征；继续观测"
+          ],
+          "identities": [],
+          "messages": [],
+          "identityStatus": "无RID身份",
+          "identitySkipped": false,
+          "profiles": [],
+          "authenticated": false
+        },
+        "stages": {
+          "capture": "stale",
+          "features": "wifi",
+          "identity": "not_applicable",
+          "direction": "not_eligible"
+        }
+      },
+      {
+        "key": "mac_96375de6ab@2437.0",
+        "mac": "mac_96375de6ab",
+        "frequencyMhz": 2437,
+        "ssid": null,
+        "doaSupported": false,
+        "positioning": {
+          "method": "observe",
+          "label": "继续识别",
+          "position": null,
+          "reason": "尚无足够无人机识别依据；无RID不等于黑飞"
+        },
+        "features": {
+          "phy": [
+            "DSSS"
+          ],
+          "protocols": [
+            "802.11"
+          ],
+          "payloadProtocols": []
+        },
+        "receiverStations": [],
+        "fresh": false,
+        "ageSeconds": 1582.266099600005,
+        "frames": 1,
+        "recognition": {
+          "kind": "wifi",
+          "label": "普通/未知Wi-Fi",
+          "evidenceScore": 0,
+          "scoreMeaning": "启发式证据分；未经概率校准",
+          "eligible": false,
+          "evidence": [
+            "尚无RID或足够图传特征；继续观测"
+          ],
+          "identities": [],
+          "messages": [],
+          "identityStatus": "无RID身份",
+          "identitySkipped": false,
+          "profiles": [],
+          "authenticated": false
+        },
+        "stages": {
+          "capture": "stale",
+          "features": "wifi",
+          "identity": "not_applicable",
+          "direction": "not_eligible"
+        }
+      }
+    ],
+    "counts": {
+      "rid": 1,
+      "rid_candidate": 0,
+      "video_candidate": 0,
+      "wifi": 6
+    },
+    "activeSource": {
+      "key": "mac_aa98f353b5@2437.0",
+      "mac": "mac_aa98f353b5",
+      "frequencyMhz": 2437,
+      "ssid": "RID-TEST",
+      "doaSupported": true,
+      "positioning": {
+        "method": "aoa",
+        "label": "AOA测向",
+        "position": null,
+        "reason": "RID位置缺失，等待同源IQ"
+      },
+      "features": {
+        "phy": [
+          "OFDM"
+        ],
+        "protocols": [
+          "802.11"
+        ],
+        "payloadProtocols": [
+          "RID"
+        ]
+      },
+      "receiverStations": [
+        "B"
+      ],
+      "fresh": true,
+      "ageSeconds": 0.7456160669680685,
+      "frames": 1744,
+      "recognition": {
+        "kind": "rid",
+        "label": "RID广播",
+        "evidenceScore": 100,
+        "scoreMeaning": "协议结构匹配；不是身份真实性概率",
+        "eligible": true,
+        "evidence": [
+          "FCS有效",
+          "RID专用传输标识匹配",
+          "25字节消息/消息包结构有效",
+          "支持的消息类型与版本"
+        ],
+        "identities": [
+          "RIDTEST-ESP32S3-0001"
+        ],
+        "messages": [
+          {
+            "type": 0,
+            "version": 2,
+            "raw": "0212524944544553542d455350333253332d30303031000000",
+            "id_type": 1,
+            "ua_type": 2,
+            "uas_id": "RIDTEST-ESP32S3-0001",
+            "type_name": "Basic ID"
+          },
+          {
+            "type": 1,
+            "version": 2,
+            "raw": "1213b5ff7e00000000000000000000000000000000ffff0000",
+            "status": 1,
+            "direction": null,
+            "speed_horizontal": null,
+            "speed_vertical": null,
+            "latitude": null,
+            "longitude": null,
+            "altitude_baro": null,
+            "altitude_geo": null,
+            "height": null,
+            "height_reference": "takeoff",
+            "horizontal_accuracy": 0,
+            "vertical_accuracy": 0,
+            "speed_accuracy": 0,
+            "baro_accuracy": 0,
+            "timestamp": null,
+            "timestamp_accuracy": 0.0,
+            "type_name": "Location/Vector"
+          },
+          {
+            "type": 4,
+            "version": 2,
+            "raw": "42000000000000000000010000000000000000000000000000",
+            "operator_location_type": 0,
+            "classification_type": 0,
+            "operator_latitude": null,
+            "operator_longitude": null,
+            "area_count": 1,
+            "area_radius": 0,
+            "area_ceiling": null,
+            "area_floor": null,
+            "category_eu": 0,
+            "class_eu": 0,
+            "operator_altitude_geo": null,
+            "timestamp": 0,
+            "type_name": "System"
+          }
+        ],
+        "transports": [
+          "Wi-Fi Beacon"
+        ],
+        "identityStatus": "已解析广播身份／未认证",
+        "authenticated": false
+      },
+      "stages": {
+        "capture": "observed",
+        "features": "rid",
+        "identity": "parsed",
+        "direction": "diagnostic"
+      },
+      "direction": {
+        "timestamp": 1793641003422.3384,
+        "stations": {
+          "A": {
+            "angleDeg": null,
+            "phaseDeg": 20.080978640667546,
+            "rawPhaseDeg": 20.080978640667546,
+            "phaseBiasAppliedDeg": 0,
+            "calibrationStatus": "uncalibrated",
+            "referenceSessionId": null,
+            "referenceHash": null,
+            "referenceStationId": null,
+            "referenceMatched": false,
+            "sessionId": "92fae22dca874e5ca1730290c20d6424",
+            "productionAccepted": false,
+            "frameKey": "8c5dfa5f908df5f9bca2294f44ea7b5d6e47b037b4a56bb9a4532531f6c3529a",
+            "timestamp": 1793641003418.6067,
+            "processingLocation": "board",
+            "directionContextHash": "5e8522d22dc42d8b3bccf1edd9712f8b70e39ab6c59171f2daa19acadf3f95f3"
+          },
+          "B": {
+            "angleDeg": null,
+            "phaseDeg": 101.3497927385203,
+            "rawPhaseDeg": 101.3497927385203,
+            "phaseBiasAppliedDeg": 0,
+            "calibrationStatus": "uncalibrated",
+            "referenceSessionId": null,
+            "referenceHash": null,
+            "referenceStationId": null,
+            "referenceMatched": false,
+            "sessionId": "87a9d77222b444d99b41114e62efa512",
+            "productionAccepted": false,
+            "frameKey": "8c5dfa5f908df5f9bca2294f44ea7b5d6e47b037b4a56bb9a4532531f6c3529a",
+            "timestamp": 1793641003422.3384,
+            "processingLocation": "board",
+            "directionContextHash": "c57e0c03bcd794a168339cb94cba712e1cd16d819eadbf46ce5d30afa048cb38"
+          }
+        },
+        "calibrationStatus": "uncalibrated",
+        "geometryVerified": false
+      }
+    },
+    "selection": "auto",
+    "events": [
+      {
+        "timestamp": 1793640792709.2239,
+        "sourceKey": "mac_0b1c64bd39@2437.0",
+        "kind": "wifi",
+        "label": "普通/未知Wi-Fi"
+      },
+      {
+        "timestamp": 1793640792709.2239,
+        "sourceKey": "mac_b658260cf0@2437.0",
+        "kind": "wifi",
+        "label": "普通/未知Wi-Fi"
+      },
+      {
+        "timestamp": 1793640792709.2239,
+        "sourceKey": "mac_aa98f353b5@2437.0",
+        "kind": "rid",
+        "label": "RID广播"
+      },
+      {
+        "timestamp": 1793640792709.2239,
+        "sourceKey": "mac_126d52d991@2437.0",
+        "kind": "wifi",
+        "label": "普通/未知Wi-Fi"
+      },
+      {
+        "timestamp": 1793640792709.2239,
+        "sourceKey": "mac_8bd80039c8@2437.0",
+        "kind": "wifi",
+        "label": "普通/未知Wi-Fi"
+      },
+      {
+        "timestamp": 1793640792709.2239,
+        "sourceKey": "mac_a94e3d1adf@2437.0",
+        "kind": "wifi",
+        "label": "普通/未知Wi-Fi"
+      },
+      {
+        "timestamp": 1793640792709.2239,
+        "sourceKey": "mac_f30d37e2b6@2437.0",
+        "kind": "wifi",
+        "label": "普通/未知Wi-Fi"
+      },
+      {
+        "timestamp": 1793640792709.2239,
+        "sourceKey": "mac_252ab4e636@2437.0",
+        "kind": "wifi",
+        "label": "普通/未知Wi-Fi"
+      },
+      {
+        "timestamp": 1793640792709.2239,
+        "sourceKey": "mac_6d89250159@2437.0",
+        "kind": "wifi",
+        "label": "普通/未知Wi-Fi"
+      },
+      {
+        "timestamp": 1793640792709.2239,
+        "sourceKey": "mac_d1f2f68dfb@2437.0",
+        "kind": "wifi",
+        "label": "普通/未知Wi-Fi"
+      },
+      {
+        "timestamp": 1793640792709.2239,
+        "sourceKey": "mac_2632228a92@2437.0",
+        "kind": "wifi",
+        "label": "普通/未知Wi-Fi"
+      },
+      {
+        "timestamp": 1793640792709.2239,
+        "sourceKey": "mac_cba335d31b@2437.0",
+        "kind": "wifi",
+        "label": "普通/未知Wi-Fi"
+      },
+      {
+        "timestamp": 1793640792709.2239,
+        "sourceKey": "mac_962537b28f@2437.0",
+        "kind": "wifi",
+        "label": "普通/未知Wi-Fi"
+      },
+      {
+        "timestamp": 1793640792709.2239,
+        "sourceKey": "mac_d8eb6fd25f@2437.0",
+        "kind": "wifi",
+        "label": "普通/未知Wi-Fi"
+      },
+      {
+        "timestamp": 1793640792709.2239,
+        "sourceKey": "mac_3d469c96ef@2437.0",
+        "kind": "wifi",
+        "label": "普通/未知Wi-Fi"
+      },
+      {
+        "timestamp": 1793640792709.2239,
+        "sourceKey": "mac_b739fb1c13@2437.0",
+        "kind": "wifi",
+        "label": "普通/未知Wi-Fi"
+      },
+      {
+        "timestamp": 1793640792709.2239,
+        "sourceKey": "mac_ece4ee3a57@2437.0",
+        "kind": "wifi",
+        "label": "普通/未知Wi-Fi"
+      },
+      {
+        "timestamp": 1793640792709.2239,
+        "sourceKey": "mac_234c67e319@2437.0",
+        "kind": "wifi",
+        "label": "普通/未知Wi-Fi"
+      },
+      {
+        "timestamp": 1793640792709.2239,
+        "sourceKey": "mac_938f07e161@2437.0",
+        "kind": "wifi",
+        "label": "普通/未知Wi-Fi"
+      },
+      {
+        "timestamp": 1793640792709.2239,
+        "sourceKey": "mac_96375de6ab@2437.0",
+        "kind": "wifi",
+        "label": "普通/未知Wi-Fi"
+      },
+      {
+        "timestamp": 1793640792709.2239,
+        "sourceKey": "mac_e422ca0133@2437.0",
+        "kind": "wifi",
+        "label": "普通/未知Wi-Fi"
+      },
+      {
+        "timestamp": 1793640792709.2239,
+        "sourceKey": "mac_82f931dd2e@2437.0",
+        "kind": "wifi",
+        "label": "普通/未知Wi-Fi"
+      },
+      {
+        "timestamp": 1793640792709.2239,
+        "sourceKey": "mac_a287d3517a@2437.0",
+        "kind": "wifi",
+        "label": "普通/未知Wi-Fi"
+      },
+      {
+        "timestamp": 1793640792709.2239,
+        "sourceKey": "mac_9d03829fba@2437.0",
+        "kind": "wifi",
+        "label": "普通/未知Wi-Fi"
+      },
+      {
+        "timestamp": 1793640792709.2239,
+        "sourceKey": "mac_4c1104fc31@2437.0",
+        "kind": "wifi",
+        "label": "普通/未知Wi-Fi"
+      },
+      {
+        "timestamp": 1793640792709.2239,
+        "sourceKey": "mac_f232c66260@2437.0",
+        "kind": "wifi",
+        "label": "普通/未知Wi-Fi"
+      },
+      {
+        "timestamp": 1793640792709.2239,
+        "sourceKey": "mac_74c95619a2@2437.0",
+        "kind": "wifi",
+        "label": "普通/未知Wi-Fi"
+      },
+      {
+        "timestamp": 1793640792709.2239,
+        "sourceKey": "mac_519202f57d@2437.0",
+        "kind": "wifi",
+        "label": "普通/未知Wi-Fi"
+      },
+      {
+        "timestamp": 1793640792709.2239,
+        "sourceKey": "mac_2c92e2190a@2437.0",
+        "kind": "wifi",
+        "label": "普通/未知Wi-Fi"
+      },
+      {
+        "timestamp": 1793640792709.2239,
+        "sourceKey": "mac_cb0a8d4661@2437.0",
+        "kind": "wifi",
+        "label": "普通/未知Wi-Fi"
+      },
+      {
+        "timestamp": 1793640792709.2239,
+        "sourceKey": "mac_7872d95912@2437.0",
+        "kind": "wifi",
+        "label": "普通/未知Wi-Fi"
+      },
+      {
+        "timestamp": 1793640792709.2239,
+        "sourceKey": "mac_7475b43b2b@2437.0",
+        "kind": "wifi",
+        "label": "普通/未知Wi-Fi"
+      },
+      {
+        "timestamp": 1793640792709.2239,
+        "sourceKey": "mac_b34573b5c1@2437.0",
+        "kind": "wifi",
+        "label": "普通/未知Wi-Fi"
+      },
+      {
+        "timestamp": 1793640792709.2239,
+        "sourceKey": "mac_1d720fcd86@2437.0",
+        "kind": "wifi",
+        "label": "普通/未知Wi-Fi"
+      },
+      {
+        "timestamp": 1793640792709.2239,
+        "sourceKey": "mac_51887c932f@2437.0",
+        "kind": "wifi",
+        "label": "普通/未知Wi-Fi"
+      },
+      {
+        "timestamp": 1793640792709.2239,
+        "sourceKey": "mac_2766af19c7@2437.0",
+        "kind": "wifi",
+        "label": "普通/未知Wi-Fi"
+      },
+      {
+        "timestamp": 1793640792709.2239,
+        "sourceKey": "mac_9639082a56@2437.0",
+        "kind": "wifi",
+        "label": "普通/未知Wi-Fi"
+      },
+      {
+        "timestamp": 1793640792709.2239,
+        "sourceKey": "mac_667436343b@2437.0",
+        "kind": "wifi",
+        "label": "普通/未知Wi-Fi"
+      },
+      {
+        "timestamp": 1793640792709.2239,
+        "sourceKey": "mac_132b32582a@2437.0",
+        "kind": "wifi",
+        "label": "普通/未知Wi-Fi"
+      },
+      {
+        "timestamp": 1793640792709.2239,
+        "sourceKey": "mac_e2d28982b3@2437.0",
+        "kind": "wifi",
+        "label": "普通/未知Wi-Fi"
+      },
+      {
+        "timestamp": 1793640792709.2239,
+        "sourceKey": "mac_b5dbcd2ec0@2437.0",
+        "kind": "wifi",
+        "label": "普通/未知Wi-Fi"
+      },
+      {
+        "timestamp": 1793640792709.2239,
+        "sourceKey": "mac_52be46995b@2437.0",
+        "kind": "wifi",
+        "label": "普通/未知Wi-Fi"
+      },
+      {
+        "timestamp": 1793640792709.2239,
+        "sourceKey": "mac_4b2b1fd0b9@2437.0",
+        "kind": "wifi",
+        "label": "普通/未知Wi-Fi"
+      },
+      {
+        "timestamp": 1793640792709.2239,
+        "sourceKey": "mac_bac4342a95@2437.0",
+        "kind": "wifi",
+        "label": "普通/未知Wi-Fi"
+      },
+      {
+        "timestamp": 1793640792709.2239,
+        "sourceKey": "mac_2e7896532a@2437.0",
+        "kind": "wifi",
+        "label": "普通/未知Wi-Fi"
+      },
+      {
+        "timestamp": 1793640792709.2239,
+        "sourceKey": "mac_daf7f3a272@2437.0",
+        "kind": "wifi",
+        "label": "普通/未知Wi-Fi"
+      },
+      {
+        "timestamp": 1793640792711.2249,
+        "sourceKey": "mac_aa98f353b5@2437.0",
+        "kind": "task",
+        "label": "切换同源IQ测向任务"
+      },
+      {
+        "timestamp": 1793640831774.535,
+        "sourceKey": "mac_37bd7546df@2437.0",
+        "kind": "wifi",
+        "label": "普通/未知Wi-Fi"
+      }
+    ],
+    "direction": {
+      "mode": "uncalibrated_diagnostic",
+      "processingLocation": "board",
+      "rawIQTransport": false,
+      "geometryVerified": false,
+      "phaseBiasAppliedDeg": 0,
+      "stationReferences": {
+        "A": {
+          "calibrationStatus": "uncalibrated",
+          "phaseBiasAppliedDeg": 0,
+          "referenceSessionId": null
+        },
+        "B": {
+          "calibrationStatus": "uncalibrated",
+          "phaseBiasAppliedDeg": 0,
+          "referenceSessionId": null
+        }
+      },
+      "productionAccepted": false,
+      "errors": {},
+      "rejections": {
+        "A": "临时参考未应用：采集会话已改变，临时参考不再适用",
+        "B": "临时参考未应用：采集会话已改变，临时参考不再适用"
+      }
+    },
+    "coverage": {
+      "scanMode": "fixed_channel",
+      "frequencyMhz": 2437.0,
+      "stationFrequenciesMhz": {
+        "A": 2437.0,
+        "B": 2437.0
+      },
+      "bandwidthMhz": 20,
+      "decodedPHY": "OFDM / HT20 / DSSS 1 Mbps 长前导",
+      "ble": false,
+      "allSpectrum": false,
+      "description": "当前单信道可解码Wi-Fi信号；BLE及其他频点需额外接收/识别模块"
+    },
+    "iq": {
+      "A": {
+        "station": "A",
+        "sessionId": "92fae22dca874e5ca1730290c20d6424",
+        "state": "capturing",
+        "error": null,
+        "task": {
+          "mac": "mac_aa98f353b5",
+          "frequencyMhz": 2437.0,
+          "expires": 1840.475643242,
+          "contextHash": "5e8522d22dc42d8b3bccf1edd9712f8b70e39ab6c59171f2daa19acadf3f95f3"
+        },
+        "metadata": {
+          "rf_hz": 2436999998,
+          "iq_sample_rate_hz": 20000000,
+          "spacing_m": 0.06,
+          "geometryStatus": "software target only; physical geometry not confirmed",
+          "fixed_gain_profile": {
+            "before": [
+              {
+                "mode": "manual",
+                "gain": "0.000000"
+              },
+              {
+                "mode": "manual",
+                "gain": "0.000000"
+              }
+            ],
+            "active_mode": "manual",
+            "active_gains": [
+              "0.000000 dB",
+              "0.000000 dB"
+            ],
+            "requested_gains_db": [
+              0.0,
+              0.0
+            ],
+            "session_id": "92fae22dca874e5ca1730290c20d6424"
+          },
+          "capture_profile": {
+            "registers_before": {
+              "1": 1,
+              "3": 17,
+              "5": 0,
+              "7": 0,
+              "8": 0,
+              "9": 0,
+              "11": 8190,
+              "12": 4096
+            },
+            "manual_trigger_before": "N",
+            "registers_active": {
+              "1": 1,
+              "3": 17,
+              "5": 0,
+              "7": 0,
+              "8": 4,
+              "9": 0,
+              "11": 768,
+              "12": 4096,
+              "20": 0,
+              "21": 8188,
+              "22": 8192
+            }
+          },
+          "kernel": "5.15.0-175919-g427c94e8faa5-openwifi-rx1",
+          "phase_calibration": null,
+          "calibrationStatus": "uncalibrated",
+          "pre_trigger_samples": 1536,
+          "association": "board verifies full MAC/FCS/LTF/TSF and computes single-station phase/reference/angle",
+          "timing_profile": {
+            "signal_latch_after_ltf_us": 19.0,
+            "tolerance_us": 1.5,
+            "verified_reference_rate_mbps": 6,
+            "note": "legacy SIGNAL latch; never apply to HT header latch"
+          },
+          "timing_profiles": {
+            "ht20_sgi_mcs0_5_20261102": {
+              "signal_latch_after_ltf_us": 30.5,
+              "tolerance_us": 1.5,
+              "verified_mcs": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5
+              ],
+              "kernel": "5.15.0-175919-g427c94e8faa5-openwifi-rx1",
+              "evidence": "64 saved dual-RX windows across two actual non-RID video runs; no phase bias fitted"
+            }
+          },
+          "processing": {
+            "location": "board",
+            "schema": "airspace.board-doa.v1",
+            "estimator": "ofdm_ltf_unit_bins_v1",
+            "implementationHash": "e17729a092df847cd3f0015c453564372804d947f91625155d01521b7e80bcf3",
+            "rawTransport": "diagnostic_request_only",
+            "angleReference": "session_and_geometry_bound"
+          }
+        },
+        "counters": {
+          "doaResponses": 86,
+          "doaBytesServed": 286733,
+          "doaAccepted": 54,
+          "candidateWindows": 54
+        },
+        "rfRestored": false,
+        "generatedMonotonic": 1833.862782853,
+        "schema": "airspace.board-doa.v1",
+        "processing": {
+          "location": "board",
+          "schema": "airspace.board-doa.v1",
+          "estimator": "ofdm_ltf_unit_bins_v1",
+          "implementationHash": "e17729a092df847cd3f0015c453564372804d947f91625155d01521b7e80bcf3",
+          "rawTransport": "diagnostic_request_only",
+          "angleReference": "session_and_geometry_bound"
+        },
+        "lastRejection": null
+      },
+      "B": {
+        "station": "B",
+        "sessionId": "87a9d77222b444d99b41114e62efa512",
+        "state": "capturing",
+        "error": null,
+        "task": {
+          "mac": "mac_aa98f353b5",
+          "frequencyMhz": 2437.0,
+          "expires": 1791.087025738,
+          "contextHash": "c57e0c03bcd794a168339cb94cba712e1cd16d819eadbf46ce5d30afa048cb38"
+        },
+        "metadata": {
+          "rf_hz": 2436999998,
+          "iq_sample_rate_hz": 20000000,
+          "spacing_m": 0.06,
+          "geometryStatus": "software target only; physical geometry not confirmed",
+          "fixed_gain_profile": {
+            "before": [
+              {
+                "mode": "manual",
+                "gain": "0.000000"
+              },
+              {
+                "mode": "manual",
+                "gain": "0.000000"
+              }
+            ],
+            "active_mode": "manual",
+            "active_gains": [
+              "0.000000 dB",
+              "0.000000 dB"
+            ],
+            "requested_gains_db": [
+              0.0,
+              0.0
+            ],
+            "session_id": "87a9d77222b444d99b41114e62efa512"
+          },
+          "capture_profile": {
+            "registers_before": {
+              "1": 1,
+              "3": 17,
+              "5": 0,
+              "7": 0,
+              "8": 0,
+              "9": 0,
+              "11": 8190,
+              "12": 4096
+            },
+            "manual_trigger_before": "N",
+            "registers_active": {
+              "1": 1,
+              "3": 17,
+              "5": 0,
+              "7": 0,
+              "8": 4,
+              "9": 0,
+              "11": 768,
+              "12": 4096,
+              "20": 0,
+              "21": 8188,
+              "22": 8192
+            }
+          },
+          "kernel": "5.15.0-175919-g427c94e8faa5-openwifi-rx1",
+          "phase_calibration": null,
+          "calibrationStatus": "uncalibrated",
+          "pre_trigger_samples": 1536,
+          "association": "board verifies full MAC/FCS/LTF/TSF and computes single-station phase/reference/angle",
+          "timing_profile": {
+            "signal_latch_after_ltf_us": 19.0,
+            "tolerance_us": 1.5,
+            "verified_reference_rate_mbps": 6,
+            "note": "legacy SIGNAL latch; never apply to HT header latch"
+          },
+          "timing_profiles": {
+            "ht20_sgi_mcs0_5_20261102": {
+              "signal_latch_after_ltf_us": 30.5,
+              "tolerance_us": 1.5,
+              "verified_mcs": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5
+              ],
+              "kernel": "5.15.0-175919-g427c94e8faa5-openwifi-rx1",
+              "evidence": "64 saved dual-RX windows across two actual non-RID video runs; no phase bias fitted"
+            }
+          },
+          "processing": {
+            "location": "board",
+            "schema": "airspace.board-doa.v1",
+            "estimator": "ofdm_ltf_unit_bins_v1",
+            "implementationHash": "e17729a092df847cd3f0015c453564372804d947f91625155d01521b7e80bcf3",
+            "rawTransport": "diagnostic_request_only",
+            "angleReference": "session_and_geometry_bound"
+          }
+        },
+        "counters": {
+          "doaResponses": 83,
+          "doaBytesServed": 273896,
+          "doaAccepted": 50,
+          "candidateWindows": 50
+        },
+        "rfRestored": false,
+        "generatedMonotonic": 1779.675621352,
+        "schema": "airspace.board-doa.v1",
+        "processing": {
+          "location": "board",
+          "schema": "airspace.board-doa.v1",
+          "estimator": "ofdm_ltf_unit_bins_v1",
+          "implementationHash": "e17729a092df847cd3f0015c453564372804d947f91625155d01521b7e80bcf3",
+          "rawTransport": "diagnostic_request_only",
+          "angleReference": "session_and_geometry_bound"
+        },
+        "lastRejection": null
+      }
+    },
+    "resources": {
+      "stations": [
+        {
+          "available": true,
+          "cpuPercent": 20.99056603773585,
+          "sampleIntervalSeconds": 2.1226572209998267,
+          "memory": {
+            "percent": 16.109971696144928,
+            "totalBytes": 1040502784,
+            "availableBytes": 872878080
+          },
+          "loadAverage": [
+            0.17,
+            0.34,
+            0.27
+          ],
+          "uptimeSeconds": 1831.81,
+          "monotonic": 1831.815788405,
+          "source": "Linux /proc; aggregate CPU busy, idle and iowait excluded",
+          "cpuCount": 2,
+          "id": "A",
+          "ageSeconds": 1.797000000020489
+        },
+        {
+          "available": true,
+          "cpuPercent": 48.34905660377358,
+          "sampleIntervalSeconds": 2.119887519000031,
+          "memory": {
+            "percent": 17.8562290132229,
+            "totalBytes": 1040502784,
+            "availableBytes": 854708224
+          },
+          "loadAverage": [
+            1.05,
+            0.91,
+            0.73
+          ],
+          "uptimeSeconds": 1777.62,
+          "monotonic": 1777.620577892,
+          "source": "Linux /proc; aggregate CPU busy, idle and iowait excluded",
+          "cpuCount": 2,
+          "id": "B",
+          "ageSeconds": 1.75
+        }
+      ],
+      "fpga": {
+        "metrics": [
+          {
+            "name": "LUT",
+            "used": 40487.0,
+            "total": 218600.0,
+            "percent": 18.52
+          },
+          {
+            "name": "寄存器",
+            "used": 54571.0,
+            "total": 437200.0,
+            "percent": 12.48
+          },
+          {
+            "name": "BRAM",
+            "used": 161.0,
+            "total": 545.0,
+            "percent": 29.54
+          },
+          {
+            "name": "DSP",
+            "used": 154.0,
+            "total": 900.0,
+            "percent": 17.11
+          }
+        ],
+        "reportDate": "2026-10-27",
+        "report": "openwifi_timing_fix_20261027_1708/impl_utilization.rpt",
+        "reportSHA256": "7b393b848dbe318abf9e38103a48bff0133d586ac790470a5e41db04e0c4389e",
+        "device": "xc7z045fbg676-1",
+        "state": "Routed",
+        "expectedBOOTSHA256": "411dc2e0927d25e84b2b79839f4d4a82fe2e312a2f12ea78b9111ffbf6e93833",
+        "buildNote": "A站沿用原构建；启动文件已核验，未做活动比特流配置读回。",
+        "activeBitstreamReadbackVerified": false,
+        "stationBuilds": {
+          "A": {
+            "metrics": [
+              {
+                "name": "LUT",
+                "used": 40487.0,
+                "total": 218600.0,
+                "percent": 18.52
+              },
+              {
+                "name": "寄存器",
+                "used": 54571.0,
+                "total": 437200.0,
+                "percent": 12.48
+              },
+              {
+                "name": "BRAM",
+                "used": 161.0,
+                "total": 545.0,
+                "percent": 29.54
+              },
+              {
+                "name": "DSP",
+                "used": 154.0,
+                "total": 900.0,
+                "percent": 17.11
+              }
+            ],
+            "reportDate": "2026-10-27",
+            "report": "openwifi_timing_fix_20261027_1708/impl_utilization.rpt",
+            "reportSHA256": "7b393b848dbe318abf9e38103a48bff0133d586ac790470a5e41db04e0c4389e",
+            "device": "xc7z045fbg676-1",
+            "state": "Routed",
+            "expectedBOOTSHA256": "411dc2e0927d25e84b2b79839f4d4a82fe2e312a2f12ea78b9111ffbf6e93833",
+            "buildNote": "A站沿用原构建；启动文件已核验，未做活动比特流配置读回。",
+            "activeBitstreamReadbackVerified": false
+          },
+          "B": {
+            "metrics": [
+              {
+                "name": "LUT",
+                "used": 43138,
+                "total": 218600,
+                "percent": 19.73
+              },
+              {
+                "name": "寄存器",
+                "used": 57162,
+                "total": 437200,
+                "percent": 13.07
+              },
+              {
+                "name": "BRAM",
+                "used": 163,
+                "total": 545,
+                "percent": 29.91
+              },
+              {
+                "name": "DSP",
+                "used": 192,
+                "total": 900,
+                "percent": 21.33
+              }
+            ],
+            "reportDate": "2026-11-02",
+            "report": "zynq7045_ad9361_rid_aoa/dsss_receiver/build/integrated_r2/impl_utilization.rpt",
+            "reportSHA256": "1a513488034c1aca360729ca27375e449f69c6d940c768d139afced74d5b7a5b",
+            "device": "xc7z045fbg676-1",
+            "state": "Routed",
+            "expectedBOOTSHA256": "c38c821d86571b9de0b6a7b7ab948498df23e9c873d0a8570ecef20440c4017b",
+            "buildNote": "B站新构建已启动，启动文件与外设ABI核验通过；未做活动比特流配置读回。",
+            "activeBitstreamReadbackVerified": false,
+            "timing": {
+              "wnsNs": 0.397,
+              "whsNs": 0.05,
+              "wpwsNs": 0.264
+            }
+          }
+        }
+      }
+    },
+    "receiverSelection": {
+      "selectedStation": "B",
+      "revision": 2,
+      "applying": false,
+      "confirmed": true,
+      "ageSeconds": 1.937000000034459,
+      "error": null,
+      "stations": [
+        {
+          "id": "A",
+          "selected": false,
+          "task": "双RX测向待命",
+          "actual": {
+            "enabled": false,
+            "captureActive": false,
+            "ready": true,
+            "role": "direction_only",
+            "generation": 0,
+            "sessionId": "1702551772488468049",
+            "error": null
+          }
+        },
+        {
+          "id": "B",
+          "selected": true,
+          "task": "检测／解码＋双RX测向",
+          "actual": {
+            "enabled": true,
+            "captureActive": true,
+            "ready": true,
+            "role": "capture_decode",
+            "generation": 0,
+            "sessionId": "1793577822223584163",
+            "error": null
+          }
+        }
+      ],
+      "directionStations": [
+        "A",
+        "B"
+      ],
+      "scope": "single decoder; both stations retain local IQ/frame association"
+    }
+  },
+  "pcDOA": {
+    "configured": true,
+    "connected": false,
+    "source": "双RX同源帧测向",
+    "scope": "uncalibrated_source_conditioned_diagnostic",
+    "demo": false,
+    "timestamp": 1793641004610.755,
+    "targetId": "mac_aa98f353b5@2437.0",
+    "stations": [
+      {
+        "id": "A",
+        "name": "测向站A",
+        "latitude": 34.138062725140934,
+        "longitude": 108.82452338673745,
+        "xM": -604.7311207183176,
+        "yM": 1348.1915531404868,
+        "headingDeg": 202.0449713347449,
+        "rayLengthM": 20,
+        "relativeAngle": null,
+        "bearing": null,
+        "fresh": true,
+        "error": null,
+        "antennaSpacingM": 0.06,
+        "calibrationRequired": true,
+        "quality": "原始相位有效／临时参考不匹配",
+        "orientationSource": "用户设置；实际北向是否测量需现场核验",
+        "phaseDeg": 20.080978640667546,
+        "phaseEstimator": "ofdm_ltf_unit_bins_v1",
+        "angleRejection": "临时参考未应用：采集会话已改变，临时参考不再适用",
+        "coherence": 0.950920794295955,
+        "sourceMac": "mac_aa98f353b5",
+        "frameKey": "8c5dfa5f908df5f9bca2294f44ea7b5d6e47b037b4a56bb9a4532531f6c3529a",
+        "sessionId": "92fae22dca874e5ca1730290c20d6424",
+        "tsf": 1812906572,
+        "freshnessVerified": true,
+        "sourceVerified": true,
+        "framePairingEligible": true,
+        "triggerDelayUs": 53,
+        "preambleStartSample": 87,
+        "timingResidualUs": -0.45000000000000284,
+        "timingProfile": "legacy_signal_latch_v1",
+        "subcarrierConcentration": 0.9449393734366561,
+        "ltfTemplateScore": 0.7869358639663113,
+        "ltfRepeat64": [
+          0.9864535743337508,
+          0.9982217579693278
+        ],
+        "calibrationStatus": "uncalibrated",
+        "phaseBiasAppliedDeg": 0,
+        "productionAccepted": false,
+        "geometryVerified": false,
+        "rawPhaseDeg": 20.080978640667546,
+        "referenceMatched": false,
+        "referenceError": "采集会话已改变，临时参考不再适用",
+        "processingLocation": "board",
+        "directionContextHash": "5e8522d22dc42d8b3bccf1edd9712f8b70e39ab6c59171f2daa19acadf3f95f3",
+        "targetId": "mac_aa98f353b5@2437.0",
+        "frequencyMhz": 2437,
+        "sourceClass": "rid",
+        "broadcastIdentities": [
+          "RIDTEST-ESP32S3-0001"
+        ],
+        "timestamp": 1793641003418.6067,
+        "ageSeconds": 1.1781647829338908,
+        "bearingCandidates": []
+      },
+      {
+        "id": "B",
+        "name": "测向站B",
+        "latitude": 34.13805319091216,
+        "longitude": 108.82455150419392,
+        "xM": -602.1400696293084,
+        "yM": 1347.1302076481309,
+        "headingDeg": 202.0449713347449,
+        "rayLengthM": 20,
+        "relativeAngle": null,
+        "bearing": null,
+        "fresh": true,
+        "error": null,
+        "antennaSpacingM": 0.06,
+        "calibrationRequired": true,
+        "quality": "原始相位有效／临时参考不匹配",
+        "orientationSource": "用户设置；实际北向是否测量需现场核验",
+        "phaseDeg": 101.3497927385203,
+        "phaseEstimator": "ofdm_ltf_unit_bins_v1",
+        "angleRejection": "临时参考未应用：采集会话已改变，临时参考不再适用",
+        "coherence": 0.6252308408226525,
+        "sourceMac": "mac_aa98f353b5",
+        "frameKey": "8c5dfa5f908df5f9bca2294f44ea7b5d6e47b037b4a56bb9a4532531f6c3529a",
+        "sessionId": "87a9d77222b444d99b41114e62efa512",
+        "tsf": 1758270125,
+        "freshnessVerified": true,
+        "sourceVerified": true,
+        "framePairingEligible": true,
+        "triggerDelayUs": 53,
+        "preambleStartSample": 88,
+        "timingResidualUs": -0.4000000000000057,
+        "timingProfile": "legacy_signal_latch_v1",
+        "subcarrierConcentration": 0.6231744309489649,
+        "ltfTemplateScore": 0.6023447271265927,
+        "ltfRepeat64": [
+          0.9966624523049774,
+          0.9969715914757155
+        ],
+        "calibrationStatus": "uncalibrated",
+        "phaseBiasAppliedDeg": 0,
+        "productionAccepted": false,
+        "geometryVerified": false,
+        "rawPhaseDeg": 101.3497927385203,
+        "referenceMatched": false,
+        "referenceError": "采集会话已改变，临时参考不再适用",
+        "processingLocation": "board",
+        "directionContextHash": "c57e0c03bcd794a168339cb94cba712e1cd16d819eadbf46ce5d30afa048cb38",
+        "targetId": "mac_aa98f353b5@2437.0",
+        "frequencyMhz": 2437,
+        "sourceClass": "rid",
+        "broadcastIdentities": [
+          "RIDTEST-ESP32S3-0001"
+        ],
+        "timestamp": 1793641003422.3384,
+        "ageSeconds": 1.169529996928759,
+        "bearingCandidates": []
+      }
+    ],
+    "intersection": null,
+    "intersections": [],
+    "intersectionReason": "等待两站可反演角度；当前保留有效原始相位",
+    "directionMode": "front",
+    "midpoint": {
+      "xM": -603.435595173813,
+      "yM": 1347.6608803943088,
+      "latitude": 34.13805795802654,
+      "longitude": 108.8245374454657
+    },
+    "displayCoordinateOrigin": "station_midpoint",
+    "anchor": {
+      "latitude": 34.125951714359864,
+      "longitude": 108.83108578183494,
+      "source": "用户选定的联调锚点"
+    },
+    "precisionValidated": false,
+    "productionAccepted": false,
+    "calibrationStatus": "uncalibrated",
+    "geometryVerified": false
+  }
+}

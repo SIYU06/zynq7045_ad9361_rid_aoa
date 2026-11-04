@@ -1,0 +1,387 @@
+{
+  "verifiedAt": "2026-11-03T11:21:22.607099+08:00",
+  "savedReferencesAndLibraryUnchanged": true,
+  "hashes": {
+    "aoa_reference_profiles.json": {
+      "before": "18ab71b96e43873467b8e9c262ccbde7e3dd9fb4a4ed378179a92424d436e6af",
+      "after": "18ab71b96e43873467b8e9c262ccbde7e3dd9fb4a4ed378179a92424d436e6af"
+    },
+    "doa_config.json": {
+      "before": "34b7e732ba1bf196365da07423f15b835f2f1ab7dba6cad0a5e6c820d4aa63fc",
+      "after": "34b7e732ba1bf196365da07423f15b835f2f1ab7dba6cad0a5e6c820d4aa63fc"
+    },
+    "aoa_calibration_A.json": {
+      "before": "f8892fa5746662661b2e7ed92a699f9800c4e0aece8e288a494c3076eec2d27e",
+      "after": "f8892fa5746662661b2e7ed92a699f9800c4e0aece8e288a494c3076eec2d27e"
+    },
+    "aoa_calibration_B.json": {
+      "before": "d99b5e72e6a639a884c4db4505a9550c9fbf27e2c510385b32d98f3354a43a65",
+      "after": "d99b5e72e6a639a884c4db4505a9550c9fbf27e2c510385b32d98f3354a43a65"
+    },
+    "aoa_profile_3e983e8aed354b068a4035f131dae238_A.json": {
+      "before": "77cd1b18780d47c12ee206cca1cd40aaf77b0c371b55bd3031319c931ab6580d",
+      "after": "77cd1b18780d47c12ee206cca1cd40aaf77b0c371b55bd3031319c931ab6580d"
+    },
+    "aoa_profile_3e983e8aed354b068a4035f131dae238_B.json": {
+      "before": "25746026a98349e7e01b978dcbd70fc7e51cae11e424161210a2093439e5e9eb",
+      "after": "25746026a98349e7e01b978dcbd70fc7e51cae11e424161210a2093439e5e9eb"
+    }
+  },
+  "activeProfileIdUnchanged": true,
+  "activeId": "3e983e8aed354b068a4035f131dae238",
+  "activeProfileName": "信道6_户外三米距离",
+  "activeFilesMatchSavedProfile": true,
+  "profilesBefore": 2,
+  "profilesAfter": 2,
+  "newBaselineCaptured": false,
+  "knownPointVerification": {
+    "state": "verification_failed",
+    "message": "旧基准原位核验失败：当前相位已变化，禁止沿用旧偏置；原文件完整保留",
+    "progress": {
+      "A": 20,
+      "B": 20
+    },
+    "sampleCount": 20,
+    "verification": {
+      "A": {
+        "meanDeg": 37.38126497766576,
+        "spreadDeg": 1.9584892566993812,
+        "resultantLength": 0.9994159631179297,
+        "samples": 20,
+        "savedMeanDeg": 45.78517016205723,
+        "phaseDifferenceDeg": -8.403905184391476,
+        "passed": false
+      },
+      "B": {
+        "meanDeg": -119.4481400148282,
+        "spreadDeg": 5.203302619735932,
+        "resultantLength": 0.9958848300519952,
+        "samples": 20,
+        "savedMeanDeg": -135.08492005495367,
+        "phaseDifferenceDeg": 15.636780040125473,
+        "passed": false
+      }
+    },
+    "profileId": "3e983e8aed354b068a4035f131dae238",
+    "restored": true
+  },
+  "initialComparison": {
+    "profileId": "3e983e8aed354b068a4035f131dae238",
+    "name": "信道6_户外三米距离",
+    "stations": {
+      "A": {
+        "activePath": "runtime/aoa_profile_3e983e8aed354b068a4035f131dae238_A.json",
+        "libraryHash": "e6a7baee7c5a77eb400e726dfb89cdf46b45a0d1abfd888ebca934bec91380f3",
+        "activeFileHash": "e6a7baee7c5a77eb400e726dfb89cdf46b45a0d1abfd888ebca934bec91380f3",
+        "activeEqualsSavedProfile": true,
+        "savedCaptureSession": "9ccca5e5943440a3b7467a388a441b31",
+        "currentSession": "a0ed64cac6cb4a7480fe6488926d2bea",
+        "savedMeanRawPhaseDeg": 45.78517016205722,
+        "currentMeanRawPhaseDeg": 112.06706941377293,
+        "currentSpreadDeg": 1.7290426066810287,
+        "phaseDifferenceDeg": 66.28189925171571,
+        "knownAngleDeg": -25.016893478100314,
+        "currentAngleDeg": -2.886740061128269,
+        "samples": 8,
+        "rows": [
+          {
+            "rawPhaseDeg": 112.31896820005935,
+            "relativeAngle": -2.519537131168207,
+            "referenceHash": "e6a7baee7c5a77eb400e726dfb89cdf46b45a0d1abfd888ebca934bec91380f3",
+            "referenceMatched": true,
+            "referenceCaptureSessionId": "9ccca5e5943440a3b7467a388a441b31",
+            "sessionId": "a0ed64cac6cb4a7480fe6488926d2bea",
+            "tsf": 2195323986,
+            "timestamp": 1793674955859.6013,
+            "referenceKnownAngleDeg": -25.016893478100314
+          },
+          {
+            "rawPhaseDeg": 112.04289877315647,
+            "relativeAngle": -2.609712437601576,
+            "referenceHash": "e6a7baee7c5a77eb400e726dfb89cdf46b45a0d1abfd888ebca934bec91380f3",
+            "referenceMatched": true,
+            "referenceCaptureSessionId": "9ccca5e5943440a3b7467a388a441b31",
+            "sessionId": "a0ed64cac6cb4a7480fe6488926d2bea",
+            "tsf": 2197323976,
+            "timestamp": 1793674957826.3652,
+            "referenceKnownAngleDeg": -25.016893478100314
+          },
+          {
+            "rawPhaseDeg": 112.55700818436213,
+            "relativeAngle": -2.4417887820959727,
+            "referenceHash": "e6a7baee7c5a77eb400e726dfb89cdf46b45a0d1abfd888ebca934bec91380f3",
+            "referenceMatched": true,
+            "referenceCaptureSessionId": "9ccca5e5943440a3b7467a388a441b31",
+            "sessionId": "a0ed64cac6cb4a7480fe6488926d2bea",
+            "tsf": 2199323997,
+            "timestamp": 1793674959825.061,
+            "referenceKnownAngleDeg": -25.016893478100314
+          },
+          {
+            "rawPhaseDeg": 112.28997304466999,
+            "relativeAngle": -2.5290078101763416,
+            "referenceHash": "e6a7baee7c5a77eb400e726dfb89cdf46b45a0d1abfd888ebca934bec91380f3",
+            "referenceMatched": true,
+            "referenceCaptureSessionId": "9ccca5e5943440a3b7467a388a441b31",
+            "sessionId": "a0ed64cac6cb4a7480fe6488926d2bea",
+            "tsf": 2200324027,
+            "timestamp": 1793674960834.7302,
+            "referenceKnownAngleDeg": -25.016893478100314
+          },
+          {
+            "rawPhaseDeg": 111.88445094151012,
+            "relativeAngle": -2.661470738507334,
+            "referenceHash": "e6a7baee7c5a77eb400e726dfb89cdf46b45a0d1abfd888ebca934bec91380f3",
+            "referenceMatched": true,
+            "referenceCaptureSessionId": "9ccca5e5943440a3b7467a388a441b31",
+            "sessionId": "a0ed64cac6cb4a7480fe6488926d2bea",
+            "tsf": 2202324015,
+            "timestamp": 1793674962834.4219,
+            "referenceKnownAngleDeg": -25.016893478100314
+          },
+          {
+            "rawPhaseDeg": 115.49794661688168,
+            "relativeAngle": -1.4815490694350841,
+            "referenceHash": "e6a7baee7c5a77eb400e726dfb89cdf46b45a0d1abfd888ebca934bec91380f3",
+            "referenceMatched": true,
+            "referenceCaptureSessionId": "9ccca5e5943440a3b7467a388a441b31",
+            "sessionId": "a0ed64cac6cb4a7480fe6488926d2bea",
+            "tsf": 2205323945,
+            "timestamp": 1793674965859.3242,
+            "referenceKnownAngleDeg": -25.016893478100314
+          },
+          {
+            "rawPhaseDeg": 108.75056862966956,
+            "relativeAngle": -3.6856808643835586,
+            "referenceHash": "e6a7baee7c5a77eb400e726dfb89cdf46b45a0d1abfd888ebca934bec91380f3",
+            "referenceMatched": true,
+            "referenceCaptureSessionId": "9ccca5e5943440a3b7467a388a441b31",
+            "sessionId": "a0ed64cac6cb4a7480fe6488926d2bea",
+            "tsf": 2208323973,
+            "timestamp": 1793674968826.3433,
+            "referenceKnownAngleDeg": -25.016893478100314
+          },
+          {
+            "rawPhaseDeg": 111.19491251187658,
+            "relativeAngle": -2.886740061128269,
+            "referenceHash": "e6a7baee7c5a77eb400e726dfb89cdf46b45a0d1abfd888ebca934bec91380f3",
+            "referenceMatched": true,
+            "referenceCaptureSessionId": "9ccca5e5943440a3b7467a388a441b31",
+            "sessionId": "a0ed64cac6cb4a7480fe6488926d2bea",
+            "tsf": 2210323983,
+            "timestamp": 1793674970831.412,
+            "referenceKnownAngleDeg": -25.016893478100314
+          }
+        ]
+      },
+      "B": {
+        "activePath": "runtime/aoa_profile_3e983e8aed354b068a4035f131dae238_B.json",
+        "libraryHash": "fd8aa189ac155533db17c02c4f60ca9a9fc649cd620f55175161aa60d437063e",
+        "activeFileHash": "fd8aa189ac155533db17c02c4f60ca9a9fc649cd620f55175161aa60d437063e",
+        "activeEqualsSavedProfile": true,
+        "savedCaptureSession": "2300612d95954cdba3b7dd1342805b98",
+        "currentSession": "c869bc61b8cf449a9704bb51670bb26b",
+        "savedMeanRawPhaseDeg": -135.08492005495367,
+        "currentMeanRawPhaseDeg": 11.891354801737839,
+        "currentSpreadDeg": 9.3399161816231,
+        "phaseDifferenceDeg": 146.97627485669148,
+        "knownAngleDeg": 25.016893478098723,
+        "currentAngleDeg": -45.635634907856215,
+        "samples": 7,
+        "rows": [
+          {
+            "rawPhaseDeg": 8.174772947177704,
+            "relativeAngle": -54.242831168469614,
+            "referenceHash": "fd8aa189ac155533db17c02c4f60ca9a9fc649cd620f55175161aa60d437063e",
+            "referenceMatched": true,
+            "referenceCaptureSessionId": "2300612d95954cdba3b7dd1342805b98",
+            "sessionId": "c869bc61b8cf449a9704bb51670bb26b",
+            "tsf": 2192534020,
+            "timestamp": 1793674955850.276,
+            "referenceKnownAngleDeg": 25.016893478098723
+          },
+          {
+            "rawPhaseDeg": 7.279967363630909,
+            "relativeAngle": -54.74557704063946,
+            "referenceHash": "fd8aa189ac155533db17c02c4f60ca9a9fc649cd620f55175161aa60d437063e",
+            "referenceMatched": true,
+            "referenceCaptureSessionId": "2300612d95954cdba3b7dd1342805b98",
+            "sessionId": "c869bc61b8cf449a9704bb51670bb26b",
+            "tsf": 2194534011,
+            "timestamp": 1793674957833.202,
+            "referenceKnownAngleDeg": 25.016893478098723
+          },
+          {
+            "rawPhaseDeg": 9.698844910533502,
+            "relativeAngle": -53.400332095198706,
+            "referenceHash": "fd8aa189ac155533db17c02c4f60ca9a9fc649cd620f55175161aa60d437063e",
+            "referenceMatched": true,
+            "referenceCaptureSessionId": "2300612d95954cdba3b7dd1342805b98",
+            "sessionId": "c869bc61b8cf449a9704bb51670bb26b",
+            "tsf": 2196534033,
+            "timestamp": 1793674959829.3342,
+            "referenceKnownAngleDeg": 25.016893478098723
+          },
+          {
+            "rawPhaseDeg": 9.45643220523589,
+            "relativeAngle": -53.533212753135025,
+            "referenceHash": "fd8aa189ac155533db17c02c4f60ca9a9fc649cd620f55175161aa60d437063e",
+            "referenceMatched": true,
+            "referenceCaptureSessionId": "2300612d95954cdba3b7dd1342805b98",
+            "sessionId": "c869bc61b8cf449a9704bb51670bb26b",
+            "tsf": 2199534051,
+            "timestamp": 1793674962852.7227,
+            "referenceKnownAngleDeg": 25.016893478098723
+          },
+          {
+            "rawPhaseDeg": 25.728592834850755,
+            "relativeAngle": -45.359357437557634,
+            "referenceHash": "fd8aa189ac155533db17c02c4f60ca9a9fc649cd620f55175161aa60d437063e",
+            "referenceMatched": true,
+            "referenceCaptureSessionId": "2300612d95954cdba3b7dd1342805b98",
+            "sessionId": "c869bc61b8cf449a9704bb51670bb26b",
+            "tsf": 2202533982,
+            "timestamp": 1793674965865.8003,
+            "referenceKnownAngleDeg": 25.016893478098723
+          },
+          {
+            "rawPhaseDeg": -2.1309319108684197,
+            "relativeAngle": -60.481221024497785,
+            "referenceHash": "fd8aa189ac155533db17c02c4f60ca9a9fc649cd620f55175161aa60d437063e",
+            "referenceMatched": true,
+            "referenceCaptureSessionId": "2300612d95954cdba3b7dd1342805b98",
+            "sessionId": "c869bc61b8cf449a9704bb51670bb26b",
+            "tsf": 2205534011,
+            "timestamp": 1793674968835.5703,
+            "referenceKnownAngleDeg": 25.016893478098723
+          },
+          {
+            "rawPhaseDeg": 25.135131940112895,
+            "relativeAngle": -45.635634907856215,
+            "referenceHash": "fd8aa189ac155533db17c02c4f60ca9a9fc649cd620f55175161aa60d437063e",
+            "referenceMatched": true,
+            "referenceCaptureSessionId": "2300612d95954cdba3b7dd1342805b98",
+            "sessionId": "c869bc61b8cf449a9704bb51670bb26b",
+            "tsf": 2207534021,
+            "timestamp": 1793674970840.9858,
+            "referenceKnownAngleDeg": 25.016893478098723
+          }
+        ]
+      }
+    }
+  },
+  "liveState": {
+    "job": {
+      "state": "needs_verification",
+      "message": "当前旧基准尚未通过当前会话原位核验；旧文件保留，暂不输出套用旧偏置的角度"
+    },
+    "currentReferences": [
+      {
+        "station": "A",
+        "frequencyMhz": 2436.999998,
+        "name": "信道6_户外三米距离",
+        "referenceHash": "e6a7baee7c5a77eb400e726dfb89cdf46b45a0d1abfd888ebca934bec91380f3",
+        "sourcePath": "runtime/aoa_profile_3e983e8aed354b068a4035f131dae238_A.json",
+        "phaseBiasDeg": 120.03771385566256,
+        "verification": {
+          "referenceHash": "e6a7baee7c5a77eb400e726dfb89cdf46b45a0d1abfd888ebca934bec91380f3",
+          "sessionId": "a0ed64cac6cb4a7480fe6488926d2bea",
+          "valid": false,
+          "reason": "原位相位与旧基准不符；保持原始相位，禁止输出套用旧偏置的角度",
+          "verification": {
+            "meanDeg": 37.38126497766576,
+            "spreadDeg": 1.9584892566993812,
+            "resultantLength": 0.9994159631179297,
+            "samples": 20,
+            "savedMeanDeg": 45.78517016205723,
+            "phaseDifferenceDeg": -8.403905184391476,
+            "passed": false
+          }
+        }
+      },
+      {
+        "station": "B",
+        "frequencyMhz": 2436.999998,
+        "name": "信道6_户外三米距离",
+        "referenceHash": "fd8aa189ac155533db17c02c4f60ca9a9fc649cd620f55175161aa60d437063e",
+        "sourcePath": "runtime/aoa_profile_3e983e8aed354b068a4035f131dae238_B.json",
+        "phaseBiasDeg": 150.66253625144543,
+        "verification": {
+          "referenceHash": "fd8aa189ac155533db17c02c4f60ca9a9fc649cd620f55175161aa60d437063e",
+          "sessionId": "c869bc61b8cf449a9704bb51670bb26b",
+          "valid": false,
+          "reason": "原位相位与旧基准不符；保持原始相位，禁止输出套用旧偏置的角度",
+          "verification": {
+            "meanDeg": -119.4481400148282,
+            "spreadDeg": 5.203302619735932,
+            "resultantLength": 0.9958848300519952,
+            "samples": 20,
+            "savedMeanDeg": -135.08492005495367,
+            "phaseDifferenceDeg": 15.636780040125473,
+            "passed": false
+          }
+        }
+      }
+    ],
+    "lastVerification": {
+      "A": {
+        "meanDeg": 37.38126497766576,
+        "spreadDeg": 1.9584892566993812,
+        "resultantLength": 0.9994159631179297,
+        "samples": 20,
+        "savedMeanDeg": 45.78517016205723,
+        "phaseDifferenceDeg": -8.403905184391476,
+        "passed": false
+      },
+      "B": {
+        "meanDeg": -119.4481400148282,
+        "spreadDeg": 5.203302619735932,
+        "resultantLength": 0.9958848300519952,
+        "samples": 20,
+        "savedMeanDeg": -135.08492005495367,
+        "phaseDifferenceDeg": 15.636780040125473,
+        "passed": false
+      }
+    },
+    "referenceCaptureActive": false,
+    "recoveryRequired": false,
+    "channel": 6,
+    "pipelineErrors": {}
+  },
+  "boardGuard": [
+    {
+      "station": "A",
+      "state": "waiting_target",
+      "session": "a0ed64cac6cb4a7480fe6488926d2bea",
+      "taskContextMatches": true,
+      "guard": "基准需原位核验：原位相位与旧基准不符；保持原始相位，禁止输出套用旧偏置的角度",
+      "matchedProtectedObservations": 1,
+      "angles": [
+        null
+      ],
+      "referenceMatches": [
+        false
+      ]
+    },
+    {
+      "station": "B",
+      "state": "waiting_target",
+      "session": "c869bc61b8cf449a9704bb51670bb26b",
+      "taskContextMatches": true,
+      "guard": "基准需原位核验：原位相位与旧基准不符；保持原始相位，禁止输出套用旧偏置的角度",
+      "matchedProtectedObservations": 1,
+      "angles": [
+        null
+      ],
+      "referenceMatches": [
+        false
+      ]
+    }
+  ],
+  "tests": {
+    "pythonRegression": 58,
+    "followupTargeted": 6,
+    "frontendFiles": 4
+  },
+  "conclusion": "Old baseline bytes are intact. Current known-point phase does not match that baseline; it is blocked, not overwritten or silently refitted. Exact physical cause of phase changes has not been established."
+}

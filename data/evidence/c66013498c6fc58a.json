@@ -1,0 +1,224 @@
+{
+    "hostname":  "analog",
+    "kernel":  "5.15.0-175919-g427c94e8faa5-openwifi-rx1",
+    "bootId":  "06831969-a3af-4e9f-91ae-35e7dd7932ad",
+    "uptimeSeconds":  145.05,
+    "units":  {
+                  "airspace.target":  {
+                                          "Requires":  "airspace-rf.service",
+                                          "Wants":  "airspace-monitor.service airspace-recognition.service airspace-iq.service",
+                                          "PartOf":  "",
+                                          "WantedBy":  "multi-user.target",
+                                          "After":  "airspace-recognition.service airspace-rf.service airspace-iq.service airspace-monitor.service",
+                                          "LoadState":  "loaded",
+                                          "ActiveState":  "active",
+                                          "SubState":  "active",
+                                          "FragmentPath":  "/etc/systemd/system/airspace.target",
+                                          "DropInPaths":  "",
+                                          "UnitFileState":  "enabled",
+                                          "ActiveEnterTimestampMonotonic":  "24751142",
+                                          "NeedDaemonReload":  "no",
+                                          "StartLimitIntervalUSec":  "10s",
+                                          "StartLimitBurst":  "5"
+                                      },
+                  "airspace-rf.service":  {
+                                              "Restart":  "on-failure",
+                                              "MainPID":  "0",
+                                              "Result":  "success",
+                                              "NRestarts":  "0",
+                                              "ExecMainStartTimestampMonotonic":  "14134269",
+                                              "ExecMainStatus":  "0",
+                                              "ExecStart":  "{ path=/usr/bin/python3 ; argv[]=/usr/bin/python3 /root/doa_stage/systemd/runtime.py rf ; ignore_errors=no ; start_time=[Thu 2023-12-14 14:52:48 GMT] ; stop_time=[Thu 2023-12-14 14:52:55 GMT] ; pid=283 ; code=exited ; status=0 }",
+                                              "Requires":  "sysinit.target system.slice",
+                                              "Wants":  "",
+                                              "PartOf":  "airspace.target",
+                                              "WantedBy":  "",
+                                              "After":  "system.slice systemd-modules-load.service basic.target systemd-journald.socket sysinit.target local-fs.target",
+                                              "LoadState":  "loaded",
+                                              "ActiveState":  "active",
+                                              "SubState":  "exited",
+                                              "FragmentPath":  "/etc/systemd/system/airspace-rf.service",
+                                              "DropInPaths":  "",
+                                              "UnitFileState":  "static",
+                                              "ActiveEnterTimestampMonotonic":  "20709586",
+                                              "NeedDaemonReload":  "no",
+                                              "StartLimitIntervalUSec":  "2min",
+                                              "StartLimitBurst":  "5"
+                                          },
+                  "airspace-monitor.service":  {
+                                                   "Restart":  "always",
+                                                   "MainPID":  "531",
+                                                   "Result":  "success",
+                                                   "NRestarts":  "0",
+                                                   "ExecMainStartTimestampMonotonic":  "20726759",
+                                                   "ExecMainStatus":  "0",
+                                                   "ExecStart":  "{ path=/usr/bin/python3 ; argv[]=/usr/bin/python3 /root/doa_stage/systemd/runtime.py monitor ; ignore_errors=no ; start_time=[Thu 2023-12-14 14:52:55 GMT] ; stop_time=[n/a] ; pid=531 ; code=(null) ; status=0/0 }",
+                                                   "Requires":  "system.slice airspace-rf.service -.mount sysinit.target",
+                                                   "Wants":  "",
+                                                   "PartOf":  "airspace-rf.service airspace.target",
+                                                   "WantedBy":  "airspace.target",
+                                                   "After":  "system.slice airspace-rf.service -.mount basic.target systemd-journald.socket sysinit.target",
+                                                   "LoadState":  "loaded",
+                                                   "ActiveState":  "active",
+                                                   "SubState":  "running",
+                                                   "FragmentPath":  "/etc/systemd/system/airspace-monitor.service",
+                                                   "DropInPaths":  "",
+                                                   "UnitFileState":  "static",
+                                                   "ActiveEnterTimestampMonotonic":  "23391575",
+                                                   "NeedDaemonReload":  "no",
+                                                   "StartLimitIntervalUSec":  "2min",
+                                                   "StartLimitBurst":  "5"
+                                               },
+                  "airspace-iq.service":  {
+                                              "Restart":  "always",
+                                              "MainPID":  "530",
+                                              "Result":  "success",
+                                              "NRestarts":  "0",
+                                              "ExecMainStartTimestampMonotonic":  "20718675",
+                                              "ExecMainStatus":  "0",
+                                              "ExecStart":  "{ path=/usr/bin/python3 ; argv[]=/usr/bin/python3 /root/doa_stage/systemd/runtime.py iq ; ignore_errors=no ; start_time=[Thu 2023-12-14 14:52:55 GMT] ; stop_time=[n/a] ; pid=530 ; code=(null) ; status=0/0 }",
+                                              "Requires":  "airspace-rf.service -.mount system.slice sysinit.target",
+                                              "Wants":  "",
+                                              "PartOf":  "airspace-rf.service airspace.target",
+                                              "WantedBy":  "airspace.target",
+                                              "After":  "basic.target systemd-journald.socket airspace-rf.service -.mount system.slice sysinit.target",
+                                              "LoadState":  "loaded",
+                                              "ActiveState":  "active",
+                                              "SubState":  "running",
+                                              "FragmentPath":  "/etc/systemd/system/airspace-iq.service",
+                                              "DropInPaths":  "",
+                                              "UnitFileState":  "static",
+                                              "ActiveEnterTimestampMonotonic":  "24709630",
+                                              "NeedDaemonReload":  "no",
+                                              "StartLimitIntervalUSec":  "2min",
+                                              "StartLimitBurst":  "5"
+                                          },
+                  "airspace-recognition.service":  {
+                                                       "Restart":  "always",
+                                                       "MainPID":  "599",
+                                                       "Result":  "success",
+                                                       "NRestarts":  "0",
+                                                       "ExecMainStartTimestampMonotonic":  "24725709",
+                                                       "ExecMainStatus":  "0",
+                                                       "ExecStart":  "{ path=/usr/bin/python3 ; argv[]=/usr/bin/python3 -u /root/doa_stage/recognition_runtime.py --station A --config /root/doa_stage/recognition_config.json ; ignore_errors=no ; start_time=[Thu 2023-12-14 14:52:59 GMT] ; stop_time=[n/a] ; pid=599 ; code=(null) ; status=0/0 }",
+                                                       "Requires":  "-.mount system.slice airspace-monitor.service sysinit.target",
+                                                       "Wants":  "",
+                                                       "PartOf":  "airspace-monitor.service airspace.target",
+                                                       "WantedBy":  "airspace.target",
+                                                       "After":  "basic.target systemd-journald.socket -.mount airspace-iq.service system.slice airspace-monitor.service sysinit.target",
+                                                       "LoadState":  "loaded",
+                                                       "ActiveState":  "active",
+                                                       "SubState":  "running",
+                                                       "FragmentPath":  "/etc/systemd/system/airspace-recognition.service",
+                                                       "DropInPaths":  "",
+                                                       "UnitFileState":  "enabled",
+                                                       "ActiveEnterTimestampMonotonic":  "24745611",
+                                                       "NeedDaemonReload":  "no",
+                                                       "StartLimitIntervalUSec":  "2min",
+                                                       "StartLimitBurst":  "5"
+                                                   }
+              },
+    "unitFiles":  {
+                      "airspace.target":  "[Unit]\nDescription=Airspace passive receive and paired RX direction finding\nRequires=airspace-rf.service\nWants=airspace-monitor.service airspace-iq.service\nAfter=airspace-rf.service\n\n[Install]\nWantedBy=multi-user.target\n\n",
+                      "airspace-rf.service":  "[Unit]\nDescription=Airspace RF, FIR and OpenWiFi monitor initialization\nAfter=local-fs.target systemd-modules-load.service\nPartOf=airspace.target\nStartLimitIntervalSec=120\nStartLimitBurst=5\n\n[Service]\nType=oneshot\nRemainAfterExit=yes\nEnvironment=OPENWIFI_RX_GAIN_MODE=manual\nEnvironment=OPENWIFI_RX_GAIN_DB=0\nEnvironment=OPENWIFI_INIT_ONLY=1\nExecStart=/usr/bin/python3 /root/doa_stage/systemd/runtime.py rf\nTimeoutStartSec=90\nRestart=on-failure\nRestartSec=10\n\n",
+                      "airspace-monitor.service":  "[Unit]\nDescription=Airspace receiver role, decode and resource service\nRequires=airspace-rf.service\nAfter=airspace-rf.service\nPartOf=airspace.target airspace-rf.service\nStartLimitIntervalSec=120\nStartLimitBurst=5\n\n[Service]\nType=exec\nWorkingDirectory=/root/openwifi_rx1/rid_service\nRuntimeDirectory=airspace-monitor\nEnvironment=PYTHONUNBUFFERED=1\nExecStart=/usr/bin/python3 /root/doa_stage/systemd/runtime.py monitor\nExecStartPost=/usr/bin/python3 /root/doa_stage/systemd/runtime.py ready-monitor\nRestart=always\nRestartSec=5\nTimeoutStartSec=25\nTimeoutStopSec=20\nKillSignal=SIGTERM\n\n",
+                      "airspace-iq.service":  "[Unit]\nDescription=Airspace continuous paired RX IQ and frame association\nRequires=airspace-rf.service\nAfter=airspace-rf.service\nPartOf=airspace.target airspace-rf.service\nStartLimitIntervalSec=120\nStartLimitBurst=5\n\n[Service]\nType=exec\nWorkingDirectory=/root/doa_stage\nRuntimeDirectory=airspace-iq\nEnvironment=PYTHONUNBUFFERED=1\nExecStart=/usr/bin/python3 /root/doa_stage/systemd/runtime.py iq\nExecStartPost=/usr/bin/python3 /root/doa_stage/systemd/runtime.py ready-iq\nRestart=always\nRestartSec=5\nTimeoutStartSec=25\nTimeoutStopSec=20\nKillSignal=SIGTERM\n\n",
+                      "airspace-recognition.service":  "[Unit]\nDescription=Airspace board recognition and decoded-feed transport\nRequires=airspace-monitor.service\nAfter=airspace-monitor.service airspace-iq.service\nPartOf=airspace.target airspace-monitor.service\nStartLimitIntervalSec=120\nStartLimitBurst=5\n\n[Service]\nType=exec\nWorkingDirectory=/root/doa_stage\nEnvironment=PYTHONUNBUFFERED=1\nExecStart=/usr/bin/python3 -u /root/doa_stage/recognition_runtime.py --station A --config /root/doa_stage/recognition_config.json\nRestart=always\nRestartSec=3\nTimeoutStopSec=10\nKillSignal=SIGTERM\n\n[Install]\nWantedBy=airspace.target\n"
+                  },
+    "links":  {
+                  "/etc/systemd/system/multi-user.target.wants":  {
+                                                                      "airspace.target":  "/etc/systemd/system/airspace.target"
+                                                                  },
+                  "/etc/systemd/system/airspace.target.wants":  {
+                                                                    "airspace-recognition.service":  "/etc/systemd/system/airspace-recognition.service"
+                                                                }
+              },
+    "configs":  {
+                    "/root/doa_stage/systemd/station.json":  {
+                                                                 "station":  "A"
+                                                             },
+                    "/root/doa_stage/recognition_config.json":  {
+                                                                    "station":  "A",
+                                                                    "pairKeySha256":  "5c7391fa42bf0d864ac46702751bca27e773be8e381b2eb11545b08ce3eb9700"
+                                                                },
+                    "/root/openwifi_rx1/rid_service/receiver_role.json":  {
+                                                                              "enabled":  false
+                                                                          }
+                },
+    "hashes":  {
+                   "/root/doa_stage/systemd/runtime.py":  "3a802e26b26c3adb9fbfb279602fd992025da3f656adf39c2422a98e7609ac99",
+                   "/root/doa_stage/target_capture_service.py":  "399060cb5c35bb7a201be92a42424a16fc4176008da8e64fdd063a8370d62737",
+                   "/root/doa_stage/recognition_runtime.py":  "08e79894677ee3c4dd71a8b25103723277cfdd9b7ba43f6a1a9d796c09654e6c",
+                   "/root/doa_stage/board_doa.py":  "e0d8f36a3a8676fa62f1435daea903feaa70dfff3b158d3ca6a7305792c5d713",
+                   "/root/doa_stage/direction_reference.py":  "0f54c3f41b8cfe165ca10bc23def996e8be51c5441c363f14388d194c78cd4da",
+                   "/root/openwifi_rx1/rid_service/monitor_service.py":  "f76575d1871e6e85644c70b8a22747528cc34c70cc58efdc2f337e34133f6e20",
+                   "/root/openwifi_rx1/start_openwifi_rid.sh":  "037d95a212041442aa95f012bd123b85b843cf947bd09ef7df04c90bb619750d",
+                   "/boot/BOOT.BIN":  "411dc2e0927d25e84b2b79839f4d4a82fe2e312a2f12ea78b9111ffbf6e93833"
+               },
+    "applicationProcesses":  [
+                                 "  530     1 airspace-iq.service             /usr/bin/python3 -u /root/doa_stage/target_capture_service.py --station A --out /run/airspace-iq/window-ring --seconds 0 --frequency-mhz 2437 --listen 0.0.0.0",
+                                 "  531     1 airspace-monitor.service        /usr/bin/python3 /root/doa_stage/systemd/runtime.py monitor",
+                                 "  599     1 airspace-recognition.service    /usr/bin/python3 -u /root/doa_stage/recognition_runtime.py --station A --config /root/doa_stage/recognition_config.json"
+                             ],
+    "listUnitFiles":  {
+                          "rc":  0,
+                          "out":  "UNIT FILE                    STATE   VENDOR PRESET\nairspace-iq.service          static  -\nairspace-monitor.service     static  -\nairspace-recognition.service enabled enabled\nairspace-rf.service          static  -\nairspace.target              enabled enabled\n\n5 unit files listed.",
+                          "err":  ""
+                      },
+    "failedUnits":  {
+                        "rc":  0,
+                        "out":  "UNIT LOAD ACTIVE SUB DESCRIPTION\n0 loaded units listed.",
+                        "err":  ""
+                    },
+    "runningServices":  {
+                            "rc":  0,
+                            "out":  "UNIT                         LOAD   ACTIVE SUB     DESCRIPTION\nairspace-iq.service          loaded active running Airspace continuous paired RX IQ and frame association\nairspace-monitor.service     loaded active running Airspace receiver role, decode and resource service\nairspace-recognition.service loaded active running Airspace board recognition and decoded-feed transport\navahi-daemon.service         loaded active running Avahi mDNS/DNS-SD Stack\ncron.service                 loaded active running Regular background program processing daemon\ncups-browsed.service         loaded active running Make remote CUPS printers available locally\ncups.service                 loaded active running CUPS Scheduler\ndbus.service                 loaded active running D-Bus System Message Bus\ndhcpcd.service               loaded active running DHCP Client Daemon\nepmd.service                 loaded active running Erlang Port Mapper Daemon\ngetty@tty1.service           loaded active running Getty on tty1\nhtpdate.service              loaded active running HTTP based time synchronization tool\niiod.service                 loaded active running IIO Daemon\ninetd.service                loaded active running Internet superserver\nModemManager.service         loaded active running Modem Manager\npolkit.service               loaded active running Authorization Manager\nrsyslog.service              loaded active running System Logging Service\nrtkit-daemon.service         loaded active running RealtimeKit Scheduling Policy Service\nserial-getty@ttyPS0.service  loaded active running Serial Getty on ttyPS0\nssh.service                  loaded active running OpenBSD Secure Shell server\nsystemd-journald.service     loaded active running Journal Service\nsystemd-logind.service       loaded active running User Login Management\nsystemd-timesyncd.service    loaded active running Network Time Synchronization\nsystemd-udevd.service        loaded active running Rule-based Manager for Device Events and Files\ntriggerhappy.service         loaded active running triggerhappy global hotkey daemon\nudisks2.service              loaded active running Disk Manager\nunattended-upgrades.service  loaded active running Unattended Upgrades Shutdown\nuser@0.service               loaded active running User Manager for UID 0\nuser@1000.service            loaded active running User Manager for UID 1000\n\nLOAD   = Reflects whether the unit definition was properly loaded.\nACTIVE = The high-level unit activation state, i.e. generalization of SUB.\nSUB    = The low-level unit activation state, values depend on unit type.\n29 loaded units listed.",
+                            "err":  ""
+                        },
+    "listeners":  {
+                      "rc":  0,
+                      "out":  "State  Recv-Q Send-Q Local Address:Port  Peer Address:PortProcess                                               \nLISTEN 0      4096       127.0.0.1:2947       0.0.0.0:*    users:((\"systemd\",pid=1,fd=50))                      \nLISTEN 0      5            0.0.0.0:18788      0.0.0.0:*    users:((\"python3\",pid=530,fd=4))                     \nLISTEN 0      5            0.0.0.0:18789      0.0.0.0:*    users:((\"python3\",pid=599,fd=4))                     \nLISTEN 0      5            0.0.0.0:18771      0.0.0.0:*    users:((\"python3\",pid=531,fd=3))                     \nLISTEN 0      128          0.0.0.0:22         0.0.0.0:*    users:((\"sshd\",pid=412,fd=3))                        \nLISTEN 0      128        127.0.0.1:631        0.0.0.0:*    users:((\"cupsd\",pid=387,fd=7))                       \nLISTEN 0      16                 *:30431            *:*    users:((\"iiod\",pid=446,fd=4))                        \nLISTEN 0      4096           [::1]:2947          [::]:*    users:((\"systemd\",pid=1,fd=49))                      \nLISTEN 0      4096               *:4369             *:*    users:((\"epmd\",pid=388,fd=3),(\"systemd\",pid=1,fd=47))\nLISTEN 0      128             [::]:22            [::]:*    users:((\"sshd\",pid=412,fd=4))                        \nLISTEN 0      128            [::1]:631           [::]:*    users:((\"cupsd\",pid=387,fd=6))",
+                      "err":  ""
+                  },
+    "network":  {
+                    "rc":  0,
+                    "out":  "lo               UNKNOWN        127.0.0.1/8 ::1/128 \neth0             UP             169.254.92.202/16 fe80::a151:2dcb:b017:ad84/64 \nsit0@NONE        DOWN           \nsdr0             UNKNOWN",
+                    "err":  ""
+                },
+    "verify":  {
+                   "rc":  0,
+                   "out":  "",
+                   "err":  "\u001b[0;1;38;5;185m/lib/systemd/system/plymouth-start.service:16: Unit configured to use KillMode=none. This is unsafe, as it disables systemd\u0027s process lifecycle management for the service. Please update your service to use a safer KillMode=, such as \u0027mixed\u0027 or \u0027control-group\u0027. Support for KillMode=none is deprecated and will eventually be removed.\u001b[0m"
+               },
+    "lightdm":  {
+                    "rc":  1,
+                    "out":  "masked",
+                    "err":  ""
+                },
+    "rootMount":  [
+                      "/dev/root / ext4 rw,noatime 0 0",
+                      "/dev/mmcblk0p1 /boot vfat rw,relatime,fmask=0022,dmask=0022,codepage=437,iocharset=iso8859-1,shortname=mixed,flush,errors=remount-ro 0 0"
+                  ],
+    "journal":  {
+                    "rc":  0,
+                    "out":  "-- Journal begins at Wed 2023-12-13 12:11:51 GMT, ends at Thu 2023-12-14 14:55:03 GMT. --\n[   20.276463] analog python3[496]: 40000000\n[   20.280377] analog python3[493]: in_voltage_rf_bandwidth:\n[   20.280377] analog python3[497]: 25215513\n[   20.284237] analog python3[493]: in_voltage0_gain_control_mode:\n[   20.284237] analog python3[498]: manual\n[   20.288052] analog python3[493]: in_voltage1_gain_control_mode:\n[   20.288052] analog python3[499]: manual\n[   20.292153] analog python3[493]: in_voltage0_hardwaregain:\n[   20.292153] analog python3[500]: 0.000000 dB\n[   20.296224] analog python3[493]: in_voltage1_hardwaregain:\n[   20.296224] analog python3[501]: 0.000000 dB\n[   20.581322] analog python3[520]: out_altvoltage0_RX_LO_frequency:\n[   20.581322] analog python3[522]: 2436999998\n[   20.587741] analog python3[520]: in_voltage_sampling_frequency:\n[   20.587741] analog python3[523]: 40000000\n[   20.591677] analog python3[520]: in_voltage_rf_bandwidth:\n[   20.591677] analog python3[524]: 25215513\n[   20.595459] analog python3[520]: in_voltage0_gain_control_mode:\n[   20.595459] analog python3[525]: manual\n[   20.599197] analog python3[520]: in_voltage1_gain_control_mode:\n[   20.599197] analog python3[526]: manual\n[   20.603237] analog python3[520]: in_voltage0_hardwaregain:\n[   20.603237] analog python3[527]: 0.000000 dB\n[   20.607215] analog python3[520]: in_voltage1_hardwaregain:\n[   20.607215] analog python3[528]: 0.000000 dB\n[   20.609882] analog python3[451]: RF/monitor interface initialized; foreground services are managed separately.\n[   20.614546] analog python3[529]: Interface sdr0\n[   20.614546] analog python3[529]:         ifindex 5\n[   20.614546] analog python3[529]:         wdev 0x100000001\n[   20.614546] analog python3[529]:         addr mac_76d29f4511\n[   20.614546] analog python3[529]:         type monitor\n[   20.614546] analog python3[529]:         wiphy 1\n[   20.614546] analog python3[529]:         channel 6 (2437 MHz), width: 20 MHz, center1: 2437 MHz\n[   20.614546] analog python3[529]:         txpower 20.00 dBm\n[   20.710066] analog systemd[1]: Finished Airspace RF, FIR and OpenWiFi monitor initialization.\n[   20.723371] analog systemd[1]: Starting Airspace continuous paired RX IQ and frame association...\n[   20.731804] analog systemd[1]: Starting Airspace receiver role, decode and resource service...\n[   22.991194] analog python3[531]: RID feed: http://0.0.0.0:18771/api/state\n[   23.159179] analog python3[533]: {\"enabled\": false, \"captureActive\": false, \"ready\": true, \"role\": \"direction_only\", \"generation\": 0, \"sessionId\": \"1702565577570374764\", \"error\": null}\n[   23.391722] analog systemd[1]: Started Airspace receiver role, decode and resource service.\n[   24.492930] analog python3[532]: {\"station\": \"A\", \"sessionId\": \"63c3fca5f031496ba1508bd12f7fcc19\", \"state\": \"waiting_target\", \"error\": null, \"task\": null, \"metadata\": {\"rf_hz\": 2436999998, \"iq_sample_rate_hz\": 20000000, \"spacing_m\": 0.06, \"geometryStatus\": \"software target only; physical geometry not confirmed\", \"fixed_gain_profile\": {\"before\": [{\"mode\": \"manual\", \"gain\": \"0.000000\"}, {\"mode\": \"manual\", \"gain\": \"0.000000\"}], \"active_mode\": \"manual\", \"active_gains\": [\"0.000000 dB\", \"0.000000 dB\"], \"requested_gains_db\": [0.0, 0.0], \"session_id\": \"63c3fca5f031496ba1508bd12f7fcc19\"}, \"capture_profile\": {\"registers_before\": {\"1\": 1, \"3\": 17, \"5\": 0, \"7\": 0, \"8\": 0, \"9\": 0, \"11\": 8190, \"12\": 4096}, \"manual_trigger_before\": \"N\", \"registers_active\": {\"1\": 1, \"3\": 17, \"5\": 0, \"7\": 0, \"8\": 4, \"9\": 0, \"11\": 768, \"12\": 4096, \"20\": 0, \"21\": 8188, \"22\": 8192}}, \"kernel\": \"5.15.0-175919-g427c94e8faa5-openwifi-rx1\", \"phase_calibration\": null, \"calibrationStatus\": \"uncalibrated\", \"pre_trigger_samples\": 1536, \"association\": \"board verifies full MAC/FCS/LTF/TSF and computes single-station phase/reference/angle\", \"timing_profile\": {\"signal_latch_after_ltf_us\": 19.0, \"tolerance_us\": 1.5, \"verified_reference_rate_mbps\": 6, \"note\": \"legacy SIGNAL latch; never apply to HT header latch\"}, \"timing_profiles\": {\"ht20_sgi_mcs0_5_20261102\": {\"signal_latch_after_ltf_us\": 30.5, \"tolerance_us\": 1.5, \"verified_mcs\": [0, 1, 2, 3, 4, 5], \"kernel\": \"5.15.0-175919-g427c94e8faa5-openwifi-rx1\", \"evidence\": \"64 saved dual-RX windows across two actual non-RID video runs; no phase bias fitted\"}}, \"processing\": {\"location\": \"board\", \"schema\": \"airspace.board-doa.v1\", \"estimator\": \"ofdm_ltf_unit_bins_v1\", \"implementationHash\": \"9457c8584ff19f080bd0bbd87c580e495292d09599897cb0373e2a50da011a6a\", \"rawTransport\": \"diagnostic_request_only\", \"angleReference\": \"session_and_geometry_bound\"}}, \"channelControl\": {\"available\": true, \"tuning\": false, \"error\": null, \"supportedChannels\": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 36, 38, 40, 42, 44, 46, 48, 52, 56, 60, 64]}, \"counters\": {}, \"rfRestored\": false, \"generatedMonotonic\": 24.458870037, \"windows\": []}\n[   24.711878] analog systemd[1]: Started Airspace continuous paired RX IQ and frame association.\n[   24.727924] analog systemd[1]: Starting Airspace board recognition and decoded-feed transport...\n[   24.746053] analog systemd[1]: Started Airspace board recognition and decoded-feed transport.\n[   24.751324] analog systemd[1]: Reached target Airspace passive receive and paired RX direction finding.",
+                    "err":  ""
+                },
+    "rf":  {
+               "name":  "ad9361-phy",
+               "out_altvoltage0_RX_LO_frequency":  "2436999998",
+               "in_voltage_sampling_frequency":  "40000000",
+               "in_voltage0_gain_control_mode":  "manual",
+               "in_voltage1_gain_control_mode":  "manual",
+               "in_voltage0_hardwaregain":  "0.000000 dB",
+               "in_voltage1_hardwaregain":  "0.000000 dB"
+           },
+    "legacyStartup":  {
+                          "/etc/rc.local":  [
+
+                                            ],
+                          "/etc/crontab":  [
+
+                                           ]
+                      }
+}

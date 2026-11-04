@@ -1,0 +1,337 @@
+{
+  "updatedLocal": "2026-11-02T14:23:37.704412+08:00",
+  "webUrl": "http://127.0.0.1:18770/",
+  "report": "提示词/11.02_14.18非RID图传识别与AOA实测报告.md",
+  "nextPrompt": "提示词/11.02_14.18非RID图传测向外场接续提示.md",
+  "finalCoverage": {
+    "frequencyMhz": 2412.0,
+    "stationFrequenciesMhz": {
+      "A": 2412.0,
+      "B": 2412.0
+    },
+    "bandwidthMhz": 20,
+    "decodedPHY": "legacy OFDM / HT20单流（测向按已验证时序模式）",
+    "ble": false,
+    "allSpectrum": false,
+    "description": "当前单信道可解码Wi-Fi信号；非OFDM、BLE及其他频点需额外接收/识别模块"
+  },
+  "finalIQ": {
+    "A": {
+      "state": "waiting_target",
+      "sessionId": "150343d6caab4d2c90761d48b27eb3a7",
+      "metadata": {
+        "rf_hz": 2412000000,
+        "iq_sample_rate_hz": 20000000,
+        "spacing_m": 0.06,
+        "geometryStatus": "software target only; physical geometry not confirmed",
+        "fixed_gain_profile": {
+          "before": [
+            {
+              "mode": "fast_attack",
+              "gain": "54.000000"
+            },
+            {
+              "mode": "fast_attack",
+              "gain": "52.000000"
+            }
+          ],
+          "active_mode": "manual",
+          "active_gains": [
+            "0.000000 dB",
+            "0.000000 dB"
+          ],
+          "requested_gains_db": [
+            0.0,
+            0.0
+          ],
+          "session_id": "150343d6caab4d2c90761d48b27eb3a7"
+        },
+        "capture_profile": {
+          "registers_before": {
+            "1": 1,
+            "3": 17,
+            "5": 0,
+            "7": 0,
+            "8": 0,
+            "9": 0,
+            "11": 8190,
+            "12": 4096
+          },
+          "manual_trigger_before": "N",
+          "registers_active": {
+            "1": 1,
+            "3": 17,
+            "5": 0,
+            "7": 0,
+            "8": 4,
+            "9": 0,
+            "11": 768,
+            "12": 4096,
+            "20": 0,
+            "21": 8188,
+            "22": 8192
+          }
+        },
+        "kernel": "5.15.0-175919-g427c94e8faa5-openwifi-rx1",
+        "phase_calibration": null,
+        "calibrationStatus": "uncalibrated",
+        "pre_trigger_samples": 1536,
+        "association": "candidate full MAC/FCS/TSF interval; PC verifies LTF position against signal-latch timing",
+        "timing_profile": {
+          "signal_latch_after_ltf_us": 19.0,
+          "tolerance_us": 1.5,
+          "verified_reference_rate_mbps": 6,
+          "note": "legacy SIGNAL latch; never apply to HT header latch"
+        },
+        "timing_profiles": {
+          "ht20_sgi_mcs0_5_20261102": {
+            "signal_latch_after_ltf_us": 30.5,
+            "tolerance_us": 1.5,
+            "verified_mcs": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "kernel": "5.15.0-175919-g427c94e8faa5-openwifi-rx1",
+            "evidence": "64 saved dual-RX windows across two actual non-RID video runs; no phase bias fitted"
+          }
+        }
+      }
+    },
+    "B": {
+      "state": "waiting_target",
+      "sessionId": "14c223e4f53342b38803d6ff52f5de31",
+      "metadata": {
+        "rf_hz": 2412000000,
+        "iq_sample_rate_hz": 20000000,
+        "spacing_m": 0.06,
+        "geometryStatus": "software target only; physical geometry not confirmed",
+        "fixed_gain_profile": {
+          "before": [
+            {
+              "mode": "fast_attack",
+              "gain": "47.000000"
+            },
+            {
+              "mode": "fast_attack",
+              "gain": "50.000000"
+            }
+          ],
+          "active_mode": "manual",
+          "active_gains": [
+            "0.000000 dB",
+            "0.000000 dB"
+          ],
+          "requested_gains_db": [
+            0.0,
+            0.0
+          ],
+          "session_id": "14c223e4f53342b38803d6ff52f5de31"
+        },
+        "capture_profile": {
+          "registers_before": {
+            "1": 1,
+            "3": 17,
+            "5": 0,
+            "7": 0,
+            "8": 0,
+            "9": 0,
+            "11": 8190,
+            "12": 4096
+          },
+          "manual_trigger_before": "N",
+          "registers_active": {
+            "1": 1,
+            "3": 17,
+            "5": 0,
+            "7": 0,
+            "8": 4,
+            "9": 0,
+            "11": 768,
+            "12": 4096,
+            "20": 0,
+            "21": 8188,
+            "22": 8192
+          }
+        },
+        "kernel": "5.15.0-175919-g427c94e8faa5-openwifi-rx1",
+        "phase_calibration": null,
+        "calibrationStatus": "uncalibrated",
+        "pre_trigger_samples": 1536,
+        "association": "candidate full MAC/FCS/TSF interval; PC verifies LTF position against signal-latch timing",
+        "timing_profile": {
+          "signal_latch_after_ltf_us": 19.0,
+          "tolerance_us": 1.5,
+          "verified_reference_rate_mbps": 6,
+          "note": "legacy SIGNAL latch; never apply to HT header latch"
+        },
+        "timing_profiles": {
+          "ht20_sgi_mcs0_5_20261102": {
+            "signal_latch_after_ltf_us": 30.5,
+            "tolerance_us": 1.5,
+            "verified_mcs": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "kernel": "5.15.0-175919-g427c94e8faa5-openwifi-rx1",
+            "evidence": "64 saved dual-RX windows across two actual non-RID video runs; no phase bias fitted"
+          }
+        }
+      }
+    }
+  },
+  "currentDronePowered": false,
+  "finalSourceCount": 15,
+  "activeSource": null,
+  "currentIntersections": [],
+  "calibrationStatus": "uncalibrated",
+  "geometryVerified": false,
+  "rawWindows": 64,
+  "recomputedWindows": 64,
+  "recomputation": {
+    "video_on_r2": {
+      "A": {
+        "saved": 16,
+        "accepted": 16,
+        "meanPhaseDeg": -24.137569229272987,
+        "phaseStdDeg": 0.6501376700485066,
+        "maxTimingResidualUs": 0.10000000000000142,
+        "angles": [
+          -8.201109425120004,
+          -8.143675922581172,
+          -7.868350459666939,
+          -7.665558759558159,
+          -8.050984474244776,
+          -8.190264791898212,
+          -7.923717273127307,
+          -7.785089601345301,
+          -7.690603649086048,
+          -7.62136288589667,
+          -7.889985452261306,
+          -8.227803253181593,
+          -8.258183084081674,
+          -8.152889925698005,
+          -7.914111222798359,
+          -8.15870691732194
+        ]
+      },
+      "B": {
+        "saved": 16,
+        "accepted": 16,
+        "meanPhaseDeg": -140.46048248395857,
+        "phaseStdDeg": 0.1907879789307651,
+        "maxTimingResidualUs": 1.0499999999999972,
+        "angles": [
+          -53.954185588295594,
+          -54.0328000028821,
+          -53.93421132947567,
+          -53.82622232219071,
+          -53.79773952826298,
+          -54.00392289760347,
+          -53.95481430789941,
+          -53.8747469566683,
+          -54.02705548086407,
+          -54.182221450446725,
+          -53.96192445560983,
+          -53.85204916173455,
+          -53.752468145935,
+          -53.82600580945414,
+          -53.912492515570335,
+          -53.908500508812544
+        ]
+      },
+      "sharedFrameKeys": [
+        "ecea8b113e6ca07b146da136371e6e05e62b5015e04bac114a2610e29bb51c24"
+      ],
+      "negativeControlsPassed": true,
+      "calibrated": false
+    },
+    "video_on_r3": {
+      "A": {
+        "saved": 16,
+        "accepted": 16,
+        "meanPhaseDeg": -77.99572788860895,
+        "phaseStdDeg": 4.488336222508668,
+        "maxTimingResidualUs": 1.0499999999999972,
+        "angles": [
+          -27.15333319374126,
+          -27.836366943560623,
+          -28.808578646725447,
+          -28.75199116220541,
+          -28.898289722061776,
+          -28.36300265797465,
+          -28.44346930834627,
+          -25.09650261571905,
+          -24.843171676459615,
+          -26.868902815667454,
+          -25.25861614380117,
+          -25.75983683573316,
+          -24.09312269183132,
+          -26.208531577530845,
+          -25.0433639832474,
+          -25.4292899110615
+        ]
+      },
+      "B": {
+        "saved": 16,
+        "accepted": 16,
+        "meanPhaseDeg": -168.89123272138485,
+        "phaseStdDeg": 1.2871001651894969,
+        "maxTimingResidualUs": 0.75,
+        "angles": [
+          -78.77227305287289,
+          -77.29978936631908,
+          -77.37330699779851,
+          -77.17013578942904,
+          -77.70853422994912,
+          -74.60837127340504,
+          -75.48428232970303,
+          -75.18501310918212,
+          -75.11038040960715,
+          -73.6257450476061,
+          -77.50207273200066,
+          -78.30666184947691,
+          -78.48508097097059,
+          -73.86757649825675,
+          -78.55350916252615,
+          -74.62293290156418
+        ]
+      },
+      "sharedFrameKeys": [],
+      "negativeControlsPassed": true,
+      "calibrated": false
+    }
+  },
+  "negativeControls": {
+    "wrongMAC": 64,
+    "shiftedTSF10us": 64,
+    "allRejected": true
+  },
+  "thirdRunLiveReachedDualStationPhase": true,
+  "thirdRunOldNullContentSnapshotsDiscarded": 50,
+  "finalExpandedModesLiveRetested": false,
+  "historicalReplaySamples": 75,
+  "historicalReplayPath": "rid_receiver/ground_station/records/nonrid_video_20261102.json",
+  "tests": {
+    "groundStationPython": 82,
+    "receiverPython": 25,
+    "frontendGroups": 8,
+    "recordsJsSyntax": true,
+    "replayValidationSnapshots": 75
+  },
+  "hardwareSerialReadsUsedForTargetPayload": false,
+  "currentPhaseBiasDeg": 0,
+  "productionAccepted": false,
+  "notes": [
+    "IQ service controlled 3600-second session; expires approximately 15:17 local",
+    "Hardware dimensions remain unconfirmed. Existing phase reference files were not refitted.",
+    "Native browser visual inspection unavailable; HTTP/data/JavaScript tests only."
+  ]
+}

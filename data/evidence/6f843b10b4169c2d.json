@@ -1,0 +1,222 @@
+{
+  "verifiedAt": "2026-11-03T04:59:57.487900+08:00",
+  "method": "Sequential normal software reboot; no abrupt power removal; no manual startup commands after reboot",
+  "stations": {
+    "A": {
+      "bootIdBefore": "08f5b351-01d9-4f73-9635-97aeab1620bc",
+      "bootIdAfter": "06831969-a3af-4e9f-91ae-35e7dd7932ad",
+      "bootIdChanged": true,
+      "units": {
+        "airspace.target": {
+          "active": "active",
+          "state": "active",
+          "unitFileState": "enabled",
+          "startSecondsFromKernelBoot": 24.751142,
+          "pid": null,
+          "restart": null,
+          "restartCount": null,
+          "needsReload": "no"
+        },
+        "airspace-rf.service": {
+          "active": "active",
+          "state": "exited",
+          "unitFileState": "static",
+          "startSecondsFromKernelBoot": 20.709586,
+          "pid": "0",
+          "restart": "on-failure",
+          "restartCount": "0",
+          "needsReload": "no"
+        },
+        "airspace-monitor.service": {
+          "active": "active",
+          "state": "running",
+          "unitFileState": "static",
+          "startSecondsFromKernelBoot": 23.391575,
+          "pid": "531",
+          "restart": "always",
+          "restartCount": "0",
+          "needsReload": "no"
+        },
+        "airspace-iq.service": {
+          "active": "active",
+          "state": "running",
+          "unitFileState": "static",
+          "startSecondsFromKernelBoot": 24.70963,
+          "pid": "530",
+          "restart": "always",
+          "restartCount": "0",
+          "needsReload": "no"
+        },
+        "airspace-recognition.service": {
+          "active": "active",
+          "state": "running",
+          "unitFileState": "enabled",
+          "startSecondsFromKernelBoot": 24.745611,
+          "pid": "599",
+          "restart": "always",
+          "restartCount": "0",
+          "needsReload": "no"
+        }
+      },
+      "persistentTargetLink": true,
+      "persistentRecognitionLink": true,
+      "processes": [
+        "  530     1 airspace-iq.service             /usr/bin/python3 -u /root/doa_stage/target_capture_service.py --station A --out /run/airspace-iq/window-ring --seconds 0 --frequency-mhz 2437 --listen 0.0.0.0",
+        "  531     1 airspace-monitor.service        /usr/bin/python3 /root/doa_stage/systemd/runtime.py monitor",
+        "  599     1 airspace-recognition.service    /usr/bin/python3 -u /root/doa_stage/recognition_runtime.py --station A --config /root/doa_stage/recognition_config.json"
+      ],
+      "applicationProcesses": 3,
+      "manualOrphanProcesses": 0,
+      "failedUnits": 0,
+      "serviceSyntaxValid": true,
+      "applicationFilesAndBOOTUnchanged": true,
+      "persistedRoleAndRecognitionConfigUnchanged": true,
+      "role": {
+        "enabled": false
+      },
+      "rf": {
+        "name": "ad9361-phy",
+        "out_altvoltage0_RX_LO_frequency": "2436999998",
+        "in_voltage_sampling_frequency": "40000000",
+        "in_voltage0_gain_control_mode": "manual",
+        "in_voltage1_gain_control_mode": "manual",
+        "in_voltage0_hardwaregain": "0.000000 dB",
+        "in_voltage1_hardwaregain": "0.000000 dB"
+      },
+      "liveIQState": "capturing",
+      "liveSession": "63c3fca5f031496ba1508bd12f7fcc19",
+      "newValidDOAResults": 4
+    },
+    "B": {
+      "bootIdBefore": "589149a7-98ed-43ae-8e2a-36f5c3952158",
+      "bootIdAfter": "7bcf4071-bb34-4b7c-9bed-51f96ff5afce",
+      "bootIdChanged": true,
+      "units": {
+        "airspace.target": {
+          "active": "active",
+          "state": "active",
+          "unitFileState": "enabled",
+          "startSecondsFromKernelBoot": 24.482784,
+          "pid": null,
+          "restart": null,
+          "restartCount": null,
+          "needsReload": "no"
+        },
+        "airspace-rf.service": {
+          "active": "active",
+          "state": "exited",
+          "unitFileState": "static",
+          "startSecondsFromKernelBoot": 20.503652,
+          "pid": "0",
+          "restart": "on-failure",
+          "restartCount": "0",
+          "needsReload": "no"
+        },
+        "airspace-monitor.service": {
+          "active": "active",
+          "state": "running",
+          "unitFileState": "static",
+          "startSecondsFromKernelBoot": 23.390708,
+          "pid": "521",
+          "restart": "always",
+          "restartCount": "0",
+          "needsReload": "no"
+        },
+        "airspace-iq.service": {
+          "active": "active",
+          "state": "running",
+          "unitFileState": "static",
+          "startSecondsFromKernelBoot": 24.432318,
+          "pid": "520",
+          "restart": "always",
+          "restartCount": "0",
+          "needsReload": "no"
+        },
+        "airspace-recognition.service": {
+          "active": "active",
+          "state": "running",
+          "unitFileState": "enabled",
+          "startSecondsFromKernelBoot": 24.472826,
+          "pid": "585",
+          "restart": "always",
+          "restartCount": "0",
+          "needsReload": "no"
+        }
+      },
+      "persistentTargetLink": true,
+      "persistentRecognitionLink": true,
+      "processes": [
+        "  520     1 airspace-iq.service             /usr/bin/python3 -u /root/doa_stage/target_capture_service.py --station B --out /run/airspace-iq/window-ring --seconds 0 --frequency-mhz 2437 --listen 0.0.0.0",
+        "  521     1 airspace-monitor.service        /usr/bin/python3 /root/doa_stage/systemd/runtime.py monitor",
+        "  585     1 airspace-recognition.service    /usr/bin/python3 -u /root/doa_stage/recognition_runtime.py --station B --config /root/doa_stage/recognition_config.json"
+      ],
+      "applicationProcesses": 3,
+      "manualOrphanProcesses": 0,
+      "failedUnits": 0,
+      "serviceSyntaxValid": true,
+      "applicationFilesAndBOOTUnchanged": true,
+      "persistedRoleAndRecognitionConfigUnchanged": true,
+      "role": {
+        "enabled": true
+      },
+      "rf": {
+        "name": "ad9361-phy",
+        "out_altvoltage0_RX_LO_frequency": "2436999998",
+        "in_voltage_sampling_frequency": "40000000",
+        "in_voltage0_gain_control_mode": "manual",
+        "in_voltage1_gain_control_mode": "manual",
+        "in_voltage0_hardwaregain": "0.000000 dB",
+        "in_voltage1_hardwaregain": "0.000000 dB"
+      },
+      "liveIQState": "capturing",
+      "liveSession": "2ebdba2473c84bd89c2e0f9af1673cf1",
+      "newValidDOAResults": 3
+    }
+  },
+  "recognition": {
+    "location": "board",
+    "station": "A",
+    "state": "classifying",
+    "sourceStation": "B",
+    "counters": {
+      "waitingFeedCycles": 77,
+      "cycles": 320,
+      "importedFeeds": 92,
+      "classificationCycles": 91
+    },
+    "relay": {
+      "source": "B",
+      "destination": "A",
+      "digest": "d4257ede2388913f1356d01c5df11c7f75d03d0dbb926f0cb0ee60f1869ffa5a",
+      "acknowledged": true
+    }
+  },
+  "rolesConfirmed": true,
+  "pipelineErrors": {},
+  "BReceiving": true,
+  "BDSSS": {
+    "available": true,
+    "state": "receiving",
+    "supportedRatesMbps": [
+      1
+    ],
+    "preamble": "long",
+    "deployed": true,
+    "captureActive": true,
+    "frequencyMhz": 2437,
+    "counters": {
+      "headers": 1106,
+      "fcsAccepted": 236,
+      "fcsRejected": 870,
+      "hostDrops": 42
+    },
+    "timestampMeaning": "PLCP header latch; not an OFDM LTF timestamp"
+  },
+  "softwareRebootVerificationPassed": true,
+  "PCServiceAutostartChanged": false,
+  "auditNotes": [
+    "A initial polling harness treated an empty errors object as a failure; corrected harness and verified A by new boot ID, current-boot unit timestamps and live APIs.",
+    "RF/monitor/IQ static unit-file states are expected: they are pulled in by the enabled airspace.target.",
+    "systemd-analyze verify returned 0 on both boards; existing plymouth KillMode deprecation warning is unrelated to the application units."
+  ]
+}

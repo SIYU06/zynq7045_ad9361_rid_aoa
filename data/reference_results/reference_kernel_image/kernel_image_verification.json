@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "release": "5.15.0-175919-g427c94e8faa5-openwifi-rx1",
+  "bytes": 8071920,
+  "sha256": "c8d566e8ee37524468566e8f44f7c3c3847b991d65de97f23550c1a4946460dd",
+  "headerCRC": true,
+  "payloadCRC": true,
+  "armZImage": true,
+  "loadAddress": "0x8000",
+  "entryAddress": "0x8000",
+  "scope": "Offline image structure and embedded version; no board boot test.",
+  "artifactRole": "Historical original-image verification only. The submitted uImage was replaced with the anonymous offline rebuild, verified in kernel_image_anonymous/."
+}

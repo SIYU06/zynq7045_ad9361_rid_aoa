@@ -1,0 +1,27 @@
+{
+  "passed": true,
+  "expected": {
+    "status": 0,
+    "sn": "DIY-202610261026-001",
+    "registration": "UAS08719",
+    "longitude": 108.8302976,
+    "latitude": 34.1263072,
+    "operatorLongitude": 108.8310784,
+    "operatorLatitude": 34.1260544,
+    "altitude": 54.0,
+    "groundSpeed": 0.9,
+    "timestampMs": 1771493302000
+  },
+  "actual": {
+    "status": 0,
+    "sn": "DIY-202610261026-001",
+    "registration": "UAS08719",
+    "longitude": 108.8302976,
+    "latitude": 34.1263072,
+    "operatorLongitude": 108.8310784,
+    "operatorLatitude": 34.1260544,
+    "altitude": 54.0,
+    "groundSpeed": 0.9,
+    "timestampMs": 1771493302000
+  }
+}

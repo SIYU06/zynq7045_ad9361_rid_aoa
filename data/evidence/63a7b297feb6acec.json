@@ -1,0 +1,21 @@
+{
+    "newDispatchButtonServed":  true,
+    "nearbyFeedbackServed":  true,
+    "parameterLoadFeedbackServed":  true,
+    "draftBlockExplanationServed":  true,
+    "activeMode":  "default",
+    "job":  {
+                "state":  "capturing",
+                "message":  "采集两站真实相位；保持参考源与天线静止",
+                "progress":  {
+                                 "A":  6,
+                                 "B":  6
+                             },
+                "sampleCount":  20,
+                "rejections":  {
+                                   "B":  "等待当前配置的板端DOA结果",
+                                   "A":  "等待当前配置的板端DOA结果"
+                               }
+            },
+    "recoveryRequired":  false
+}

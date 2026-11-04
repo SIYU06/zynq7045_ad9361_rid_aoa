@@ -1,0 +1,25 @@
+{
+    "oldPID":  28256,
+    "newPID":  15160,
+    "health":  {
+                   "service":  "airspace-ground-station",
+                   "version":  1,
+                   "available":  true
+               },
+    "configurationUnchanged":  true,
+    "mapKeyPreserved":  true,
+    "before":  {
+                   "aoa_calibration_B.json":  "D99B5E72E6A639A884C4DB4505A9550C9FBF27E2C510385B32D98F3354A43A65",
+                   "channel_scan.json":  "A24904E7796296D5EADBB651A431218F7C90C7B805C77B220A0E96954A34F7BB",
+                   "aoa_calibration_A.json":  "F8892FA5746662661B2E7ED92A699F9800C4E0AECE8E288A494C3076EEC2D27E",
+                   "doa_config.json":  "34B7E732BA1BF196365DA07423F15B835F2F1AB7DBA6CAD0A5E6C820D4AA63FC",
+                   "receiver_config.json":  "C5FB5137858E38962170634C9D8BBFE222A902E2D632F69906BB6AD54FFAC240"
+               },
+    "after":  {
+                  "aoa_calibration_B.json":  "D99B5E72E6A639A884C4DB4505A9550C9FBF27E2C510385B32D98F3354A43A65",
+                  "channel_scan.json":  "A24904E7796296D5EADBB651A431218F7C90C7B805C77B220A0E96954A34F7BB",
+                  "aoa_calibration_A.json":  "F8892FA5746662661B2E7ED92A699F9800C4E0AECE8E288A494C3076EEC2D27E",
+                  "doa_config.json":  "34B7E732BA1BF196365DA07423F15B835F2F1AB7DBA6CAD0A5E6C820D4AA63FC",
+                  "receiver_config.json":  "C5FB5137858E38962170634C9D8BBFE222A902E2D632F69906BB6AD54FFAC240"
+              }
+}

@@ -1,0 +1,129 @@
+{
+  "date": "2026-11-04",
+  "scope": "Offline only; no board connection, flashing, RF reception or new absolute-angle accuracy validation.",
+  "quickRounds": [
+    {
+      "suite": "quick_rounds_v2",
+      "round": 1,
+      "algorithmChecks": 34,
+      "httpChecks": 46,
+      "simulation": "PASS"
+    },
+    {
+      "suite": "quick_rounds_v2",
+      "round": 2,
+      "algorithmChecks": 34,
+      "httpChecks": 46,
+      "simulation": "PASS"
+    },
+    {
+      "suite": "quick_rounds_v2",
+      "round": 3,
+      "algorithmChecks": 34,
+      "httpChecks": 46,
+      "simulation": "PASS"
+    },
+    {
+      "suite": "package_quick_rounds",
+      "round": 1,
+      "algorithmChecks": 34,
+      "httpChecks": 46,
+      "simulation": "PASS"
+    },
+    {
+      "suite": "package_quick_rounds",
+      "round": 2,
+      "algorithmChecks": 34,
+      "httpChecks": 46,
+      "simulation": "PASS"
+    },
+    {
+      "suite": "package_quick_rounds",
+      "round": 3,
+      "algorithmChecks": 34,
+      "httpChecks": 46,
+      "simulation": "PASS"
+    }
+  ],
+  "sourceFiles": 3423,
+  "sourceManifestSHA256": "e5bbfed0bcae91d363c36c79243852494d9b85bae50be7ea9d6de395b956c380",
+  "hardware": {
+    "A": "fresh IP/synthesis and new implementation run; bitstream and XSA generated",
+    "B": "fresh IP/synthesis and new implementation run; bitstream and XSA generated",
+    "sourceIdentity": "Packaged inputs unchanged; generated wrapper Date-only differences enumerated separately",
+    "portability": "Interface adaptation and target-board acceptance checklist provided for new hardware using the same XC7Z045 chip; no target-board migration run is claimed by these offline records."
+  },
+  "kernel": {
+    "release": "5.15.0-175919-g427c94e8faa5-openwifi-rx1",
+    "rebuiltModules": 10,
+    "fullUImage": "PASS",
+    "commonExportCRCs": 10870,
+    "mismatches": 0,
+    "submittedUImage": "Anonymous offline rebuild from the same source/configuration; see kernel_image_anonymous"
+  },
+  "boardArtifacts": {
+    "bootPackaging": "A/B PASS",
+    "deviceTree": "A/B PASS",
+    "pairedRuntimeOverlay": "A/B PASS, generated offline"
+  },
+  "limitations": [
+    "For another Zynq XC7Z045 board, adapt the interfaces and startup software listed in reproduce/HARDWARE.md, then validate on the target hardware.",
+    "Some external RF/GPIO ports lack input/output delay constraints; not full external timing signoff",
+    "DRC/CDC warnings retained for engineering review; no blanket CDC signoff claimed",
+    "Browser automation unavailable; clicks and visual interaction require the documented manual check",
+    "Historical IQ quality may pass while its reference validity prevents publishing an absolute bearing"
+  ],
+  "testedSourceManifestSHA256": "728d88f913a73296b56873949acb9f14023d5639414696aeba7a568ac39bf65d",
+  "documentationOnlyChanges": [
+    {
+      "path": "source_code/README.txt",
+      "testedSHA256": "1c3424737d415f555f4a177d9057e15fff0178a45726be56199629047ce08db1",
+      "currentSHA256": "cd18e1cdc17c0defed9408f37f7707f59d95ba13190824b1feb9bcd7efddddc1"
+    },
+    {
+      "path": "source_code/reproduce/BOARD.md",
+      "testedSHA256": "5ab408d0e6124efc297608e8f69f7c35708e0502bee37c0015d7f59ebb1123c2",
+      "currentSHA256": "851a8707ed7bbd0d52f190801cdf917c98e709d59b58ec248371132d0b17fa86"
+    },
+    {
+      "path": "source_code/reproduce/HARDWARE.md",
+      "testedSHA256": "9e63b7ae52627d0bb8821cea274a13497940e5395f9d8677d5a859c688a779db",
+      "currentSHA256": "c818bfee07d3bc57df7d9b14d707716df09039d11c1f3df85ea82baeae231bda"
+    },
+    {
+      "path": "source_code/reproduce/README.md",
+      "testedSHA256": "d736d1a14e841dcc988a266170a7aa2e5669062092b959410638b7908437a927",
+      "currentSHA256": "af3e01329f657d4a72ac28920cb9a6a305e6f5de6ca688c6cb70c3169f30663e"
+    }
+  ],
+  "testedRuntimeInputsUnchanged": true,
+  "metadataOnlySourceChanges": [
+    {
+      "path": "source_code/zynq7045_ad9361_rid_aoa/dsss_receiver/build/integrated_r2/src/system/hdl/system_wrapper.v",
+      "testedSHA256": "3a705c12e1030c2f0251b65adde69b15f2355e7b8014caf60faabd255e318b69",
+      "currentSHA256": "3a7c1a9bf3c25b7d012eca3f653b2849f37346fa81cc6f3d367bf130d9d23e1a",
+      "validation": "Only generated HDL Host comment differs; all remaining bytes unchanged."
+    },
+    {
+      "path": "source_code/zynq7045_ad9361_rid_aoa/ow/board/src/hdl/system_wrapper.v",
+      "testedSHA256": "2b1b7e74c5cb6236307c160aeb6907f59ecef04a3d80c0d7d53faaeab1273fb2",
+      "currentSHA256": "2865f960df53c83b45ac064f00db72d2316fbc905c0e16fb830abac9d08b4624",
+      "validation": "Only generated HDL Host comment differs; all remaining bytes unchanged."
+    }
+  ],
+  "buildScriptPrivacyChanges": [
+    {
+      "path": "source_code/reproduce/build_kernel_image.sh",
+      "testedSHA256": "acee1b4ce2aa4116e3a576a37fd53e9ad823d401d2b0290124e99c7c9273e2ca",
+      "currentSHA256": "ff647aad8d2701ab77157562eb603b6089cbcd6e9cb50e454934459e9ac46839",
+      "validation": "Only generic build-user/build-host environment assignments added; actual rebuilt image and shared symbol CRC checks passed."
+    }
+  ],
+  "anonymousSubmissionQuickCheck": {
+    "passed": true,
+    "algorithmChecks": 34,
+    "httpChecks": 46,
+    "simulation": "PASS",
+    "proof": "anonymous_quick_check/round_1"
+  }
+}

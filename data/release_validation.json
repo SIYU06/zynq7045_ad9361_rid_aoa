@@ -1,0 +1,57 @@
+{
+  "schema": "github-release-validation-v1",
+  "date": "2026-11-04",
+  "source_preparation": {
+    "ok": true,
+    "source_files_verified": 3423,
+    "kernel_parts": 3
+  },
+  "actual_environment": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "vivado": "2022.2",
+    "os": "Windows"
+  },
+  "quick": {
+    "ok": true,
+    "algorithm_checks": 34,
+    "http_checks": 46,
+    "simulation": true,
+    "scope": "historical replay, controlled inputs, isolated HTTP and HDL simulation"
+  },
+  "fpga_validate": {
+    "A": true,
+    "B": true,
+    "phase": "BD validation and IP output generation only",
+    "new_synthesis": false,
+    "new_implementation": false
+  },
+  "board_overlays": {
+    "ok": true,
+    "stations": [
+      "A",
+      "B"
+    ],
+    "scope": "generated offline; no board writes"
+  },
+  "privacy": {
+    "targeted_project_identifiers": "removed from public text copies",
+    "device_identifiers": "aliased in public documentary copies",
+    "figures_reviewed": 11,
+    "scope": "project identity review; third-party notices retained"
+  },
+  "not_executed": [
+    "new physical board acceptance",
+    "new absolute direction/position accuracy",
+    "new full synthesis and implementation",
+    "new kernel rebuild"
+  ],
+  "historical_results": "data/reference_results and build/reference; kept separate from this new-layout run",
+  "documents": {
+    "ok": true,
+    "documents": 118,
+    "local_links_checked": 384,
+    "issues": [],
+    "privacy_scope": "heuristic candidates only; manual identity and location review remains necessary"
+  }
+}

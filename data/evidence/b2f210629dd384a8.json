@@ -1,0 +1,157 @@
+{
+  "scanning": {
+    "A": {
+      "cpuMeanPercent": 5.574241658878841,
+      "cpuMin": 0.4672897196261682,
+      "cpuMax": 25.90909090909091,
+      "representedSeconds": 47.39498895300039,
+      "states": {
+        "capturing": 6,
+        "waiting_target": 28,
+        "tuning": 5
+      },
+      "samples": 39,
+      "candidateWindowsStart": 478,
+      "candidateWindowsEnd": 483,
+      "candidateWindowsDelta": 5,
+      "doaAcceptedDelta": 5,
+      "errors": []
+    },
+    "B": {
+      "cpuMeanPercent": 35.512378933382756,
+      "cpuMin": 24.152542372881356,
+      "cpuMax": 58.41121495327103,
+      "representedSeconds": 47.3742847529993,
+      "states": {
+        "capturing": 3,
+        "waiting_target": 34,
+        "tuning": 2
+      },
+      "samples": 39,
+      "candidateWindowsStart": 398,
+      "candidateWindowsEnd": 402,
+      "candidateWindowsDelta": 4,
+      "doaAcceptedDelta": 4,
+      "errors": []
+    }
+  },
+  "fixed6": {
+    "A": {
+      "cpuMeanPercent": 24.594186542480596,
+      "cpuMin": 19.047619047619047,
+      "cpuMax": 35.88709677419355,
+      "representedSeconds": 37.85358329799965,
+      "states": {
+        "capturing": 31
+      },
+      "samples": 31,
+      "candidateWindowsStart": 485,
+      "candidateWindowsEnd": 520,
+      "candidateWindowsDelta": 35,
+      "doaAcceptedDelta": 35,
+      "errors": []
+    },
+    "B": {
+      "cpuMeanPercent": 54.233042796072155,
+      "cpuMin": 44.642857142857146,
+      "cpuMax": 63.76146788990825,
+      "representedSeconds": 37.81162775200028,
+      "states": {
+        "capturing": 31
+      },
+      "samples": 31,
+      "candidateWindowsStart": 404,
+      "candidateWindowsEnd": 439,
+      "candidateWindowsDelta": 35,
+      "doaAcceptedDelta": 35,
+      "errors": []
+    }
+  },
+  "restoredConfig": {
+    "mode": "combined",
+    "channel": 6,
+    "dwellSeconds": 3.0,
+    "state": "waiting",
+    "currentChannel": null,
+    "frequencyMhz": null,
+    "channels": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      36,
+      38,
+      40,
+      42,
+      44,
+      46,
+      48,
+      52,
+      56,
+      60,
+      64
+    ],
+    "supportedChannels": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      36,
+      38,
+      40,
+      42,
+      44,
+      46,
+      48,
+      52,
+      56,
+      60,
+      64
+    ],
+    "bands": [
+      "2.4 GHz",
+      "5 GHz"
+    ],
+    "simultaneous": false,
+    "bandwidthMhz": 20,
+    "completedCycles": 0,
+    "visited": {},
+    "stations": {
+      "A": {
+        "accepted": true,
+        "channel": 6,
+        "frequencyMhz": 2437,
+        "sessionId": "f2b9639cbaa747f39ea218af49ece101",
+        "error": null
+      },
+      "B": {
+        "accepted": true,
+        "channel": 6,
+        "frequencyMhz": 2437,
+        "sessionId": "e9b3ad1cc71142c29879f0ad2d77f04c",
+        "error": null
+      }
+    },
+    "revision": 5,
+    "error": null,
+    "partialErrors": {}
+  }
+}

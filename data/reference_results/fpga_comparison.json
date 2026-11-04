@@ -1,0 +1,192 @@
+{
+  "passed": true,
+  "stations": [
+    {
+      "station": "A",
+      "passed": true,
+      "reference": {
+        "resources": {
+          "LUT": 40487.0,
+          "FF": 54571.0,
+          "BRAM": 161.0,
+          "DSP": 154.0
+        },
+        "timing": {
+          "WNS_ns": 0.559,
+          "TNS_ns": 0.0,
+          "setupFailing": 0,
+          "WHS_ns": 0.053,
+          "THS_ns": 0.0,
+          "holdFailing": 0,
+          "WPWS_ns": 0.264,
+          "TPWS_ns": 0.0,
+          "pulseFailing": 0
+        },
+        "drc": {
+          "Error": 0,
+          "Warning": 129,
+          "Advisory": 84
+        },
+        "constraintChecks": {
+          "no_clock": 0,
+          "constant_clock": 0,
+          "pulse_width_clock": 0,
+          "unconstrained_internal_endpoints": 0,
+          "no_input_delay": 15,
+          "no_output_delay": 13,
+          "multiple_clock": 0,
+          "generated_clocks": 0,
+          "loops": 0,
+          "partial_input_delay": 0,
+          "partial_output_delay": 0,
+          "latch_loops": 0
+        }
+      },
+      "rebuilt": {
+        "resources": {
+          "LUT": 40487.0,
+          "FF": 54571.0,
+          "BRAM": 161.0,
+          "DSP": 154.0
+        },
+        "timing": {
+          "WNS_ns": 0.559,
+          "TNS_ns": 0.0,
+          "setupFailing": 0,
+          "WHS_ns": 0.053,
+          "THS_ns": 0.0,
+          "holdFailing": 0,
+          "WPWS_ns": 0.264,
+          "TPWS_ns": 0.0,
+          "pulseFailing": 0
+        },
+        "drc": {
+          "Error": 0,
+          "Warning": 129,
+          "Advisory": 84
+        },
+        "constraintChecks": {
+          "no_clock": 0,
+          "constant_clock": 0,
+          "pulse_width_clock": 0,
+          "unconstrained_internal_endpoints": 0,
+          "no_input_delay": 15,
+          "no_output_delay": 13,
+          "multiple_clock": 0,
+          "generated_clocks": 0,
+          "loops": 0,
+          "partial_input_delay": 0,
+          "partial_output_delay": 0,
+          "latch_loops": 0
+        }
+      },
+      "resourcesMatch": true,
+      "busSkewViolations": 0,
+      "routeErrors": 0,
+      "outputs": {
+        "system_top.bit": {
+          "bytes": 6393892,
+          "sha256": "8558c4beb047efe176becdb61fe1f836da239064657bf075f35f037d6e527cb3"
+        },
+        "hardware.xsa": {
+          "bytes": 389219,
+          "sha256": "d35e0be8150eaff265bf5230f42c432b57242493c7f69921f7a257e07bf653e8"
+        }
+      }
+    },
+    {
+      "station": "B",
+      "passed": true,
+      "reference": {
+        "resources": {
+          "LUT": 43138.0,
+          "FF": 57162.0,
+          "BRAM": 163.0,
+          "DSP": 192.0
+        },
+        "timing": {
+          "WNS_ns": 0.397,
+          "TNS_ns": 0.0,
+          "setupFailing": 0,
+          "WHS_ns": 0.05,
+          "THS_ns": 0.0,
+          "holdFailing": 0,
+          "WPWS_ns": 0.264,
+          "TPWS_ns": 0.0,
+          "pulseFailing": 0
+        },
+        "drc": {
+          "Error": 0,
+          "Warning": 249,
+          "Advisory": 84
+        },
+        "constraintChecks": {
+          "no_clock": 0,
+          "constant_clock": 0,
+          "pulse_width_clock": 0,
+          "unconstrained_internal_endpoints": 0,
+          "no_input_delay": 15,
+          "no_output_delay": 13,
+          "multiple_clock": 0,
+          "generated_clocks": 0,
+          "loops": 0,
+          "partial_input_delay": 0,
+          "partial_output_delay": 0,
+          "latch_loops": 0
+        }
+      },
+      "rebuilt": {
+        "resources": {
+          "LUT": 43138.0,
+          "FF": 57162.0,
+          "BRAM": 163.0,
+          "DSP": 192.0
+        },
+        "timing": {
+          "WNS_ns": 0.397,
+          "TNS_ns": 0.0,
+          "setupFailing": 0,
+          "WHS_ns": 0.05,
+          "THS_ns": 0.0,
+          "holdFailing": 0,
+          "WPWS_ns": 0.264,
+          "TPWS_ns": 0.0,
+          "pulseFailing": 0
+        },
+        "drc": {
+          "Error": 0,
+          "Warning": 249,
+          "Advisory": 84
+        },
+        "constraintChecks": {
+          "no_clock": 0,
+          "constant_clock": 0,
+          "pulse_width_clock": 0,
+          "unconstrained_internal_endpoints": 0,
+          "no_input_delay": 15,
+          "no_output_delay": 13,
+          "multiple_clock": 0,
+          "generated_clocks": 0,
+          "loops": 0,
+          "partial_input_delay": 0,
+          "partial_output_delay": 0,
+          "latch_loops": 0
+        }
+      },
+      "resourcesMatch": true,
+      "busSkewViolations": 0,
+      "routeErrors": 0,
+      "outputs": {
+        "system_top.bit": {
+          "bytes": 6786428,
+          "sha256": "6978ef0cceafd0899edc7d8e4c5d927098ca3aaf684e88a10808fc6018ce91c8"
+        },
+        "hardware.xsa": {
+          "bytes": 390324,
+          "sha256": "b34a49d4d52f4121c2060aaaba0735bd96ccda9fe4d0f03cd636639dc16faa95"
+        }
+      }
+    }
+  ],
+  "scope": "Rebuilt implementation versus reference; external RF/GPIO IO delay coverage and on-board RF behavior require separate validation."
+}

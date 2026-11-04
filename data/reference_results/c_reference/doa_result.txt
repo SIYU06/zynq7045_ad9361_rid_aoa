@@ -1,0 +1,1 @@
+PASS bias_deg=22.999958 coherence=1.000000 bearing_deg=29.999991 sigma_deg=0.000026

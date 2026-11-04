@@ -1,0 +1,931 @@
+{
+    "station":  "B",
+    "elapsedSeconds":  39.039230599999996,
+    "verifiedAt":  "2026-11-03T04:58:35.4690329+08:00",
+    "iq":  {
+               "station":  "B",
+               "sessionId":  "2ebdba2473c84bd89c2e0f9af1673cf1",
+               "state":  "waiting_target",
+               "error":  null,
+               "task":  null,
+               "metadata":  {
+                                "rf_hz":  2436999998,
+                                "iq_sample_rate_hz":  20000000,
+                                "spacing_m":  0.06,
+                                "geometryStatus":  "software target only; physical geometry not confirmed",
+                                "fixed_gain_profile":  {
+                                                           "before":  [
+                                                                          {
+                                                                              "mode":  "manual",
+                                                                              "gain":  "0.000000"
+                                                                          },
+                                                                          {
+                                                                              "mode":  "manual",
+                                                                              "gain":  "0.000000"
+                                                                          }
+                                                                      ],
+                                                           "active_mode":  "manual",
+                                                           "active_gains":  [
+                                                                                "0.000000 dB",
+                                                                                "0.000000 dB"
+                                                                            ],
+                                                           "requested_gains_db":  [
+                                                                                      0.0,
+                                                                                      0.0
+                                                                                  ],
+                                                           "session_id":  "2ebdba2473c84bd89c2e0f9af1673cf1"
+                                                       },
+                                "capture_profile":  {
+                                                        "registers_before":  {
+                                                                                 "1":  1,
+                                                                                 "3":  17,
+                                                                                 "5":  0,
+                                                                                 "7":  0,
+                                                                                 "8":  0,
+                                                                                 "9":  0,
+                                                                                 "11":  8190,
+                                                                                 "12":  4096
+                                                                             },
+                                                        "manual_trigger_before":  "N",
+                                                        "registers_active":  {
+                                                                                 "1":  1,
+                                                                                 "3":  17,
+                                                                                 "5":  0,
+                                                                                 "7":  0,
+                                                                                 "8":  4,
+                                                                                 "9":  0,
+                                                                                 "11":  768,
+                                                                                 "12":  4096,
+                                                                                 "20":  0,
+                                                                                 "21":  8188,
+                                                                                 "22":  8192
+                                                                             }
+                                                    },
+                                "kernel":  "5.15.0-175919-g427c94e8faa5-openwifi-rx1",
+                                "phase_calibration":  null,
+                                "calibrationStatus":  "uncalibrated",
+                                "pre_trigger_samples":  1536,
+                                "association":  "board verifies full MAC/FCS/LTF/TSF and computes single-station phase/reference/angle",
+                                "timing_profile":  {
+                                                       "signal_latch_after_ltf_us":  19.0,
+                                                       "tolerance_us":  1.5,
+                                                       "verified_reference_rate_mbps":  6,
+                                                       "note":  "legacy SIGNAL latch; never apply to HT header latch"
+                                                   },
+                                "timing_profiles":  {
+                                                        "ht20_sgi_mcs0_5_20261102":  {
+                                                                                         "signal_latch_after_ltf_us":  30.5,
+                                                                                         "tolerance_us":  1.5,
+                                                                                         "verified_mcs":  [
+                                                                                                              0,
+                                                                                                              1,
+                                                                                                              2,
+                                                                                                              3,
+                                                                                                              4,
+                                                                                                              5
+                                                                                                          ],
+                                                                                         "kernel":  "5.15.0-175919-g427c94e8faa5-openwifi-rx1",
+                                                                                         "evidence":  "64 saved dual-RX windows across two actual non-RID video runs; no phase bias fitted"
+                                                                                     }
+                                                    },
+                                "processing":  {
+                                                   "location":  "board",
+                                                   "schema":  "airspace.board-doa.v1",
+                                                   "estimator":  "ofdm_ltf_unit_bins_v1",
+                                                   "implementationHash":  "9457c8584ff19f080bd0bbd87c580e495292d09599897cb0373e2a50da011a6a",
+                                                   "rawTransport":  "diagnostic_request_only",
+                                                   "angleReference":  "session_and_geometry_bound"
+                                               }
+                            },
+               "channelControl":  {
+                                      "available":  true,
+                                      "tuning":  false,
+                                      "error":  null,
+                                      "supportedChannels":  [
+                                                                1,
+                                                                2,
+                                                                3,
+                                                                4,
+                                                                5,
+                                                                6,
+                                                                7,
+                                                                8,
+                                                                9,
+                                                                10,
+                                                                11,
+                                                                12,
+                                                                13,
+                                                                36,
+                                                                38,
+                                                                40,
+                                                                42,
+                                                                44,
+                                                                46,
+                                                                48,
+                                                                52,
+                                                                56,
+                                                                60,
+                                                                64
+                                                            ]
+                                  },
+               "counters":  {
+                                "doaResponses":  2,
+                                "doaBytesServed":  4588
+                            },
+               "rfRestored":  false,
+               "generatedMonotonic":  27.784983715,
+               "schema":  "airspace.board-doa.v1",
+               "processing":  {
+                                  "location":  "board",
+                                  "schema":  "airspace.board-doa.v1",
+                                  "estimator":  "ofdm_ltf_unit_bins_v1",
+                                  "implementationHash":  "9457c8584ff19f080bd0bbd87c580e495292d09599897cb0373e2a50da011a6a",
+                                  "rawTransport":  "diagnostic_request_only",
+                                  "angleReference":  "session_and_geometry_bound"
+                              },
+               "lastRejection":  null,
+               "observations":  [
+
+                                ]
+           },
+    "role":  {
+                 "enabled":  true,
+                 "captureActive":  true,
+                 "ready":  true,
+                 "role":  "capture_decode",
+                 "generation":  0,
+                 "sessionId":  "1793591667171665910",
+                 "error":  null
+             },
+    "resources":  {
+                      "available":  true,
+                      "cpuPercent":  75.67114093959732,
+                      "sampleIntervalSeconds":  2.9783427840000023,
+                      "memory":  {
+                                     "percent":  13.886603498025815,
+                                     "totalBytes":  1040502784,
+                                     "availableBytes":  896012288
+                                 },
+                      "loadAverage":  [
+                                          1.82,
+                                          0.42,
+                                          0.14
+                                      ],
+                      "uptimeSeconds":  27.8,
+                      "monotonic":  27.801085009,
+                      "source":  "Linux /proc; aggregate CPU busy, idle and iowait excluded",
+                      "cpuCount":  2
+                  },
+    "recognition":  {
+                        "schema":  "airspace.board-recognition.v1",
+                        "station":  "B",
+                        "sessionId":  "6ae1db86c09b4482b65946fa5d785fa3",
+                        "generatedMonotonic":  27.830852185,
+                        "processingLocation":  "board",
+                        "recognitionStation":  "A",
+                        "schedulerLocation":  "pc",
+                        "state":  "relaying",
+                        "errors":  {
+
+                                   },
+                        "inputAvailable":  true,
+                        "decoderRole":  {
+                                            "enabled":  true,
+                                            "captureActive":  true,
+                                            "ready":  true,
+                                            "role":  "capture_decode",
+                                            "generation":  0,
+                                            "sessionId":  "1793591667171665910",
+                                            "error":  null
+                                        },
+                        "sourceStation":  null,
+                        "sources":  [
+
+                                    ],
+                        "rid":  null,
+                        "events":  [
+
+                                   ],
+                        "counters":  {
+                                         "exportedFeeds":  1,
+                                         "cycles":  2
+                                     },
+                        "relayBundle":  {
+                                            "payload":  {
+                                                            "producerStation":  "B",
+                                                            "producerSession":  "6ae1db86c09b4482b65946fa5d785fa3",
+                                                            "sequence":  1,
+                                                            "generatedMonotonic":  26.676364514,
+                                                            "signalFeed":  {
+                                                                               "monotonic":  26.703673016,
+                                                                               "session_id":  "1793591667171665910",
+                                                                               "sources":  [
+                                                                                               {
+                                                                                                   "mac":  "mac_0b1c64bd39",
+                                                                                                   "frequency_mhz":  2437,
+                                                                                                   "frames":  3,
+                                                                                                   "ssid":  "NewE325",
+                                                                                                   "first_monotonic":  23.348189549,
+                                                                                                   "last_monotonic":  23.759996193,
+                                                                                                   "phy_types":  {
+                                                                                                                     "dsss_long_1m":  3
+                                                                                                                 }
+                                                                                               },
+                                                                                               {
+                                                                                                   "mac":  "mac_aa98f353b5",
+                                                                                                   "frequency_mhz":  2437,
+                                                                                                   "frames":  3,
+                                                                                                   "ssid":  "RID-TEST",
+                                                                                                   "first_monotonic":  23.779518663,
+                                                                                                   "last_monotonic":  25.779465113,
+                                                                                                   "phy_types":  {
+                                                                                                                     "ofdm":  3
+                                                                                                                 },
+                                                                                                   "rid_recognition":  {
+                                                                                                                           "status":  "confirmed",
+                                                                                                                           "transport":  "Wi-Fi Beacon",
+                                                                                                                           "messages":  [
+                                                                                                                                            {
+                                                                                                                                                "type":  0,
+                                                                                                                                                "version":  2,
+                                                                                                                                                "raw":  "0212524944544553542d455350333253332d30303031000000",
+                                                                                                                                                "id_type":  1,
+                                                                                                                                                "ua_type":  2,
+                                                                                                                                                "uas_id":  "RIDTEST-ESP32S3-0001",
+                                                                                                                                                "type_name":  "Basic ID"
+                                                                                                                                            },
+                                                                                                                                            {
+                                                                                                                                                "type":  1,
+                                                                                                                                                "version":  2,
+                                                                                                                                                "raw":  "1213b5ff7e00000000000000000000000000000000ffff0000",
+                                                                                                                                                "status":  1,
+                                                                                                                                                "direction":  null,
+                                                                                                                                                "speed_horizontal":  null,
+                                                                                                                                                "speed_vertical":  null,
+                                                                                                                                                "latitude":  null,
+                                                                                                                                                "longitude":  null,
+                                                                                                                                                "altitude_baro":  null,
+                                                                                                                                                "altitude_geo":  null,
+                                                                                                                                                "height":  null,
+                                                                                                                                                "height_reference":  "takeoff",
+                                                                                                                                                "horizontal_accuracy":  0,
+                                                                                                                                                "vertical_accuracy":  0,
+                                                                                                                                                "speed_accuracy":  0,
+                                                                                                                                                "baro_accuracy":  0,
+                                                                                                                                                "timestamp":  null,
+                                                                                                                                                "timestamp_accuracy":  0.0,
+                                                                                                                                                "type_name":  "Location/Vector"
+                                                                                                                                            },
+                                                                                                                                            {
+                                                                                                                                                "type":  4,
+                                                                                                                                                "version":  2,
+                                                                                                                                                "raw":  "4200bd505614c34fde400100000000000000dd070000000000",
+                                                                                                                                                "operator_location_type":  0,
+                                                                                                                                                "classification_type":  0,
+                                                                                                                                                "operator_latitude":  34.1201085,
+                                                                                                                                                "operator_longitude":  108.8311235,
+                                                                                                                                                "area_count":  1,
+                                                                                                                                                "area_radius":  0,
+                                                                                                                                                "area_ceiling":  null,
+                                                                                                                                                "area_floor":  null,
+                                                                                                                                                "category_eu":  0,
+                                                                                                                                                "class_eu":  0,
+                                                                                                                                                "operator_altitude_geo":  6.5,
+                                                                                                                                                "timestamp":  0,
+                                                                                                                                                "type_name":  "System"
+                                                                                                                                            }
+                                                                                                                                        ],
+                                                                                                                           "identities":  [
+                                                                                                                                              "RIDTEST-ESP32S3-0001"
+                                                                                                                                          ],
+                                                                                                                           "evidence":  [
+                                                                                                                                            "FCS有效",
+                                                                                                                                            "RID专用传输标识匹配",
+                                                                                                                                            "25字节消息/消息包结构有效",
+                                                                                                                                            "支持的消息类型与版本"
+                                                                                                                                        ],
+                                                                                                                           "authenticated":  false,
+                                                                                                                           "last_monotonic":  25.779191087
+                                                                                                                       }
+                                                                                               },
+                                                                                               {
+                                                                                                   "mac":  "mac_126d52d991",
+                                                                                                   "frequency_mhz":  2437,
+                                                                                                   "frames":  3,
+                                                                                                   "ssid":  null,
+                                                                                                   "first_monotonic":  24.013328969,
+                                                                                                   "last_monotonic":  26.483074788,
+                                                                                                   "phy_types":  {
+                                                                                                                     "dsss_long_1m":  3
+                                                                                                                 }
+                                                                                               },
+                                                                                               {
+                                                                                                   "mac":  "mac_2632228a92",
+                                                                                                   "frequency_mhz":  2437,
+                                                                                                   "frames":  1,
+                                                                                                   "ssid":  null,
+                                                                                                   "first_monotonic":  24.403412685,
+                                                                                                   "last_monotonic":  24.403412685,
+                                                                                                   "phy_types":  {
+                                                                                                                     "dsss_long_1m":  1
+                                                                                                                 }
+                                                                                               }
+                                                                                           ],
+                                                                               "packets":  [
+                                                                                               {
+                                                                                                   "id":  5,
+                                                                                                   "source_mac":  "mac_0b1c64bd39",
+                                                                                                   "destination_mac":  "mac_927ac519ac",
+                                                                                                   "frequency_mhz":  2437,
+                                                                                                   "fcs_valid":  true,
+                                                                                                   "received_monotonic":  23.347738313,
+                                                                                                   "frame_type":  0,
+                                                                                                   "phy_type":  "dsss_long_1m",
+                                                                                                   "protocol":  "802.11",
+                                                                                                   "length":  395,
+                                                                                                   "retry":  false,
+                                                                                                   "protected":  false,
+                                                                                                   "frame_sha256":  "fa2e3149e07f457cbf3550689dba60d4dcd052954d5b6edf4228bf6f454bb6f2",
+                                                                                                   "ht_mcs":  null,
+                                                                                                   "decoded":  {
+
+                                                                                                               }
+                                                                                               },
+                                                                                               {
+                                                                                                   "id":  7,
+                                                                                                   "source_mac":  "mac_0b1c64bd39",
+                                                                                                   "destination_mac":  "mac_927ac519ac",
+                                                                                                   "frequency_mhz":  2437,
+                                                                                                   "fcs_valid":  true,
+                                                                                                   "received_monotonic":  23.451431184,
+                                                                                                   "frame_type":  0,
+                                                                                                   "phy_type":  "dsss_long_1m",
+                                                                                                   "protocol":  "802.11",
+                                                                                                   "length":  395,
+                                                                                                   "retry":  false,
+                                                                                                   "protected":  false,
+                                                                                                   "frame_sha256":  "4e494e51d242797cc90491ab761811c843cf9fe9fbd5abe42cddfc1ea05f124c",
+                                                                                                   "ht_mcs":  null,
+                                                                                                   "decoded":  {
+
+                                                                                                               }
+                                                                                               },
+                                                                                               {
+                                                                                                   "id":  10,
+                                                                                                   "source_mac":  "mac_0b1c64bd39",
+                                                                                                   "destination_mac":  "mac_baafa333d0",
+                                                                                                   "frequency_mhz":  2437,
+                                                                                                   "fcs_valid":  true,
+                                                                                                   "received_monotonic":  23.759832237,
+                                                                                                   "frame_type":  2,
+                                                                                                   "phy_type":  "dsss_long_1m",
+                                                                                                   "protocol":  "802.11 Protected",
+                                                                                                   "length":  246,
+                                                                                                   "retry":  false,
+                                                                                                   "protected":  true,
+                                                                                                   "frame_sha256":  "f2adbf73d68262b27287f8dcdffa41a9f5e559a2d14c37239cd8e125deeb359c",
+                                                                                                   "ht_mcs":  null,
+                                                                                                   "decoded":  {
+
+                                                                                                               }
+                                                                                               },
+                                                                                               {
+                                                                                                   "id":  11,
+                                                                                                   "source_mac":  "mac_aa98f353b5",
+                                                                                                   "destination_mac":  "mac_927ac519ac",
+                                                                                                   "frequency_mhz":  2437,
+                                                                                                   "fcs_valid":  true,
+                                                                                                   "received_monotonic":  23.779275621,
+                                                                                                   "frame_type":  0,
+                                                                                                   "phy_type":  "ofdm",
+                                                                                                   "protocol":  "RID",
+                                                                                                   "length":  134,
+                                                                                                   "retry":  false,
+                                                                                                   "protected":  false,
+                                                                                                   "frame_sha256":  "c0d50bd719e8025fe5916457bd9429f9ab61a18eb5a66bfd92cc72aecad8cebc",
+                                                                                                   "ht_mcs":  null,
+                                                                                                   "rid_recognition":  {
+                                                                                                                           "status":  "confirmed",
+                                                                                                                           "transport":  "Wi-Fi Beacon",
+                                                                                                                           "messages":  [
+                                                                                                                                            {
+                                                                                                                                                "type":  0,
+                                                                                                                                                "version":  2,
+                                                                                                                                                "raw":  "0212524944544553542d455350333253332d30303031000000",
+                                                                                                                                                "id_type":  1,
+                                                                                                                                                "ua_type":  2,
+                                                                                                                                                "uas_id":  "RIDTEST-ESP32S3-0001",
+                                                                                                                                                "type_name":  "Basic ID"
+                                                                                                                                            },
+                                                                                                                                            {
+                                                                                                                                                "type":  1,
+                                                                                                                                                "version":  2,
+                                                                                                                                                "raw":  "1213b5ff7e00000000000000000000000000000000ffff0000",
+                                                                                                                                                "status":  1,
+                                                                                                                                                "direction":  null,
+                                                                                                                                                "speed_horizontal":  null,
+                                                                                                                                                "speed_vertical":  null,
+                                                                                                                                                "latitude":  null,
+                                                                                                                                                "longitude":  null,
+                                                                                                                                                "altitude_baro":  null,
+                                                                                                                                                "altitude_geo":  null,
+                                                                                                                                                "height":  null,
+                                                                                                                                                "height_reference":  "takeoff",
+                                                                                                                                                "horizontal_accuracy":  0,
+                                                                                                                                                "vertical_accuracy":  0,
+                                                                                                                                                "speed_accuracy":  0,
+                                                                                                                                                "baro_accuracy":  0,
+                                                                                                                                                "timestamp":  null,
+                                                                                                                                                "timestamp_accuracy":  0.0,
+                                                                                                                                                "type_name":  "Location/Vector"
+                                                                                                                                            },
+                                                                                                                                            {
+                                                                                                                                                "type":  4,
+                                                                                                                                                "version":  2,
+                                                                                                                                                "raw":  "4200bd505614c34fde400100000000000000dd070000000000",
+                                                                                                                                                "operator_location_type":  0,
+                                                                                                                                                "classification_type":  0,
+                                                                                                                                                "operator_latitude":  34.1201085,
+                                                                                                                                                "operator_longitude":  108.8311235,
+                                                                                                                                                "area_count":  1,
+                                                                                                                                                "area_radius":  0,
+                                                                                                                                                "area_ceiling":  null,
+                                                                                                                                                "area_floor":  null,
+                                                                                                                                                "category_eu":  0,
+                                                                                                                                                "class_eu":  0,
+                                                                                                                                                "operator_altitude_geo":  6.5,
+                                                                                                                                                "timestamp":  0,
+                                                                                                                                                "type_name":  "System"
+                                                                                                                                            }
+                                                                                                                                        ],
+                                                                                                                           "identities":  [
+                                                                                                                                              "RIDTEST-ESP32S3-0001"
+                                                                                                                                          ],
+                                                                                                                           "evidence":  [
+                                                                                                                                            "FCS有效",
+                                                                                                                                            "RID专用传输标识匹配",
+                                                                                                                                            "25字节消息/消息包结构有效",
+                                                                                                                                            "支持的消息类型与版本"
+                                                                                                                                        ],
+                                                                                                                           "authenticated":  false
+                                                                                                                       },
+                                                                                                   "decoded":  {
+
+                                                                                                               }
+                                                                                               },
+                                                                                               {
+                                                                                                   "id":  14,
+                                                                                                   "source_mac":  "mac_126d52d991",
+                                                                                                   "destination_mac":  "mac_927ac519ac",
+                                                                                                   "frequency_mhz":  2437,
+                                                                                                   "fcs_valid":  true,
+                                                                                                   "received_monotonic":  24.013196219,
+                                                                                                   "frame_type":  0,
+                                                                                                   "phy_type":  "dsss_long_1m",
+                                                                                                   "protocol":  "802.11",
+                                                                                                   "length":  74,
+                                                                                                   "retry":  false,
+                                                                                                   "protected":  false,
+                                                                                                   "frame_sha256":  "ce43da0d2e6f1d4efeb3629fb72e8e8fd943c6d11ac26653d9e2eb36f9f10d06",
+                                                                                                   "ht_mcs":  null,
+                                                                                                   "decoded":  {
+
+                                                                                                               }
+                                                                                               },
+                                                                                               {
+                                                                                                   "id":  15,
+                                                                                                   "source_mac":  null,
+                                                                                                   "destination_mac":  "mac_6d4ee706a9",
+                                                                                                   "frequency_mhz":  2437,
+                                                                                                   "fcs_valid":  true,
+                                                                                                   "received_monotonic":  24.037909452,
+                                                                                                   "frame_type":  1,
+                                                                                                   "phy_type":  "dsss_long_1m",
+                                                                                                   "protocol":  "802.11",
+                                                                                                   "length":  10,
+                                                                                                   "retry":  false,
+                                                                                                   "protected":  false,
+                                                                                                   "frame_sha256":  "33406a9768a4c7ef350f2d262e90bc42756ac13508a19f45ed4bb1e7a130482f",
+                                                                                                   "ht_mcs":  null,
+                                                                                                   "decoded":  {
+
+                                                                                                               }
+                                                                                               },
+                                                                                               {
+                                                                                                   "id":  17,
+                                                                                                   "source_mac":  "mac_126d52d991",
+                                                                                                   "destination_mac":  "mac_927ac519ac",
+                                                                                                   "frequency_mhz":  2437,
+                                                                                                   "fcs_valid":  true,
+                                                                                                   "received_monotonic":  24.216270637,
+                                                                                                   "frame_type":  0,
+                                                                                                   "phy_type":  "dsss_long_1m",
+                                                                                                   "protocol":  "802.11",
+                                                                                                   "length":  64,
+                                                                                                   "retry":  false,
+                                                                                                   "protected":  false,
+                                                                                                   "frame_sha256":  "18272c98d6932796a335cc0b51fb31defe9f2b6f4c0660f3941b61480aacc786",
+                                                                                                   "ht_mcs":  null,
+                                                                                                   "decoded":  {
+
+                                                                                                               }
+                                                                                               },
+                                                                                               {
+                                                                                                   "id":  21,
+                                                                                                   "source_mac":  "mac_2632228a92",
+                                                                                                   "destination_mac":  "mac_927ac519ac",
+                                                                                                   "frequency_mhz":  2437,
+                                                                                                   "fcs_valid":  true,
+                                                                                                   "received_monotonic":  24.403266273,
+                                                                                                   "frame_type":  0,
+                                                                                                   "phy_type":  "dsss_long_1m",
+                                                                                                   "protocol":  "802.11",
+                                                                                                   "length":  74,
+                                                                                                   "retry":  false,
+                                                                                                   "protected":  false,
+                                                                                                   "frame_sha256":  "44263171e0032d0a6f273c291d09411235650392175553427f852e74d62bfa1e",
+                                                                                                   "ht_mcs":  null,
+                                                                                                   "decoded":  {
+
+                                                                                                               }
+                                                                                               },
+                                                                                               {
+                                                                                                   "id":  22,
+                                                                                                   "source_mac":  null,
+                                                                                                   "destination_mac":  "mac_4643d7cf71",
+                                                                                                   "frequency_mhz":  2437,
+                                                                                                   "fcs_valid":  true,
+                                                                                                   "received_monotonic":  24.411969195,
+                                                                                                   "frame_type":  1,
+                                                                                                   "phy_type":  "dsss_long_1m",
+                                                                                                   "protocol":  "802.11",
+                                                                                                   "length":  10,
+                                                                                                   "retry":  false,
+                                                                                                   "protected":  false,
+                                                                                                   "frame_sha256":  "2d98d9a7763933073f72e1538b3858db8a68160ef7d1a69cf046e487d4f1e833",
+                                                                                                   "ht_mcs":  null,
+                                                                                                   "decoded":  {
+
+                                                                                                               }
+                                                                                               },
+                                                                                               {
+                                                                                                   "id":  23,
+                                                                                                   "source_mac":  null,
+                                                                                                   "destination_mac":  "mac_7b63c76e7d",
+                                                                                                   "frequency_mhz":  2437,
+                                                                                                   "fcs_valid":  true,
+                                                                                                   "received_monotonic":  24.442121512,
+                                                                                                   "frame_type":  1,
+                                                                                                   "phy_type":  "dsss_long_1m",
+                                                                                                   "protocol":  "802.11",
+                                                                                                   "length":  10,
+                                                                                                   "retry":  false,
+                                                                                                   "protected":  false,
+                                                                                                   "frame_sha256":  "1b48220ae1425c95f1ecf98601dda54f32706b3471ce38e46a2bd7325f52cb33",
+                                                                                                   "ht_mcs":  null,
+                                                                                                   "decoded":  {
+
+                                                                                                               }
+                                                                                               },
+                                                                                               {
+                                                                                                   "id":  26,
+                                                                                                   "source_mac":  "mac_aa98f353b5",
+                                                                                                   "destination_mac":  "mac_927ac519ac",
+                                                                                                   "frequency_mhz":  2437,
+                                                                                                   "fcs_valid":  true,
+                                                                                                   "received_monotonic":  24.779741797,
+                                                                                                   "frame_type":  0,
+                                                                                                   "phy_type":  "ofdm",
+                                                                                                   "protocol":  "RID",
+                                                                                                   "length":  134,
+                                                                                                   "retry":  false,
+                                                                                                   "protected":  false,
+                                                                                                   "frame_sha256":  "404450ba322fd82fa0237be09542f327a2dcae89c048085f85def648aa768c3d",
+                                                                                                   "ht_mcs":  null,
+                                                                                                   "rid_recognition":  {
+                                                                                                                           "status":  "confirmed",
+                                                                                                                           "transport":  "Wi-Fi Beacon",
+                                                                                                                           "messages":  [
+                                                                                                                                            {
+                                                                                                                                                "type":  0,
+                                                                                                                                                "version":  2,
+                                                                                                                                                "raw":  "0212524944544553542d455350333253332d30303031000000",
+                                                                                                                                                "id_type":  1,
+                                                                                                                                                "ua_type":  2,
+                                                                                                                                                "uas_id":  "RIDTEST-ESP32S3-0001",
+                                                                                                                                                "type_name":  "Basic ID"
+                                                                                                                                            },
+                                                                                                                                            {
+                                                                                                                                                "type":  1,
+                                                                                                                                                "version":  2,
+                                                                                                                                                "raw":  "1213b5ff7e00000000000000000000000000000000ffff0000",
+                                                                                                                                                "status":  1,
+                                                                                                                                                "direction":  null,
+                                                                                                                                                "speed_horizontal":  null,
+                                                                                                                                                "speed_vertical":  null,
+                                                                                                                                                "latitude":  null,
+                                                                                                                                                "longitude":  null,
+                                                                                                                                                "altitude_baro":  null,
+                                                                                                                                                "altitude_geo":  null,
+                                                                                                                                                "height":  null,
+                                                                                                                                                "height_reference":  "takeoff",
+                                                                                                                                                "horizontal_accuracy":  0,
+                                                                                                                                                "vertical_accuracy":  0,
+                                                                                                                                                "speed_accuracy":  0,
+                                                                                                                                                "baro_accuracy":  0,
+                                                                                                                                                "timestamp":  null,
+                                                                                                                                                "timestamp_accuracy":  0.0,
+                                                                                                                                                "type_name":  "Location/Vector"
+                                                                                                                                            },
+                                                                                                                                            {
+                                                                                                                                                "type":  4,
+                                                                                                                                                "version":  2,
+                                                                                                                                                "raw":  "4200bd505614c34fde400100000000000000dd070000000000",
+                                                                                                                                                "operator_location_type":  0,
+                                                                                                                                                "classification_type":  0,
+                                                                                                                                                "operator_latitude":  34.1201085,
+                                                                                                                                                "operator_longitude":  108.8311235,
+                                                                                                                                                "area_count":  1,
+                                                                                                                                                "area_radius":  0,
+                                                                                                                                                "area_ceiling":  null,
+                                                                                                                                                "area_floor":  null,
+                                                                                                                                                "category_eu":  0,
+                                                                                                                                                "class_eu":  0,
+                                                                                                                                                "operator_altitude_geo":  6.5,
+                                                                                                                                                "timestamp":  0,
+                                                                                                                                                "type_name":  "System"
+                                                                                                                                            }
+                                                                                                                                        ],
+                                                                                                                           "identities":  [
+                                                                                                                                              "RIDTEST-ESP32S3-0001"
+                                                                                                                                          ],
+                                                                                                                           "evidence":  [
+                                                                                                                                            "FCS有效",
+                                                                                                                                            "RID专用传输标识匹配",
+                                                                                                                                            "25字节消息/消息包结构有效",
+                                                                                                                                            "支持的消息类型与版本"
+                                                                                                                                        ],
+                                                                                                                           "authenticated":  false
+                                                                                                                       },
+                                                                                                   "decoded":  {
+
+                                                                                                               }
+                                                                                               },
+                                                                                               {
+                                                                                                   "id":  34,
+                                                                                                   "source_mac":  "mac_aa98f353b5",
+                                                                                                   "destination_mac":  "mac_927ac519ac",
+                                                                                                   "frequency_mhz":  2437,
+                                                                                                   "fcs_valid":  true,
+                                                                                                   "received_monotonic":  25.779191087,
+                                                                                                   "frame_type":  0,
+                                                                                                   "phy_type":  "ofdm",
+                                                                                                   "protocol":  "RID",
+                                                                                                   "length":  134,
+                                                                                                   "retry":  false,
+                                                                                                   "protected":  false,
+                                                                                                   "frame_sha256":  "793c25202a92da305bf1051cfe5f057b05c45ea4468e136eed519443474d53a4",
+                                                                                                   "ht_mcs":  null,
+                                                                                                   "rid_recognition":  {
+                                                                                                                           "status":  "confirmed",
+                                                                                                                           "transport":  "Wi-Fi Beacon",
+                                                                                                                           "messages":  [
+                                                                                                                                            {
+                                                                                                                                                "type":  0,
+                                                                                                                                                "version":  2,
+                                                                                                                                                "raw":  "0212524944544553542d455350333253332d30303031000000",
+                                                                                                                                                "id_type":  1,
+                                                                                                                                                "ua_type":  2,
+                                                                                                                                                "uas_id":  "RIDTEST-ESP32S3-0001",
+                                                                                                                                                "type_name":  "Basic ID"
+                                                                                                                                            },
+                                                                                                                                            {
+                                                                                                                                                "type":  1,
+                                                                                                                                                "version":  2,
+                                                                                                                                                "raw":  "1213b5ff7e00000000000000000000000000000000ffff0000",
+                                                                                                                                                "status":  1,
+                                                                                                                                                "direction":  null,
+                                                                                                                                                "speed_horizontal":  null,
+                                                                                                                                                "speed_vertical":  null,
+                                                                                                                                                "latitude":  null,
+                                                                                                                                                "longitude":  null,
+                                                                                                                                                "altitude_baro":  null,
+                                                                                                                                                "altitude_geo":  null,
+                                                                                                                                                "height":  null,
+                                                                                                                                                "height_reference":  "takeoff",
+                                                                                                                                                "horizontal_accuracy":  0,
+                                                                                                                                                "vertical_accuracy":  0,
+                                                                                                                                                "speed_accuracy":  0,
+                                                                                                                                                "baro_accuracy":  0,
+                                                                                                                                                "timestamp":  null,
+                                                                                                                                                "timestamp_accuracy":  0.0,
+                                                                                                                                                "type_name":  "Location/Vector"
+                                                                                                                                            },
+                                                                                                                                            {
+                                                                                                                                                "type":  4,
+                                                                                                                                                "version":  2,
+                                                                                                                                                "raw":  "4200bd505614c34fde400100000000000000dd070000000000",
+                                                                                                                                                "operator_location_type":  0,
+                                                                                                                                                "classification_type":  0,
+                                                                                                                                                "operator_latitude":  34.1201085,
+                                                                                                                                                "operator_longitude":  108.8311235,
+                                                                                                                                                "area_count":  1,
+                                                                                                                                                "area_radius":  0,
+                                                                                                                                                "area_ceiling":  null,
+                                                                                                                                                "area_floor":  null,
+                                                                                                                                                "category_eu":  0,
+                                                                                                                                                "class_eu":  0,
+                                                                                                                                                "operator_altitude_geo":  6.5,
+                                                                                                                                                "timestamp":  0,
+                                                                                                                                                "type_name":  "System"
+                                                                                                                                            }
+                                                                                                                                        ],
+                                                                                                                           "identities":  [
+                                                                                                                                              "RIDTEST-ESP32S3-0001"
+                                                                                                                                          ],
+                                                                                                                           "evidence":  [
+                                                                                                                                            "FCS有效",
+                                                                                                                                            "RID专用传输标识匹配",
+                                                                                                                                            "25字节消息/消息包结构有效",
+                                                                                                                                            "支持的消息类型与版本"
+                                                                                                                                        ],
+                                                                                                                           "authenticated":  false
+                                                                                                                       },
+                                                                                                   "decoded":  {
+
+                                                                                                               }
+                                                                                               },
+                                                                                               {
+                                                                                                   "id":  39,
+                                                                                                   "source_mac":  "mac_126d52d991",
+                                                                                                   "destination_mac":  "mac_927ac519ac",
+                                                                                                   "frequency_mhz":  2437,
+                                                                                                   "fcs_valid":  true,
+                                                                                                   "received_monotonic":  26.482939056,
+                                                                                                   "frame_type":  0,
+                                                                                                   "phy_type":  "dsss_long_1m",
+                                                                                                   "protocol":  "802.11",
+                                                                                                   "length":  64,
+                                                                                                   "retry":  false,
+                                                                                                   "protected":  false,
+                                                                                                   "frame_sha256":  "5685b17b548fae0f8c4291eb156469c39cb5cf96c9a4d7a1f2cdc6de0aa06f49",
+                                                                                                   "ht_mcs":  null,
+                                                                                                   "decoded":  {
+
+                                                                                                               }
+                                                                                               },
+                                                                                               {
+                                                                                                   "id":  40,
+                                                                                                   "source_mac":  null,
+                                                                                                   "destination_mac":  "mac_12c90461e8",
+                                                                                                   "frequency_mhz":  2437,
+                                                                                                   "fcs_valid":  true,
+                                                                                                   "received_monotonic":  26.487654036,
+                                                                                                   "frame_type":  1,
+                                                                                                   "phy_type":  "dsss_long_1m",
+                                                                                                   "protocol":  "802.11",
+                                                                                                   "length":  10,
+                                                                                                   "retry":  false,
+                                                                                                   "protected":  false,
+                                                                                                   "frame_sha256":  "c660b0a026ff7c9459a0f5159a617493ca90609009767927296f13ad95669aef",
+                                                                                                   "ht_mcs":  null,
+                                                                                                   "decoded":  {
+
+                                                                                                               }
+                                                                                               },
+                                                                                               {
+                                                                                                   "id":  41,
+                                                                                                   "source_mac":  null,
+                                                                                                   "destination_mac":  "mac_0b1c64bd39",
+                                                                                                   "frequency_mhz":  2437,
+                                                                                                   "fcs_valid":  true,
+                                                                                                   "received_monotonic":  26.500359276,
+                                                                                                   "frame_type":  1,
+                                                                                                   "phy_type":  "dsss_long_1m",
+                                                                                                   "protocol":  "802.11",
+                                                                                                   "length":  10,
+                                                                                                   "retry":  false,
+                                                                                                   "protected":  false,
+                                                                                                   "frame_sha256":  "0c5d4501474232ceaced2ee90070013a04039c57c4117f34560689af7667de6a",
+                                                                                                   "ht_mcs":  null,
+                                                                                                   "decoded":  {
+
+                                                                                                               }
+                                                                                               },
+                                                                                               {
+                                                                                                   "id":  42,
+                                                                                                   "source_mac":  null,
+                                                                                                   "destination_mac":  "mac_0b1c64bd39",
+                                                                                                   "frequency_mhz":  2437,
+                                                                                                   "fcs_valid":  true,
+                                                                                                   "received_monotonic":  26.511663906,
+                                                                                                   "frame_type":  1,
+                                                                                                   "phy_type":  "dsss_long_1m",
+                                                                                                   "protocol":  "802.11",
+                                                                                                   "length":  10,
+                                                                                                   "retry":  false,
+                                                                                                   "protected":  false,
+                                                                                                   "frame_sha256":  "0c5d4501474232ceaced2ee90070013a04039c57c4117f34560689af7667de6a",
+                                                                                                   "ht_mcs":  null,
+                                                                                                   "decoded":  {
+
+                                                                                                               }
+                                                                                               }
+                                                                                           ]
+                                                                           },
+                                                            "receiverState":  {
+                                                                                  "monotonic":  26.760643485,
+                                                                                  "session_id":  "1793591667171665910",
+                                                                                  "mode":  "live",
+                                                                                  "source":  "fpga_ofdm_dsss",
+                                                                                  "interface":  "sdr0",
+                                                                                  "status":  "monitor被动接收中",
+                                                                                  "frames":  16,
+                                                                                  "packets":  3,
+                                                                                  "errors":  0,
+                                                                                  "capture":  {
+                                                                                                  "raw_packets":  42,
+                                                                                                  "bad_fcs":  26,
+                                                                                                  "malformed":  0,
+                                                                                                  "pcap_limit_reached":  false,
+                                                                                                  "dsss_packets":  13
+                                                                                              },
+                                                                                  "targets":  [
+                                                                                                  {
+                                                                                                      "mac":  "mac_aa98f353b5",
+                                                                                                      "first_seen":  1793591668.2559335,
+                                                                                                      "packets":  3,
+                                                                                                      "messages":  {
+                                                                                                                       "0:1":  {
+                                                                                                                                   "type":  0,
+                                                                                                                                   "version":  2,
+                                                                                                                                   "raw":  "0212524944544553542d455350333253332d30303031000000",
+                                                                                                                                   "id_type":  1,
+                                                                                                                                   "ua_type":  2,
+                                                                                                                                   "uas_id":  "RIDTEST-ESP32S3-0001",
+                                                                                                                                   "received_at":  1793591670.2559962,
+                                                                                                                                   "received_monotonic":  25.780337147
+                                                                                                                               },
+                                                                                                                       "1":  {
+                                                                                                                                 "type":  1,
+                                                                                                                                 "version":  2,
+                                                                                                                                 "raw":  "1213b5ff7e00000000000000000000000000000000ffff0000",
+                                                                                                                                 "status":  1,
+                                                                                                                                 "direction":  null,
+                                                                                                                                 "speed_horizontal":  null,
+                                                                                                                                 "speed_vertical":  null,
+                                                                                                                                 "latitude":  null,
+                                                                                                                                 "longitude":  null,
+                                                                                                                                 "altitude_baro":  null,
+                                                                                                                                 "altitude_geo":  null,
+                                                                                                                                 "height":  null,
+                                                                                                                                 "height_reference":  "takeoff",
+                                                                                                                                 "horizontal_accuracy":  0,
+                                                                                                                                 "vertical_accuracy":  0,
+                                                                                                                                 "speed_accuracy":  0,
+                                                                                                                                 "baro_accuracy":  0,
+                                                                                                                                 "timestamp":  null,
+                                                                                                                                 "timestamp_accuracy":  0.0,
+                                                                                                                                 "received_at":  1793591670.2559962,
+                                                                                                                                 "received_monotonic":  25.780337147
+                                                                                                                             },
+                                                                                                                       "4":  {
+                                                                                                                                 "type":  4,
+                                                                                                                                 "version":  2,
+                                                                                                                                 "raw":  "4200bd505614c34fde400100000000000000dd070000000000",
+                                                                                                                                 "operator_location_type":  0,
+                                                                                                                                 "classification_type":  0,
+                                                                                                                                 "operator_latitude":  34.1201085,
+                                                                                                                                 "operator_longitude":  108.8311235,
+                                                                                                                                 "area_count":  1,
+                                                                                                                                 "area_radius":  0,
+                                                                                                                                 "area_ceiling":  null,
+                                                                                                                                 "area_floor":  null,
+                                                                                                                                 "category_eu":  0,
+                                                                                                                                 "class_eu":  0,
+                                                                                                                                 "operator_altitude_geo":  6.5,
+                                                                                                                                 "timestamp":  0,
+                                                                                                                                 "received_at":  1793591670.2559962,
+                                                                                                                                 "received_monotonic":  25.780337147
+                                                                                                                             }
+                                                                                                                   },
+                                                                                                      "last_seen":  1793591670.2559962,
+                                                                                                      "last_seen_monotonic":  25.780337147,
+                                                                                                      "transport":  "Wi-Fi Beacon",
+                                                                                                      "rssi":  -14,
+                                                                                                      "counter":  221,
+                                                                                                      "frequency_mhz":  2437,
+                                                                                                      "rate_mbps":  6.0,
+                                                                                                      "fcs_valid":  true,
+                                                                                                      "fcs_method":  "openwifi_hw_crc32_plus_retained_crc24",
+                                                                                                      "capture_time":  1793591670.2531693
+                                                                                                  }
+                                                                                              ]
+                                                                              }
+                                                        },
+                                            "signature":  "88a1de2ab9e3c904815bbc6ce3f3d6144764b4073c744048434024098ffae471"
+                                        },
+                        "lastFeedDigest":  null
+                    },
+    "manualStartupCommandsAfterReboot":  0
+}

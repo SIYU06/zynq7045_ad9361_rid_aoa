@@ -1,0 +1,103 @@
+{
+  "schema": "skill-validation-results-v1",
+  "checked_date": "2026-11-04",
+  "selftests": {
+    "tests": 14,
+    "passed": 14,
+    "command": "python -B skill/scripts/test_verify.py",
+    "scope": "synthetic temporary fixtures; observed successful test execution"
+  },
+  "historical_cases": {
+    "count": 15,
+    "preserved_verbatim": true
+  },
+  "source_manifest": {
+    "files_checked": 93,
+    "ok": true
+  },
+  "real_vivado": {
+    "ok": true,
+    "timing": {
+      "wns_ns": 0.559,
+      "tns_ns": 0.0,
+      "setup_failing": 0,
+      "setup_total": 137082,
+      "whs_ns": 0.053,
+      "ths_ns": 0.0,
+      "hold_failing": 0,
+      "hold_total": 137042,
+      "wpws_ns": 0.264,
+      "tpws_ns": 0.0,
+      "pulse_failing": 0,
+      "pulse_total": 57112
+    },
+    "check_timing": {
+      "no_clock": 0,
+      "constant_clock": 0,
+      "pulse_width_clock": 0,
+      "unconstrained_internal_endpoints": 0,
+      "no_input_delay": 15,
+      "no_output_delay": 13,
+      "multiple_clock": 0,
+      "generated_clocks": 0,
+      "loops": 0,
+      "partial_input_delay": 0,
+      "partial_output_delay": 0,
+      "latch_loops": 0
+    },
+    "resources": {
+      "lut": {
+        "used": 40487.0,
+        "available": 218600.0,
+        "percent": 18.52
+      },
+      "ff": {
+        "used": 54571.0,
+        "available": 437200.0,
+        "percent": 12.48
+      },
+      "slice": {
+        "used": 17104.0,
+        "available": 54650.0,
+        "percent": 31.3
+      },
+      "bram": {
+        "used": 161.0,
+        "available": 545.0,
+        "percent": 29.54
+      },
+      "dsp": {
+        "used": 154.0,
+        "available": 900.0,
+        "percent": 17.11
+      }
+    },
+    "scope": "reported constrained timing and static capacity only",
+    "board_signoff": false,
+    "external_io_delay_gaps": {
+      "no_input_delay": 15,
+      "no_output_delay": 13
+    }
+  },
+  "scope": "offline package and tool verification; no new board or accuracy experiment",
+  "documents": {
+    "ok": true,
+    "documents": 8,
+    "local_links_checked": 211,
+    "issues": [],
+    "privacy_scope": "heuristic candidates only; manual identity and location review remains necessary"
+  },
+  "delivered_files": [
+    "skill/case_templates.md",
+    "skill/pitfalls.md",
+    "skill/prompt_workflows.md",
+    "skill/README.md",
+    "skill/scripts/test_verify.py",
+    "skill/scripts/verify.py",
+    "skill/validation_results.json",
+    "skill/validation_scripts.md",
+    "skill/workflow.md",
+    "report/llm_collaboration.md",
+    "report/README.md"
+  ]
+}

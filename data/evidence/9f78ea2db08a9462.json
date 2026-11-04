@@ -1,0 +1,30 @@
+[
+  {
+    "station": "A",
+    "state": "waiting_target",
+    "session": "a0ed64cac6cb4a7480fe6488926d2bea",
+    "taskContextMatches": true,
+    "guard": "基准需原位核验：原位相位与旧基准不符；保持原始相位，禁止输出套用旧偏置的角度",
+    "matchedProtectedObservations": 1,
+    "angles": [
+      null
+    ],
+    "referenceMatches": [
+      false
+    ]
+  },
+  {
+    "station": "B",
+    "state": "waiting_target",
+    "session": "c869bc61b8cf449a9704bb51670bb26b",
+    "taskContextMatches": true,
+    "guard": "基准需原位核验：原位相位与旧基准不符；保持原始相位，禁止输出套用旧偏置的角度",
+    "matchedProtectedObservations": 1,
+    "angles": [
+      null
+    ],
+    "referenceMatches": [
+      false
+    ]
+  }
+]

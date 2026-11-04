@@ -1,0 +1,293 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "name": "A_captured_phase_deg",
+      "kind": "actual_air_capture_replay",
+      "expected": -168.90997610431734,
+      "actual": -168.90997610431734,
+      "passed": true
+    },
+    {
+      "name": "A_captured_snr_proxy_db",
+      "kind": "actual_air_capture_replay",
+      "expected": [
+        36.243980585703525,
+        35.15912272982846
+      ],
+      "actual": [
+        36.243980585703525,
+        35.15912272982846
+      ],
+      "passed": true
+    },
+    {
+      "name": "A_captured_quality_gate",
+      "kind": "actual_air_capture_replay",
+      "expected": true,
+      "actual": true,
+      "passed": true
+    },
+    {
+      "name": "A_captured_concentration",
+      "kind": "actual_air_capture_replay",
+      "expected": 0.9636154404663191,
+      "actual": 0.9636154404663191,
+      "passed": true
+    },
+    {
+      "name": "B_captured_phase_deg",
+      "kind": "actual_air_capture_replay",
+      "expected": 169.57097685018823,
+      "actual": 169.57097685018823,
+      "passed": true
+    },
+    {
+      "name": "B_captured_snr_proxy_db",
+      "kind": "actual_air_capture_replay",
+      "expected": [
+        36.31500038087772,
+        36.03451270615202
+      ],
+      "actual": [
+        36.31500038087773,
+        36.03451270615202
+      ],
+      "passed": true
+    },
+    {
+      "name": "B_captured_quality_gate",
+      "kind": "actual_air_capture_replay",
+      "expected": true,
+      "actual": true,
+      "passed": true
+    },
+    {
+      "name": "B_captured_concentration",
+      "kind": "actual_air_capture_replay",
+      "expected": 0.9970129949772301,
+      "actual": 0.9970129949772301,
+      "passed": true
+    },
+    {
+      "name": "captured_RID_identity",
+      "kind": "actual_air_capture_replay",
+      "expected": "DIY-202610261026-001",
+      "actual": "DIY-202610261026-001",
+      "passed": true
+    },
+    {
+      "name": "captured_RID_registration",
+      "kind": "actual_air_capture_replay",
+      "expected": "UAS08719",
+      "actual": "UAS08719",
+      "passed": true
+    },
+    {
+      "name": "captured_RID_latitude",
+      "kind": "actual_air_capture_replay",
+      "expected": 34.1263072,
+      "actual": 34.1263072,
+      "passed": true
+    },
+    {
+      "name": "captured_RID_longitude",
+      "kind": "actual_air_capture_replay",
+      "expected": 108.8302976,
+      "actual": 108.8302976,
+      "passed": true
+    },
+    {
+      "name": "captured_RID_altitude",
+      "kind": "actual_air_capture_replay",
+      "expected": 54.0,
+      "actual": 54.0,
+      "passed": true
+    },
+    {
+      "name": "captured_RID_groundSpeed",
+      "kind": "actual_air_capture_replay",
+      "expected": 0.9,
+      "actual": 0.9,
+      "passed": true
+    },
+    {
+      "name": "captured_RID_operatorLatitude",
+      "kind": "actual_air_capture_replay",
+      "expected": 34.1260544,
+      "actual": 34.1260544,
+      "passed": true
+    },
+    {
+      "name": "captured_RID_operatorLongitude",
+      "kind": "actual_air_capture_replay",
+      "expected": 108.8310784,
+      "actual": 108.8310784,
+      "passed": true
+    },
+    {
+      "name": "captured_RID_transport",
+      "kind": "actual_air_capture_replay",
+      "expected": "confirmed",
+      "actual": "confirmed",
+      "passed": true
+    },
+    {
+      "name": "bad_FCS_does_not_become_RID",
+      "kind": "negative_case",
+      "expected": "none",
+      "actual": "none",
+      "passed": true
+    },
+    {
+      "name": "controlled_phase_-40",
+      "kind": "controlled_waveform",
+      "expected": -40,
+      "actual": -40.00063418671036,
+      "passed": true
+    },
+    {
+      "name": "controlled_diagnostic_angle_-40",
+      "kind": "controlled_waveform",
+      "expected": -13.168129207917016,
+      "actual": -13.16834173957771,
+      "passed": true
+    },
+    {
+      "name": "uncalibrated_production_gate_-40",
+      "kind": "negative_case",
+      "expected": false,
+      "actual": false,
+      "passed": true
+    },
+    {
+      "name": "tampered_IQ_rejected_-40",
+      "kind": "negative_case",
+      "expected": true,
+      "actual": true,
+      "passed": true
+    },
+    {
+      "name": "controlled_phase_0",
+      "kind": "controlled_waveform",
+      "expected": 0,
+      "actual": 0.0,
+      "passed": true
+    },
+    {
+      "name": "controlled_diagnostic_angle_0",
+      "kind": "controlled_waveform",
+      "expected": 0.0,
+      "actual": 0.0,
+      "passed": true
+    },
+    {
+      "name": "uncalibrated_production_gate_0",
+      "kind": "negative_case",
+      "expected": false,
+      "actual": false,
+      "passed": true
+    },
+    {
+      "name": "tampered_IQ_rejected_0",
+      "kind": "negative_case",
+      "expected": true,
+      "actual": true,
+      "passed": true
+    },
+    {
+      "name": "controlled_phase_25",
+      "kind": "controlled_waveform",
+      "expected": 25,
+      "actual": 25.004175662057097,
+      "passed": true
+    },
+    {
+      "name": "controlled_diagnostic_angle_25",
+      "kind": "controlled_waveform",
+      "expected": 8.185636439244519,
+      "actual": 8.187013038256698,
+      "passed": true
+    },
+    {
+      "name": "uncalibrated_production_gate_25",
+      "kind": "negative_case",
+      "expected": false,
+      "actual": false,
+      "passed": true
+    },
+    {
+      "name": "tampered_IQ_rejected_25",
+      "kind": "negative_case",
+      "expected": true,
+      "actual": true,
+      "passed": true
+    },
+    {
+      "name": "zero_signal_no_LTF",
+      "kind": "negative_case",
+      "expected": false,
+      "actual": false,
+      "passed": true
+    },
+    {
+      "name": "two_element_front_back_ambiguity",
+      "kind": "analytic_geometry",
+      "expected": 2,
+      "actual": 2,
+      "passed": true
+    },
+    {
+      "name": "known_geometry_target_m",
+      "kind": "analytic_geometry",
+      "expected": {
+        "xM": 0,
+        "yM": 3
+      },
+      "actual": [
+        {
+          "xM": -1.1102230246251565e-15,
+          "yM": 2.9999999999999982,
+          "rangeAM": 3.3105890714493684,
+          "rangeBM": 3.3105890714493675,
+          "crossingAngleDeg": 50.03378695620007,
+          "candidateId": "front-front",
+          "branches": {
+            "A": "front",
+            "B": "front"
+          },
+          "geometryQuality": "normal",
+          "ambiguous": true,
+          "resolved": false
+        },
+        {
+          "xM": 4.440892098500626e-16,
+          "yM": -2.9999999999999973,
+          "rangeAM": 3.310589071449367,
+          "rangeBM": 3.3105890714493675,
+          "crossingAngleDeg": 50.033786956200075,
+          "candidateId": "back-back",
+          "branches": {
+            "A": "back",
+            "B": "back"
+          },
+          "geometryQuality": "normal",
+          "ambiguous": true,
+          "resolved": false
+        }
+      ],
+      "passed": true
+    },
+    {
+      "name": "different_frames_do_not_intersect",
+      "kind": "negative_case",
+      "expected": 0,
+      "actual": 0,
+      "passed": true
+    }
+  ],
+  "implementationHash": "6a43e0f6e323aa829186c7c569cfe1442ed7c451e3b7815a738597fdc5dfa5ea",
+  "python": "3.8.10 (tags/v3.8.10:3d8993a, May  3 2021, 11:34:34) [MSC v.1928 32 bit (Intel)]",
+  "numpy": "1.22.1",
+  "scope": "Offline saved-data replay, independent controlled cases, and analytic geometry; no live RF or absolute angle-accuracy claim."
+}

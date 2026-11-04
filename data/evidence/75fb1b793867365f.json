@@ -1,0 +1,824 @@
+{
+    "station":  "A",
+    "verifiedAt":  "2026-11-03T04:58:28.4560005+08:00",
+    "manualStartupCommandsAfterReboot":  0,
+    "iq":  {
+               "station":  "A",
+               "sessionId":  "63c3fca5f031496ba1508bd12f7fcc19",
+               "state":  "waiting_target",
+               "error":  null,
+               "task":  {
+                            "mac":  "mac_aa98f353b5",
+                            "frequencyMhz":  2437.0,
+                            "expires":  91.783849747,
+                            "contextHash":  "fa7fcb2a08900c6f1a1a118d1faa2efff1b26ed2818c914a907303057d5a9e61"
+                        },
+               "metadata":  {
+                                "rf_hz":  2436999998,
+                                "iq_sample_rate_hz":  20000000,
+                                "spacing_m":  0.06,
+                                "geometryStatus":  "software target only; physical geometry not confirmed",
+                                "fixed_gain_profile":  {
+                                                           "before":  [
+                                                                          {
+                                                                              "mode":  "manual",
+                                                                              "gain":  "0.000000"
+                                                                          },
+                                                                          {
+                                                                              "mode":  "manual",
+                                                                              "gain":  "0.000000"
+                                                                          }
+                                                                      ],
+                                                           "active_mode":  "manual",
+                                                           "active_gains":  [
+                                                                                "0.000000 dB",
+                                                                                "0.000000 dB"
+                                                                            ],
+                                                           "requested_gains_db":  [
+                                                                                      0.0,
+                                                                                      0.0
+                                                                                  ],
+                                                           "session_id":  "63c3fca5f031496ba1508bd12f7fcc19"
+                                                       },
+                                "capture_profile":  {
+                                                        "registers_before":  {
+                                                                                 "1":  1,
+                                                                                 "3":  17,
+                                                                                 "5":  0,
+                                                                                 "7":  0,
+                                                                                 "8":  0,
+                                                                                 "9":  0,
+                                                                                 "11":  8190,
+                                                                                 "12":  4096
+                                                                             },
+                                                        "manual_trigger_before":  "N",
+                                                        "registers_active":  {
+                                                                                 "1":  1,
+                                                                                 "3":  17,
+                                                                                 "5":  0,
+                                                                                 "7":  0,
+                                                                                 "8":  4,
+                                                                                 "9":  0,
+                                                                                 "11":  768,
+                                                                                 "12":  4096,
+                                                                                 "20":  0,
+                                                                                 "21":  8188,
+                                                                                 "22":  8192
+                                                                             }
+                                                    },
+                                "kernel":  "5.15.0-175919-g427c94e8faa5-openwifi-rx1",
+                                "phase_calibration":  null,
+                                "calibrationStatus":  "uncalibrated",
+                                "pre_trigger_samples":  1536,
+                                "association":  "board verifies full MAC/FCS/LTF/TSF and computes single-station phase/reference/angle",
+                                "timing_profile":  {
+                                                       "signal_latch_after_ltf_us":  19.0,
+                                                       "tolerance_us":  1.5,
+                                                       "verified_reference_rate_mbps":  6,
+                                                       "note":  "legacy SIGNAL latch; never apply to HT header latch"
+                                                   },
+                                "timing_profiles":  {
+                                                        "ht20_sgi_mcs0_5_20261102":  {
+                                                                                         "signal_latch_after_ltf_us":  30.5,
+                                                                                         "tolerance_us":  1.5,
+                                                                                         "verified_mcs":  [
+                                                                                                              0,
+                                                                                                              1,
+                                                                                                              2,
+                                                                                                              3,
+                                                                                                              4,
+                                                                                                              5
+                                                                                                          ],
+                                                                                         "kernel":  "5.15.0-175919-g427c94e8faa5-openwifi-rx1",
+                                                                                         "evidence":  "64 saved dual-RX windows across two actual non-RID video runs; no phase bias fitted"
+                                                                                     }
+                                                    },
+                                "processing":  {
+                                                   "location":  "board",
+                                                   "schema":  "airspace.board-doa.v1",
+                                                   "estimator":  "ofdm_ltf_unit_bins_v1",
+                                                   "implementationHash":  "9457c8584ff19f080bd0bbd87c580e495292d09599897cb0373e2a50da011a6a",
+                                                   "rawTransport":  "diagnostic_request_only",
+                                                   "angleReference":  "session_and_geometry_bound"
+                                               }
+                            },
+               "channelControl":  {
+                                      "available":  true,
+                                      "tuning":  false,
+                                      "error":  null,
+                                      "supportedChannels":  [
+                                                                1,
+                                                                2,
+                                                                3,
+                                                                4,
+                                                                5,
+                                                                6,
+                                                                7,
+                                                                8,
+                                                                9,
+                                                                10,
+                                                                11,
+                                                                12,
+                                                                13,
+                                                                36,
+                                                                38,
+                                                                40,
+                                                                42,
+                                                                44,
+                                                                46,
+                                                                48,
+                                                                52,
+                                                                56,
+                                                                60,
+                                                                64
+                                                            ]
+                                  },
+               "counters":  {
+                                "doaResponses":  27,
+                                "doaBytesServed":  164650,
+                                "doaAccepted":  54,
+                                "candidateWindows":  54
+                            },
+               "rfRestored":  false,
+               "generatedMonotonic":  110.919661954,
+               "schema":  "airspace.board-doa.v1",
+               "processing":  {
+                                  "location":  "board",
+                                  "schema":  "airspace.board-doa.v1",
+                                  "estimator":  "ofdm_ltf_unit_bins_v1",
+                                  "implementationHash":  "9457c8584ff19f080bd0bbd87c580e495292d09599897cb0373e2a50da011a6a",
+                                  "rawTransport":  "diagnostic_request_only",
+                                  "angleReference":  "session_and_geometry_bound"
+                              },
+               "lastRejection":  null,
+               "observations":  [
+
+                                ]
+           },
+    "role":  {
+                 "enabled":  false,
+                 "captureActive":  false,
+                 "ready":  true,
+                 "role":  "direction_only",
+                 "generation":  0,
+                 "sessionId":  "1702565577570374764",
+                 "error":  null
+             },
+    "resources":  {
+                      "available":  true,
+                      "cpuPercent":  2.4390243902439024,
+                      "sampleIntervalSeconds":  1.234244898,
+                      "memory":  {
+                                     "percent":  15.626955977467139,
+                                     "totalBytes":  1040502784,
+                                     "availableBytes":  877903872
+                                 },
+                      "loadAverage":  [
+                                          1.1,
+                                          0.59,
+                                          0.23
+                                      ],
+                      "uptimeSeconds":  110.62,
+                      "monotonic":  110.617441165,
+                      "source":  "Linux /proc; aggregate CPU busy, idle and iowait excluded",
+                      "cpuCount":  2
+                  },
+    "recognition":  {
+                        "schema":  "airspace.board-recognition.v1",
+                        "station":  "A",
+                        "sessionId":  "6d960a79f7724a7eba10482c481b53d4",
+                        "generatedMonotonic":  110.981804753,
+                        "processingLocation":  "board",
+                        "recognitionStation":  "A",
+                        "schedulerLocation":  "pc",
+                        "state":  "waiting_feed",
+                        "errors":  {
+
+                                   },
+                        "inputAvailable":  false,
+                        "decoderRole":  {
+                                            "enabled":  false,
+                                            "captureActive":  false,
+                                            "ready":  true,
+                                            "role":  "direction_only",
+                                            "generation":  0,
+                                            "sessionId":  "1702565577570374764",
+                                            "error":  null
+                                        },
+                        "sourceStation":  "B",
+                        "sources":  [
+
+                                    ],
+                        "rid":  null,
+                        "events":  [
+                                       {
+                                           "monotonic":  31.462308139,
+                                           "sourceKey":  "mac_cba335d31b@2467.0",
+                                           "kind":  "wifi",
+                                           "label":  "普通/未知Wi-Fi"
+                                       },
+                                       {
+                                           "monotonic":  31.462308139,
+                                           "sourceKey":  "mac_cba335d31b@2462.0",
+                                           "kind":  "wifi",
+                                           "label":  "普通/未知Wi-Fi"
+                                       },
+                                       {
+                                           "monotonic":  31.462308139,
+                                           "sourceKey":  "mac_962537b28f@2462.0",
+                                           "kind":  "wifi",
+                                           "label":  "普通/未知Wi-Fi"
+                                       },
+                                       {
+                                           "monotonic":  31.462308139,
+                                           "sourceKey":  "mac_2632228a92@2457.0",
+                                           "kind":  "wifi",
+                                           "label":  "普通/未知Wi-Fi"
+                                       },
+                                       {
+                                           "monotonic":  31.462308139,
+                                           "sourceKey":  "mac_cba335d31b@2457.0",
+                                           "kind":  "wifi",
+                                           "label":  "普通/未知Wi-Fi"
+                                       },
+                                       {
+                                           "monotonic":  31.462308139,
+                                           "sourceKey":  "mac_cba335d31b@2452.0",
+                                           "kind":  "wifi",
+                                           "label":  "普通/未知Wi-Fi"
+                                       },
+                                       {
+                                           "monotonic":  31.462308139,
+                                           "sourceKey":  "mac_2045b46f9a@2452.0",
+                                           "kind":  "wifi",
+                                           "label":  "普通/未知Wi-Fi"
+                                       },
+                                       {
+                                           "monotonic":  31.462308139,
+                                           "sourceKey":  "mac_962537b28f@2452.0",
+                                           "kind":  "wifi",
+                                           "label":  "普通/未知Wi-Fi"
+                                       },
+                                       {
+                                           "monotonic":  31.462308139,
+                                           "sourceKey":  "mac_cba335d31b@2447.0",
+                                           "kind":  "wifi",
+                                           "label":  "普通/未知Wi-Fi"
+                                       },
+                                       {
+                                           "monotonic":  31.462308139,
+                                           "sourceKey":  "mac_cba335d31b@2442.0",
+                                           "kind":  "wifi",
+                                           "label":  "普通/未知Wi-Fi"
+                                       },
+                                       {
+                                           "monotonic":  31.462308139,
+                                           "sourceKey":  "mac_962537b28f@2442.0",
+                                           "kind":  "wifi",
+                                           "label":  "普通/未知Wi-Fi"
+                                       },
+                                       {
+                                           "monotonic":  31.462308139,
+                                           "sourceKey":  "mac_2632228a92@2472.0",
+                                           "kind":  "wifi",
+                                           "label":  "普通/未知Wi-Fi"
+                                       },
+                                       {
+                                           "monotonic":  31.462308139,
+                                           "sourceKey":  "mac_d1f2f68dfb@2462.0",
+                                           "kind":  "wifi",
+                                           "label":  "普通/未知Wi-Fi"
+                                       },
+                                       {
+                                           "monotonic":  31.462308139,
+                                           "sourceKey":  "mac_234c67e319@2462.0",
+                                           "kind":  "wifi",
+                                           "label":  "普通/未知Wi-Fi"
+                                       },
+                                       {
+                                           "monotonic":  31.462308139,
+                                           "sourceKey":  "mac_add2b592d2@5260.0",
+                                           "kind":  "wifi",
+                                           "label":  "普通/未知Wi-Fi"
+                                       },
+                                       {
+                                           "monotonic":  31.462308139,
+                                           "sourceKey":  "mac_c4251e71a0@2447.0",
+                                           "kind":  "wifi",
+                                           "label":  "普通/未知Wi-Fi"
+                                       },
+                                       {
+                                           "monotonic":  31.462308139,
+                                           "sourceKey":  "mac_d1f2f68dfb@2442.0",
+                                           "kind":  "wifi",
+                                           "label":  "普通/未知Wi-Fi"
+                                       },
+                                       {
+                                           "monotonic":  31.462308139,
+                                           "sourceKey":  "mac_4fc966b31e@2432.0",
+                                           "kind":  "wifi",
+                                           "label":  "普通/未知Wi-Fi"
+                                       },
+                                       {
+                                           "monotonic":  31.462308139,
+                                           "sourceKey":  "mac_d1f2f68dfb@2417.0",
+                                           "kind":  "wifi",
+                                           "label":  "普通/未知Wi-Fi"
+                                       },
+                                       {
+                                           "monotonic":  31.462308139,
+                                           "sourceKey":  "mac_6d89250159@2472.0",
+                                           "kind":  "wifi",
+                                           "label":  "普通/未知Wi-Fi"
+                                       },
+                                       {
+                                           "monotonic":  31.462308139,
+                                           "sourceKey":  "mac_5378d67e7f@5300.0",
+                                           "kind":  "wifi",
+                                           "label":  "普通/未知Wi-Fi"
+                                       },
+                                       {
+                                           "monotonic":  31.462308139,
+                                           "sourceKey":  "mac_7872d95912@5300.0",
+                                           "kind":  "wifi",
+                                           "label":  "普通/未知Wi-Fi"
+                                       },
+                                       {
+                                           "monotonic":  31.462308139,
+                                           "sourceKey":  "mac_d1f2f68dfb@2457.0",
+                                           "kind":  "wifi",
+                                           "label":  "普通/未知Wi-Fi"
+                                       },
+                                       {
+                                           "monotonic":  31.462308139,
+                                           "sourceKey":  "mac_5378d67e7f@5280.0",
+                                           "kind":  "wifi",
+                                           "label":  "普通/未知Wi-Fi"
+                                       },
+                                       {
+                                           "monotonic":  31.462308139,
+                                           "sourceKey":  "mac_5378d67e7f@5240.0",
+                                           "kind":  "wifi",
+                                           "label":  "普通/未知Wi-Fi"
+                                       },
+                                       {
+                                           "monotonic":  31.462308139,
+                                           "sourceKey":  "mac_2632228a92@2432.0",
+                                           "kind":  "wifi",
+                                           "label":  "普通/未知Wi-Fi"
+                                       },
+                                       {
+                                           "monotonic":  31.462308139,
+                                           "sourceKey":  "mac_ece4ee3a57@2427.0",
+                                           "kind":  "wifi",
+                                           "label":  "普通/未知Wi-Fi"
+                                       },
+                                       {
+                                           "monotonic":  31.462308139,
+                                           "sourceKey":  "mac_4fc966b31e@2417.0",
+                                           "kind":  "wifi",
+                                           "label":  "普通/未知Wi-Fi"
+                                       },
+                                       {
+                                           "monotonic":  31.462308139,
+                                           "sourceKey":  "mac_ece4ee3a57@2417.0",
+                                           "kind":  "wifi",
+                                           "label":  "普通/未知Wi-Fi"
+                                       },
+                                       {
+                                           "monotonic":  31.462308139,
+                                           "sourceKey":  "mac_ece4ee3a57@2472.0",
+                                           "kind":  "wifi",
+                                           "label":  "普通/未知Wi-Fi"
+                                       },
+                                       {
+                                           "monotonic":  31.462308139,
+                                           "sourceKey":  "mac_126d52d991@2462.0",
+                                           "kind":  "wifi",
+                                           "label":  "普通/未知Wi-Fi"
+                                       },
+                                       {
+                                           "monotonic":  31.462308139,
+                                           "sourceKey":  "mac_043b51fe53@2427.0",
+                                           "kind":  "wifi",
+                                           "label":  "普通/未知Wi-Fi"
+                                       },
+                                       {
+                                           "monotonic":  31.462308139,
+                                           "sourceKey":  "mac_d8eb6fd25f@2422.0",
+                                           "kind":  "wifi",
+                                           "label":  "普通/未知Wi-Fi"
+                                       },
+                                       {
+                                           "monotonic":  31.462308139,
+                                           "sourceKey":  "mac_03e6b40f6d@2422.0",
+                                           "kind":  "wifi",
+                                           "label":  "普通/未知Wi-Fi"
+                                       },
+                                       {
+                                           "monotonic":  31.462308139,
+                                           "sourceKey":  "mac_d8eb6fd25f@2467.0",
+                                           "kind":  "wifi",
+                                           "label":  "普通/未知Wi-Fi"
+                                       },
+                                       {
+                                           "monotonic":  31.462308139,
+                                           "sourceKey":  "mac_2766af19c7@2462.0",
+                                           "kind":  "wifi",
+                                           "label":  "普通/未知Wi-Fi"
+                                       },
+                                       {
+                                           "monotonic":  31.462308139,
+                                           "sourceKey":  "mac_126d52d991@2457.0",
+                                           "kind":  "wifi",
+                                           "label":  "普通/未知Wi-Fi"
+                                       },
+                                       {
+                                           "monotonic":  31.462308139,
+                                           "sourceKey":  "mac_2766af19c7@2457.0",
+                                           "kind":  "wifi",
+                                           "label":  "普通/未知Wi-Fi"
+                                       },
+                                       {
+                                           "monotonic":  31.462308139,
+                                           "sourceKey":  "mac_03e6b40f6d@2452.0",
+                                           "kind":  "wifi",
+                                           "label":  "普通/未知Wi-Fi"
+                                       },
+                                       {
+                                           "monotonic":  31.462308139,
+                                           "sourceKey":  "mac_f232c66260@2447.0",
+                                           "kind":  "wifi",
+                                           "label":  "普通/未知Wi-Fi"
+                                       },
+                                       {
+                                           "monotonic":  31.462308139,
+                                           "sourceKey":  "mac_2766af19c7@2447.0",
+                                           "kind":  "wifi",
+                                           "label":  "普通/未知Wi-Fi"
+                                       },
+                                       {
+                                           "monotonic":  31.462308139,
+                                           "sourceKey":  "mac_4fc966b31e@2442.0",
+                                           "kind":  "wifi",
+                                           "label":  "普通/未知Wi-Fi"
+                                       },
+                                       {
+                                           "monotonic":  31.462308139,
+                                           "sourceKey":  "mac_61dcb2da52@2462.0",
+                                           "kind":  "wifi",
+                                           "label":  "普通/未知Wi-Fi"
+                                       },
+                                       {
+                                           "monotonic":  31.462308139,
+                                           "sourceKey":  "mac_cc611ac9f6@2452.0",
+                                           "kind":  "wifi",
+                                           "label":  "普通/未知Wi-Fi"
+                                       },
+                                       {
+                                           "monotonic":  31.462308139,
+                                           "sourceKey":  "mac_a7d6041e67@2432.0",
+                                           "kind":  "wifi",
+                                           "label":  "普通/未知Wi-Fi"
+                                       },
+                                       {
+                                           "monotonic":  31.462308139,
+                                           "sourceKey":  "mac_d8eb6fd25f@2427.0",
+                                           "kind":  "wifi",
+                                           "label":  "普通/未知Wi-Fi"
+                                       },
+                                       {
+                                           "monotonic":  31.462308139,
+                                           "sourceKey":  "mac_74c95619a2@2437.0",
+                                           "kind":  "wifi",
+                                           "label":  "普通/未知Wi-Fi"
+                                       },
+                                       {
+                                           "monotonic":  31.462308139,
+                                           "sourceKey":  "mac_126d52d991@2452.0",
+                                           "kind":  "wifi",
+                                           "label":  "普通/未知Wi-Fi"
+                                       },
+                                       {
+                                           "monotonic":  31.462308139,
+                                           "sourceKey":  "mac_4fc966b31e@2447.0",
+                                           "kind":  "wifi",
+                                           "label":  "普通/未知Wi-Fi"
+                                       },
+                                       {
+                                           "monotonic":  31.462308139,
+                                           "sourceKey":  "mac_2766af19c7@2432.0",
+                                           "kind":  "wifi",
+                                           "label":  "普通/未知Wi-Fi"
+                                       },
+                                       {
+                                           "monotonic":  31.462308139,
+                                           "sourceKey":  "mac_2766af19c7@2422.0",
+                                           "kind":  "wifi",
+                                           "label":  "普通/未知Wi-Fi"
+                                       },
+                                       {
+                                           "monotonic":  31.462308139,
+                                           "sourceKey":  "mac_03e6b40f6d@2417.0",
+                                           "kind":  "wifi",
+                                           "label":  "普通/未知Wi-Fi"
+                                       },
+                                       {
+                                           "monotonic":  31.462308139,
+                                           "sourceKey":  "mac_126d52d991@2472.0",
+                                           "kind":  "wifi",
+                                           "label":  "普通/未知Wi-Fi"
+                                       },
+                                       {
+                                           "monotonic":  31.462308139,
+                                           "sourceKey":  "mac_ece4ee3a57@2462.0",
+                                           "kind":  "wifi",
+                                           "label":  "普通/未知Wi-Fi"
+                                       },
+                                       {
+                                           "monotonic":  31.462308139,
+                                           "sourceKey":  "mac_2766af19c7@2452.0",
+                                           "kind":  "wifi",
+                                           "label":  "普通/未知Wi-Fi"
+                                       },
+                                       {
+                                           "monotonic":  31.462308139,
+                                           "sourceKey":  "mac_a4b27c38a5@2417.0",
+                                           "kind":  "wifi",
+                                           "label":  "普通/未知Wi-Fi"
+                                       },
+                                       {
+                                           "monotonic":  31.462308139,
+                                           "sourceKey":  "mac_aa98f353b5@5180.0",
+                                           "kind":  "wifi",
+                                           "label":  "普通/未知Wi-Fi"
+                                       },
+                                       {
+                                           "monotonic":  31.462308139,
+                                           "sourceKey":  "mac_47ab0f86d1@5320.0",
+                                           "kind":  "wifi",
+                                           "label":  "普通/未知Wi-Fi"
+                                       },
+                                       {
+                                           "monotonic":  31.462308139,
+                                           "sourceKey":  "mac_3d469c96ef@2462.0",
+                                           "kind":  "wifi",
+                                           "label":  "普通/未知Wi-Fi"
+                                       },
+                                       {
+                                           "monotonic":  31.462308139,
+                                           "sourceKey":  "mac_47ab0f86d1@5300.0",
+                                           "kind":  "wifi",
+                                           "label":  "普通/未知Wi-Fi"
+                                       },
+                                       {
+                                           "monotonic":  31.462308139,
+                                           "sourceKey":  "mac_47ab0f86d1@5280.0",
+                                           "kind":  "wifi",
+                                           "label":  "普通/未知Wi-Fi"
+                                       },
+                                       {
+                                           "monotonic":  31.462308139,
+                                           "sourceKey":  "mac_47ab0f86d1@5240.0",
+                                           "kind":  "wifi",
+                                           "label":  "普通/未知Wi-Fi"
+                                       },
+                                       {
+                                           "monotonic":  31.462308139,
+                                           "sourceKey":  "mac_938f07e161@2432.0",
+                                           "kind":  "wifi",
+                                           "label":  "普通/未知Wi-Fi"
+                                       },
+                                       {
+                                           "monotonic":  31.462308139,
+                                           "sourceKey":  "mac_938f07e161@2427.0",
+                                           "kind":  "wifi",
+                                           "label":  "普通/未知Wi-Fi"
+                                       },
+                                       {
+                                           "monotonic":  31.462308139,
+                                           "sourceKey":  "mac_938f07e161@2422.0",
+                                           "kind":  "wifi",
+                                           "label":  "普通/未知Wi-Fi"
+                                       },
+                                       {
+                                           "monotonic":  31.462308139,
+                                           "sourceKey":  "mac_938f07e161@2417.0",
+                                           "kind":  "wifi",
+                                           "label":  "普通/未知Wi-Fi"
+                                       },
+                                       {
+                                           "monotonic":  31.462308139,
+                                           "sourceKey":  "mac_bc7e8ae0b5@2472.0",
+                                           "kind":  "wifi",
+                                           "label":  "普通/未知Wi-Fi"
+                                       },
+                                       {
+                                           "monotonic":  31.462308139,
+                                           "sourceKey":  "mac_47ab0f86d1@2467.0",
+                                           "kind":  "wifi",
+                                           "label":  "普通/未知Wi-Fi"
+                                       },
+                                       {
+                                           "monotonic":  31.462308139,
+                                           "sourceKey":  "mac_7872d95912@5320.0",
+                                           "kind":  "wifi",
+                                           "label":  "普通/未知Wi-Fi"
+                                       },
+                                       {
+                                           "monotonic":  31.462308139,
+                                           "sourceKey":  "mac_ade8db0de8@5320.0",
+                                           "kind":  "wifi",
+                                           "label":  "普通/未知Wi-Fi"
+                                       },
+                                       {
+                                           "monotonic":  31.462308139,
+                                           "sourceKey":  "mac_1d720fcd86@5320.0",
+                                           "kind":  "wifi",
+                                           "label":  "普通/未知Wi-Fi"
+                                       },
+                                       {
+                                           "monotonic":  31.462308139,
+                                           "sourceKey":  "mac_7cb9160308@5320.0",
+                                           "kind":  "wifi",
+                                           "label":  "普通/未知Wi-Fi"
+                                       },
+                                       {
+                                           "monotonic":  31.462308139,
+                                           "sourceKey":  "mac_938f07e161@2462.0",
+                                           "kind":  "wifi",
+                                           "label":  "普通/未知Wi-Fi"
+                                       },
+                                       {
+                                           "monotonic":  31.462308139,
+                                           "sourceKey":  "mac_938f07e161@2452.0",
+                                           "kind":  "wifi",
+                                           "label":  "普通/未知Wi-Fi"
+                                       },
+                                       {
+                                           "monotonic":  31.462308139,
+                                           "sourceKey":  "mac_d8eb6fd25f@2452.0",
+                                           "kind":  "wifi",
+                                           "label":  "普通/未知Wi-Fi"
+                                       },
+                                       {
+                                           "monotonic":  31.462308139,
+                                           "sourceKey":  "mac_a94e3d1adf@2427.0",
+                                           "kind":  "wifi",
+                                           "label":  "普通/未知Wi-Fi"
+                                       },
+                                       {
+                                           "monotonic":  31.462308139,
+                                           "sourceKey":  "mac_b932f63daf@2427.0",
+                                           "kind":  "wifi",
+                                           "label":  "普通/未知Wi-Fi"
+                                       },
+                                       {
+                                           "monotonic":  31.462308139,
+                                           "sourceKey":  "mac_a94e3d1adf@2472.0",
+                                           "kind":  "wifi",
+                                           "label":  "普通/未知Wi-Fi"
+                                       },
+                                       {
+                                           "monotonic":  31.462308139,
+                                           "sourceKey":  "mac_add2b592d2@5300.0",
+                                           "kind":  "wifi",
+                                           "label":  "普通/未知Wi-Fi"
+                                       },
+                                       {
+                                           "monotonic":  31.462308139,
+                                           "sourceKey":  "mac_f30d37e2b6@2452.0",
+                                           "kind":  "wifi",
+                                           "label":  "普通/未知Wi-Fi"
+                                       },
+                                       {
+                                           "monotonic":  31.462308139,
+                                           "sourceKey":  "mac_234c67e319@2442.0",
+                                           "kind":  "wifi",
+                                           "label":  "普通/未知Wi-Fi"
+                                       },
+                                       {
+                                           "monotonic":  31.462308139,
+                                           "sourceKey":  "mac_6d89250159@2427.0",
+                                           "kind":  "wifi",
+                                           "label":  "普通/未知Wi-Fi"
+                                       },
+                                       {
+                                           "monotonic":  31.462308139,
+                                           "sourceKey":  "mac_234c67e319@5320.0",
+                                           "kind":  "wifi",
+                                           "label":  "普通/未知Wi-Fi"
+                                       },
+                                       {
+                                           "monotonic":  31.462308139,
+                                           "sourceKey":  "mac_b739fb1c13@5320.0",
+                                           "kind":  "wifi",
+                                           "label":  "普通/未知Wi-Fi"
+                                       },
+                                       {
+                                           "monotonic":  31.462308139,
+                                           "sourceKey":  "mac_bc7e8ae0b5@5320.0",
+                                           "kind":  "wifi",
+                                           "label":  "普通/未知Wi-Fi"
+                                       },
+                                       {
+                                           "monotonic":  31.462308139,
+                                           "sourceKey":  "mac_41d5e5d989@2437.0",
+                                           "kind":  "wifi",
+                                           "label":  "普通/未知Wi-Fi"
+                                       },
+                                       {
+                                           "monotonic":  31.462308139,
+                                           "sourceKey":  "mac_add2b592d2@5200.0",
+                                           "kind":  "wifi",
+                                           "label":  "普通/未知Wi-Fi"
+                                       },
+                                       {
+                                           "monotonic":  31.462308139,
+                                           "sourceKey":  "mac_ece4ee3a57@2432.0",
+                                           "kind":  "wifi",
+                                           "label":  "普通/未知Wi-Fi"
+                                       },
+                                       {
+                                           "monotonic":  31.462308139,
+                                           "sourceKey":  "mac_ece4ee3a57@2422.0",
+                                           "kind":  "wifi",
+                                           "label":  "普通/未知Wi-Fi"
+                                       },
+                                       {
+                                           "monotonic":  31.462308139,
+                                           "sourceKey":  "mac_5378d67e7f@5220.0",
+                                           "kind":  "wifi",
+                                           "label":  "普通/未知Wi-Fi"
+                                       },
+                                       {
+                                           "monotonic":  31.462308139,
+                                           "sourceKey":  "mac_f232c66260@2452.0",
+                                           "kind":  "wifi",
+                                           "label":  "普通/未知Wi-Fi"
+                                       },
+                                       {
+                                           "monotonic":  31.462308139,
+                                           "sourceKey":  "mac_631fba8c77@2472.0",
+                                           "kind":  "wifi",
+                                           "label":  "普通/未知Wi-Fi"
+                                       },
+                                       {
+                                           "monotonic":  31.462308139,
+                                           "sourceKey":  "mac_938f07e161@2467.0",
+                                           "kind":  "wifi",
+                                           "label":  "普通/未知Wi-Fi"
+                                       },
+                                       {
+                                           "monotonic":  31.462308139,
+                                           "sourceKey":  "mac_938f07e161@2457.0",
+                                           "kind":  "wifi",
+                                           "label":  "普通/未知Wi-Fi"
+                                       },
+                                       {
+                                           "monotonic":  31.462308139,
+                                           "sourceKey":  "mac_938f07e161@2447.0",
+                                           "kind":  "wifi",
+                                           "label":  "普通/未知Wi-Fi"
+                                       },
+                                       {
+                                           "monotonic":  31.462308139,
+                                           "sourceKey":  "mac_646bbdc576@2437.0",
+                                           "kind":  "wifi",
+                                           "label":  "普通/未知Wi-Fi"
+                                       },
+                                       {
+                                           "monotonic":  31.462308139,
+                                           "sourceKey":  "mac_add2b592d2@2437.0",
+                                           "kind":  "wifi",
+                                           "label":  "普通/未知Wi-Fi"
+                                       },
+                                       {
+                                           "monotonic":  31.462308139,
+                                           "sourceKey":  "mac_4a87bb4d3b@5180.0",
+                                           "kind":  "wifi",
+                                           "label":  "普通/未知Wi-Fi"
+                                       },
+                                       {
+                                           "monotonic":  31.462308139,
+                                           "sourceKey":  "mac_2632228a92@2462.0",
+                                           "kind":  "wifi",
+                                           "label":  "普通/未知Wi-Fi"
+                                       },
+                                       {
+                                           "monotonic":  31.462308139,
+                                           "sourceKey":  "mac_d8eb6fd25f@2447.0",
+                                           "kind":  "wifi",
+                                           "label":  "普通/未知Wi-Fi"
+                                       }
+                                   ],
+                        "counters":  {
+                                         "waitingFeedCycles":  65,
+                                         "cycles":  144,
+                                         "importedFeeds":  27,
+                                         "classificationCycles":  27
+                                     },
+                        "relayBundle":  null,
+                        "lastFeedDigest":  "adfd482eb36f558a32652b927d7748d6eab5ab3425fb1ca3740feae7e103336a"
+                    }
+}

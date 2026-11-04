@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "checkedPackagedFiles": 3489,
+  "sourceFiles": 3423,
+  "sourceManifestSHA256": "728d88f913a73296b56873949acb9f14023d5639414696aeba7a568ac39bf65d",
+  "receipt": {
+    "archive": "F:\\2026fpga\\submission_20261104_full\\full_submission.zip",
+    "sha256": "54800da818eb805c62c4c726ace4171b9069b0109b5d97742b7f4c62af93742e",
+    "entries": 3490,
+    "round": "round2"
+  },
+  "scope": "CRC-checked clean archive extraction, all per-file hashes, and source identity with the final staging tree."
+}

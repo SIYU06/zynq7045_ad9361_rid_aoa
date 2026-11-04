@@ -1,0 +1,228 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "path": "/api/health",
+      "status": 200
+    },
+    {
+      "path": "/api/doa",
+      "status": 200
+    },
+    {
+      "path": "/api/signals",
+      "status": 200
+    },
+    {
+      "path": "/api/pipeline",
+      "status": 200
+    },
+    {
+      "path": "/api/resources",
+      "status": 200
+    },
+    {
+      "path": "/api/receivers",
+      "status": 200
+    },
+    {
+      "path": "/runtime-config.js",
+      "status": 200,
+      "bytes": 76
+    },
+    {
+      "path": "/index.html",
+      "status": 200,
+      "bytes": 16534
+    },
+    {
+      "path": "/workspace.js",
+      "status": 200,
+      "bytes": 22702
+    },
+    {
+      "path": "/workspace-core.js",
+      "status": 200,
+      "bytes": 7227
+    },
+    {
+      "path": "/map-symbols.js",
+      "status": 200,
+      "bytes": 561
+    },
+    {
+      "path": "/position-display.js",
+      "status": 200,
+      "bytes": 958
+    },
+    {
+      "path": "/monitor-targets.js",
+      "status": 200,
+      "bytes": 7564
+    },
+    {
+      "path": "/doa-tracks.js",
+      "status": 200,
+      "bytes": 3709
+    },
+    {
+      "path": "/config.js",
+      "status": 200,
+      "bytes": 2379
+    },
+    {
+      "path": "/data.js",
+      "status": 200,
+      "bytes": 11332
+    },
+    {
+      "path": "/monitor-data.js",
+      "status": 200,
+      "bytes": 6751
+    },
+    {
+      "path": "/aoa-reference.js",
+      "status": 200,
+      "bytes": 18924
+    },
+    {
+      "path": "/aoa-reference.css",
+      "status": 200,
+      "bytes": 2265
+    },
+    {
+      "path": "/channel-scan.js",
+      "status": 200,
+      "bytes": 2820
+    },
+    {
+      "path": "/receiver-control.js",
+      "status": 200,
+      "bytes": 3080
+    },
+    {
+      "path": "/pipeline-view.js",
+      "status": 200,
+      "bytes": 12004
+    },
+    {
+      "path": "/home-experience.js",
+      "status": 200,
+      "bytes": 9654
+    },
+    {
+      "path": "/signals-view.js",
+      "status": 200,
+      "bytes": 12800
+    },
+    {
+      "path": "/transport.js",
+      "status": 200,
+      "bytes": 1861
+    },
+    {
+      "path": "/records-view.js",
+      "status": 200,
+      "bytes": 6052
+    },
+    {
+      "path": "/direction-view.js",
+      "status": 200,
+      "bytes": 10741
+    },
+    {
+      "path": "/station-editor.js",
+      "status": 200,
+      "bytes": 13532
+    },
+    {
+      "path": "/map-controls.js",
+      "status": 200,
+      "bytes": 18135
+    },
+    {
+      "path": "/vendor/leaflet.js",
+      "status": 200,
+      "bytes": 147552
+    },
+    {
+      "path": "/typography.css",
+      "status": 200,
+      "bytes": 2870
+    },
+    {
+      "path": "/fonts/SourceHanSerifCN-Heavy.otf",
+      "status": 200,
+      "bytes": 11304840
+    },
+    {
+      "path": "/monitor-map.css",
+      "status": 200,
+      "bytes": 5206
+    },
+    {
+      "path": "/monitor-data.css",
+      "status": 200,
+      "bytes": 5506
+    },
+    {
+      "path": "/home-firstscreen.css",
+      "status": 200,
+      "bytes": 9511
+    },
+    {
+      "path": "/assets/home-signal-map.svg",
+      "status": 200,
+      "bytes": 2164
+    },
+    {
+      "path": "/fonts/SourceHanSansCN-VF.woff2",
+      "status": 200,
+      "bytes": 7995716
+    },
+    {
+      "path": "/pipeline.css",
+      "status": 200,
+      "bytes": 4318
+    },
+    {
+      "path": "/home-cinematic.css",
+      "status": 200,
+      "bytes": 11198
+    },
+    {
+      "path": "/fonts/airspace-readable-title.woff2",
+      "status": 200,
+      "bytes": 6564
+    },
+    {
+      "path": "/refinement.css",
+      "status": 200,
+      "bytes": 13094
+    },
+    {
+      "path": "/style.css",
+      "status": 200,
+      "bytes": 22227
+    },
+    {
+      "path": "/vendor/leaflet.css",
+      "status": 200,
+      "bytes": 14806
+    },
+    {
+      "path": "/records/dual_center_20261102.json",
+      "status": 200
+    },
+    {
+      "path": "/records/nonrid_video_20261102.json",
+      "status": 200
+    },
+    {
+      "path": "/records/wifi_power_off_20261102.json",
+      "status": 200
+    }
+  ],
+  "local_url": "http://127.0.0.1:14393",
+  "scope": "Isolated localhost startup, APIs, delivered static assets and historical-record files; no boards or live-radio claims."
+}

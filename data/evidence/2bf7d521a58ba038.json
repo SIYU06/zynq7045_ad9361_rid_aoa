@@ -1,0 +1,79 @@
+{
+  "passed": true,
+  "referenceCommit": "849c03adbe0cdd68997a462fafab397edcfe53f3",
+  "actualAirFrameSHA256": "ea9f711cb7a9b42d2599a323c2cebefbcceb69bb8e94070a9b27b9333e8f5181",
+  "officialC": {
+    "status": 0,
+    "sn": "DIY-202610261026-001",
+    "registration": "UAS08719",
+    "longitude": 108.8302976,
+    "latitude": 34.1263072,
+    "operatorLongitude": 108.8310784,
+    "operatorLatitude": 34.1260544,
+    "altitude": 54.0,
+    "groundSpeed": 0.9,
+    "timestampMs": 1771493302000
+  },
+  "normalized": [
+    {
+      "format": "GB46750",
+      "version": 1,
+      "raw": "ff2147dffffe4449592d3230323631303236313032362d30303155415330383731390200004ede4000395714380b802fde40e0425714ffff09005443003c083c0802000a0400f09e3a759c0100",
+      "timestamp_ms": 1771493302000,
+      "timestamp_accuracy": 0,
+      "registration": "UAS08719",
+      "coordinate_system": 0,
+      "authenticated": false,
+      "type": 0,
+      "id_type": 1,
+      "ua_type": 0,
+      "uas_id": "DIY-202610261026-001",
+      "drone_class": 2
+    },
+    {
+      "format": "GB46750",
+      "version": 1,
+      "raw": "ff2147dffffe4449592d3230323631303236313032362d30303155415330383731390200004ede4000395714380b802fde40e0425714ffff09005443003c083c0802000a0400f09e3a759c0100",
+      "timestamp_ms": 1771493302000,
+      "timestamp_accuracy": 0,
+      "registration": "UAS08719",
+      "coordinate_system": 0,
+      "authenticated": false,
+      "type": 1,
+      "status": 2,
+      "latitude": 34.1263072,
+      "longitude": 108.8302976,
+      "direction": null,
+      "speed_horizontal": 0.9,
+      "speed_vertical": 0.0,
+      "altitude_geo": 54.0,
+      "altitude_baro": 54.0,
+      "height": -382.0,
+      "height_reference": "takeoff",
+      "horizontal_accuracy": 10,
+      "vertical_accuracy": 4,
+      "speed_accuracy": 0,
+      "broadcast_position": {
+        "latitude": 34.1263072,
+        "longitude": 108.8302976,
+        "coordinateSystem": 0
+      }
+    },
+    {
+      "format": "GB46750",
+      "version": 1,
+      "raw": "ff2147dffffe4449592d3230323631303236313032362d30303155415330383731390200004ede4000395714380b802fde40e0425714ffff09005443003c083c0802000a0400f09e3a759c0100",
+      "timestamp_ms": 1771493302000,
+      "timestamp_accuracy": 0,
+      "registration": "UAS08719",
+      "coordinate_system": 0,
+      "authenticated": false,
+      "type": 4,
+      "operator_location_type": 0,
+      "operator_latitude": 34.1260544,
+      "operator_longitude": 108.8310784,
+      "operator_altitude_geo": 436.0
+    }
+  ],
+  "liveBoardDeploymentAfterCapture": false
+}

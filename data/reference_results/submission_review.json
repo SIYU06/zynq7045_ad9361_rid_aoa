@@ -1,0 +1,94 @@
+{
+  "date": "2026-11-04",
+  "completeness": [
+    {
+      "category": "project_and_source",
+      "present": true,
+      "evidence": [
+        "source_code/zynq7045_ad9361_rid_aoa/dma_project/dma_project.xpr",
+        "source_code/zynq7045_ad9361_rid_aoa/dsss_receiver/build/integrated_r2/dsss_b.xpr",
+        "source_code/rid_receiver/monitor_service.py",
+        "source_code/rid_receiver/ground_station/serve.py",
+        "source_code/third_party/linux-427c94e8faa5-source.tar.xz"
+      ]
+    },
+    {
+      "category": "functional_verification",
+      "present": true,
+      "evidence": [
+        "source_code/zynq7045_ad9361_rid_aoa/dsss_receiver/sim/run_example.ps1",
+        "source_code/reproduce/fixtures/A_captured_iq.raw",
+        "source_code/reproduce/fixtures/B_captured_iq.raw",
+        "source_code/reproduce/fixtures/dsss_rid_frame.bin",
+        "reproduction_results/c_reference/cn_result.json"
+      ]
+    },
+    {
+      "category": "synthesis_and_implementation",
+      "present": true,
+      "evidence": [
+        "reproduction_results/fpga/A/impl_utilization.rpt",
+        "reproduction_results/fpga/A/impl_timing.rpt",
+        "reproduction_results/fpga/B/impl_utilization.rpt",
+        "reproduction_results/fpga/B/impl_timing.rpt",
+        "reproduction_results/FPGA_COMPARISON.md"
+      ]
+    },
+    {
+      "category": "board_run_and_reference_comparison",
+      "present": true,
+      "evidence": [
+        "board_support/boot/A/BOOT.BIN",
+        "board_support/boot/B/BOOT.BIN",
+        "board_support/boot/common/uImage",
+        "board_support/boot/A/system.dtb",
+        "board_support/boot/B/system.dtb",
+        "board_support/runtime_base.tar.xz",
+        "source_code/zynq7045_ad9361_rid_aoa/linux_doa/systemd/airspace.target",
+        "reproduction_results/anonymous_quick_check/round_1/algorithms/offline_verification.json"
+      ]
+    },
+    {
+      "category": "reproducible_build_scripts",
+      "present": true,
+      "evidence": [
+        "source_code/reproduce/build_fpga.tcl",
+        "source_code/reproduce/build_kernel.sh",
+        "source_code/reproduce/build_kernel_image.sh",
+        "source_code/reproduce/build_boot.ps1",
+        "source_code/reproduce/build_device_tree.sh",
+        "source_code/reproduce/prepare_board_overlay.py",
+        "source_code/reproduce/run_reproduction.ps1"
+      ]
+    }
+  ],
+  "validationScope": "Sources, implementation reports, historical real samples and offline comparisons supplied. No new live RF, board boot or absolute bearing accuracy claim.",
+  "externalDependencies": [
+    "Vivado 2022.2 device/IP licensing",
+    "matching ARM Linux root filesystem",
+    "documented Python and build toolchains"
+  ],
+  "submissionChanges": {
+    "reportAndHDLHostMetadataFiles": 36,
+    "sourceDocuments": 4,
+    "generatedHDLComments": 2,
+    "kernelImageBuildScript": "generic build metadata only",
+    "kernelImage": "rebuilt and verified offline; 10870 shared export CRCs match",
+    "postAnonymizationQuickCheck": "34 algorithm / 46 HTTP / FPGA simulation PASS"
+  },
+  "identityScan": {
+    "status": "PASS",
+    "scannedFilesIncludingNested": 68254,
+    "archiveMetadataRecords": 72406,
+    "confirmedIdentityFindings": 0,
+    "rawShortTokenOccurrences": 12,
+    "reviewedNonIdentityOccurrences": 12,
+    "nonIdentityReview": "Short matches were individually verified as third-party driver status tokens or coincidental binary sequences; no code or binary content was changed to remove them.",
+    "scanErrors": 0,
+    "schoolAndParticipantScope": "User-provided institution and participant identifiers and common spelling/encoding variants. Exact identifiers and raw review contexts are excluded from the submission.",
+    "metadataScope": "ZIP filenames/comments/extra metadata, tar owner/link/PAX metadata, text/binary strings, decompressed kernel and nested archives.",
+    "thirdPartyNotices": "Copyright, license and unrelated third-party author notices retained.",
+    "packagingScope": "Deep rescan of the final source/artifact candidate. Final publication adds a sanitized review summary and note; all files are verified again after repacking, with nested archive content cached by SHA256 and scan-pattern fingerprint."
+  },
+  "numericalReportValidation": "After Host metadata anonymization, A/B resources, setup/hold/pulse timing, route, bus skew and DRC error checks were rerun and passed."
+}

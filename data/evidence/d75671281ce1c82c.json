@@ -1,0 +1,644 @@
+{
+  "started": "2026-11-03T04:19:52.080918+08:00",
+  "ended": "2026-11-03T04:20:28.250144+08:00",
+  "sampleCount": 25,
+  "workload": {
+    "mode": "fixed",
+    "channel": 1,
+    "dwellSeconds": 3.0,
+    "state": "receiving",
+    "currentChannel": 1,
+    "frequencyMhz": 2412,
+    "channels": [
+      1
+    ],
+    "supportedChannels": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      36,
+      38,
+      40,
+      42,
+      44,
+      46,
+      48,
+      52,
+      56,
+      60,
+      64
+    ],
+    "bands": [
+      "2.4 GHz",
+      "5 GHz"
+    ],
+    "simultaneous": false,
+    "bandwidthMhz": 20,
+    "completedCycles": 0,
+    "visited": {
+      "1": {
+        "timestamp": 1793650827893.6624,
+        "stations": [
+          "A",
+          "B"
+        ]
+      }
+    },
+    "stations": {
+      "A": {
+        "accepted": true,
+        "channel": 1,
+        "frequencyMhz": 2412,
+        "sessionId": "1acc1cba766b4e5dbfdab10e3769a3e9",
+        "error": null
+      },
+      "B": {
+        "accepted": true,
+        "channel": 1,
+        "frequencyMhz": 2412,
+        "sessionId": "c6eafa10f27043beb3b107bd5b44304c",
+        "error": null
+      }
+    },
+    "revision": 4,
+    "error": null,
+    "partialErrors": {}
+  },
+  "stations": {
+    "A": {
+      "cpuMeanPercent": 27.82950251570072,
+      "cpuMin": 20.535714285714285,
+      "cpuMax": 36.734693877551024,
+      "cpuLatestPercent": 27.0,
+      "uniqueSamples": 25,
+      "representedSeconds": 37.101429999000175,
+      "memoryLatestPercent": 18.815568301256942,
+      "loadAverageLatest": [
+        0.69,
+        0.87,
+        0.88
+      ]
+    },
+    "B": {
+      "cpuMeanPercent": 57.2024950786593,
+      "cpuMin": 52.121212121212125,
+      "cpuMax": 65.06849315068493,
+      "cpuLatestPercent": 55.629139072847686,
+      "uniqueSamples": 25,
+      "representedSeconds": 37.08805100599966,
+      "memoryLatestPercent": 27.25751784245106,
+      "loadAverageLatest": [
+        1.28,
+        1.49,
+        1.51
+      ]
+    }
+  },
+  "sourceScoring": [
+    {
+      "mac": "mac_d8eb6fd25f",
+      "ssid": null,
+      "frequencyMhz": 2412,
+      "recognition": {
+        "kind": "wifi",
+        "label": "普通/未知Wi-Fi",
+        "evidenceScore": 0,
+        "rawEvidenceScore": 0,
+        "maxEvidenceScore": 75,
+        "scoreMeaning": "启发式证据分，上限75；不是无人机概率",
+        "scoringVersion": "candidate_rules_v2",
+        "scoreBreakdown": [
+          {
+            "id": "ssid_keyword",
+            "label": "SSID关键词",
+            "maxPoints": 30,
+            "matched": false,
+            "points": 0,
+            "observed": "未命中关键词",
+            "observable": false
+          },
+          {
+            "id": "large_frames",
+            "label": "持续大数据帧",
+            "maxPoints": 20,
+            "matched": false,
+            "points": 0,
+            "observed": "非重传大帧0；数据帧跨度0.00秒",
+            "observable": false
+          },
+          {
+            "id": "udp_frames",
+            "label": "明文UDP数据帧",
+            "maxPoints": 15,
+            "matched": false,
+            "points": 0,
+            "observed": "已解析UDP 0帧",
+            "observable": false
+          },
+          {
+            "id": "receiver_focus",
+            "label": "集中接收端",
+            "maxPoints": 10,
+            "matched": false,
+            "points": 0,
+            "observed": "大帧0；单播接收端0；未知/组播地址0",
+            "observable": false
+          },
+          {
+            "id": "media_structure",
+            "label": "连续RTP / MPEG-TS结构",
+            "maxPoints": 55,
+            "matched": false,
+            "points": 0,
+            "observed": "RTP连续流0（最大有效序号转移0）；TS流0",
+            "observable": false
+          },
+          {
+            "id": "lab_fragments",
+            "label": "历史私有UDP分片布局",
+            "maxPoints": 55,
+            "matched": false,
+            "points": 0,
+            "observed": "匹配流0；最多0包 / 0个序号",
+            "observable": false
+          }
+        ],
+        "measurements": {
+          "nonRetryDataFrames": 0,
+          "largeFrames": 0,
+          "dataSpanSeconds": 0.0,
+          "udpFrames": 0,
+          "receiverCount": 0,
+          "discardedDuplicateFrames": 0,
+          "protectedFrames": 0
+        },
+        "eligible": false,
+        "evidence": [
+          "尚无RID或足够图传特征；继续观测"
+        ],
+        "identities": [],
+        "messages": [],
+        "identityStatus": "无RID身份",
+        "identitySkipped": false,
+        "profiles": [],
+        "authenticated": false
+      }
+    },
+    {
+      "mac": "mac_667436343b",
+      "ssid": "hw_manage_c0f0",
+      "frequencyMhz": 2412,
+      "recognition": {
+        "kind": "wifi",
+        "label": "普通/未知Wi-Fi",
+        "evidenceScore": 0,
+        "rawEvidenceScore": 0,
+        "maxEvidenceScore": 75,
+        "scoreMeaning": "启发式证据分，上限75；不是无人机概率",
+        "scoringVersion": "candidate_rules_v2",
+        "scoreBreakdown": [
+          {
+            "id": "ssid_keyword",
+            "label": "SSID关键词",
+            "maxPoints": 30,
+            "matched": false,
+            "points": 0,
+            "observed": "未命中关键词",
+            "observable": true
+          },
+          {
+            "id": "large_frames",
+            "label": "持续大数据帧",
+            "maxPoints": 20,
+            "matched": false,
+            "points": 0,
+            "observed": "非重传大帧0；数据帧跨度0.00秒",
+            "observable": false
+          },
+          {
+            "id": "udp_frames",
+            "label": "明文UDP数据帧",
+            "maxPoints": 15,
+            "matched": false,
+            "points": 0,
+            "observed": "已解析UDP 0帧",
+            "observable": false
+          },
+          {
+            "id": "receiver_focus",
+            "label": "集中接收端",
+            "maxPoints": 10,
+            "matched": false,
+            "points": 0,
+            "observed": "大帧0；单播接收端0；未知/组播地址0",
+            "observable": false
+          },
+          {
+            "id": "media_structure",
+            "label": "连续RTP / MPEG-TS结构",
+            "maxPoints": 55,
+            "matched": false,
+            "points": 0,
+            "observed": "RTP连续流0（最大有效序号转移0）；TS流0",
+            "observable": false
+          },
+          {
+            "id": "lab_fragments",
+            "label": "历史私有UDP分片布局",
+            "maxPoints": 55,
+            "matched": false,
+            "points": 0,
+            "observed": "匹配流0；最多0包 / 0个序号",
+            "observable": false
+          }
+        ],
+        "measurements": {
+          "nonRetryDataFrames": 0,
+          "largeFrames": 0,
+          "dataSpanSeconds": 0.0,
+          "udpFrames": 0,
+          "receiverCount": 0,
+          "discardedDuplicateFrames": 0,
+          "protectedFrames": 0
+        },
+        "eligible": false,
+        "evidence": [
+          "尚无RID或足够图传特征；继续观测"
+        ],
+        "identities": [],
+        "messages": [],
+        "identityStatus": "无RID身份",
+        "identitySkipped": false,
+        "profiles": [],
+        "authenticated": false
+      }
+    },
+    {
+      "mac": "mac_e9ddf035b4",
+      "ssid": "Shuxuan_IoT",
+      "frequencyMhz": 2412,
+      "recognition": {
+        "kind": "wifi",
+        "label": "普通/未知Wi-Fi",
+        "evidenceScore": 0,
+        "rawEvidenceScore": 0,
+        "maxEvidenceScore": 75,
+        "scoreMeaning": "启发式证据分，上限75；不是无人机概率",
+        "scoringVersion": "candidate_rules_v2",
+        "scoreBreakdown": [
+          {
+            "id": "ssid_keyword",
+            "label": "SSID关键词",
+            "maxPoints": 30,
+            "matched": false,
+            "points": 0,
+            "observed": "未命中关键词",
+            "observable": true
+          },
+          {
+            "id": "large_frames",
+            "label": "持续大数据帧",
+            "maxPoints": 20,
+            "matched": false,
+            "points": 0,
+            "observed": "非重传大帧0；数据帧跨度0.00秒",
+            "observable": true
+          },
+          {
+            "id": "udp_frames",
+            "label": "明文UDP数据帧",
+            "maxPoints": 15,
+            "matched": false,
+            "points": 0,
+            "observed": "已解析UDP 0帧",
+            "observable": false
+          },
+          {
+            "id": "receiver_focus",
+            "label": "集中接收端",
+            "maxPoints": 10,
+            "matched": false,
+            "points": 0,
+            "observed": "大帧0；单播接收端0；未知/组播地址0",
+            "observable": false
+          },
+          {
+            "id": "media_structure",
+            "label": "连续RTP / MPEG-TS结构",
+            "maxPoints": 55,
+            "matched": false,
+            "points": 0,
+            "observed": "RTP连续流0（最大有效序号转移0）；TS流0",
+            "observable": false
+          },
+          {
+            "id": "lab_fragments",
+            "label": "历史私有UDP分片布局",
+            "maxPoints": 55,
+            "matched": false,
+            "points": 0,
+            "observed": "匹配流0；最多0包 / 0个序号",
+            "observable": false
+          }
+        ],
+        "measurements": {
+          "nonRetryDataFrames": 1,
+          "largeFrames": 0,
+          "dataSpanSeconds": 0.0,
+          "udpFrames": 0,
+          "receiverCount": 0,
+          "discardedDuplicateFrames": 0,
+          "protectedFrames": 1
+        },
+        "eligible": false,
+        "evidence": [
+          "尚无RID或足够图传特征；继续观测"
+        ],
+        "identities": [],
+        "messages": [],
+        "identityStatus": "无RID身份",
+        "identitySkipped": false,
+        "profiles": [],
+        "authenticated": false
+      }
+    },
+    {
+      "mac": "mac_a4b27c38a5",
+      "ssid": "HUAWEI-kjwlhj",
+      "frequencyMhz": 2412,
+      "recognition": {
+        "kind": "wifi",
+        "label": "普通/未知Wi-Fi",
+        "evidenceScore": 0,
+        "rawEvidenceScore": 0,
+        "maxEvidenceScore": 75,
+        "scoreMeaning": "启发式证据分，上限75；不是无人机概率",
+        "scoringVersion": "candidate_rules_v2",
+        "scoreBreakdown": [
+          {
+            "id": "ssid_keyword",
+            "label": "SSID关键词",
+            "maxPoints": 30,
+            "matched": false,
+            "points": 0,
+            "observed": "未命中关键词",
+            "observable": true
+          },
+          {
+            "id": "large_frames",
+            "label": "持续大数据帧",
+            "maxPoints": 20,
+            "matched": false,
+            "points": 0,
+            "observed": "非重传大帧0；数据帧跨度6.17秒",
+            "observable": true
+          },
+          {
+            "id": "udp_frames",
+            "label": "明文UDP数据帧",
+            "maxPoints": 15,
+            "matched": false,
+            "points": 0,
+            "observed": "已解析UDP 0帧",
+            "observable": false
+          },
+          {
+            "id": "receiver_focus",
+            "label": "集中接收端",
+            "maxPoints": 10,
+            "matched": false,
+            "points": 0,
+            "observed": "大帧0；单播接收端0；未知/组播地址0",
+            "observable": false
+          },
+          {
+            "id": "media_structure",
+            "label": "连续RTP / MPEG-TS结构",
+            "maxPoints": 55,
+            "matched": false,
+            "points": 0,
+            "observed": "RTP连续流0（最大有效序号转移0）；TS流0",
+            "observable": false
+          },
+          {
+            "id": "lab_fragments",
+            "label": "历史私有UDP分片布局",
+            "maxPoints": 55,
+            "matched": false,
+            "points": 0,
+            "observed": "匹配流0；最多0包 / 0个序号",
+            "observable": false
+          }
+        ],
+        "measurements": {
+          "nonRetryDataFrames": 4,
+          "largeFrames": 0,
+          "dataSpanSeconds": 6.167907752001658,
+          "udpFrames": 0,
+          "receiverCount": 0,
+          "discardedDuplicateFrames": 0,
+          "protectedFrames": 4
+        },
+        "eligible": false,
+        "evidence": [
+          "尚无RID或足够图传特征；继续观测"
+        ],
+        "identities": [],
+        "messages": [],
+        "identityStatus": "无RID身份",
+        "identitySkipped": false,
+        "profiles": [],
+        "authenticated": false
+      }
+    },
+    {
+      "mac": "mac_21c88ac7a4",
+      "ssid": "TP-LINK_2C2C",
+      "frequencyMhz": 2412,
+      "recognition": {
+        "kind": "wifi",
+        "label": "普通/未知Wi-Fi",
+        "evidenceScore": 0,
+        "rawEvidenceScore": 0,
+        "maxEvidenceScore": 75,
+        "scoreMeaning": "启发式证据分，上限75；不是无人机概率",
+        "scoringVersion": "candidate_rules_v2",
+        "scoreBreakdown": [
+          {
+            "id": "ssid_keyword",
+            "label": "SSID关键词",
+            "maxPoints": 30,
+            "matched": false,
+            "points": 0,
+            "observed": "未命中关键词",
+            "observable": true
+          },
+          {
+            "id": "large_frames",
+            "label": "持续大数据帧",
+            "maxPoints": 20,
+            "matched": false,
+            "points": 0,
+            "observed": "非重传大帧0；数据帧跨度0.00秒",
+            "observable": false
+          },
+          {
+            "id": "udp_frames",
+            "label": "明文UDP数据帧",
+            "maxPoints": 15,
+            "matched": false,
+            "points": 0,
+            "observed": "已解析UDP 0帧",
+            "observable": false
+          },
+          {
+            "id": "receiver_focus",
+            "label": "集中接收端",
+            "maxPoints": 10,
+            "matched": false,
+            "points": 0,
+            "observed": "大帧0；单播接收端0；未知/组播地址0",
+            "observable": false
+          },
+          {
+            "id": "media_structure",
+            "label": "连续RTP / MPEG-TS结构",
+            "maxPoints": 55,
+            "matched": false,
+            "points": 0,
+            "observed": "RTP连续流0（最大有效序号转移0）；TS流0",
+            "observable": false
+          },
+          {
+            "id": "lab_fragments",
+            "label": "历史私有UDP分片布局",
+            "maxPoints": 55,
+            "matched": false,
+            "points": 0,
+            "observed": "匹配流0；最多0包 / 0个序号",
+            "observable": false
+          }
+        ],
+        "measurements": {
+          "nonRetryDataFrames": 0,
+          "largeFrames": 0,
+          "dataSpanSeconds": 0.0,
+          "udpFrames": 0,
+          "receiverCount": 0,
+          "discardedDuplicateFrames": 0,
+          "protectedFrames": 0
+        },
+        "eligible": false,
+        "evidence": [
+          "尚无RID或足够图传特征；继续观测"
+        ],
+        "identities": [],
+        "messages": [],
+        "identityStatus": "无RID身份",
+        "identitySkipped": false,
+        "profiles": [],
+        "authenticated": false
+      }
+    },
+    {
+      "mac": "mac_a64c7c3f31",
+      "ssid": null,
+      "frequencyMhz": 2412,
+      "recognition": {
+        "kind": "wifi",
+        "label": "普通/未知Wi-Fi",
+        "evidenceScore": 0,
+        "rawEvidenceScore": 0,
+        "maxEvidenceScore": 75,
+        "scoreMeaning": "启发式证据分，上限75；不是无人机概率",
+        "scoringVersion": "candidate_rules_v2",
+        "scoreBreakdown": [
+          {
+            "id": "ssid_keyword",
+            "label": "SSID关键词",
+            "maxPoints": 30,
+            "matched": false,
+            "points": 0,
+            "observed": "未命中关键词",
+            "observable": false
+          },
+          {
+            "id": "large_frames",
+            "label": "持续大数据帧",
+            "maxPoints": 20,
+            "matched": false,
+            "points": 0,
+            "observed": "非重传大帧0；数据帧跨度0.00秒",
+            "observable": false
+          },
+          {
+            "id": "udp_frames",
+            "label": "明文UDP数据帧",
+            "maxPoints": 15,
+            "matched": false,
+            "points": 0,
+            "observed": "已解析UDP 0帧",
+            "observable": false
+          },
+          {
+            "id": "receiver_focus",
+            "label": "集中接收端",
+            "maxPoints": 10,
+            "matched": false,
+            "points": 0,
+            "observed": "大帧0；单播接收端0；未知/组播地址0",
+            "observable": false
+          },
+          {
+            "id": "media_structure",
+            "label": "连续RTP / MPEG-TS结构",
+            "maxPoints": 55,
+            "matched": false,
+            "points": 0,
+            "observed": "RTP连续流0（最大有效序号转移0）；TS流0",
+            "observable": false
+          },
+          {
+            "id": "lab_fragments",
+            "label": "历史私有UDP分片布局",
+            "maxPoints": 55,
+            "matched": false,
+            "points": 0,
+            "observed": "匹配流0；最多0包 / 0个序号",
+            "observable": false
+          }
+        ],
+        "measurements": {
+          "nonRetryDataFrames": 0,
+          "largeFrames": 0,
+          "dataSpanSeconds": 0.0,
+          "udpFrames": 0,
+          "receiverCount": 0,
+          "discardedDuplicateFrames": 0,
+          "protectedFrames": 0
+        },
+        "eligible": false,
+        "evidence": [
+          "尚无RID或足够图传特征；继续观测"
+        ],
+        "identities": [],
+        "messages": [],
+        "identityStatus": "无RID身份",
+        "identitySkipped": false,
+        "profiles": [],
+        "authenticated": false
+      }
+    }
+  ],
+  "protectedConfigUnchanged": true
+}

@@ -1,0 +1,1 @@
+/mnt/f/2026fpga/repro_work_20261104/c_reference_round1/linux_doa_arm: ELF 32-bit LSB executable, ARM, EABI5 version 1 (SYSV), dynamically linked, interpreter /lib/ld-linux.so.3, BuildID[sha1]=637eb24a7b2c34f60b41f79e33f555f3a6239a8e, for GNU/Linux 3.2.0, not stripped

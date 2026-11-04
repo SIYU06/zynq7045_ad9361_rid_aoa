@@ -1,0 +1,35 @@
+{
+  "passed": true,
+  "bootHeaderAndPartitionChecksums": true,
+  "fsblMatchesReference": true,
+  "uBootMatchesReference": true,
+  "fpgaMatchesRequestedBitstream": true,
+  "wordSwapped": true,
+  "partitions": [
+    {
+      "index": 0,
+      "attributes": 16,
+      "load": 0,
+      "execute": 0,
+      "bytes": 98312,
+      "sha256": "ab850078701f7c4dfe71d82e55b264735d4697aa787c30628ce99183da1c407e"
+    },
+    {
+      "index": 1,
+      "attributes": 32,
+      "load": 0,
+      "execute": 0,
+      "bytes": 6393792,
+      "sha256": "78e7650551dc3418de300e097f4d5d44ca151a20588310169968bf852f651790"
+    },
+    {
+      "index": 2,
+      "attributes": 16,
+      "load": 67108864,
+      "execute": 67108864,
+      "bytes": 535120,
+      "sha256": "cea4da6057f25f5787b659d1afcf2b832eaf4666cd8d59168dba4f4f4927b9ac"
+    }
+  ],
+  "scope": "Offline boot-image packaging validation, not an on-board boot test."
+}

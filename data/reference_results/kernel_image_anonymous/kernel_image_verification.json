@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "release": "5.15.0-175919-g427c94e8faa5-openwifi-rx1",
+  "bytes": 8071880,
+  "sha256": "cb50d7ffd50234c1fa185576e82660f51677f85fb991832f8dd84216e1550a5f",
+  "headerCRC": true,
+  "payloadCRC": true,
+  "armZImage": true,
+  "loadAddress": "0x8000",
+  "entryAddress": "0x8000",
+  "scope": "Offline image structure and embedded version; no board boot test."
+}

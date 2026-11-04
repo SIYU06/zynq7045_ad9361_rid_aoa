@@ -1,0 +1,2959 @@
+{
+  "windows": 590,
+  "acceptedBoth": 590,
+  "rejectedBoth": 0,
+  "maxNumericDifference": 0,
+  "oldImplementationFromPreChangeBackup": true,
+  "rows": [
+    {
+      "file": "tmp\\a_station_audit_20261103\\baseline0\\A_000043.json",
+      "phaseDeg": 27.764450528838235,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\baseline0\\A_000044.json",
+      "phaseDeg": 27.446518542116078,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\baseline0\\A_000045.json",
+      "phaseDeg": 27.622156067954197,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\baseline0\\A_000046.json",
+      "phaseDeg": 29.03747655842061,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\baseline0\\A_000047.json",
+      "phaseDeg": 26.91932624655074,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\baseline0\\A_000048.json",
+      "phaseDeg": 26.040147539269718,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\baseline0\\A_000049.json",
+      "phaseDeg": 27.26274977978007,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\baseline0\\A_000050.json",
+      "phaseDeg": 26.36771583442971,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\baseline0\\A_000051.json",
+      "phaseDeg": 23.786646785475124,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\baseline0\\A_000052.json",
+      "phaseDeg": 22.48481199672365,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\baseline0\\A_000053.json",
+      "phaseDeg": 24.006960923482357,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\baseline0\\A_000054.json",
+      "phaseDeg": 24.978674973812048,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\baseline0\\A_000055.json",
+      "phaseDeg": 26.312888110955356,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\baseline0\\A_000056.json",
+      "phaseDeg": 25.366325554096957,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\baseline0\\A_000057.json",
+      "phaseDeg": 25.968745468187098,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\baseline0\\A_000058.json",
+      "phaseDeg": 24.81183343397384,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\baseline0\\A_000059.json",
+      "phaseDeg": 24.293986630503557,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\baseline0\\A_000060.json",
+      "phaseDeg": 25.860369869433953,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\baseline0\\A_000061.json",
+      "phaseDeg": 26.21795000860926,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\baseline0\\A_000062.json",
+      "phaseDeg": 25.350980915590434,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\baseline0\\A_000063.json",
+      "phaseDeg": 26.195151031089658,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\baseline0\\A_000064.json",
+      "phaseDeg": 26.226096788534235,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\baseline0\\A_000065.json",
+      "phaseDeg": 25.750684629739805,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\baseline0\\A_000066.json",
+      "phaseDeg": 25.13130644508386,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\baseline0\\A_000067.json",
+      "phaseDeg": 25.427319307783314,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\baseline0\\A_000068.json",
+      "phaseDeg": 25.29412901230188,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\baseline0\\A_000069.json",
+      "phaseDeg": 23.650660478816217,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\baseline0\\A_000070.json",
+      "phaseDeg": 24.301749482412657,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\baseline0\\A_000071.json",
+      "phaseDeg": 25.038450772761212,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\baseline0\\A_000072.json",
+      "phaseDeg": 24.941366875088473,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\baseline0\\A_000073.json",
+      "phaseDeg": 24.792319083195192,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\baseline0\\A_000074.json",
+      "phaseDeg": 22.500468920744993,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\baseline0\\A_000075.json",
+      "phaseDeg": 21.8720514489533,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\baseline0\\A_000076.json",
+      "phaseDeg": 24.05099797059483,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\baseline0\\A_000077.json",
+      "phaseDeg": 25.37946832821487,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\baseline0\\A_000078.json",
+      "phaseDeg": 25.146186877717366,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\baseline0\\A_000079.json",
+      "phaseDeg": 24.815076572785866,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\baseline0\\A_000080.json",
+      "phaseDeg": 24.849350903296163,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\baseline0\\A_000081.json",
+      "phaseDeg": 25.86132975853509,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\baseline0\\A_000082.json",
+      "phaseDeg": 25.831427157404576,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\baseline0\\B_000042.json",
+      "phaseDeg": 149.92349156044952,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\baseline0\\B_000043.json",
+      "phaseDeg": 150.69056908776014,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\baseline0\\B_000044.json",
+      "phaseDeg": 151.2010767096842,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\baseline0\\B_000045.json",
+      "phaseDeg": 151.06423328225245,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\baseline0\\B_000046.json",
+      "phaseDeg": 150.74282081357904,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\baseline0\\B_000047.json",
+      "phaseDeg": 149.80499966982666,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\baseline0\\B_000048.json",
+      "phaseDeg": 149.2747935685224,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\baseline0\\B_000049.json",
+      "phaseDeg": 148.12494518631996,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\baseline0\\B_000050.json",
+      "phaseDeg": 145.01760386269748,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\baseline0\\B_000051.json",
+      "phaseDeg": 142.32035968911777,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\baseline0\\B_000052.json",
+      "phaseDeg": 143.21594385957292,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\baseline0\\B_000053.json",
+      "phaseDeg": 144.1510578417506,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\baseline0\\B_000054.json",
+      "phaseDeg": 145.08634129364972,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\baseline0\\B_000055.json",
+      "phaseDeg": 144.38700576006866,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\baseline0\\B_000056.json",
+      "phaseDeg": 144.14554234565168,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\baseline0\\B_000057.json",
+      "phaseDeg": 143.58076315158803,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\baseline0\\B_000058.json",
+      "phaseDeg": 143.45286814178908,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\baseline0\\B_000059.json",
+      "phaseDeg": 144.49424367912437,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\baseline0\\B_000060.json",
+      "phaseDeg": 144.2418382306766,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\baseline0\\B_000061.json",
+      "phaseDeg": 145.68495887410214,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\baseline0\\B_000062.json",
+      "phaseDeg": 145.71788996007945,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\baseline0\\B_000063.json",
+      "phaseDeg": 144.97420002467504,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\baseline0\\B_000064.json",
+      "phaseDeg": 144.49620766262368,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\baseline0\\B_000065.json",
+      "phaseDeg": 143.60533368426232,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\baseline0\\B_000066.json",
+      "phaseDeg": 143.40661760530256,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\baseline0\\B_000067.json",
+      "phaseDeg": 143.8480892713121,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\baseline0\\B_000068.json",
+      "phaseDeg": 144.36989150436304,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\baseline0\\B_000069.json",
+      "phaseDeg": 143.89778026084775,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\baseline0\\B_000070.json",
+      "phaseDeg": 143.78755899915348,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\baseline0\\B_000071.json",
+      "phaseDeg": 142.69441094456448,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\baseline0\\B_000072.json",
+      "phaseDeg": 142.1608104908448,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\baseline0\\B_000073.json",
+      "phaseDeg": 142.1241779656779,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\baseline0\\B_000074.json",
+      "phaseDeg": 144.88540321230337,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\baseline0\\B_000075.json",
+      "phaseDeg": 147.83717236970233,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\baseline0\\B_000076.json",
+      "phaseDeg": 149.23091036996067,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\baseline0\\B_000077.json",
+      "phaseDeg": 149.8859324535174,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\baseline0\\B_000078.json",
+      "phaseDeg": 150.2846371473253,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\baseline0\\B_000079.json",
+      "phaseDeg": 151.1286000859445,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\baseline0\\B_000080.json",
+      "phaseDeg": 150.33838577358563,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\baseline0\\B_000081.json",
+      "phaseDeg": 151.40194523006699,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\gain10\\A_000001.json",
+      "phaseDeg": 23.778729415045948,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\gain10\\A_000002.json",
+      "phaseDeg": 22.928234186855523,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\gain10\\A_000003.json",
+      "phaseDeg": 22.497024700958903,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\gain10\\A_000004.json",
+      "phaseDeg": 23.6633045141996,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\gain10\\A_000005.json",
+      "phaseDeg": 24.375407889083466,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\gain10\\A_000006.json",
+      "phaseDeg": 24.335926050885003,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\gain10\\A_000007.json",
+      "phaseDeg": 23.993549488940154,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\gain10\\A_000008.json",
+      "phaseDeg": 30.297849012188298,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\gain10\\A_000009.json",
+      "phaseDeg": 27.07402029846699,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\gain10\\A_000010.json",
+      "phaseDeg": 26.962734463351506,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\gain10\\A_000011.json",
+      "phaseDeg": 20.747083067353355,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\gain10\\A_000012.json",
+      "phaseDeg": 33.402544224004814,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\gain10\\A_000013.json",
+      "phaseDeg": 37.64726922316118,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\gain10\\A_000014.json",
+      "phaseDeg": 29.50990323258107,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\gain10\\A_000015.json",
+      "phaseDeg": 27.537324400602763,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\gain10\\A_000016.json",
+      "phaseDeg": 27.59179637869627,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\gain10\\A_000017.json",
+      "phaseDeg": 29.71968081175013,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\gain10\\A_000018.json",
+      "phaseDeg": 27.76996635758448,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\gain10\\A_000019.json",
+      "phaseDeg": 27.59129519269302,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\gain10\\A_000020.json",
+      "phaseDeg": 27.335029471719345,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\gain10\\A_000021.json",
+      "phaseDeg": 26.37602264925973,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\gain10\\A_000022.json",
+      "phaseDeg": 29.07488965187137,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\gain10\\A_000023.json",
+      "phaseDeg": 27.61485297066709,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\gain10\\A_000024.json",
+      "phaseDeg": 25.8631089993458,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\gain10\\A_000025.json",
+      "phaseDeg": 27.03104076407709,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\gain10\\A_000026.json",
+      "phaseDeg": 28.94015283519241,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\gain10\\A_000027.json",
+      "phaseDeg": 35.72360683715789,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\gain10\\A_000028.json",
+      "phaseDeg": 29.962447603538532,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\gain10\\A_000029.json",
+      "phaseDeg": 27.21951706767899,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\gain10\\A_000030.json",
+      "phaseDeg": 29.295168425232564,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\gain10\\A_000031.json",
+      "phaseDeg": 28.998330924784902,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\gain10\\A_000032.json",
+      "phaseDeg": 27.284095973848515,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\gain10\\A_000033.json",
+      "phaseDeg": 27.847127496359825,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\gain10\\A_000034.json",
+      "phaseDeg": 27.779984833999645,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\gain10\\A_000035.json",
+      "phaseDeg": 27.986791103751276,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\gain10\\B_000118.json",
+      "phaseDeg": 142.09899093412557,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\gain10\\B_000119.json",
+      "phaseDeg": 141.90116306258705,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\gain10\\B_000120.json",
+      "phaseDeg": 141.395558601314,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\gain10\\B_000121.json",
+      "phaseDeg": 143.89170582052125,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\gain10\\B_000122.json",
+      "phaseDeg": 146.5031518823957,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\gain10\\B_000123.json",
+      "phaseDeg": 148.48746279441508,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\gain10\\B_000124.json",
+      "phaseDeg": 148.80523341447937,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\gain10\\B_000125.json",
+      "phaseDeg": 149.86693513316536,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\gain10\\B_000126.json",
+      "phaseDeg": 147.83084603471266,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\gain10\\B_000127.json",
+      "phaseDeg": 149.51640878283763,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\gain10\\B_000128.json",
+      "phaseDeg": 142.47605607507606,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\gain10\\B_000129.json",
+      "phaseDeg": 143.88671744111642,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\gain10\\B_000130.json",
+      "phaseDeg": 145.17382573966407,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\gain10\\B_000131.json",
+      "phaseDeg": 137.59656447199256,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\gain10\\B_000132.json",
+      "phaseDeg": 137.60057681166472,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\gain10\\B_000133.json",
+      "phaseDeg": 139.72420919166075,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\gain10\\B_000134.json",
+      "phaseDeg": 140.47776693271527,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\gain10\\B_000135.json",
+      "phaseDeg": 139.5680286580121,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\gain10\\B_000136.json",
+      "phaseDeg": 139.8801616067469,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\gain10\\B_000137.json",
+      "phaseDeg": 139.15561085820352,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\gain10\\B_000138.json",
+      "phaseDeg": 139.69180180387607,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\gain10\\B_000139.json",
+      "phaseDeg": 143.97412644695498,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\gain10\\B_000140.json",
+      "phaseDeg": 144.78091369206194,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\gain10\\B_000141.json",
+      "phaseDeg": 144.91076977034479,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\gain10\\B_000142.json",
+      "phaseDeg": 146.3263588853784,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\gain10\\B_000143.json",
+      "phaseDeg": 145.91216161337516,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\gain10\\B_000144.json",
+      "phaseDeg": 142.0977944238288,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\gain10\\B_000145.json",
+      "phaseDeg": 141.65689053266388,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\gain10\\B_000146.json",
+      "phaseDeg": 134.4939978588241,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\gain10\\B_000147.json",
+      "phaseDeg": 135.45426008427495,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\gain10\\B_000148.json",
+      "phaseDeg": 133.49253366729735,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\gain10\\B_000149.json",
+      "phaseDeg": 133.98035967734373,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\gain10\\B_000150.json",
+      "phaseDeg": 134.29264589392778,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\gain10\\B_000151.json",
+      "phaseDeg": 133.71729935944896,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\gain10\\B_000152.json",
+      "phaseDeg": 134.99060005377484,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\gain20\\A_000001.json",
+      "phaseDeg": 22.46079306746825,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\gain20\\A_000002.json",
+      "phaseDeg": 23.019347376515295,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\gain20\\A_000003.json",
+      "phaseDeg": 22.472916761621843,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\gain20\\A_000004.json",
+      "phaseDeg": 24.440107089798058,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\gain20\\A_000005.json",
+      "phaseDeg": 22.483006746428366,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\gain20\\A_000006.json",
+      "phaseDeg": 25.9898949081249,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\gain20\\A_000007.json",
+      "phaseDeg": 20.58245926441761,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\gain20\\A_000008.json",
+      "phaseDeg": 25.897057826466103,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\gain20\\A_000009.json",
+      "phaseDeg": 24.719101663527574,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\gain20\\A_000010.json",
+      "phaseDeg": 20.1224474325968,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\gain20\\A_000011.json",
+      "phaseDeg": 24.245239457221764,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\gain20\\A_000012.json",
+      "phaseDeg": 26.78793279206752,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\gain20\\A_000013.json",
+      "phaseDeg": 25.351308591802574,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\gain20\\A_000014.json",
+      "phaseDeg": 34.37367427685011,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\gain20\\A_000015.json",
+      "phaseDeg": 28.484215839458162,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\gain20\\A_000016.json",
+      "phaseDeg": 17.38284974447424,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\gain20\\A_000017.json",
+      "phaseDeg": 27.839030127690354,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\gain20\\A_000018.json",
+      "phaseDeg": 23.35846257100071,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\gain20\\A_000019.json",
+      "phaseDeg": 18.204451651095102,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\gain20\\A_000020.json",
+      "phaseDeg": 19.063677741856555,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\gain20\\A_000021.json",
+      "phaseDeg": 22.160018142934497,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\gain20\\A_000022.json",
+      "phaseDeg": 21.555649484181217,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\gain20\\A_000023.json",
+      "phaseDeg": 20.295073526596173,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\gain20\\A_000024.json",
+      "phaseDeg": 19.69380333764666,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\gain20\\A_000025.json",
+      "phaseDeg": 20.057032630246262,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\gain20\\A_000026.json",
+      "phaseDeg": 18.609821721362962,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\gain20\\A_000027.json",
+      "phaseDeg": 19.749415144354973,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\gain20\\A_000028.json",
+      "phaseDeg": 20.89448644384736,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\gain20\\A_000029.json",
+      "phaseDeg": 19.581734979408406,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\gain20\\A_000030.json",
+      "phaseDeg": 21.156292482612024,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\gain20\\A_000031.json",
+      "phaseDeg": 19.532772228566234,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\gain20\\A_000032.json",
+      "phaseDeg": 19.29917240003173,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\gain20\\A_000033.json",
+      "phaseDeg": 19.20789179210588,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\gain20\\A_000034.json",
+      "phaseDeg": 19.344393778249444,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\gain20\\A_000035.json",
+      "phaseDeg": 17.71201492768396,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\gain20\\B_000170.json",
+      "phaseDeg": 130.0692075994011,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\gain20\\B_000171.json",
+      "phaseDeg": 144.43869354363912,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\gain20\\B_000172.json",
+      "phaseDeg": 149.05174720096784,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\gain20\\B_000173.json",
+      "phaseDeg": 149.2413293436364,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\gain20\\B_000174.json",
+      "phaseDeg": 135.599894457269,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\gain20\\B_000175.json",
+      "phaseDeg": 117.03040583177626,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\gain20\\B_000176.json",
+      "phaseDeg": 142.79856358169448,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\gain20\\B_000177.json",
+      "phaseDeg": 135.81059242893645,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\gain20\\B_000178.json",
+      "phaseDeg": 139.69452922247112,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\gain20\\B_000179.json",
+      "phaseDeg": 143.62704676266694,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\gain20\\B_000180.json",
+      "phaseDeg": 148.02751436303527,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\gain20\\B_000181.json",
+      "phaseDeg": 149.25093846027164,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\gain20\\B_000182.json",
+      "phaseDeg": 154.00746642162832,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\gain20\\B_000183.json",
+      "phaseDeg": 158.73454993415137,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\gain20\\B_000184.json",
+      "phaseDeg": 151.18414223918364,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\gain20\\B_000185.json",
+      "phaseDeg": 151.6566876224641,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\gain20\\B_000186.json",
+      "phaseDeg": 149.26239291816708,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\gain20\\B_000187.json",
+      "phaseDeg": 150.59631501072968,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\gain20\\B_000188.json",
+      "phaseDeg": 150.08221115898957,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\gain20\\B_000189.json",
+      "phaseDeg": 144.52263514649405,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\gain20\\B_000190.json",
+      "phaseDeg": 140.87705710215116,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\gain20\\B_000191.json",
+      "phaseDeg": 143.26010803095076,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\gain20\\B_000192.json",
+      "phaseDeg": 144.0614451461875,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\gain20\\B_000193.json",
+      "phaseDeg": 140.9142877527608,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\gain20\\B_000194.json",
+      "phaseDeg": 142.1796379751017,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\gain20\\B_000195.json",
+      "phaseDeg": 148.51249579952687,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\gain20\\B_000196.json",
+      "phaseDeg": 152.30995842855214,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\gain20\\B_000197.json",
+      "phaseDeg": 152.582838671802,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\gain20\\B_000198.json",
+      "phaseDeg": 155.24190996707873,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\gain20\\B_000199.json",
+      "phaseDeg": 154.87457714790386,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\gain20\\B_000200.json",
+      "phaseDeg": 156.8777900997628,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\gain20\\B_000201.json",
+      "phaseDeg": 157.9458327901737,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\gain20\\B_000202.json",
+      "phaseDeg": 156.43885444641973,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\gain20\\B_000203.json",
+      "phaseDeg": 149.30440713003185,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\gain20\\B_000204.json",
+      "phaseDeg": 150.23979059606413,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\return0\\A_000002.json",
+      "phaseDeg": 17.2457852031281,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\return0\\A_000003.json",
+      "phaseDeg": 15.526711623966571,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\return0\\A_000004.json",
+      "phaseDeg": 14.826433212532026,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\return0\\A_000005.json",
+      "phaseDeg": 17.396509496655167,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\return0\\A_000006.json",
+      "phaseDeg": 16.09024664589183,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\return0\\A_000007.json",
+      "phaseDeg": 16.881012362773184,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\return0\\A_000008.json",
+      "phaseDeg": 18.623276643898162,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\return0\\A_000009.json",
+      "phaseDeg": 19.618845589174764,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\return0\\A_000010.json",
+      "phaseDeg": 19.57101127266838,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\return0\\A_000011.json",
+      "phaseDeg": 19.086887275834982,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\return0\\A_000012.json",
+      "phaseDeg": 18.93725302354407,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\return0\\A_000013.json",
+      "phaseDeg": 17.732512493773612,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\return0\\A_000014.json",
+      "phaseDeg": 17.852990751172744,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\return0\\A_000015.json",
+      "phaseDeg": 21.320478744528014,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\return0\\A_000016.json",
+      "phaseDeg": 28.094215945244084,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\return0\\A_000017.json",
+      "phaseDeg": 30.022262885310496,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\return0\\A_000018.json",
+      "phaseDeg": 28.909781897564415,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\return0\\A_000019.json",
+      "phaseDeg": 25.667583248622908,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\return0\\A_000020.json",
+      "phaseDeg": 25.013367670509894,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\return0\\A_000021.json",
+      "phaseDeg": 23.041313166880393,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\return0\\A_000022.json",
+      "phaseDeg": 23.171746935677938,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\return0\\A_000023.json",
+      "phaseDeg": 23.883993298017863,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\return0\\A_000024.json",
+      "phaseDeg": 26.021396980284678,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\return0\\A_000025.json",
+      "phaseDeg": 24.703711309541212,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\return0\\A_000026.json",
+      "phaseDeg": 25.095086640566695,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\return0\\A_000027.json",
+      "phaseDeg": 20.785223679207775,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\return0\\A_000028.json",
+      "phaseDeg": 27.32119689253286,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\return0\\A_000029.json",
+      "phaseDeg": 26.05582555082046,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\return0\\A_000030.json",
+      "phaseDeg": 21.934248036562106,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\return0\\A_000031.json",
+      "phaseDeg": 22.347246745581554,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\return0\\A_000032.json",
+      "phaseDeg": 27.478934019038103,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\return0\\A_000033.json",
+      "phaseDeg": 28.019967459208782,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\return0\\A_000034.json",
+      "phaseDeg": 27.998302858973016,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\return0\\A_000035.json",
+      "phaseDeg": 27.737438257381793,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\return0\\A_000036.json",
+      "phaseDeg": 27.2483523268941,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\return0\\A_000037.json",
+      "phaseDeg": 28.188347759006973,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\return0\\A_000038.json",
+      "phaseDeg": 28.483159095196065,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\return0\\A_000039.json",
+      "phaseDeg": 29.975623331265133,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\return0\\A_000040.json",
+      "phaseDeg": 30.153550292128642,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\return0\\A_000041.json",
+      "phaseDeg": 30.361522239588506,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\return0\\B_000221.json",
+      "phaseDeg": 150.32130488986058,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\return0\\B_000222.json",
+      "phaseDeg": 150.18822749313304,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\return0\\B_000223.json",
+      "phaseDeg": 149.47340453807175,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\return0\\B_000224.json",
+      "phaseDeg": 151.84959852089887,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\return0\\B_000225.json",
+      "phaseDeg": 155.68358817178492,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\return0\\B_000226.json",
+      "phaseDeg": 157.18935765823653,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\return0\\B_000227.json",
+      "phaseDeg": 157.47596377754402,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\return0\\B_000228.json",
+      "phaseDeg": 157.75493056853279,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\return0\\B_000229.json",
+      "phaseDeg": 159.1180604935145,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\return0\\B_000230.json",
+      "phaseDeg": 158.61654461612002,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\return0\\B_000231.json",
+      "phaseDeg": 156.99659049551178,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\return0\\B_000232.json",
+      "phaseDeg": 155.4209385601851,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\return0\\B_000233.json",
+      "phaseDeg": 151.50073774968294,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\return0\\B_000234.json",
+      "phaseDeg": 150.7677265173334,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\return0\\B_000235.json",
+      "phaseDeg": 142.6129426773135,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\return0\\B_000236.json",
+      "phaseDeg": 143.537425244756,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\return0\\B_000237.json",
+      "phaseDeg": 145.4215988853865,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\return0\\B_000238.json",
+      "phaseDeg": 152.8961829866578,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\return0\\B_000239.json",
+      "phaseDeg": 157.5516179985226,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\return0\\B_000240.json",
+      "phaseDeg": 162.4903633775915,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\return0\\B_000241.json",
+      "phaseDeg": 163.37034646501326,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\return0\\B_000242.json",
+      "phaseDeg": 159.5721342683314,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\return0\\B_000243.json",
+      "phaseDeg": 161.4370255524255,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\return0\\B_000244.json",
+      "phaseDeg": 161.22459633559683,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\return0\\B_000245.json",
+      "phaseDeg": 150.37667629035076,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\return0\\B_000246.json",
+      "phaseDeg": 153.27679365348993,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\return0\\B_000247.json",
+      "phaseDeg": 151.35701962346187,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\return0\\B_000248.json",
+      "phaseDeg": 145.4543805145767,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\return0\\B_000249.json",
+      "phaseDeg": 144.9803198340639,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\return0\\B_000250.json",
+      "phaseDeg": 139.43637109705614,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\return0\\B_000251.json",
+      "phaseDeg": 145.3065349385824,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\return0\\B_000252.json",
+      "phaseDeg": 149.64561563638742,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\return0\\B_000253.json",
+      "phaseDeg": 147.4471522938613,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\return0\\B_000254.json",
+      "phaseDeg": 146.58699378693623,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\return0\\B_000255.json",
+      "phaseDeg": 152.38772988087788,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\return0\\B_000256.json",
+      "phaseDeg": 153.3439383548894,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\return0\\B_000257.json",
+      "phaseDeg": 152.1726460281165,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\return0\\B_000258.json",
+      "phaseDeg": 153.40833126780467,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\return0\\B_000259.json",
+      "phaseDeg": 153.2820008741902,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\return0\\B_000260.json",
+      "phaseDeg": 154.20706440873323,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\headless0\\A_000143.json",
+      "phaseDeg": 19.65363594717475,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\headless0\\A_000144.json",
+      "phaseDeg": 19.66116261068217,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\headless0\\A_000145.json",
+      "phaseDeg": 18.403341182015076,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\headless0\\A_000146.json",
+      "phaseDeg": 17.854440656319518,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\headless0\\A_000147.json",
+      "phaseDeg": 17.336054595634607,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\headless0\\A_000148.json",
+      "phaseDeg": 17.22377157109428,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\headless0\\A_000149.json",
+      "phaseDeg": 15.465497280209323,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\headless0\\A_000150.json",
+      "phaseDeg": 15.94032103588731,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\headless0\\A_000151.json",
+      "phaseDeg": 19.19934254551285,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\headless0\\A_000152.json",
+      "phaseDeg": 16.77982320242914,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\headless0\\A_000153.json",
+      "phaseDeg": 15.999863800539952,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\headless0\\A_000154.json",
+      "phaseDeg": 18.726041298403405,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\headless0\\A_000155.json",
+      "phaseDeg": 18.69626554215865,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\headless0\\A_000156.json",
+      "phaseDeg": 18.39840576124496,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\headless0\\A_000157.json",
+      "phaseDeg": 18.91122254446633,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\headless0\\A_000158.json",
+      "phaseDeg": 18.155139401736974,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\headless0\\A_000159.json",
+      "phaseDeg": 19.335708563187797,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\headless0\\A_000160.json",
+      "phaseDeg": 19.296406327192113,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\headless0\\A_000161.json",
+      "phaseDeg": 17.950699685824436,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\headless0\\A_000162.json",
+      "phaseDeg": 18.62624235553332,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\headless0\\A_000163.json",
+      "phaseDeg": 17.72606716845627,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\headless0\\A_000164.json",
+      "phaseDeg": 17.376739068698882,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\headless0\\A_000165.json",
+      "phaseDeg": 17.903351185598765,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\headless0\\A_000166.json",
+      "phaseDeg": 17.88121133540692,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\headless0\\A_000167.json",
+      "phaseDeg": 18.710915529341356,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\headless0\\A_000168.json",
+      "phaseDeg": 17.059226906935145,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\headless0\\A_000169.json",
+      "phaseDeg": 17.84514985030597,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\headless0\\A_000170.json",
+      "phaseDeg": 22.5922155683048,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\headless0\\A_000171.json",
+      "phaseDeg": 25.419774212857025,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\headless0\\A_000172.json",
+      "phaseDeg": 22.123721849694352,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\headless0\\A_000173.json",
+      "phaseDeg": 24.2969794530826,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\headless0\\A_000174.json",
+      "phaseDeg": 22.86448564939803,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\headless0\\A_000175.json",
+      "phaseDeg": 22.82327071263503,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\headless0\\A_000176.json",
+      "phaseDeg": 23.270475591440395,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\headless0\\A_000177.json",
+      "phaseDeg": 23.179644305749736,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\headless0\\A_000178.json",
+      "phaseDeg": 21.269115036373275,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\headless0\\A_000179.json",
+      "phaseDeg": 21.496561258842274,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\headless0\\A_000180.json",
+      "phaseDeg": 22.075437082293558,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\headless0\\A_000181.json",
+      "phaseDeg": 20.90502863064852,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\headless0\\A_000182.json",
+      "phaseDeg": 20.350683724317687,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\headless0\\A_000183.json",
+      "phaseDeg": 19.84944659828159,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\headless0\\A_000184.json",
+      "phaseDeg": 20.45330193431169,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\headless0\\A_000185.json",
+      "phaseDeg": 22.84926174835457,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\headless0\\A_000186.json",
+      "phaseDeg": 25.349596926705974,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\headless0\\A_000187.json",
+      "phaseDeg": 22.47211977809381,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\headless0\\A_000188.json",
+      "phaseDeg": 20.018232778258188,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\headless0\\A_000189.json",
+      "phaseDeg": 21.34343289093941,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\headless0\\A_000190.json",
+      "phaseDeg": 20.29848412245546,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\headless0\\A_000191.json",
+      "phaseDeg": 21.97156672428915,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\headless0\\A_000192.json",
+      "phaseDeg": 23.260064251192045,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\headless0\\B_000364.json",
+      "phaseDeg": 147.26806702595272,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\headless0\\B_000365.json",
+      "phaseDeg": 152.73879651506684,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\headless0\\B_000366.json",
+      "phaseDeg": 152.17884821708037,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\headless0\\B_000367.json",
+      "phaseDeg": 151.29156081056573,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\headless0\\B_000368.json",
+      "phaseDeg": 150.8829934379488,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\headless0\\B_000369.json",
+      "phaseDeg": 150.18420028165983,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\headless0\\B_000370.json",
+      "phaseDeg": 144.3114703771154,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\headless0\\B_000371.json",
+      "phaseDeg": 142.6821253368107,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\headless0\\B_000372.json",
+      "phaseDeg": 142.35154914506143,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\headless0\\B_000373.json",
+      "phaseDeg": 144.3660936317689,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\headless0\\B_000374.json",
+      "phaseDeg": 154.51915856582522,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\headless0\\B_000375.json",
+      "phaseDeg": 145.86092109184344,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\headless0\\B_000376.json",
+      "phaseDeg": 144.03209400371432,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\headless0\\B_000377.json",
+      "phaseDeg": 137.09185205969655,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\headless0\\B_000378.json",
+      "phaseDeg": 148.8840710737619,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\headless0\\B_000379.json",
+      "phaseDeg": 150.66825916804262,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\headless0\\B_000380.json",
+      "phaseDeg": 152.9785794310187,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\headless0\\B_000381.json",
+      "phaseDeg": 152.4769978465194,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\headless0\\B_000382.json",
+      "phaseDeg": 153.06678649381678,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\headless0\\B_000383.json",
+      "phaseDeg": 153.07126919897928,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\headless0\\B_000384.json",
+      "phaseDeg": 152.36300423681985,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\headless0\\B_000385.json",
+      "phaseDeg": 153.28116545971343,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\headless0\\B_000386.json",
+      "phaseDeg": 152.3492104431393,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\headless0\\B_000387.json",
+      "phaseDeg": 150.72348075724463,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\headless0\\B_000388.json",
+      "phaseDeg": 151.42988190828984,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\headless0\\B_000389.json",
+      "phaseDeg": 151.1160010855992,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\headless0\\B_000390.json",
+      "phaseDeg": 151.71714010135543,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\headless0\\B_000391.json",
+      "phaseDeg": 152.8632353065209,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\headless0\\B_000392.json",
+      "phaseDeg": 145.68724303603088,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\headless0\\B_000393.json",
+      "phaseDeg": 137.106784540113,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\headless0\\B_000394.json",
+      "phaseDeg": 133.37154980884935,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\headless0\\B_000395.json",
+      "phaseDeg": 147.88933914133258,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\headless0\\B_000396.json",
+      "phaseDeg": 146.65702833672512,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\headless0\\B_000397.json",
+      "phaseDeg": 145.84571091110962,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\headless0\\B_000398.json",
+      "phaseDeg": 145.14203777985585,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\headless0\\B_000399.json",
+      "phaseDeg": 144.50554312974182,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\headless0\\B_000400.json",
+      "phaseDeg": 142.5932740472669,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\headless0\\B_000401.json",
+      "phaseDeg": 138.715466974109,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\headless0\\B_000402.json",
+      "phaseDeg": 139.01983091220123,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\headless0\\B_000403.json",
+      "phaseDeg": 139.22893626953982,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\headless0\\B_000404.json",
+      "phaseDeg": 139.77599678469386,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\headless0\\B_000405.json",
+      "phaseDeg": 138.4062211606297,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\headless0\\B_000406.json",
+      "phaseDeg": 137.83570655176496,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\headless0\\B_000407.json",
+      "phaseDeg": 133.6525654349861,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\headless0\\B_000408.json",
+      "phaseDeg": 153.99192530176288,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\headless0\\B_000409.json",
+      "phaseDeg": 157.2292846464061,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\headless0\\B_000410.json",
+      "phaseDeg": 157.73277649166246,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\headless0\\B_000411.json",
+      "phaseDeg": 155.96264855618816,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\headless0\\B_000412.json",
+      "phaseDeg": 161.01123114861102,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\headless0\\B_000413.json",
+      "phaseDeg": 161.8520853880377,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\final_rebind0\\A_000002.json",
+      "phaseDeg": 14.149678728018293,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\final_rebind0\\A_000003.json",
+      "phaseDeg": 16.50587738445401,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\final_rebind0\\A_000004.json",
+      "phaseDeg": 17.620341986489382,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\final_rebind0\\A_000005.json",
+      "phaseDeg": 17.21714256599232,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\final_rebind0\\A_000006.json",
+      "phaseDeg": 16.893733621814196,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\final_rebind0\\A_000007.json",
+      "phaseDeg": 14.675318543565922,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\final_rebind0\\A_000008.json",
+      "phaseDeg": 13.960775527140042,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\final_rebind0\\A_000009.json",
+      "phaseDeg": 14.321304159858814,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\final_rebind0\\A_000010.json",
+      "phaseDeg": 14.170463580722153,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\final_rebind0\\A_000011.json",
+      "phaseDeg": 13.839747687880726,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\final_rebind0\\A_000012.json",
+      "phaseDeg": 14.75700944429008,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\final_rebind0\\A_000013.json",
+      "phaseDeg": 15.949784702497457,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\final_rebind0\\A_000014.json",
+      "phaseDeg": 15.494225368391644,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\final_rebind0\\A_000015.json",
+      "phaseDeg": 17.046434642798573,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\final_rebind0\\A_000016.json",
+      "phaseDeg": 16.569126099129324,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\final_rebind0\\A_000017.json",
+      "phaseDeg": 15.239576533761134,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\final_rebind0\\A_000018.json",
+      "phaseDeg": 16.190148859691526,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\final_rebind0\\A_000019.json",
+      "phaseDeg": 14.285990803777235,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\final_rebind0\\A_000020.json",
+      "phaseDeg": 16.840734648793454,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\final_rebind0\\A_000021.json",
+      "phaseDeg": 14.734546004493358,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\final_rebind0\\B_000606.json",
+      "phaseDeg": 149.57865106238233,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\final_rebind0\\B_000607.json",
+      "phaseDeg": 147.97744412113155,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\final_rebind0\\B_000608.json",
+      "phaseDeg": 146.87568957798553,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\final_rebind0\\B_000609.json",
+      "phaseDeg": 147.0396607657105,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\final_rebind0\\B_000610.json",
+      "phaseDeg": 145.2390874252621,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\final_rebind0\\B_000611.json",
+      "phaseDeg": 145.2562763360833,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\final_rebind0\\B_000612.json",
+      "phaseDeg": 145.9808873305214,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\final_rebind0\\B_000613.json",
+      "phaseDeg": 146.0992462417885,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\final_rebind0\\B_000614.json",
+      "phaseDeg": 148.73143127974194,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\final_rebind0\\B_000615.json",
+      "phaseDeg": 151.23356143684484,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\final_rebind0\\B_000616.json",
+      "phaseDeg": 152.4210133024362,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\final_rebind0\\B_000617.json",
+      "phaseDeg": 153.27041711769718,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\final_rebind0\\B_000618.json",
+      "phaseDeg": 153.00465210333493,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\final_rebind0\\B_000619.json",
+      "phaseDeg": 153.1264554743545,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\final_rebind0\\B_000620.json",
+      "phaseDeg": 151.54315955406614,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\final_rebind0\\B_000621.json",
+      "phaseDeg": 149.30164927722421,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\final_rebind0\\B_000622.json",
+      "phaseDeg": 154.43803786566022,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\final_rebind0\\B_000623.json",
+      "phaseDeg": 139.93383385605355,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\final_rebind0\\B_000624.json",
+      "phaseDeg": 141.57858591077553,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\a_station_audit_20261103\\final_rebind0\\B_000625.json",
+      "phaseDeg": 143.05957680466378,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\monitor_data_20261102_2142\\group1\\A_5e859cd1_000022.json",
+      "phaseDeg": 20.028340365720094,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\monitor_data_20261102_2142\\group1\\A_5e859cd1_000024.json",
+      "phaseDeg": 19.044830843938826,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\monitor_data_20261102_2142\\group1\\A_5e859cd1_000025.json",
+      "phaseDeg": 24.652966944921626,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\monitor_data_20261102_2142\\group1\\A_5e859cd1_000026.json",
+      "phaseDeg": 3.674364225724246,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\monitor_data_20261102_2142\\group1\\A_5e859cd1_000027.json",
+      "phaseDeg": 16.9258238990173,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\monitor_data_20261102_2142\\group1\\A_5e859cd1_000028.json",
+      "phaseDeg": 2.3859969021904464,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\monitor_data_20261102_2142\\group1\\A_5e859cd1_000029.json",
+      "phaseDeg": 10.47814930844129,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\monitor_data_20261102_2142\\group1\\A_5e859cd1_000030.json",
+      "phaseDeg": 10.010683930311805,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\monitor_data_20261102_2142\\group1\\A_5e859cd1_000031.json",
+      "phaseDeg": -15.078086198688661,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\monitor_data_20261102_2142\\group1\\A_5e859cd1_000032.json",
+      "phaseDeg": 14.257705744026579,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\monitor_data_20261102_2142\\group1\\A_5e859cd1_000033.json",
+      "phaseDeg": 35.58297012664855,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\monitor_data_20261102_2142\\group1\\A_5e859cd1_000034.json",
+      "phaseDeg": 28.52799561187891,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\monitor_data_20261102_2142\\group1\\A_5e859cd1_000035.json",
+      "phaseDeg": 3.1009240006085603,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\monitor_data_20261102_2142\\group1\\A_5e859cd1_000037.json",
+      "phaseDeg": 53.54299937181213,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\monitor_data_20261102_2142\\group1\\A_5e859cd1_000038.json",
+      "phaseDeg": 15.177531083525837,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\monitor_data_20261102_2142\\group1\\A_5e859cd1_000039.json",
+      "phaseDeg": 30.025645825109486,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\monitor_data_20261102_2142\\group1\\A_5e859cd1_000040.json",
+      "phaseDeg": 8.674797122439134,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\monitor_data_20261102_2142\\group1\\A_5e859cd1_000042.json",
+      "phaseDeg": 13.929000287430226,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\monitor_data_20261102_2142\\group1\\A_5e859cd1_000043.json",
+      "phaseDeg": 2.7662516986782784,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\monitor_data_20261102_2142\\group1\\A_5e859cd1_000044.json",
+      "phaseDeg": 34.37690511906872,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\monitor_data_20261102_2142\\group1\\A_5e859cd1_000046.json",
+      "phaseDeg": 0.9330854951648214,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\monitor_data_20261102_2142\\group1\\A_5e859cd1_000047.json",
+      "phaseDeg": 39.90142965913877,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\monitor_data_20261102_2142\\group1\\A_5e859cd1_000048.json",
+      "phaseDeg": -4.524746771974503,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\monitor_data_20261102_2142\\group1\\A_5e859cd1_000050.json",
+      "phaseDeg": 2.8714012502077892,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\monitor_data_20261102_2142\\group1\\A_5e859cd1_000051.json",
+      "phaseDeg": 10.782095293008672,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\monitor_data_20261102_2142\\group1\\B_1724c849_000021.json",
+      "phaseDeg": -152.54305837215742,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\monitor_data_20261102_2142\\group1\\B_1724c849_000022.json",
+      "phaseDeg": -145.32822917692607,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\monitor_data_20261102_2142\\group1\\B_1724c849_000023.json",
+      "phaseDeg": -144.2155045992148,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\monitor_data_20261102_2142\\group1\\B_1724c849_000024.json",
+      "phaseDeg": -161.27541937338566,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\monitor_data_20261102_2142\\group1\\B_1724c849_000025.json",
+      "phaseDeg": -155.79091518694688,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\monitor_data_20261102_2142\\group1\\B_1724c849_000026.json",
+      "phaseDeg": -146.8164599036853,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\monitor_data_20261102_2142\\group1\\B_1724c849_000027.json",
+      "phaseDeg": -147.71457750807755,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\monitor_data_20261102_2142\\group1\\B_1724c849_000028.json",
+      "phaseDeg": -150.8220850327809,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\monitor_data_20261102_2142\\group1\\B_1724c849_000029.json",
+      "phaseDeg": -154.0007217939172,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\monitor_data_20261102_2142\\group1\\B_1724c849_000030.json",
+      "phaseDeg": -156.809055473663,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\monitor_data_20261102_2142\\group1\\B_1724c849_000031.json",
+      "phaseDeg": -160.58604680806206,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\monitor_data_20261102_2142\\group1\\B_1724c849_000032.json",
+      "phaseDeg": -161.36775351898964,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\monitor_data_20261102_2142\\group1\\B_1724c849_000033.json",
+      "phaseDeg": -154.0734818038309,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\monitor_data_20261102_2142\\group1\\B_1724c849_000034.json",
+      "phaseDeg": -157.3552813406925,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\monitor_data_20261102_2142\\group1\\B_1724c849_000035.json",
+      "phaseDeg": -156.3102422605358,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\monitor_data_20261102_2142\\group1\\B_1724c849_000036.json",
+      "phaseDeg": -155.4417357147759,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\monitor_data_20261102_2142\\group1\\B_1724c849_000037.json",
+      "phaseDeg": -155.49325848882773,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\monitor_data_20261102_2142\\group1\\B_1724c849_000038.json",
+      "phaseDeg": -153.37087795603998,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\monitor_data_20261102_2142\\group1\\B_1724c849_000039.json",
+      "phaseDeg": -156.12293970868996,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\monitor_data_20261102_2142\\group1\\B_1724c849_000040.json",
+      "phaseDeg": -151.0002830592459,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\monitor_data_20261102_2142\\group1\\B_1724c849_000041.json",
+      "phaseDeg": -150.2355375288204,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\monitor_data_20261102_2142\\group1\\B_1724c849_000042.json",
+      "phaseDeg": -156.3217038128027,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\monitor_data_20261102_2142\\group1\\B_1724c849_000043.json",
+      "phaseDeg": -152.5747335574048,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\monitor_data_20261102_2142\\group1\\B_1724c849_000044.json",
+      "phaseDeg": -155.04114051581388,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\monitor_data_20261102_2142\\group1\\B_1724c849_000045.json",
+      "phaseDeg": -156.58341406095948,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\monitor_data_20261102_2142\\group2\\A_5e859cd1_000052.json",
+      "phaseDeg": 30.731084386800024,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\monitor_data_20261102_2142\\group2\\A_5e859cd1_000055.json",
+      "phaseDeg": 36.62625869247249,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\monitor_data_20261102_2142\\group2\\A_5e859cd1_000056.json",
+      "phaseDeg": 33.03835754752766,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\monitor_data_20261102_2142\\group2\\A_5e859cd1_000057.json",
+      "phaseDeg": 13.896385886920235,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\monitor_data_20261102_2142\\group2\\A_5e859cd1_000061.json",
+      "phaseDeg": 58.43095631004765,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\monitor_data_20261102_2142\\group2\\A_5e859cd1_000062.json",
+      "phaseDeg": 46.44703514809864,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\monitor_data_20261102_2142\\group2\\A_5e859cd1_000063.json",
+      "phaseDeg": 154.37351313095309,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\monitor_data_20261102_2142\\group2\\A_5e859cd1_000064.json",
+      "phaseDeg": 43.094050803125995,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\monitor_data_20261102_2142\\group2\\A_5e859cd1_000065.json",
+      "phaseDeg": 44.3430464751304,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\monitor_data_20261102_2142\\group2\\A_5e859cd1_000067.json",
+      "phaseDeg": 34.14115095484219,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\monitor_data_20261102_2142\\group2\\A_5e859cd1_000068.json",
+      "phaseDeg": 29.91123287749173,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\monitor_data_20261102_2142\\group2\\A_5e859cd1_000069.json",
+      "phaseDeg": 45.63897364438166,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\monitor_data_20261102_2142\\group2\\A_5e859cd1_000070.json",
+      "phaseDeg": 52.13998568515818,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\monitor_data_20261102_2142\\group2\\A_5e859cd1_000073.json",
+      "phaseDeg": 38.63370066483265,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\monitor_data_20261102_2142\\group2\\A_5e859cd1_000074.json",
+      "phaseDeg": 75.64167471630893,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\monitor_data_20261102_2142\\group2\\A_5e859cd1_000075.json",
+      "phaseDeg": 118.04236150467625,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\monitor_data_20261102_2142\\group2\\A_5e859cd1_000078.json",
+      "phaseDeg": 45.720678181146425,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\monitor_data_20261102_2142\\group2\\A_5e859cd1_000079.json",
+      "phaseDeg": 88.37848363986205,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\monitor_data_20261102_2142\\group2\\A_5e859cd1_000082.json",
+      "phaseDeg": 74.65263860199352,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\monitor_data_20261102_2142\\group2\\A_5e859cd1_000083.json",
+      "phaseDeg": 85.892886269085,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\monitor_data_20261102_2142\\group2\\A_5e859cd1_000084.json",
+      "phaseDeg": 100.90551076339666,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\monitor_data_20261102_2142\\group2\\A_5e859cd1_000086.json",
+      "phaseDeg": 58.96169021871134,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\monitor_data_20261102_2142\\group2\\A_5e859cd1_000087.json",
+      "phaseDeg": 50.886190986320884,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\monitor_data_20261102_2142\\group2\\A_5e859cd1_000088.json",
+      "phaseDeg": 45.361529958544004,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\monitor_data_20261102_2142\\group2\\A_5e859cd1_000090.json",
+      "phaseDeg": 31.568258263801734,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\monitor_data_20261102_2142\\group2\\B_1724c849_000051.json",
+      "phaseDeg": -155.8881405088782,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\monitor_data_20261102_2142\\group2\\B_1724c849_000052.json",
+      "phaseDeg": -150.5582661818459,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\monitor_data_20261102_2142\\group2\\B_1724c849_000053.json",
+      "phaseDeg": -146.14110767188794,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\monitor_data_20261102_2142\\group2\\B_1724c849_000054.json",
+      "phaseDeg": -156.41579034806952,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\monitor_data_20261102_2142\\group2\\B_1724c849_000055.json",
+      "phaseDeg": -159.2482608353189,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\monitor_data_20261102_2142\\group2\\B_1724c849_000056.json",
+      "phaseDeg": -152.33425098635902,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\monitor_data_20261102_2142\\group2\\B_1724c849_000057.json",
+      "phaseDeg": -153.38392917865045,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\monitor_data_20261102_2142\\group2\\B_1724c849_000058.json",
+      "phaseDeg": -150.26435610253722,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\monitor_data_20261102_2142\\group2\\B_1724c849_000059.json",
+      "phaseDeg": -149.2021602507157,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\monitor_data_20261102_2142\\group2\\B_1724c849_000060.json",
+      "phaseDeg": -148.11030089080205,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\monitor_data_20261102_2142\\group2\\B_1724c849_000061.json",
+      "phaseDeg": -144.56445028803665,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\monitor_data_20261102_2142\\group2\\B_1724c849_000062.json",
+      "phaseDeg": -152.22212321296607,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\monitor_data_20261102_2142\\group2\\B_1724c849_000063.json",
+      "phaseDeg": -148.84603029169588,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\monitor_data_20261102_2142\\group2\\B_1724c849_000064.json",
+      "phaseDeg": -153.2837190101598,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\monitor_data_20261102_2142\\group2\\B_1724c849_000065.json",
+      "phaseDeg": -145.6015436244337,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\monitor_data_20261102_2142\\group2\\B_1724c849_000066.json",
+      "phaseDeg": -156.52818425469837,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\monitor_data_20261102_2142\\group2\\B_1724c849_000067.json",
+      "phaseDeg": -159.4567218783439,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\monitor_data_20261102_2142\\group2\\B_1724c849_000068.json",
+      "phaseDeg": -159.26140534788402,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\monitor_data_20261102_2142\\group2\\B_1724c849_000069.json",
+      "phaseDeg": -144.9737020909447,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\monitor_data_20261102_2142\\group2\\B_1724c849_000070.json",
+      "phaseDeg": -156.57766486679284,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\monitor_data_20261102_2142\\group2\\B_1724c849_000071.json",
+      "phaseDeg": -153.50699014146193,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\monitor_data_20261102_2142\\group2\\B_1724c849_000072.json",
+      "phaseDeg": -151.21211820998388,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\monitor_data_20261102_2142\\group2\\B_1724c849_000073.json",
+      "phaseDeg": -151.87783138140128,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\monitor_data_20261102_2142\\group2\\B_1724c849_000074.json",
+      "phaseDeg": -157.48573673021264,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\monitor_data_20261102_2142\\group2\\B_1724c849_000075.json",
+      "phaseDeg": -156.65788029242142,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\monitor_data_20261102_2142\\group3\\A_5e859cd1_000091.json",
+      "phaseDeg": 38.49253481491721,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\monitor_data_20261102_2142\\group3\\A_5e859cd1_000092.json",
+      "phaseDeg": 67.89496611230585,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\monitor_data_20261102_2142\\group3\\A_5e859cd1_000094.json",
+      "phaseDeg": 91.08041637591084,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\monitor_data_20261102_2142\\group3\\A_5e859cd1_000095.json",
+      "phaseDeg": 96.8956566006096,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\monitor_data_20261102_2142\\group3\\A_5e859cd1_000098.json",
+      "phaseDeg": 51.31052325752475,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\monitor_data_20261102_2142\\group3\\A_5e859cd1_000099.json",
+      "phaseDeg": 52.65614959342451,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\monitor_data_20261102_2142\\group3\\A_5e859cd1_000100.json",
+      "phaseDeg": 11.82203141495799,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\monitor_data_20261102_2142\\group3\\A_5e859cd1_000102.json",
+      "phaseDeg": 10.448562092016143,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\monitor_data_20261102_2142\\group3\\A_5e859cd1_000103.json",
+      "phaseDeg": 13.965066387274293,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\monitor_data_20261102_2142\\group3\\A_5e859cd1_000104.json",
+      "phaseDeg": 12.046831482617055,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\monitor_data_20261102_2142\\group3\\A_5e859cd1_000105.json",
+      "phaseDeg": 16.579031122363453,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\monitor_data_20261102_2142\\group3\\A_5e859cd1_000106.json",
+      "phaseDeg": 19.80779926148328,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\monitor_data_20261102_2142\\group3\\A_5e859cd1_000107.json",
+      "phaseDeg": 13.070165611261446,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\monitor_data_20261102_2142\\group3\\A_5e859cd1_000108.json",
+      "phaseDeg": 15.710466133117826,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\monitor_data_20261102_2142\\group3\\A_5e859cd1_000109.json",
+      "phaseDeg": 16.580371781614016,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\monitor_data_20261102_2142\\group3\\A_5e859cd1_000110.json",
+      "phaseDeg": 15.833500350174171,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\monitor_data_20261102_2142\\group3\\A_5e859cd1_000111.json",
+      "phaseDeg": 16.30367500667375,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\monitor_data_20261102_2142\\group3\\A_5e859cd1_000112.json",
+      "phaseDeg": 16.64906172602259,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\monitor_data_20261102_2142\\group3\\A_5e859cd1_000114.json",
+      "phaseDeg": 10.971397654281084,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\monitor_data_20261102_2142\\group3\\A_5e859cd1_000115.json",
+      "phaseDeg": 9.584651500694202,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\monitor_data_20261102_2142\\group3\\A_5e859cd1_000116.json",
+      "phaseDeg": 16.931044477843784,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\monitor_data_20261102_2142\\group3\\A_5e859cd1_000117.json",
+      "phaseDeg": 19.249520127722494,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\monitor_data_20261102_2142\\group3\\A_5e859cd1_000119.json",
+      "phaseDeg": 15.320930059454724,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\monitor_data_20261102_2142\\group3\\A_5e859cd1_000121.json",
+      "phaseDeg": 9.53338268182391,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\monitor_data_20261102_2142\\group3\\A_5e859cd1_000123.json",
+      "phaseDeg": 7.1253910081296015,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\monitor_data_20261102_2142\\group3\\B_1724c849_000090.json",
+      "phaseDeg": -160.28206021053853,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\monitor_data_20261102_2142\\group3\\B_1724c849_000091.json",
+      "phaseDeg": -155.8270945910496,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\monitor_data_20261102_2142\\group3\\B_1724c849_000092.json",
+      "phaseDeg": -147.8457685578592,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\monitor_data_20261102_2142\\group3\\B_1724c849_000093.json",
+      "phaseDeg": -151.90371323053634,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\monitor_data_20261102_2142\\group3\\B_1724c849_000094.json",
+      "phaseDeg": -151.45397623514503,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\monitor_data_20261102_2142\\group3\\B_1724c849_000095.json",
+      "phaseDeg": -149.43457780352088,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\monitor_data_20261102_2142\\group3\\B_1724c849_000096.json",
+      "phaseDeg": -150.00043896800472,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\monitor_data_20261102_2142\\group3\\B_1724c849_000097.json",
+      "phaseDeg": -149.81289886829785,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\monitor_data_20261102_2142\\group3\\B_1724c849_000098.json",
+      "phaseDeg": -147.94526403501993,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\monitor_data_20261102_2142\\group3\\B_1724c849_000099.json",
+      "phaseDeg": -155.24813116998845,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\monitor_data_20261102_2142\\group3\\B_1724c849_000100.json",
+      "phaseDeg": -157.41518578430322,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\monitor_data_20261102_2142\\group3\\B_1724c849_000101.json",
+      "phaseDeg": -153.2299872225569,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\monitor_data_20261102_2142\\group3\\B_1724c849_000102.json",
+      "phaseDeg": -152.81520504896164,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\monitor_data_20261102_2142\\group3\\B_1724c849_000103.json",
+      "phaseDeg": -157.22052621003905,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\monitor_data_20261102_2142\\group3\\B_1724c849_000104.json",
+      "phaseDeg": -157.18658764802288,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\monitor_data_20261102_2142\\group3\\B_1724c849_000105.json",
+      "phaseDeg": -148.92358699515984,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\monitor_data_20261102_2142\\group3\\B_1724c849_000106.json",
+      "phaseDeg": -148.90911070896465,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\monitor_data_20261102_2142\\group3\\B_1724c849_000107.json",
+      "phaseDeg": -145.33469086789873,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\monitor_data_20261102_2142\\group3\\B_1724c849_000108.json",
+      "phaseDeg": -146.2988182719239,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\monitor_data_20261102_2142\\group3\\B_1724c849_000109.json",
+      "phaseDeg": -147.13084822527392,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\monitor_data_20261102_2142\\group3\\B_1724c849_000110.json",
+      "phaseDeg": -147.14394304295408,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\monitor_data_20261102_2142\\group3\\B_1724c849_000111.json",
+      "phaseDeg": -147.42175071768915,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\monitor_data_20261102_2142\\group3\\B_1724c849_000112.json",
+      "phaseDeg": -147.41348395546,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\monitor_data_20261102_2142\\group3\\B_1724c849_000113.json",
+      "phaseDeg": -151.43851751167688,
+      "acceptedBoth": true
+    },
+    {
+      "file": "tmp\\monitor_data_20261102_2142\\group3\\B_1724c849_000114.json",
+      "phaseDeg": -159.36929209334764,
+      "acceptedBoth": true
+    }
+  ]
+}

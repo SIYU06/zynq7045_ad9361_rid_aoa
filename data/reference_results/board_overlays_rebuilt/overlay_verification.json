@@ -1,0 +1,20 @@
+{
+  "passed": true,
+  "stations": [
+    {
+      "station": "A",
+      "archive": "station_A_overlay.tar.xz",
+      "files": 241,
+      "archiveBytes": 15849608,
+      "sha256": "39137e0c5fb79e736aad154e03b5594a3ff99220306e1c7ea701ea7d86ee59cf"
+    },
+    {
+      "station": "B",
+      "archive": "station_B_overlay.tar.xz",
+      "files": 242,
+      "archiveBytes": 15849696,
+      "sha256": "f8bcb7147eac17f976f0eaeade712f1fe0d8cd23cf32a970cdf2f98db9273fef"
+    }
+  ],
+  "scope": "Offline package integrity and module ABI; no board writes."
+}

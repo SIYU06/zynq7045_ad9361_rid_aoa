@@ -1,0 +1,35 @@
+{
+  "schema": "airspace-source-bundle-v1",
+  "source": {
+    "path": "src/project_sources.tar.xz",
+    "sha256": "94f930e39b9fabc132646007e399769116115e96fd86694bb988906c2ef5ede0",
+    "size": 18131672
+  },
+  "board": {
+    "path": "board/board_support.tar.xz",
+    "sha256": "bdab586c4337fb6b29a2e7371bd712aacadecb7a40c54eaf75010b84bfdbbccb",
+    "size": 24145748
+  },
+  "kernel": {
+    "parts": [
+      {
+        "path": "src/linux_source.part000",
+        "size": 50331648,
+        "sha256": "d87bce7ba0aecce48c5a06a04b5c6ae424e48736ffe77a1247789b1914a28926"
+      },
+      {
+        "path": "src/linux_source.part001",
+        "size": 50331648,
+        "sha256": "d4649cbfaffe95266ee2e611b9e552bbf0894f8d799969405b1b11c0eec0f6c6"
+      },
+      {
+        "path": "src/linux_source.part002",
+        "size": 40697084,
+        "sha256": "10622327738f69956ec892484a60563f0c588ecd23b663d158a1d1b12cbf55f8"
+      }
+    ],
+    "sha256": "fc85a0cff10ff092c503a5db98120790e81c66bce2db389b292fceacd1837e69",
+    "size": 141360380,
+    "output": "third_party/linux-427c94e8faa5-source.tar.xz"
+  }
+}

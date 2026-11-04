@@ -1,0 +1,4 @@
+﻿PASS: complete 1 Mbps long-preamble DSSS frame decoded; 134 payload bytes match exactly.
+PASS: bad FCS rejected; occupied mailbox protected; stale ACK rejected; valid ACK and disable verified.
+Input: synthetic IQ vectors, 20 MS/s; FPGA processing clock: 100 MHz.
+Scope: this is a simulation result, not an RF reception or angle accuracy measurement.

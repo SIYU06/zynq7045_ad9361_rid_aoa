@@ -1,0 +1,2287 @@
+{
+    "schema":  "airspace.aoa-reference",
+    "version":  1,
+    "profiles":  [
+                     {
+                         "id":  "3e983e8aed354b068a4035f131dae238",
+                         "name":  "信道6_户外三米距离",
+                         "createdAt":  "2026-11-03T02:48:44.512482+00:00",
+                         "settings":  {
+                                          "channel":  6,
+                                          "frequencyMhz":  2437,
+                                          "name":  "信道6_户外三米距离",
+                                          "baselineM":  2.8,
+                                          "forwardM":  3.0,
+                                          "lateralM":  0.0,
+                                          "headingDeg":  202.0449713347449,
+                                          "aSide":  "right",
+                                          "maxSpreadDeg":  3.0,
+                                          "reuseAcrossRestarts":  true,
+                                          "sampleCount":  40,
+                                          "timeoutSeconds":  90,
+                                          "referenceMac":  "mac_aa98f353b5",
+                                          "bearingSignA":  1,
+                                          "spacingAM":  0.06,
+                                          "bearingSignB":  1,
+                                          "spacingBM":  0.06
+                                      },
+                         "geometry":  {
+                                          "midpoint":  {
+                                                           "xM":  -603.435595173813,
+                                                           "yM":  1347.6608803943088
+                                                       },
+                                          "source":  {
+                                                         "xM":  -604.5615978415344,
+                                                         "yM":  1344.8802117710666
+                                                     },
+                                          "stations":  {
+                                                           "A":  {
+                                                                     "setup":  {
+                                                                                   "id":  "A",
+                                                                                   "name":  "测向站A",
+                                                                                   "url":  "http://169.254.92.202:18788",
+                                                                                   "calibration":  "runtime/aoa_calibration_A.json",
+                                                                                   "xM":  -604.733240531326,
+                                                                                   "yM":  1348.1863483059121,
+                                                                                   "headingDeg":  202.0449713347449,
+                                                                                   "rayLengthM":  20,
+                                                                                   "orientationSource":  "用户设置；实际北向是否测量需现场核验",
+                                                                                   "antennaSpacingM":  0.06
+                                                                               },
+                                                                     "knownAngleDeg":  -25.016893478100314,
+                                                                     "expectedPhaseDeg":  -74.25254369360532
+                                                                 },
+                                                           "B":  {
+                                                                     "setup":  {
+                                                                                   "id":  "B",
+                                                                                   "name":  "测向站B",
+                                                                                   "url":  "http://192.168.20.2:18788",
+                                                                                   "calibration":  "runtime/aoa_calibration_B.json",
+                                                                                   "xM":  -602.1379498163,
+                                                                                   "yM":  1347.1354124827055,
+                                                                                   "headingDeg":  202.0449713347449,
+                                                                                   "rayLengthM":  20,
+                                                                                   "orientationSource":  "用户设置；实际北向是否测量需现场核验",
+                                                                                   "antennaSpacingM":  0.06
+                                                                               },
+                                                                     "knownAngleDeg":  25.016893478098723,
+                                                                     "expectedPhaseDeg":  74.2525436936009
+                                                                 }
+                                                       },
+                                          "warnings":  [
+
+                                                       ]
+                                      },
+                         "status":  "captured",
+                         "statistics":  {
+                                            "A":  {
+                                                      "meanDeg":  45.78517016205722,
+                                                      "spreadDeg":  0.9056816207318109,
+                                                      "resultantLength":  0.9998750751835093,
+                                                      "samples":  40,
+                                                      "halfDriftDeg":  0.8916776695042472
+                                                  },
+                                            "B":  {
+                                                      "meanDeg":  -135.08492005495367,
+                                                      "spreadDeg":  2.332608365652636,
+                                                      "resultantLength":  0.9991716221931874,
+                                                      "samples":  40,
+                                                      "halfDriftDeg":  1.899527677740025
+                                                  }
+                                        }
+                     },
+                     {
+                         "id":  "ccea364105cd4d79bf4a38efc603bc67",
+                         "name":  "信道6_户外三米距离",
+                         "createdAt":  "2026-11-03T02:50:21.298337+00:00",
+                         "settings":  {
+                                          "channel":  1,
+                                          "frequencyMhz":  2412,
+                                          "name":  "信道6_户外三米距离",
+                                          "baselineM":  2.8,
+                                          "forwardM":  3.0,
+                                          "lateralM":  0.0,
+                                          "headingDeg":  202.0449713347449,
+                                          "aSide":  "right",
+                                          "maxSpreadDeg":  3.0,
+                                          "reuseAcrossRestarts":  true,
+                                          "sampleCount":  40,
+                                          "timeoutSeconds":  90,
+                                          "referenceMac":  "mac_aa98f353b5",
+                                          "bearingSignA":  1,
+                                          "spacingAM":  0.06,
+                                          "bearingSignB":  1,
+                                          "spacingBM":  0.06
+                                      },
+                         "geometry":  {
+                                          "midpoint":  {
+                                                           "xM":  -603.435595173813,
+                                                           "yM":  1347.6608803943088
+                                                       },
+                                          "source":  {
+                                                         "xM":  -604.5615978415344,
+                                                         "yM":  1344.8802117710666
+                                                     },
+                                          "stations":  {
+                                                           "A":  {
+                                                                     "setup":  {
+                                                                                   "id":  "A",
+                                                                                   "name":  "测向站A",
+                                                                                   "url":  "http://169.254.92.202:18788",
+                                                                                   "calibration":  "runtime/aoa_profile_3e983e8aed354b068a4035f131dae238_A.json",
+                                                                                   "xM":  -604.733240531326,
+                                                                                   "yM":  1348.1863483059121,
+                                                                                   "headingDeg":  202.0449713347449,
+                                                                                   "rayLengthM":  20,
+                                                                                   "orientationSource":  "用户设置；实际北向是否测量需现场核验",
+                                                                                   "antennaSpacingM":  0.06
+                                                                               },
+                                                                     "knownAngleDeg":  -25.016893478100314,
+                                                                     "expectedPhaseDeg":  -73.49082289248092
+                                                                 },
+                                                           "B":  {
+                                                                     "setup":  {
+                                                                                   "id":  "B",
+                                                                                   "name":  "测向站B",
+                                                                                   "url":  "http://192.168.20.2:18788",
+                                                                                   "calibration":  "runtime/aoa_profile_3e983e8aed354b068a4035f131dae238_B.json",
+                                                                                   "xM":  -602.1379498163,
+                                                                                   "yM":  1347.1354124827055,
+                                                                                   "headingDeg":  202.0449713347449,
+                                                                                   "rayLengthM":  20,
+                                                                                   "orientationSource":  "用户设置；实际北向是否测量需现场核验",
+                                                                                   "antennaSpacingM":  0.06
+                                                                               },
+                                                                     "knownAngleDeg":  25.016893478098723,
+                                                                     "expectedPhaseDeg":  73.49082289247654
+                                                                 }
+                                                       },
+                                          "warnings":  [
+
+                                                       ]
+                                      },
+                         "status":  "draft",
+                         "statistics":  {
+
+                                        }
+                     }
+                 ],
+    "activeId":  "3e983e8aed354b068a4035f131dae238",
+    "job":  {
+                "state":  "verification_failed",
+                "message":  "旧基准原位核验失败：当前相位已变化，禁止沿用旧偏置；原文件完整保留",
+                "progress":  {
+                                 "A":  20,
+                                 "B":  20
+                             },
+                "sampleCount":  20,
+                "verification":  {
+                                     "A":  {
+                                               "meanDeg":  37.38126497766576,
+                                               "spreadDeg":  1.9584892566993812,
+                                               "resultantLength":  0.9994159631179297,
+                                               "samples":  20,
+                                               "savedMeanDeg":  45.78517016205723,
+                                               "phaseDifferenceDeg":  -8.403905184391476,
+                                               "passed":  false
+                                           },
+                                     "B":  {
+                                               "meanDeg":  -119.4481400148282,
+                                               "spreadDeg":  5.203302619735932,
+                                               "resultantLength":  0.9958848300519952,
+                                               "samples":  20,
+                                               "savedMeanDeg":  -135.08492005495367,
+                                               "phaseDifferenceDeg":  15.636780040125473,
+                                               "passed":  false
+                                           }
+                                 },
+                "profileId":  "3e983e8aed354b068a4035f131dae238",
+                "restored":  true
+            },
+    "activeProfileName":  "信道6_户外三米距离",
+    "activeProfileCreatedAt":  "2026-11-03T02:48:44.512482+00:00",
+    "activeMatchesFiles":  true,
+    "recoveryRequired":  false,
+    "channels":  [
+                     {
+                         "channel":  1,
+                         "frequencyMhz":  2412,
+                         "band":  "2.4"
+                     },
+                     {
+                         "channel":  2,
+                         "frequencyMhz":  2417,
+                         "band":  "2.4"
+                     },
+                     {
+                         "channel":  3,
+                         "frequencyMhz":  2422,
+                         "band":  "2.4"
+                     },
+                     {
+                         "channel":  4,
+                         "frequencyMhz":  2427,
+                         "band":  "2.4"
+                     },
+                     {
+                         "channel":  5,
+                         "frequencyMhz":  2432,
+                         "band":  "2.4"
+                     },
+                     {
+                         "channel":  6,
+                         "frequencyMhz":  2437,
+                         "band":  "2.4"
+                     },
+                     {
+                         "channel":  7,
+                         "frequencyMhz":  2442,
+                         "band":  "2.4"
+                     },
+                     {
+                         "channel":  8,
+                         "frequencyMhz":  2447,
+                         "band":  "2.4"
+                     },
+                     {
+                         "channel":  9,
+                         "frequencyMhz":  2452,
+                         "band":  "2.4"
+                     },
+                     {
+                         "channel":  10,
+                         "frequencyMhz":  2457,
+                         "band":  "2.4"
+                     },
+                     {
+                         "channel":  11,
+                         "frequencyMhz":  2462,
+                         "band":  "2.4"
+                     },
+                     {
+                         "channel":  12,
+                         "frequencyMhz":  2467,
+                         "band":  "2.4"
+                     },
+                     {
+                         "channel":  13,
+                         "frequencyMhz":  2472,
+                         "band":  "2.4"
+                     },
+                     {
+                         "channel":  36,
+                         "frequencyMhz":  5180,
+                         "band":  "5"
+                     },
+                     {
+                         "channel":  38,
+                         "frequencyMhz":  5190,
+                         "band":  "5"
+                     },
+                     {
+                         "channel":  40,
+                         "frequencyMhz":  5200,
+                         "band":  "5"
+                     },
+                     {
+                         "channel":  42,
+                         "frequencyMhz":  5210,
+                         "band":  "5"
+                     },
+                     {
+                         "channel":  44,
+                         "frequencyMhz":  5220,
+                         "band":  "5"
+                     },
+                     {
+                         "channel":  46,
+                         "frequencyMhz":  5230,
+                         "band":  "5"
+                     },
+                     {
+                         "channel":  48,
+                         "frequencyMhz":  5240,
+                         "band":  "5"
+                     },
+                     {
+                         "channel":  52,
+                         "frequencyMhz":  5260,
+                         "band":  "5"
+                     },
+                     {
+                         "channel":  56,
+                         "frequencyMhz":  5280,
+                         "band":  "5"
+                     },
+                     {
+                         "channel":  60,
+                         "frequencyMhz":  5300,
+                         "band":  "5"
+                     },
+                     {
+                         "channel":  64,
+                         "frequencyMhz":  5320,
+                         "band":  "5"
+                     }
+                 ],
+    "sources":  [
+                    {
+                        "mac":  "mac_aa98f353b5",
+                        "ssid":  "RID-TEST",
+                        "frequencyMhz":  2437,
+                        "fresh":  true,
+                        "doaSupported":  true
+                    },
+                    {
+                        "mac":  "mac_9f98fc6f01",
+                        "ssid":  "DRONEI",
+                        "frequencyMhz":  2437,
+                        "fresh":  true,
+                        "doaSupported":  false
+                    },
+                    {
+                        "mac":  "mac_b68a5bc775",
+                        "ssid":  "WIFI-UFO-bc560c",
+                        "frequencyMhz":  2412,
+                        "fresh":  false,
+                        "doaSupported":  true
+                    },
+                    {
+                        "mac":  "mac_2de9c736af",
+                        "ssid":  null,
+                        "frequencyMhz":  2437,
+                        "fresh":  false,
+                        "doaSupported":  false
+                    },
+                    {
+                        "mac":  "mac_075196c35f",
+                        "ssid":  null,
+                        "frequencyMhz":  2437,
+                        "fresh":  false,
+                        "doaSupported":  false
+                    },
+                    {
+                        "mac":  "mac_b995fda952",
+                        "ssid":  null,
+                        "frequencyMhz":  2437,
+                        "fresh":  false,
+                        "doaSupported":  false
+                    },
+                    {
+                        "mac":  "mac_75942d52e7",
+                        "ssid":  null,
+                        "frequencyMhz":  2437,
+                        "fresh":  false,
+                        "doaSupported":  false
+                    },
+                    {
+                        "mac":  "mac_361e26115f",
+                        "ssid":  null,
+                        "frequencyMhz":  2437,
+                        "fresh":  false,
+                        "doaSupported":  false
+                    },
+                    {
+                        "mac":  "mac_c0ce6b792a",
+                        "ssid":  null,
+                        "frequencyMhz":  2437,
+                        "fresh":  false,
+                        "doaSupported":  false
+                    },
+                    {
+                        "mac":  "mac_c98b1eccbe",
+                        "ssid":  null,
+                        "frequencyMhz":  2437,
+                        "fresh":  false,
+                        "doaSupported":  false
+                    },
+                    {
+                        "mac":  "mac_a7f03b14a5",
+                        "ssid":  null,
+                        "frequencyMhz":  2437,
+                        "fresh":  false,
+                        "doaSupported":  false
+                    },
+                    {
+                        "mac":  "mac_24f40b49e5",
+                        "ssid":  null,
+                        "frequencyMhz":  2437,
+                        "fresh":  false,
+                        "doaSupported":  false
+                    },
+                    {
+                        "mac":  "mac_a148876ebd",
+                        "ssid":  null,
+                        "frequencyMhz":  2437,
+                        "fresh":  false,
+                        "doaSupported":  false
+                    },
+                    {
+                        "mac":  "mac_d73e9bcd5f",
+                        "ssid":  null,
+                        "frequencyMhz":  2437,
+                        "fresh":  false,
+                        "doaSupported":  false
+                    },
+                    {
+                        "mac":  "mac_f8b7302f98",
+                        "ssid":  null,
+                        "frequencyMhz":  2437,
+                        "fresh":  false,
+                        "doaSupported":  false
+                    },
+                    {
+                        "mac":  "mac_7609619e5f",
+                        "ssid":  null,
+                        "frequencyMhz":  2437,
+                        "fresh":  false,
+                        "doaSupported":  false
+                    },
+                    {
+                        "mac":  "mac_c218f832ac",
+                        "ssid":  null,
+                        "frequencyMhz":  2437,
+                        "fresh":  false,
+                        "doaSupported":  false
+                    },
+                    {
+                        "mac":  "mac_466c247c2e",
+                        "ssid":  null,
+                        "frequencyMhz":  2437,
+                        "fresh":  false,
+                        "doaSupported":  false
+                    },
+                    {
+                        "mac":  "mac_0297eb4df3",
+                        "ssid":  null,
+                        "frequencyMhz":  2437,
+                        "fresh":  false,
+                        "doaSupported":  false
+                    },
+                    {
+                        "mac":  "mac_48bbe6d488",
+                        "ssid":  null,
+                        "frequencyMhz":  2437,
+                        "fresh":  false,
+                        "doaSupported":  false
+                    },
+                    {
+                        "mac":  "mac_078bc0792f",
+                        "ssid":  null,
+                        "frequencyMhz":  2437,
+                        "fresh":  false,
+                        "doaSupported":  false
+                    },
+                    {
+                        "mac":  "mac_842ab04bcb",
+                        "ssid":  null,
+                        "frequencyMhz":  2437,
+                        "fresh":  false,
+                        "doaSupported":  false
+                    },
+                    {
+                        "mac":  "mac_a2542dffe8",
+                        "ssid":  null,
+                        "frequencyMhz":  2437,
+                        "fresh":  false,
+                        "doaSupported":  false
+                    },
+                    {
+                        "mac":  "mac_ea4727b542",
+                        "ssid":  null,
+                        "frequencyMhz":  2437,
+                        "fresh":  false,
+                        "doaSupported":  false
+                    },
+                    {
+                        "mac":  "mac_30e1b70f65",
+                        "ssid":  null,
+                        "frequencyMhz":  2437,
+                        "fresh":  false,
+                        "doaSupported":  false
+                    },
+                    {
+                        "mac":  "mac_6d22615bdd",
+                        "ssid":  null,
+                        "frequencyMhz":  2437,
+                        "fresh":  false,
+                        "doaSupported":  false
+                    },
+                    {
+                        "mac":  "mac_f68f6bc2e3",
+                        "ssid":  null,
+                        "frequencyMhz":  2437,
+                        "fresh":  false,
+                        "doaSupported":  false
+                    },
+                    {
+                        "mac":  "mac_98d71bbd95",
+                        "ssid":  null,
+                        "frequencyMhz":  2437,
+                        "fresh":  false,
+                        "doaSupported":  false
+                    },
+                    {
+                        "mac":  "mac_85aed2b9e3",
+                        "ssid":  null,
+                        "frequencyMhz":  2437,
+                        "fresh":  false,
+                        "doaSupported":  false
+                    },
+                    {
+                        "mac":  "mac_e401bccf3d",
+                        "ssid":  null,
+                        "frequencyMhz":  2437,
+                        "fresh":  false,
+                        "doaSupported":  false
+                    },
+                    {
+                        "mac":  "mac_386dd997b9",
+                        "ssid":  null,
+                        "frequencyMhz":  2437,
+                        "fresh":  false,
+                        "doaSupported":  false
+                    },
+                    {
+                        "mac":  "mac_5d9dda70d1",
+                        "ssid":  null,
+                        "frequencyMhz":  2437,
+                        "fresh":  false,
+                        "doaSupported":  false
+                    },
+                    {
+                        "mac":  "mac_fd0b701dc2",
+                        "ssid":  null,
+                        "frequencyMhz":  2437,
+                        "fresh":  false,
+                        "doaSupported":  false
+                    },
+                    {
+                        "mac":  "mac_066533766a",
+                        "ssid":  null,
+                        "frequencyMhz":  2437,
+                        "fresh":  false,
+                        "doaSupported":  false
+                    },
+                    {
+                        "mac":  "mac_83f115f7e9",
+                        "ssid":  null,
+                        "frequencyMhz":  2437,
+                        "fresh":  false,
+                        "doaSupported":  false
+                    },
+                    {
+                        "mac":  "mac_98554d69fe",
+                        "ssid":  null,
+                        "frequencyMhz":  2437,
+                        "fresh":  false,
+                        "doaSupported":  false
+                    },
+                    {
+                        "mac":  "mac_d1886d156b",
+                        "ssid":  null,
+                        "frequencyMhz":  2437,
+                        "fresh":  false,
+                        "doaSupported":  false
+                    },
+                    {
+                        "mac":  "mac_5f01deaa7f",
+                        "ssid":  null,
+                        "frequencyMhz":  2437,
+                        "fresh":  false,
+                        "doaSupported":  false
+                    },
+                    {
+                        "mac":  "mac_fb8e930058",
+                        "ssid":  null,
+                        "frequencyMhz":  2437,
+                        "fresh":  false,
+                        "doaSupported":  false
+                    },
+                    {
+                        "mac":  "mac_7872d95912",
+                        "ssid":  null,
+                        "frequencyMhz":  2437,
+                        "fresh":  false,
+                        "doaSupported":  true
+                    },
+                    {
+                        "mac":  "mac_f59709ad1b",
+                        "ssid":  null,
+                        "frequencyMhz":  2437,
+                        "fresh":  false,
+                        "doaSupported":  false
+                    },
+                    {
+                        "mac":  "mac_609a37502e",
+                        "ssid":  null,
+                        "frequencyMhz":  2437,
+                        "fresh":  false,
+                        "doaSupported":  false
+                    },
+                    {
+                        "mac":  "mac_84589c4f2e",
+                        "ssid":  null,
+                        "frequencyMhz":  2437,
+                        "fresh":  false,
+                        "doaSupported":  false
+                    },
+                    {
+                        "mac":  "mac_7eb4d8e39c",
+                        "ssid":  null,
+                        "frequencyMhz":  2437,
+                        "fresh":  false,
+                        "doaSupported":  false
+                    },
+                    {
+                        "mac":  "mac_e8a4fd3a67",
+                        "ssid":  null,
+                        "frequencyMhz":  2437,
+                        "fresh":  false,
+                        "doaSupported":  false
+                    },
+                    {
+                        "mac":  "mac_a534f76ede",
+                        "ssid":  null,
+                        "frequencyMhz":  2437,
+                        "fresh":  false,
+                        "doaSupported":  false
+                    },
+                    {
+                        "mac":  "mac_c376d8ce27",
+                        "ssid":  null,
+                        "frequencyMhz":  2437,
+                        "fresh":  false,
+                        "doaSupported":  false
+                    },
+                    {
+                        "mac":  "mac_0115aaafe0",
+                        "ssid":  null,
+                        "frequencyMhz":  2437,
+                        "fresh":  false,
+                        "doaSupported":  false
+                    },
+                    {
+                        "mac":  "mac_fc404d9ac5",
+                        "ssid":  null,
+                        "frequencyMhz":  2437,
+                        "fresh":  false,
+                        "doaSupported":  false
+                    },
+                    {
+                        "mac":  "mac_8ebab71cea",
+                        "ssid":  null,
+                        "frequencyMhz":  2437,
+                        "fresh":  false,
+                        "doaSupported":  false
+                    },
+                    {
+                        "mac":  "mac_8f501073b3",
+                        "ssid":  null,
+                        "frequencyMhz":  2437,
+                        "fresh":  false,
+                        "doaSupported":  false
+                    },
+                    {
+                        "mac":  "mac_b0d6ae54f4",
+                        "ssid":  null,
+                        "frequencyMhz":  2437,
+                        "fresh":  false,
+                        "doaSupported":  false
+                    },
+                    {
+                        "mac":  "mac_cbde023adc",
+                        "ssid":  null,
+                        "frequencyMhz":  2437,
+                        "fresh":  false,
+                        "doaSupported":  false
+                    },
+                    {
+                        "mac":  "mac_f583997c39",
+                        "ssid":  null,
+                        "frequencyMhz":  2437,
+                        "fresh":  false,
+                        "doaSupported":  false
+                    },
+                    {
+                        "mac":  "mac_b5ebec0c9f",
+                        "ssid":  null,
+                        "frequencyMhz":  2437,
+                        "fresh":  false,
+                        "doaSupported":  false
+                    },
+                    {
+                        "mac":  "mac_7eeedaaaea",
+                        "ssid":  null,
+                        "frequencyMhz":  2437,
+                        "fresh":  false,
+                        "doaSupported":  false
+                    },
+                    {
+                        "mac":  "mac_0a83f2b5a5",
+                        "ssid":  null,
+                        "frequencyMhz":  2437,
+                        "fresh":  false,
+                        "doaSupported":  false
+                    },
+                    {
+                        "mac":  "mac_5df21a1edd",
+                        "ssid":  null,
+                        "frequencyMhz":  2437,
+                        "fresh":  false,
+                        "doaSupported":  false
+                    },
+                    {
+                        "mac":  "mac_b8f7c2b49c",
+                        "ssid":  null,
+                        "frequencyMhz":  2437,
+                        "fresh":  false,
+                        "doaSupported":  false
+                    },
+                    {
+                        "mac":  "mac_4849c2b53b",
+                        "ssid":  null,
+                        "frequencyMhz":  2437,
+                        "fresh":  false,
+                        "doaSupported":  false
+                    },
+                    {
+                        "mac":  "mac_bfd43dac16",
+                        "ssid":  null,
+                        "frequencyMhz":  2437,
+                        "fresh":  false,
+                        "doaSupported":  false
+                    },
+                    {
+                        "mac":  "mac_14da15481e",
+                        "ssid":  null,
+                        "frequencyMhz":  2437,
+                        "fresh":  false,
+                        "doaSupported":  false
+                    },
+                    {
+                        "mac":  "mac_75dac039cb",
+                        "ssid":  null,
+                        "frequencyMhz":  2437,
+                        "fresh":  false,
+                        "doaSupported":  false
+                    },
+                    {
+                        "mac":  "mac_28370c1e66",
+                        "ssid":  null,
+                        "frequencyMhz":  2437,
+                        "fresh":  false,
+                        "doaSupported":  false
+                    },
+                    {
+                        "mac":  "mac_01b04f34ad",
+                        "ssid":  null,
+                        "frequencyMhz":  2437,
+                        "fresh":  false,
+                        "doaSupported":  false
+                    },
+                    {
+                        "mac":  "mac_9962b23026",
+                        "ssid":  null,
+                        "frequencyMhz":  2437,
+                        "fresh":  false,
+                        "doaSupported":  false
+                    },
+                    {
+                        "mac":  "mac_b0e862041e",
+                        "ssid":  null,
+                        "frequencyMhz":  2437,
+                        "fresh":  false,
+                        "doaSupported":  false
+                    },
+                    {
+                        "mac":  "mac_5ce283b21e",
+                        "ssid":  null,
+                        "frequencyMhz":  2437,
+                        "fresh":  false,
+                        "doaSupported":  false
+                    },
+                    {
+                        "mac":  "mac_d459dc8ad0",
+                        "ssid":  null,
+                        "frequencyMhz":  2437,
+                        "fresh":  false,
+                        "doaSupported":  false
+                    },
+                    {
+                        "mac":  "mac_dae15033ed",
+                        "ssid":  null,
+                        "frequencyMhz":  2437,
+                        "fresh":  false,
+                        "doaSupported":  false
+                    },
+                    {
+                        "mac":  "mac_9774a684be",
+                        "ssid":  null,
+                        "frequencyMhz":  2437,
+                        "fresh":  false,
+                        "doaSupported":  false
+                    },
+                    {
+                        "mac":  "mac_72719d929b",
+                        "ssid":  null,
+                        "frequencyMhz":  2437,
+                        "fresh":  false,
+                        "doaSupported":  false
+                    },
+                    {
+                        "mac":  "mac_61700c0d44",
+                        "ssid":  null,
+                        "frequencyMhz":  2437,
+                        "fresh":  false,
+                        "doaSupported":  false
+                    },
+                    {
+                        "mac":  "mac_97a2fbc07b",
+                        "ssid":  null,
+                        "frequencyMhz":  2437,
+                        "fresh":  false,
+                        "doaSupported":  false
+                    },
+                    {
+                        "mac":  "mac_e4a8aac889",
+                        "ssid":  null,
+                        "frequencyMhz":  2437,
+                        "fresh":  false,
+                        "doaSupported":  false
+                    },
+                    {
+                        "mac":  "mac_4f4f7d4257",
+                        "ssid":  null,
+                        "frequencyMhz":  2437,
+                        "fresh":  false,
+                        "doaSupported":  false
+                    },
+                    {
+                        "mac":  "mac_dbd8f1aeab",
+                        "ssid":  null,
+                        "frequencyMhz":  2437,
+                        "fresh":  false,
+                        "doaSupported":  false
+                    },
+                    {
+                        "mac":  "mac_e3999a9111",
+                        "ssid":  null,
+                        "frequencyMhz":  2437,
+                        "fresh":  false,
+                        "doaSupported":  false
+                    },
+                    {
+                        "mac":  "mac_0ee436173d",
+                        "ssid":  null,
+                        "frequencyMhz":  2437,
+                        "fresh":  false,
+                        "doaSupported":  false
+                    },
+                    {
+                        "mac":  "mac_e2c7e69af4",
+                        "ssid":  null,
+                        "frequencyMhz":  2437,
+                        "fresh":  false,
+                        "doaSupported":  false
+                    },
+                    {
+                        "mac":  "mac_02193b9555",
+                        "ssid":  null,
+                        "frequencyMhz":  2437,
+                        "fresh":  false,
+                        "doaSupported":  false
+                    },
+                    {
+                        "mac":  "mac_6800b02d50",
+                        "ssid":  null,
+                        "frequencyMhz":  2437,
+                        "fresh":  false,
+                        "doaSupported":  false
+                    },
+                    {
+                        "mac":  "mac_fb479a00dc",
+                        "ssid":  null,
+                        "frequencyMhz":  2437,
+                        "fresh":  false,
+                        "doaSupported":  false
+                    },
+                    {
+                        "mac":  "mac_6a6aa63c3f",
+                        "ssid":  null,
+                        "frequencyMhz":  2437,
+                        "fresh":  false,
+                        "doaSupported":  false
+                    },
+                    {
+                        "mac":  "mac_dcfdb8402f",
+                        "ssid":  null,
+                        "frequencyMhz":  2437,
+                        "fresh":  false,
+                        "doaSupported":  false
+                    },
+                    {
+                        "mac":  "mac_60e48143d2",
+                        "ssid":  null,
+                        "frequencyMhz":  2437,
+                        "fresh":  false,
+                        "doaSupported":  false
+                    },
+                    {
+                        "mac":  "mac_cc4a3c171a",
+                        "ssid":  null,
+                        "frequencyMhz":  2437,
+                        "fresh":  false,
+                        "doaSupported":  false
+                    },
+                    {
+                        "mac":  "mac_2be39a731c",
+                        "ssid":  "MEIZU21",
+                        "frequencyMhz":  2412,
+                        "fresh":  false,
+                        "doaSupported":  true
+                    },
+                    {
+                        "mac":  "mac_7872d95912",
+                        "ssid":  null,
+                        "frequencyMhz":  2412,
+                        "fresh":  false,
+                        "doaSupported":  true
+                    },
+                    {
+                        "mac":  "mac_8332cad728",
+                        "ssid":  "MERCURY_2.4G_19DA",
+                        "frequencyMhz":  2412,
+                        "fresh":  false,
+                        "doaSupported":  false
+                    },
+                    {
+                        "mac":  "mac_997359dc81",
+                        "ssid":  null,
+                        "frequencyMhz":  2412,
+                        "fresh":  false,
+                        "doaSupported":  true
+                    },
+                    {
+                        "mac":  "mac_361e26115f",
+                        "ssid":  null,
+                        "frequencyMhz":  2412,
+                        "fresh":  false,
+                        "doaSupported":  false
+                    },
+                    {
+                        "mac":  "mac_a34c381278",
+                        "ssid":  "MERCURY_2.4G_0DFF",
+                        "frequencyMhz":  2412,
+                        "fresh":  false,
+                        "doaSupported":  false
+                    },
+                    {
+                        "mac":  "mac_f8e899aca1",
+                        "ssid":  null,
+                        "frequencyMhz":  2412,
+                        "fresh":  false,
+                        "doaSupported":  false
+                    },
+                    {
+                        "mac":  "mac_c81d1ce471",
+                        "ssid":  null,
+                        "frequencyMhz":  2412,
+                        "fresh":  false,
+                        "doaSupported":  false
+                    },
+                    {
+                        "mac":  "mac_28f18f9e2f",
+                        "ssid":  null,
+                        "frequencyMhz":  2412,
+                        "fresh":  false,
+                        "doaSupported":  false
+                    },
+                    {
+                        "mac":  "mac_7f65cdc5b8",
+                        "ssid":  null,
+                        "frequencyMhz":  2412,
+                        "fresh":  false,
+                        "doaSupported":  false
+                    },
+                    {
+                        "mac":  "mac_3fd12b36fa",
+                        "ssid":  null,
+                        "frequencyMhz":  2412,
+                        "fresh":  false,
+                        "doaSupported":  false
+                    },
+                    {
+                        "mac":  "mac_7507412819",
+                        "ssid":  null,
+                        "frequencyMhz":  2412,
+                        "fresh":  false,
+                        "doaSupported":  false
+                    },
+                    {
+                        "mac":  "mac_a64fab91c3",
+                        "ssid":  null,
+                        "frequencyMhz":  2412,
+                        "fresh":  false,
+                        "doaSupported":  false
+                    },
+                    {
+                        "mac":  "mac_ea2ab09b7d",
+                        "ssid":  null,
+                        "frequencyMhz":  2412,
+                        "fresh":  false,
+                        "doaSupported":  true
+                    },
+                    {
+                        "mac":  "mac_db611b31ee",
+                        "ssid":  null,
+                        "frequencyMhz":  2412,
+                        "fresh":  false,
+                        "doaSupported":  false
+                    },
+                    {
+                        "mac":  "mac_61814fd2bc",
+                        "ssid":  null,
+                        "frequencyMhz":  2412,
+                        "fresh":  false,
+                        "doaSupported":  false
+                    },
+                    {
+                        "mac":  "mac_c3d7939d57",
+                        "ssid":  null,
+                        "frequencyMhz":  2412,
+                        "fresh":  false,
+                        "doaSupported":  false
+                    },
+                    {
+                        "mac":  "mac_62011d6f23",
+                        "ssid":  null,
+                        "frequencyMhz":  2412,
+                        "fresh":  false,
+                        "doaSupported":  false
+                    },
+                    {
+                        "mac":  "mac_a932a8e075",
+                        "ssid":  null,
+                        "frequencyMhz":  2412,
+                        "fresh":  false,
+                        "doaSupported":  false
+                    },
+                    {
+                        "mac":  "mac_5c02652696",
+                        "ssid":  null,
+                        "frequencyMhz":  2412,
+                        "fresh":  false,
+                        "doaSupported":  false
+                    },
+                    {
+                        "mac":  "mac_441186b545",
+                        "ssid":  null,
+                        "frequencyMhz":  2412,
+                        "fresh":  false,
+                        "doaSupported":  false
+                    },
+                    {
+                        "mac":  "mac_75942d52e7",
+                        "ssid":  null,
+                        "frequencyMhz":  2412,
+                        "fresh":  false,
+                        "doaSupported":  false
+                    },
+                    {
+                        "mac":  "mac_96f969893a",
+                        "ssid":  null,
+                        "frequencyMhz":  2412,
+                        "fresh":  false,
+                        "doaSupported":  false
+                    },
+                    {
+                        "mac":  "mac_30c1243bfd",
+                        "ssid":  null,
+                        "frequencyMhz":  2412,
+                        "fresh":  false,
+                        "doaSupported":  false
+                    },
+                    {
+                        "mac":  "mac_9775d10fbf",
+                        "ssid":  null,
+                        "frequencyMhz":  2412,
+                        "fresh":  false,
+                        "doaSupported":  false
+                    },
+                    {
+                        "mac":  "mac_1ef3027934",
+                        "ssid":  null,
+                        "frequencyMhz":  2412,
+                        "fresh":  false,
+                        "doaSupported":  false
+                    },
+                    {
+                        "mac":  "mac_2388112832",
+                        "ssid":  null,
+                        "frequencyMhz":  2412,
+                        "fresh":  false,
+                        "doaSupported":  false
+                    },
+                    {
+                        "mac":  "mac_b275f46846",
+                        "ssid":  null,
+                        "frequencyMhz":  2412,
+                        "fresh":  false,
+                        "doaSupported":  false
+                    },
+                    {
+                        "mac":  "mac_efde20799e",
+                        "ssid":  null,
+                        "frequencyMhz":  2412,
+                        "fresh":  false,
+                        "doaSupported":  false
+                    },
+                    {
+                        "mac":  "mac_7eb06a5d39",
+                        "ssid":  null,
+                        "frequencyMhz":  2412,
+                        "fresh":  false,
+                        "doaSupported":  false
+                    },
+                    {
+                        "mac":  "mac_25cd0d6339",
+                        "ssid":  "MERCURY_2.4G_05A4",
+                        "frequencyMhz":  2412,
+                        "fresh":  false,
+                        "doaSupported":  false
+                    },
+                    {
+                        "mac":  "mac_a1e6d46129",
+                        "ssid":  null,
+                        "frequencyMhz":  2412,
+                        "fresh":  false,
+                        "doaSupported":  false
+                    },
+                    {
+                        "mac":  "mac_2d588de687",
+                        "ssid":  null,
+                        "frequencyMhz":  2412,
+                        "fresh":  false,
+                        "doaSupported":  false
+                    },
+                    {
+                        "mac":  "mac_43be2dd3d7",
+                        "ssid":  null,
+                        "frequencyMhz":  2412,
+                        "fresh":  false,
+                        "doaSupported":  false
+                    },
+                    {
+                        "mac":  "mac_25a1b003fc",
+                        "ssid":  "MERCURY_2.4G_7E3A",
+                        "frequencyMhz":  2412,
+                        "fresh":  false,
+                        "doaSupported":  false
+                    },
+                    {
+                        "mac":  "mac_20d173e4eb",
+                        "ssid":  null,
+                        "frequencyMhz":  2412,
+                        "fresh":  false,
+                        "doaSupported":  false
+                    },
+                    {
+                        "mac":  "mac_1b43745e18",
+                        "ssid":  null,
+                        "frequencyMhz":  2412,
+                        "fresh":  false,
+                        "doaSupported":  false
+                    },
+                    {
+                        "mac":  "mac_6f12cffd8f",
+                        "ssid":  null,
+                        "frequencyMhz":  2412,
+                        "fresh":  false,
+                        "doaSupported":  false
+                    },
+                    {
+                        "mac":  "mac_b85cb28b1b",
+                        "ssid":  null,
+                        "frequencyMhz":  2412,
+                        "fresh":  false,
+                        "doaSupported":  false
+                    },
+                    {
+                        "mac":  "mac_4872b178ef",
+                        "ssid":  null,
+                        "frequencyMhz":  2412,
+                        "fresh":  false,
+                        "doaSupported":  false
+                    },
+                    {
+                        "mac":  "mac_58475c3078",
+                        "ssid":  null,
+                        "frequencyMhz":  2437,
+                        "fresh":  false,
+                        "doaSupported":  false
+                    },
+                    {
+                        "mac":  "mac_61c516c38e",
+                        "ssid":  null,
+                        "frequencyMhz":  2437,
+                        "fresh":  false,
+                        "doaSupported":  false
+                    },
+                    {
+                        "mac":  "mac_0fc0533d31",
+                        "ssid":  null,
+                        "frequencyMhz":  2437,
+                        "fresh":  false,
+                        "doaSupported":  false
+                    },
+                    {
+                        "mac":  "mac_848e97ed70",
+                        "ssid":  null,
+                        "frequencyMhz":  2437,
+                        "fresh":  false,
+                        "doaSupported":  false
+                    },
+                    {
+                        "mac":  "mac_535b8a1a5a",
+                        "ssid":  null,
+                        "frequencyMhz":  2437,
+                        "fresh":  false,
+                        "doaSupported":  false
+                    },
+                    {
+                        "mac":  "mac_c3e8e0a4e9",
+                        "ssid":  null,
+                        "frequencyMhz":  2437,
+                        "fresh":  false,
+                        "doaSupported":  false
+                    },
+                    {
+                        "mac":  "mac_06aef7a543",
+                        "ssid":  "MIFI-6781",
+                        "frequencyMhz":  2437,
+                        "fresh":  false,
+                        "doaSupported":  false
+                    },
+                    {
+                        "mac":  "mac_5dde35564d",
+                        "ssid":  null,
+                        "frequencyMhz":  2437,
+                        "fresh":  false,
+                        "doaSupported":  false
+                    },
+                    {
+                        "mac":  "mac_61fea28be5",
+                        "ssid":  null,
+                        "frequencyMhz":  2412,
+                        "fresh":  false,
+                        "doaSupported":  false
+                    },
+                    {
+                        "mac":  "mac_19687d088b",
+                        "ssid":  null,
+                        "frequencyMhz":  2412,
+                        "fresh":  false,
+                        "doaSupported":  false
+                    },
+                    {
+                        "mac":  "mac_1e18590cea",
+                        "ssid":  null,
+                        "frequencyMhz":  2412,
+                        "fresh":  false,
+                        "doaSupported":  false
+                    },
+                    {
+                        "mac":  "mac_ec83a6e7ed",
+                        "ssid":  null,
+                        "frequencyMhz":  2412,
+                        "fresh":  false,
+                        "doaSupported":  false
+                    },
+                    {
+                        "mac":  "mac_482c8c0e13",
+                        "ssid":  null,
+                        "frequencyMhz":  2412,
+                        "fresh":  false,
+                        "doaSupported":  false
+                    },
+                    {
+                        "mac":  "mac_f4fc6be470",
+                        "ssid":  null,
+                        "frequencyMhz":  2437,
+                        "fresh":  false,
+                        "doaSupported":  false
+                    },
+                    {
+                        "mac":  "mac_b18fac7a98",
+                        "ssid":  null,
+                        "frequencyMhz":  2437,
+                        "fresh":  false,
+                        "doaSupported":  false
+                    },
+                    {
+                        "mac":  "mac_d90edde22d",
+                        "ssid":  null,
+                        "frequencyMhz":  2437,
+                        "fresh":  false,
+                        "doaSupported":  false
+                    },
+                    {
+                        "mac":  "mac_0adf5f48ac",
+                        "ssid":  null,
+                        "frequencyMhz":  2437,
+                        "fresh":  false,
+                        "doaSupported":  false
+                    },
+                    {
+                        "mac":  "mac_2d9f76dcf9",
+                        "ssid":  null,
+                        "frequencyMhz":  2437,
+                        "fresh":  false,
+                        "doaSupported":  false
+                    },
+                    {
+                        "mac":  "mac_4e439c5670",
+                        "ssid":  null,
+                        "frequencyMhz":  2437,
+                        "fresh":  false,
+                        "doaSupported":  false
+                    },
+                    {
+                        "mac":  "mac_64012054f6",
+                        "ssid":  null,
+                        "frequencyMhz":  2437,
+                        "fresh":  false,
+                        "doaSupported":  false
+                    },
+                    {
+                        "mac":  "mac_b77031bff8",
+                        "ssid":  null,
+                        "frequencyMhz":  2437,
+                        "fresh":  false,
+                        "doaSupported":  false
+                    },
+                    {
+                        "mac":  "mac_b626b55ffd",
+                        "ssid":  null,
+                        "frequencyMhz":  2437,
+                        "fresh":  false,
+                        "doaSupported":  false
+                    },
+                    {
+                        "mac":  "mac_b14b1df06f",
+                        "ssid":  null,
+                        "frequencyMhz":  2437,
+                        "fresh":  false,
+                        "doaSupported":  false
+                    },
+                    {
+                        "mac":  "mac_dfaa903d9d",
+                        "ssid":  null,
+                        "frequencyMhz":  2437,
+                        "fresh":  false,
+                        "doaSupported":  false
+                    },
+                    {
+                        "mac":  "mac_1b4b34d405",
+                        "ssid":  null,
+                        "frequencyMhz":  2437,
+                        "fresh":  false,
+                        "doaSupported":  false
+                    },
+                    {
+                        "mac":  "mac_2d655f71d8",
+                        "ssid":  null,
+                        "frequencyMhz":  2437,
+                        "fresh":  false,
+                        "doaSupported":  false
+                    },
+                    {
+                        "mac":  "mac_3ae48633d7",
+                        "ssid":  null,
+                        "frequencyMhz":  2437,
+                        "fresh":  false,
+                        "doaSupported":  false
+                    },
+                    {
+                        "mac":  "mac_86562e25fa",
+                        "ssid":  null,
+                        "frequencyMhz":  2437,
+                        "fresh":  false,
+                        "doaSupported":  false
+                    },
+                    {
+                        "mac":  "mac_689d458712",
+                        "ssid":  null,
+                        "frequencyMhz":  2437,
+                        "fresh":  false,
+                        "doaSupported":  false
+                    },
+                    {
+                        "mac":  "mac_cc58aedac1",
+                        "ssid":  null,
+                        "frequencyMhz":  2437,
+                        "fresh":  false,
+                        "doaSupported":  false
+                    },
+                    {
+                        "mac":  "mac_183e6e6fac",
+                        "ssid":  null,
+                        "frequencyMhz":  2437,
+                        "fresh":  false,
+                        "doaSupported":  false
+                    },
+                    {
+                        "mac":  "mac_f25cb6f5a1",
+                        "ssid":  null,
+                        "frequencyMhz":  2437,
+                        "fresh":  false,
+                        "doaSupported":  false
+                    },
+                    {
+                        "mac":  "mac_10719c1fa6",
+                        "ssid":  "CARDV-02-DE45",
+                        "frequencyMhz":  2437,
+                        "fresh":  false,
+                        "doaSupported":  false
+                    },
+                    {
+                        "mac":  "mac_24a664b428",
+                        "ssid":  null,
+                        "frequencyMhz":  2437,
+                        "fresh":  false,
+                        "doaSupported":  false
+                    },
+                    {
+                        "mac":  "mac_fee6e88599",
+                        "ssid":  null,
+                        "frequencyMhz":  2437,
+                        "fresh":  false,
+                        "doaSupported":  false
+                    },
+                    {
+                        "mac":  "mac_8eb1917cf2",
+                        "ssid":  null,
+                        "frequencyMhz":  2437,
+                        "fresh":  false,
+                        "doaSupported":  false
+                    },
+                    {
+                        "mac":  "mac_de8fbd48ae",
+                        "ssid":  null,
+                        "frequencyMhz":  2437,
+                        "fresh":  false,
+                        "doaSupported":  false
+                    },
+                    {
+                        "mac":  "mac_2733f11ab6",
+                        "ssid":  null,
+                        "frequencyMhz":  2437,
+                        "fresh":  false,
+                        "doaSupported":  false
+                    },
+                    {
+                        "mac":  "mac_f73ac461ef",
+                        "ssid":  null,
+                        "frequencyMhz":  2437,
+                        "fresh":  false,
+                        "doaSupported":  false
+                    },
+                    {
+                        "mac":  "mac_bf2bbc683d",
+                        "ssid":  null,
+                        "frequencyMhz":  2437,
+                        "fresh":  false,
+                        "doaSupported":  false
+                    },
+                    {
+                        "mac":  "mac_a11f636ce5",
+                        "ssid":  null,
+                        "frequencyMhz":  2437,
+                        "fresh":  false,
+                        "doaSupported":  false
+                    },
+                    {
+                        "mac":  "mac_a991a2573d",
+                        "ssid":  null,
+                        "frequencyMhz":  2437,
+                        "fresh":  false,
+                        "doaSupported":  false
+                    },
+                    {
+                        "mac":  "mac_d8841fc3e2",
+                        "ssid":  null,
+                        "frequencyMhz":  2437,
+                        "fresh":  false,
+                        "doaSupported":  false
+                    },
+                    {
+                        "mac":  "mac_f7b7ff6b21",
+                        "ssid":  null,
+                        "frequencyMhz":  2437,
+                        "fresh":  false,
+                        "doaSupported":  false
+                    },
+                    {
+                        "mac":  "mac_53e3493fc2",
+                        "ssid":  null,
+                        "frequencyMhz":  2437,
+                        "fresh":  false,
+                        "doaSupported":  false
+                    },
+                    {
+                        "mac":  "mac_acc2905086",
+                        "ssid":  null,
+                        "frequencyMhz":  2437,
+                        "fresh":  false,
+                        "doaSupported":  false
+                    },
+                    {
+                        "mac":  "mac_ced2a45199",
+                        "ssid":  null,
+                        "frequencyMhz":  2437,
+                        "fresh":  false,
+                        "doaSupported":  false
+                    },
+                    {
+                        "mac":  "mac_dba5a9ae19",
+                        "ssid":  null,
+                        "frequencyMhz":  2437,
+                        "fresh":  false,
+                        "doaSupported":  false
+                    },
+                    {
+                        "mac":  "mac_96dc8b943c",
+                        "ssid":  null,
+                        "frequencyMhz":  2437,
+                        "fresh":  false,
+                        "doaSupported":  false
+                    },
+                    {
+                        "mac":  "mac_b85cb28b1b",
+                        "ssid":  null,
+                        "frequencyMhz":  2437,
+                        "fresh":  false,
+                        "doaSupported":  false
+                    },
+                    {
+                        "mac":  "mac_181cb90673",
+                        "ssid":  null,
+                        "frequencyMhz":  2437,
+                        "fresh":  false,
+                        "doaSupported":  false
+                    },
+                    {
+                        "mac":  "mac_cd1c1b29a6",
+                        "ssid":  null,
+                        "frequencyMhz":  2437,
+                        "fresh":  false,
+                        "doaSupported":  false
+                    },
+                    {
+                        "mac":  "mac_5c05f70eeb",
+                        "ssid":  "CMCC-iiuc",
+                        "frequencyMhz":  2437,
+                        "fresh":  false,
+                        "doaSupported":  false
+                    },
+                    {
+                        "mac":  "mac_f558e60658",
+                        "ssid":  null,
+                        "frequencyMhz":  2437,
+                        "fresh":  false,
+                        "doaSupported":  false
+                    },
+                    {
+                        "mac":  "mac_6c496b2fe2",
+                        "ssid":  null,
+                        "frequencyMhz":  2437,
+                        "fresh":  false,
+                        "doaSupported":  false
+                    },
+                    {
+                        "mac":  "mac_03b2950884",
+                        "ssid":  "adol-3310",
+                        "frequencyMhz":  2437,
+                        "fresh":  false,
+                        "doaSupported":  false
+                    },
+                    {
+                        "mac":  "mac_5eda5b1c67",
+                        "ssid":  null,
+                        "frequencyMhz":  2437,
+                        "fresh":  false,
+                        "doaSupported":  false
+                    },
+                    {
+                        "mac":  "mac_9405504854",
+                        "ssid":  null,
+                        "frequencyMhz":  2437,
+                        "fresh":  false,
+                        "doaSupported":  false
+                    },
+                    {
+                        "mac":  "mac_ea2ab09b7d",
+                        "ssid":  null,
+                        "frequencyMhz":  2437,
+                        "fresh":  false,
+                        "doaSupported":  false
+                    },
+                    {
+                        "mac":  "mac_3adc11758a",
+                        "ssid":  null,
+                        "frequencyMhz":  2437,
+                        "fresh":  false,
+                        "doaSupported":  false
+                    },
+                    {
+                        "mac":  "mac_23796da009",
+                        "ssid":  null,
+                        "frequencyMhz":  2437,
+                        "fresh":  false,
+                        "doaSupported":  false
+                    },
+                    {
+                        "mac":  "mac_a82ebebf70",
+                        "ssid":  null,
+                        "frequencyMhz":  2437,
+                        "fresh":  false,
+                        "doaSupported":  false
+                    },
+                    {
+                        "mac":  "mac_ef1aae87c9",
+                        "ssid":  null,
+                        "frequencyMhz":  2437,
+                        "fresh":  false,
+                        "doaSupported":  false
+                    },
+                    {
+                        "mac":  "mac_8afb2e4f78",
+                        "ssid":  null,
+                        "frequencyMhz":  2437,
+                        "fresh":  false,
+                        "doaSupported":  false
+                    },
+                    {
+                        "mac":  "mac_092e9944b4",
+                        "ssid":  null,
+                        "frequencyMhz":  2437,
+                        "fresh":  false,
+                        "doaSupported":  false
+                    },
+                    {
+                        "mac":  "mac_7b848f1152",
+                        "ssid":  null,
+                        "frequencyMhz":  2437,
+                        "fresh":  false,
+                        "doaSupported":  false
+                    },
+                    {
+                        "mac":  "mac_bb8045582a",
+                        "ssid":  null,
+                        "frequencyMhz":  2437,
+                        "fresh":  false,
+                        "doaSupported":  false
+                    },
+                    {
+                        "mac":  "mac_9aca96cb78",
+                        "ssid":  null,
+                        "frequencyMhz":  2437,
+                        "fresh":  false,
+                        "doaSupported":  false
+                    },
+                    {
+                        "mac":  "mac_400620093c",
+                        "ssid":  null,
+                        "frequencyMhz":  2437,
+                        "fresh":  false,
+                        "doaSupported":  false
+                    },
+                    {
+                        "mac":  "mac_f10ed6a261",
+                        "ssid":  null,
+                        "frequencyMhz":  2437,
+                        "fresh":  false,
+                        "doaSupported":  false
+                    },
+                    {
+                        "mac":  "mac_1c566f7d6d",
+                        "ssid":  null,
+                        "frequencyMhz":  2437,
+                        "fresh":  false,
+                        "doaSupported":  false
+                    },
+                    {
+                        "mac":  "mac_bec1548106",
+                        "ssid":  null,
+                        "frequencyMhz":  2437,
+                        "fresh":  false,
+                        "doaSupported":  false
+                    },
+                    {
+                        "mac":  "mac_cdcd70d1fd",
+                        "ssid":  null,
+                        "frequencyMhz":  2437,
+                        "fresh":  false,
+                        "doaSupported":  false
+                    },
+                    {
+                        "mac":  "mac_66db68352a",
+                        "ssid":  null,
+                        "frequencyMhz":  2437,
+                        "fresh":  false,
+                        "doaSupported":  false
+                    },
+                    {
+                        "mac":  "mac_714d2f8fc3",
+                        "ssid":  null,
+                        "frequencyMhz":  2437,
+                        "fresh":  false,
+                        "doaSupported":  false
+                    },
+                    {
+                        "mac":  "mac_8bdcf6c60a",
+                        "ssid":  null,
+                        "frequencyMhz":  2437,
+                        "fresh":  false,
+                        "doaSupported":  false
+                    },
+                    {
+                        "mac":  "mac_f3d30d1cba",
+                        "ssid":  null,
+                        "frequencyMhz":  2437,
+                        "fresh":  false,
+                        "doaSupported":  false
+                    },
+                    {
+                        "mac":  "mac_867d91ca1b",
+                        "ssid":  null,
+                        "frequencyMhz":  2437,
+                        "fresh":  false,
+                        "doaSupported":  false
+                    },
+                    {
+                        "mac":  "mac_542d1a68c4",
+                        "ssid":  null,
+                        "frequencyMhz":  2437,
+                        "fresh":  false,
+                        "doaSupported":  false
+                    },
+                    {
+                        "mac":  "mac_2046af1d9a",
+                        "ssid":  null,
+                        "frequencyMhz":  2437,
+                        "fresh":  false,
+                        "doaSupported":  false
+                    },
+                    {
+                        "mac":  "mac_3daf38b084",
+                        "ssid":  null,
+                        "frequencyMhz":  2437,
+                        "fresh":  false,
+                        "doaSupported":  false
+                    },
+                    {
+                        "mac":  "mac_0a98615d6f",
+                        "ssid":  null,
+                        "frequencyMhz":  2437,
+                        "fresh":  false,
+                        "doaSupported":  false
+                    },
+                    {
+                        "mac":  "mac_60b8462ae9",
+                        "ssid":  null,
+                        "frequencyMhz":  2437,
+                        "fresh":  false,
+                        "doaSupported":  false
+                    },
+                    {
+                        "mac":  "mac_383434db68",
+                        "ssid":  null,
+                        "frequencyMhz":  2437,
+                        "fresh":  false,
+                        "doaSupported":  false
+                    },
+                    {
+                        "mac":  "mac_0d0322a927",
+                        "ssid":  null,
+                        "frequencyMhz":  2437,
+                        "fresh":  false,
+                        "doaSupported":  false
+                    },
+                    {
+                        "mac":  "mac_1bbcbb6424",
+                        "ssid":  null,
+                        "frequencyMhz":  2437,
+                        "fresh":  false,
+                        "doaSupported":  false
+                    },
+                    {
+                        "mac":  "mac_65b178e4fc",
+                        "ssid":  null,
+                        "frequencyMhz":  2437,
+                        "fresh":  false,
+                        "doaSupported":  false
+                    },
+                    {
+                        "mac":  "mac_2751b77a40",
+                        "ssid":  null,
+                        "frequencyMhz":  2437,
+                        "fresh":  false,
+                        "doaSupported":  false
+                    },
+                    {
+                        "mac":  "mac_ba3a74cd48",
+                        "ssid":  null,
+                        "frequencyMhz":  2437,
+                        "fresh":  false,
+                        "doaSupported":  false
+                    },
+                    {
+                        "mac":  "mac_d42af94a12",
+                        "ssid":  null,
+                        "frequencyMhz":  2437,
+                        "fresh":  false,
+                        "doaSupported":  false
+                    },
+                    {
+                        "mac":  "mac_b72c7e31fa",
+                        "ssid":  null,
+                        "frequencyMhz":  2437,
+                        "fresh":  false,
+                        "doaSupported":  false
+                    },
+                    {
+                        "mac":  "mac_6dc50c4b8e",
+                        "ssid":  null,
+                        "frequencyMhz":  2437,
+                        "fresh":  false,
+                        "doaSupported":  false
+                    },
+                    {
+                        "mac":  "mac_f99c63a1e1",
+                        "ssid":  null,
+                        "frequencyMhz":  2437,
+                        "fresh":  false,
+                        "doaSupported":  false
+                    },
+                    {
+                        "mac":  "mac_7fc525c517",
+                        "ssid":  null,
+                        "frequencyMhz":  2437,
+                        "fresh":  false,
+                        "doaSupported":  false
+                    },
+                    {
+                        "mac":  "mac_450b2a44e2",
+                        "ssid":  null,
+                        "frequencyMhz":  2437,
+                        "fresh":  false,
+                        "doaSupported":  false
+                    },
+                    {
+                        "mac":  "mac_432bf84d28",
+                        "ssid":  null,
+                        "frequencyMhz":  2437,
+                        "fresh":  false,
+                        "doaSupported":  false
+                    },
+                    {
+                        "mac":  "mac_06b35f7722",
+                        "ssid":  null,
+                        "frequencyMhz":  2437,
+                        "fresh":  false,
+                        "doaSupported":  false
+                    },
+                    {
+                        "mac":  "mac_db6d3e2de0",
+                        "ssid":  null,
+                        "frequencyMhz":  2437,
+                        "fresh":  false,
+                        "doaSupported":  false
+                    },
+                    {
+                        "mac":  "mac_423cac157c",
+                        "ssid":  null,
+                        "frequencyMhz":  2437,
+                        "fresh":  false,
+                        "doaSupported":  false
+                    },
+                    {
+                        "mac":  "mac_379eb94146",
+                        "ssid":  null,
+                        "frequencyMhz":  2437,
+                        "fresh":  false,
+                        "doaSupported":  false
+                    },
+                    {
+                        "mac":  "mac_b471b72e91",
+                        "ssid":  null,
+                        "frequencyMhz":  2437,
+                        "fresh":  false,
+                        "doaSupported":  false
+                    },
+                    {
+                        "mac":  "mac_19fc300a38",
+                        "ssid":  null,
+                        "frequencyMhz":  2437,
+                        "fresh":  false,
+                        "doaSupported":  false
+                    },
+                    {
+                        "mac":  "mac_8d62c9aef4",
+                        "ssid":  null,
+                        "frequencyMhz":  2437,
+                        "fresh":  false,
+                        "doaSupported":  false
+                    },
+                    {
+                        "mac":  "mac_9cb308915e",
+                        "ssid":  null,
+                        "frequencyMhz":  2437,
+                        "fresh":  false,
+                        "doaSupported":  false
+                    },
+                    {
+                        "mac":  "mac_a8facf1287",
+                        "ssid":  null,
+                        "frequencyMhz":  2437,
+                        "fresh":  false,
+                        "doaSupported":  false
+                    },
+                    {
+                        "mac":  "mac_335d69fe27",
+                        "ssid":  null,
+                        "frequencyMhz":  2437,
+                        "fresh":  false,
+                        "doaSupported":  false
+                    },
+                    {
+                        "mac":  "mac_e1bc90f08a",
+                        "ssid":  null,
+                        "frequencyMhz":  2437,
+                        "fresh":  false,
+                        "doaSupported":  false
+                    },
+                    {
+                        "mac":  "mac_1245abb67a",
+                        "ssid":  null,
+                        "frequencyMhz":  2437,
+                        "fresh":  false,
+                        "doaSupported":  false
+                    },
+                    {
+                        "mac":  "mac_fb80885993",
+                        "ssid":  null,
+                        "frequencyMhz":  2437,
+                        "fresh":  false,
+                        "doaSupported":  false
+                    },
+                    {
+                        "mac":  "mac_6d0ef45662",
+                        "ssid":  null,
+                        "frequencyMhz":  2437,
+                        "fresh":  false,
+                        "doaSupported":  false
+                    },
+                    {
+                        "mac":  "mac_3c7839222d",
+                        "ssid":  null,
+                        "frequencyMhz":  2437,
+                        "fresh":  false,
+                        "doaSupported":  false
+                    },
+                    {
+                        "mac":  "mac_b5657b848c",
+                        "ssid":  null,
+                        "frequencyMhz":  2437,
+                        "fresh":  false,
+                        "doaSupported":  false
+                    },
+                    {
+                        "mac":  "mac_15cea7a0f7",
+                        "ssid":  null,
+                        "frequencyMhz":  2437,
+                        "fresh":  false,
+                        "doaSupported":  false
+                    },
+                    {
+                        "mac":  "mac_6f6be6899b",
+                        "ssid":  null,
+                        "frequencyMhz":  2437,
+                        "fresh":  false,
+                        "doaSupported":  false
+                    },
+                    {
+                        "mac":  "mac_fa4a5fbb3c",
+                        "ssid":  null,
+                        "frequencyMhz":  2437,
+                        "fresh":  false,
+                        "doaSupported":  false
+                    },
+                    {
+                        "mac":  "mac_9a42ca498f",
+                        "ssid":  null,
+                        "frequencyMhz":  2437,
+                        "fresh":  false,
+                        "doaSupported":  false
+                    },
+                    {
+                        "mac":  "mac_2dbe012e7e",
+                        "ssid":  null,
+                        "frequencyMhz":  2437,
+                        "fresh":  false,
+                        "doaSupported":  false
+                    },
+                    {
+                        "mac":  "mac_cfb72e98b5",
+                        "ssid":  null,
+                        "frequencyMhz":  2437,
+                        "fresh":  false,
+                        "doaSupported":  false
+                    },
+                    {
+                        "mac":  "mac_659213b76e",
+                        "ssid":  null,
+                        "frequencyMhz":  2437,
+                        "fresh":  false,
+                        "doaSupported":  false
+                    },
+                    {
+                        "mac":  "mac_8900c91b25",
+                        "ssid":  null,
+                        "frequencyMhz":  2437,
+                        "fresh":  false,
+                        "doaSupported":  false
+                    },
+                    {
+                        "mac":  "mac_6541dce277",
+                        "ssid":  null,
+                        "frequencyMhz":  2437,
+                        "fresh":  false,
+                        "doaSupported":  false
+                    },
+                    {
+                        "mac":  "mac_d0a60dd31f",
+                        "ssid":  null,
+                        "frequencyMhz":  2437,
+                        "fresh":  false,
+                        "doaSupported":  false
+                    },
+                    {
+                        "mac":  "mac_d9b7a14fee",
+                        "ssid":  null,
+                        "frequencyMhz":  2437,
+                        "fresh":  false,
+                        "doaSupported":  false
+                    },
+                    {
+                        "mac":  "mac_be8f9290b2",
+                        "ssid":  null,
+                        "frequencyMhz":  2437,
+                        "fresh":  false,
+                        "doaSupported":  false
+                    },
+                    {
+                        "mac":  "mac_81b945ce76",
+                        "ssid":  null,
+                        "frequencyMhz":  2437,
+                        "fresh":  false,
+                        "doaSupported":  false
+                    },
+                    {
+                        "mac":  "mac_7fda5eab6e",
+                        "ssid":  null,
+                        "frequencyMhz":  2437,
+                        "fresh":  false,
+                        "doaSupported":  false
+                    },
+                    {
+                        "mac":  "mac_0a7f4c2612",
+                        "ssid":  null,
+                        "frequencyMhz":  2437,
+                        "fresh":  false,
+                        "doaSupported":  false
+                    },
+                    {
+                        "mac":  "mac_dec7794854",
+                        "ssid":  null,
+                        "frequencyMhz":  2437,
+                        "fresh":  false,
+                        "doaSupported":  false
+                    },
+                    {
+                        "mac":  "mac_15a2d95884",
+                        "ssid":  null,
+                        "frequencyMhz":  2437,
+                        "fresh":  false,
+                        "doaSupported":  false
+                    }
+                ],
+    "currentReferences":  [
+                              {
+                                  "station":  "A",
+                                  "frequencyMhz":  2436.999998,
+                                  "name":  "信道6_户外三米距离",
+                                  "referenceHash":  "e6a7baee7c5a77eb400e726dfb89cdf46b45a0d1abfd888ebca934bec91380f3",
+                                  "sourcePath":  "runtime/aoa_profile_3e983e8aed354b068a4035f131dae238_A.json",
+                                  "phaseBiasDeg":  120.03771385566256,
+                                  "verification":  {
+                                                       "referenceHash":  "e6a7baee7c5a77eb400e726dfb89cdf46b45a0d1abfd888ebca934bec91380f3",
+                                                       "sessionId":  "a0ed64cac6cb4a7480fe6488926d2bea",
+                                                       "valid":  false,
+                                                       "reason":  "原位相位与旧基准不符；保持原始相位，禁止输出套用旧偏置的角度",
+                                                       "verification":  {
+                                                                            "meanDeg":  37.38126497766576,
+                                                                            "spreadDeg":  1.9584892566993812,
+                                                                            "resultantLength":  0.9994159631179297,
+                                                                            "samples":  20,
+                                                                            "savedMeanDeg":  45.78517016205723,
+                                                                            "phaseDifferenceDeg":  -8.403905184391476,
+                                                                            "passed":  false
+                                                                        }
+                                                   }
+                              },
+                              {
+                                  "station":  "B",
+                                  "frequencyMhz":  2436.999998,
+                                  "name":  "信道6_户外三米距离",
+                                  "referenceHash":  "fd8aa189ac155533db17c02c4f60ca9a9fc649cd620f55175161aa60d437063e",
+                                  "sourcePath":  "runtime/aoa_profile_3e983e8aed354b068a4035f131dae238_B.json",
+                                  "phaseBiasDeg":  150.66253625144543,
+                                  "verification":  {
+                                                       "referenceHash":  "fd8aa189ac155533db17c02c4f60ca9a9fc649cd620f55175161aa60d437063e",
+                                                       "sessionId":  "c869bc61b8cf449a9704bb51670bb26b",
+                                                       "valid":  false,
+                                                       "reason":  "原位相位与旧基准不符；保持原始相位，禁止输出套用旧偏置的角度",
+                                                       "verification":  {
+                                                                            "meanDeg":  -119.4481400148282,
+                                                                            "spreadDeg":  5.203302619735932,
+                                                                            "resultantLength":  0.9958848300519952,
+                                                                            "samples":  20,
+                                                                            "savedMeanDeg":  -135.08492005495367,
+                                                                            "phaseDifferenceDeg":  15.636780040125473,
+                                                                            "passed":  false
+                                                                        }
+                                                   }
+                              }
+                          ],
+    "scan":  {
+                 "mode":  "fixed",
+                 "channel":  6,
+                 "dwellSeconds":  3.0,
+                 "state":  "receiving",
+                 "currentChannel":  6,
+                 "frequencyMhz":  2437,
+                 "channels":  [
+                                  6
+                              ],
+                 "supportedChannels":  [
+                                           1,
+                                           2,
+                                           3,
+                                           4,
+                                           5,
+                                           6,
+                                           7,
+                                           8,
+                                           9,
+                                           10,
+                                           11,
+                                           12,
+                                           13,
+                                           36,
+                                           38,
+                                           40,
+                                           42,
+                                           44,
+                                           46,
+                                           48,
+                                           52,
+                                           56,
+                                           60,
+                                           64
+                                       ],
+                 "bands":  [
+                               "2.4 GHz",
+                               "5 GHz"
+                           ],
+                 "simultaneous":  false,
+                 "bandwidthMhz":  20,
+                 "completedCycles":  0,
+                 "visited":  {
+                                 "6":  {
+                                           "timestamp":  1793675921782.9124,
+                                           "stations":  [
+                                                            "A",
+                                                            "B"
+                                                        ]
+                                       }
+                             },
+                 "stations":  {
+                                  "A":  {
+                                            "accepted":  true,
+                                            "channel":  6,
+                                            "frequencyMhz":  2437,
+                                            "sessionId":  "a0ed64cac6cb4a7480fe6488926d2bea",
+                                            "error":  null
+                                        },
+                                  "B":  {
+                                            "accepted":  true,
+                                            "channel":  6,
+                                            "frequencyMhz":  2437,
+                                            "sessionId":  "c869bc61b8cf449a9704bb51670bb26b",
+                                            "error":  null
+                                        }
+                              },
+                 "revision":  2,
+                 "error":  null,
+                 "partialErrors":  {
+
+                                   }
+             },
+    "configuration":  {
+                          "schema":  "airspace.stations",
+                          "version":  1,
+                          "revision":  "e0b6b056c65850474e29",
+                          "config":  {
+                                         "anchor":  {
+                                                        "latitude":  34.125951714359864,
+                                                        "longitude":  108.83108578183494,
+                                                        "source":  "用户选定的联调锚点"
+                                                    },
+                                         "stations":  [
+                                                          {
+                                                              "id":  "A",
+                                                              "name":  "测向站A",
+                                                              "url":  "http://169.254.92.202:18788",
+                                                              "calibration":  "runtime/aoa_profile_3e983e8aed354b068a4035f131dae238_A.json",
+                                                              "xM":  -604.733240531326,
+                                                              "yM":  1348.1863483059121,
+                                                              "headingDeg":  202.0449713347449,
+                                                              "rayLengthM":  20,
+                                                              "orientationSource":  "用户设置；实际北向是否测量需现场核验",
+                                                              "antennaSpacingM":  0.06
+                                                          },
+                                                          {
+                                                              "id":  "B",
+                                                              "name":  "测向站B",
+                                                              "url":  "http://192.168.20.2:18788",
+                                                              "calibration":  "runtime/aoa_profile_3e983e8aed354b068a4035f131dae238_B.json",
+                                                              "xM":  -602.1379498163,
+                                                              "yM":  1347.1354124827055,
+                                                              "headingDeg":  202.0449713347449,
+                                                              "rayLengthM":  20,
+                                                              "orientationSource":  "用户设置；实际北向是否测量需现场核验",
+                                                              "antennaSpacingM":  0.06
+                                                          }
+                                                      ],
+                                         "geometrySource":  "用户已确认新方位：站距2.8米，各站阵距6厘米；A在右，参考源共同中点前3米；接收天线底部10.2厘米/高18厘米，ESP32约26.1厘米；相位参考尚未可靠复现",
+                                         "coordinateConvention":  "local_forward_zero_geographic_orientation_unverified",
+                                         "directionMode":  "front",
+                                         "minCrossingDeg":  1
+                                     },
+                          "baselineM":  2.799999999999902,
+                          "canUndo":  true
+                      }
+}

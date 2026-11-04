@@ -1,0 +1,37 @@
+{
+  "anchor": {
+    "latitude": 34.125951714359864,
+    "longitude": 108.83108578183494,
+    "source": "用户选定的联调锚点"
+  },
+  "stations": [
+    {
+      "id": "A",
+      "name": "测向站A",
+      "url": "http://169.254.92.202:18788",
+      "calibration": "runtime/aoa_profile_92d91ac2e12d44db8ba9cbb684abff7a_A.json",
+      "xM": -604.2373546268478,
+      "yM": 1347.9855444968352,
+      "headingDeg": 202.0449713347449,
+      "rayLengthM": 20,
+      "orientationSource": "用户设置；实际北向是否测量需现场核验",
+      "antennaSpacingM": 0.06
+    },
+    {
+      "id": "B",
+      "name": "测向站B",
+      "url": "http://192.168.20.2:18788",
+      "calibration": "runtime/aoa_profile_92d91ac2e12d44db8ba9cbb684abff7a_B.json",
+      "xM": -602.6338357207782,
+      "yM": 1347.3362162917824,
+      "headingDeg": 202.0449713347449,
+      "rayLengthM": 20,
+      "orientationSource": "用户设置；实际北向是否测量需现场核验",
+      "antennaSpacingM": 0.06
+    }
+  ],
+  "geometrySource": "用户已确认新方位：站距2.8米，各站阵距6厘米；A在右，参考源共同中点前3米；接收天线底部10.2厘米/高18厘米，ESP32约26.1厘米；相位参考尚未可靠复现",
+  "coordinateConvention": "local_forward_zero_geographic_orientation_unverified",
+  "directionMode": "front",
+  "minCrossingDeg": 1
+}

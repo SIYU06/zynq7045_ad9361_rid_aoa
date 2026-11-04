@@ -1,0 +1,27 @@
+EXT4 deployment completed on 2026-10-31 (Asia/Shanghai).
+
+Source: F:\2026fpga\zynq7045_ad9361_rid_aoa\deploy_openwifi_rx1\rootfs
+Target board: COM9, 115200 8N1; Ethernet 169.254.92.202.
+Running kernel: 5.15.0-175919-g427c94e8faa5-openwifi-rx1
+Root filesystem: /dev/mmcblk0p2, ext4, read/write.
+
+Installed directories:
+/lib/modules/5.15.0-175919-g427c94e8faa5-openwifi-rx1/
+/root/openwifi_rx1/
+
+196 source files verified against the original deployment manifest.
+Transfer archive SHA256:
+5ad412cc1af81922aedaaca7e56d4b6730fe1b231c8afd4fd248eda5e822f1b2
+196 staged files and 196 installed files passed SHA256 checks before depmod.
+depmod -a completed. It regenerated modules.builtin.alias.bin; the remaining
+195 files still match the manifest. All 183 non-index files passed a further
+SHA256 check after depmod. modprobe -n -v sdr and xilinx_dma resolved correctly.
+Ownership root:root; directories 755, data files 644, shell scripts 755.
+Board log: /tmp/openwifi_ext4_20261031/install.log
+Board verification logs: /tmp/openwifi_ext4_20261031/*hashes.log
+
+No OpenWiFi modules loaded, no receive test performed, no reboot performed.
+Boot files unchanged by this task. Current /boot/system.dtb retains the
+previous PHY fix (SHA256 56bf5810d0d50883b16b127cd8560ec6c0bfa4f60828f1d7cd6701f4505ba32f).
+Temporary board upload receiver exited; TCP port 8765 is closed.
+COM9 released. Board clock is inaccurate (2023); it was left unchanged.

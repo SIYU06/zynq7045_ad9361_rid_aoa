@@ -1,0 +1,46 @@
+{
+  "passed": true,
+  "stations": [
+    {
+      "station": "A",
+      "matchedPackagedInputs": 1,
+      "matchedFiles": [
+        "zynq7045_ad9361_rid_aoa/ow/board/src/system_top.v"
+      ],
+      "generatedWrapperDateOnly": [
+        "zynq7045_ad9361_rid_aoa/ow/board/src/hdl/system_wrapper.v"
+      ],
+      "generatedInsideExtraction": 300,
+      "installedToolInputs": 0,
+      "externalWorktreeInputs": 0
+    },
+    {
+      "station": "B",
+      "matchedPackagedInputs": 14,
+      "matchedFiles": [
+        "zynq7045_ad9361_rid_aoa/dsss_receiver/rtl/nuand/wlan_p.vhd",
+        "zynq7045_ad9361_rid_aoa/dsss_receiver/rtl/nuand/wlan_rx_p.vhd",
+        "zynq7045_ad9361_rid_aoa/dsss_receiver/rtl/nuand/wlan_dsss_rx_controller.vhd",
+        "zynq7045_ad9361_rid_aoa/dsss_receiver/rtl/nuand/wlan_dsss_p_norm.vhd",
+        "zynq7045_ad9361_rid_aoa/dsss_receiver/rtl/nuand/wlan_dsss_despreader.vhd",
+        "zynq7045_ad9361_rid_aoa/dsss_receiver/rtl/nuand/wlan_dsss_peak_finder.vhd",
+        "zynq7045_ad9361_rid_aoa/dsss_receiver/rtl/nuand/wlan_dsss_demodulator.vhd",
+        "zynq7045_ad9361_rid_aoa/dsss_receiver/rtl/nuand/wlan_dsss_plcp_crc.vhd",
+        "zynq7045_ad9361_rid_aoa/dsss_receiver/rtl/nuand/wlan_crc.vhd",
+        "zynq7045_ad9361_rid_aoa/dsss_receiver/rtl/nuand/wlan_dsss_rx_framer.vhd",
+        "zynq7045_ad9361_rid_aoa/dsss_receiver/rtl/nuand/wlan_dsss_rx.vhd",
+        "zynq7045_ad9361_rid_aoa/dsss_receiver/rtl/dsss_rx_portable.vhd",
+        "zynq7045_ad9361_rid_aoa/dsss_receiver/rtl/dsss_axi_rx.v",
+        "zynq7045_ad9361_rid_aoa/dsss_receiver/build/integrated_r2/board_inputs/system_top.v"
+      ],
+      "generatedWrapperDateOnly": [
+        "zynq7045_ad9361_rid_aoa/dsss_receiver/build/integrated_r2/src/system/hdl/system_wrapper.v"
+      ],
+      "generatedInsideExtraction": 54,
+      "installedToolInputs": 0,
+      "externalWorktreeInputs": 0
+    }
+  ],
+  "scope": "All enumerated synthesis inputs are inside the clean extraction or Vivado installation; packaged input files match staging, with any regenerated wrapper Date-only differences listed explicitly. Generated IP files are created inside the extraction.",
+  "subsequentSubmissionSanitization": "Only generated HDL Host comments were anonymized after this input comparison; wrapper logic unchanged. Details in reproduction_summary.json."
+}

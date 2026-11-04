@@ -1,0 +1,296 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+-----------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2022.2 (win64) Build 3671981 Fri Oct 14 05:00:03 MDT 2022
+| Date         : Wed Nov  4 11:40:00 2026
+| Host         : build-host (anonymized build metadata)
+| Command      : report_bus_skew -file F:/2026fpga/repro_work_20261104/round1/results/B/bus_skew.rpt
+| Design       : system_top
+| Device       : 7z045-fbg676
+| Speed File   : -1  PRODUCTION 1.12 2019-11-22
+-----------------------------------------------------------------------------------------------------
+
+Bus Skew Report
+
+Table of Contents
+-----------------
+1. Bus Skew Report Summary
+2. Bus Skew Report Per Constraint
+
+1. Bus Skew Report Summary
+--------------------------
+
+Id  Position  From                            To                              Corner  Requirement(ns)  Actual(ns)  Slack(ns)
+--  --------  ------------------------------  ------------------------------  ------  ---------------  ----------  ---------
+1   58        [get_cells [list {i_system_wrapper/system_i/openwifi_ip/rx_intf_0/inst/gpio_status_rf_to_bb_i/xpm_fifo_async_gpio_status_rf_to_bb/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.rd_pntr_cdc_inst/src_gray_ff_reg[0]} {i_system_wrapper/system_i/openwifi_ip/rx_intf_0/inst/gpio_status_rf_to_bb_i/xpm_fifo_async_gpio_status_rf_to_bb/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.rd_pntr_cdc_inst/src_gray_ff_reg[1]} {i_system_wrapper/system_i/openwifi_ip/rx_intf_0/inst/gpio_status_rf_to_bb_i/xpm_fifo_async_gpio_status_rf_to_bb/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.rd_pntr_cdc_inst/src_gray_ff_reg[2]} {i_system_wrapper/system_i/openwifi_ip/rx_intf_0/inst/gpio_status_rf_to_bb_i/xpm_fifo_async_gpio_status_rf_to_bb/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.rd_pntr_cdc_inst/src_gray_ff_reg[3]}]]
+                                              [get_cells [list {i_system_wrapper/system_i/openwifi_ip/rx_intf_0/inst/gpio_status_rf_to_bb_i/xpm_fifo_async_gpio_status_rf_to_bb/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.rd_pntr_cdc_inst/dest_graysync_ff_reg[0][0]} {i_system_wrapper/system_i/openwifi_ip/rx_intf_0/inst/gpio_status_rf_to_bb_i/xpm_fifo_async_gpio_status_rf_to_bb/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.rd_pntr_cdc_inst/dest_graysync_ff_reg[0][1]} {i_system_wrapper/system_i/openwifi_ip/rx_intf_0/inst/gpio_status_rf_to_bb_i/xpm_fifo_async_gpio_status_rf_to_bb/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.rd_pntr_cdc_inst/dest_graysync_ff_reg[0][2]} {i_system_wrapper/system_i/openwifi_ip/rx_intf_0/inst/gpio_status_rf_to_bb_i/xpm_fifo_async_gpio_status_rf_to_bb/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.rd_pntr_cdc_inst/dest_graysync_ff_reg[0][3]}]]
+                                                                              Slow             10.000       0.431      9.569
+2   60        [get_cells [list {i_system_wrapper/system_i/openwifi_ip/rx_intf_0/inst/gpio_status_rf_to_bb_i/xpm_fifo_async_gpio_status_rf_to_bb/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_inst/src_gray_ff_reg[0]} {i_system_wrapper/system_i/openwifi_ip/rx_intf_0/inst/gpio_status_rf_to_bb_i/xpm_fifo_async_gpio_status_rf_to_bb/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_inst/src_gray_ff_reg[1]} {i_system_wrapper/system_i/openwifi_ip/rx_intf_0/inst/gpio_status_rf_to_bb_i/xpm_fifo_async_gpio_status_rf_to_bb/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_inst/src_gray_ff_reg[2]} {i_system_wrapper/system_i/openwifi_ip/rx_intf_0/inst/gpio_status_rf_to_bb_i/xpm_fifo_async_gpio_status_rf_to_bb/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_inst/src_gray_ff_reg[3]}]]
+                                              [get_cells [list {i_system_wrapper/system_i/openwifi_ip/rx_intf_0/inst/gpio_status_rf_to_bb_i/xpm_fifo_async_gpio_status_rf_to_bb/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_inst/dest_graysync_ff_reg[0][0]} {i_system_wrapper/system_i/openwifi_ip/rx_intf_0/inst/gpio_status_rf_to_bb_i/xpm_fifo_async_gpio_status_rf_to_bb/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_inst/dest_graysync_ff_reg[0][1]} {i_system_wrapper/system_i/openwifi_ip/rx_intf_0/inst/gpio_status_rf_to_bb_i/xpm_fifo_async_gpio_status_rf_to_bb/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_inst/dest_graysync_ff_reg[0][2]} {i_system_wrapper/system_i/openwifi_ip/rx_intf_0/inst/gpio_status_rf_to_bb_i/xpm_fifo_async_gpio_status_rf_to_bb/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_inst/dest_graysync_ff_reg[0][3]}]]
+                                                                              Slow             10.000       0.456      9.544
+
+
+2. Bus Skew Report Per Constraint
+---------------------------------
+
+Id: 1
+set_bus_skew -from [get_cells [list {i_system_wrapper/system_i/openwifi_ip/rx_intf_0/inst/gpio_status_rf_to_bb_i/xpm_fifo_async_gpio_status_rf_to_bb/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.rd_pntr_cdc_inst/src_gray_ff_reg[0]} {i_system_wrapper/system_i/openwifi_ip/rx_intf_0/inst/gpio_status_rf_to_bb_i/xpm_fifo_async_gpio_status_rf_to_bb/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.rd_pntr_cdc_inst/src_gray_ff_reg[1]} {i_system_wrapper/system_i/openwifi_ip/rx_intf_0/inst/gpio_status_rf_to_bb_i/xpm_fifo_async_gpio_status_rf_to_bb/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.rd_pntr_cdc_inst/src_gray_ff_reg[2]} {i_system_wrapper/system_i/openwifi_ip/rx_intf_0/inst/gpio_status_rf_to_bb_i/xpm_fifo_async_gpio_status_rf_to_bb/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.rd_pntr_cdc_inst/src_gray_ff_reg[3]}]] -to [get_cells [list {i_system_wrapper/system_i/openwifi_ip/rx_intf_0/inst/gpio_status_rf_to_bb_i/xpm_fifo_async_gpio_status_rf_to_bb/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.rd_pntr_cdc_inst/dest_graysync_ff_reg[0][0]} {i_system_wrapper/system_i/openwifi_ip/rx_intf_0/inst/gpio_status_rf_to_bb_i/xpm_fifo_async_gpio_status_rf_to_bb/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.rd_pntr_cdc_inst/dest_graysync_ff_reg[0][1]} {i_system_wrapper/system_i/openwifi_ip/rx_intf_0/inst/gpio_status_rf_to_bb_i/xpm_fifo_async_gpio_status_rf_to_bb/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.rd_pntr_cdc_inst/dest_graysync_ff_reg[0][2]} {i_system_wrapper/system_i/openwifi_ip/rx_intf_0/inst/gpio_status_rf_to_bb_i/xpm_fifo_async_gpio_status_rf_to_bb/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.rd_pntr_cdc_inst/dest_graysync_ff_reg[0][3]}]] 10.000
+Requirement: 10.000ns
+Endpoints: 4
+
+From Clock            To Clock              Endpoint Pin                    Reference Pin                   Corner  Actual(ns)  Slack(ns)
+--------------------  --------------------  ------------------------------  ------------------------------  ------  ----------  ---------
+clk_out1_system_clk_wiz_0_0
+                      clk_div_sel_0_s       i_system_wrapper/system_i/openwifi_ip/rx_intf_0/inst/gpio_status_rf_to_bb_i/xpm_fifo_async_gpio_status_rf_to_bb/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.rd_pntr_cdc_inst/dest_graysync_ff_reg[0][1]/D
+                                                                            i_system_wrapper/system_i/openwifi_ip/rx_intf_0/inst/gpio_status_rf_to_bb_i/xpm_fifo_async_gpio_status_rf_to_bb/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.rd_pntr_cdc_inst/dest_graysync_ff_reg[0][0]/D
+                                                                                                            Slow         0.431      9.569
+
+
+Slack (MET) :             9.569ns  (requirement - actual skew)
+  Endpoint Source:        i_system_wrapper/system_i/openwifi_ip/rx_intf_0/inst/gpio_status_rf_to_bb_i/xpm_fifo_async_gpio_status_rf_to_bb/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.rd_pntr_cdc_inst/src_gray_ff_reg[1]/C
+                            (rising edge-triggered cell FDRE clocked by clk_out1_system_clk_wiz_0_0)
+  Endpoint Destination:   i_system_wrapper/system_i/openwifi_ip/rx_intf_0/inst/gpio_status_rf_to_bb_i/xpm_fifo_async_gpio_status_rf_to_bb/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.rd_pntr_cdc_inst/dest_graysync_ff_reg[0][1]/D
+                            (rising edge-triggered cell FDRE clocked by clk_div_sel_0_s)
+  Reference Source:       i_system_wrapper/system_i/openwifi_ip/rx_intf_0/inst/gpio_status_rf_to_bb_i/xpm_fifo_async_gpio_status_rf_to_bb/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.rd_pntr_cdc_inst/src_gray_ff_reg[0]/C
+                            (rising edge-triggered cell FDRE clocked by clk_out1_system_clk_wiz_0_0)
+  Reference Destination:  i_system_wrapper/system_i/openwifi_ip/rx_intf_0/inst/gpio_status_rf_to_bb_i/xpm_fifo_async_gpio_status_rf_to_bb/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.rd_pntr_cdc_inst/dest_graysync_ff_reg[0][0]/D
+                            (rising edge-triggered cell FDRE clocked by clk_div_sel_0_s)
+  Path Type:              Bus Skew (Max at Slow Process Corner)
+  Requirement:            10.000ns
+  Endpoint Relative Delay:    5.587ns
+  Reference Relative Delay:   4.485ns
+  Relative CRPR:              0.671ns
+  Actual Bus Skew:            0.431ns  (Endpoint Relative Delay - Reference Relative Delay - Relative CRPR)
+
+Endpoint path:
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                         (clock clk_out1_system_clk_wiz_0_0 rise edge)
+                                                      0.000     0.000 r  
+    J14                                               0.000     0.000 r  rx_clk_in_p (IN)
+                         net (fo=0)                   0.000     0.000    i_system_wrapper/system_i/axi_ad9361/inst/i_dev_if/i_clk/rx_clk_in_p
+    J14                  IBUFDS (Prop_ibufds_I_O)     1.053     1.053 r  i_system_wrapper/system_i/axi_ad9361/inst/i_dev_if/i_clk/i_rx_clk_ibuf/O
+                         net (fo=1, routed)           2.591     3.644    i_system_wrapper/system_i/axi_ad9361/inst/i_dev_if/i_clk/clk_ibuf_s
+    BUFGCTRL_X0Y17       BUFG (Prop_bufg_I_O)         0.120     3.764 r  i_system_wrapper/system_i/axi_ad9361/inst/i_dev_if/i_clk/i_clk_gbuf/O
+                         net (fo=3703, routed)        2.222     5.986    i_system_wrapper/system_i/util_ad9361_divclk/inst/clk
+    BUFR_X1Y25           BUFR (Prop_bufr_I_O)         0.765     6.751 r  i_system_wrapper/system_i/util_ad9361_divclk/inst/clk_divide_sel_0/O
+                         net (fo=1, routed)           1.653     8.404    i_system_wrapper/system_i/util_ad9361_divclk/inst/clk_div_sel_0_s
+    BUFGCTRL_X0Y19       BUFGCTRL (Prop_bufgctrl_I0_O)
+                                                      0.120     8.524 r  i_system_wrapper/system_i/util_ad9361_divclk/inst/i_div_clk_gbuf/O
+                         net (fo=693, routed)         2.008    10.532    i_system_wrapper/system_i/clk_wiz_0/inst/clk_in1
+    MMCME2_ADV_X0Y0      MMCME2_ADV (Prop_mmcme2_adv_CLKIN1_CLKOUT0)
+                                                      0.088    10.620 r  i_system_wrapper/system_i/clk_wiz_0/inst/mmcm_adv_inst/CLKOUT0
+                         net (fo=1, routed)           2.422    13.042    i_system_wrapper/system_i/clk_wiz_0/inst/clk_out1_system_clk_wiz_0_0
+    BUFGCTRL_X0Y0        BUFG (Prop_bufg_I_O)         0.120    13.162 r  i_system_wrapper/system_i/clk_wiz_0/inst/clkout1_buf/O
+                         net (fo=51437, routed)       1.853    15.015    i_system_wrapper/system_i/openwifi_ip/rx_intf_0/inst/gpio_status_rf_to_bb_i/xpm_fifo_async_gpio_status_rf_to_bb/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.rd_pntr_cdc_inst/src_clk
+    SLICE_X150Y298       FDRE                                         r  i_system_wrapper/system_i/openwifi_ip/rx_intf_0/inst/gpio_status_rf_to_bb_i/xpm_fifo_async_gpio_status_rf_to_bb/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.rd_pntr_cdc_inst/src_gray_ff_reg[1]/C
+  -------------------------------------------------------------------    -------------------
+    SLICE_X150Y298       FDRE (Prop_fdre_C_Q)         0.246    15.261 r  i_system_wrapper/system_i/openwifi_ip/rx_intf_0/inst/gpio_status_rf_to_bb_i/xpm_fifo_async_gpio_status_rf_to_bb/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.rd_pntr_cdc_inst/src_gray_ff_reg[1]/Q
+                         net (fo=1, routed)           0.359    15.620    i_system_wrapper/system_i/openwifi_ip/rx_intf_0/inst/gpio_status_rf_to_bb_i/xpm_fifo_async_gpio_status_rf_to_bb/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.rd_pntr_cdc_inst/async_path[1]
+    SLICE_X149Y298       FDRE                                         r  i_system_wrapper/system_i/openwifi_ip/rx_intf_0/inst/gpio_status_rf_to_bb_i/xpm_fifo_async_gpio_status_rf_to_bb/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.rd_pntr_cdc_inst/dest_graysync_ff_reg[0][1]/D
+  -------------------------------------------------------------------    -------------------
+
+                         (clock clk_div_sel_0_s rise edge)
+                                                      0.000     0.000 r  
+    J14                                               0.000     0.000 r  rx_clk_in_p (IN)
+                         net (fo=0)                   0.000     0.000    i_system_wrapper/system_i/axi_ad9361/inst/i_dev_if/i_clk/rx_clk_in_p
+    J14                  IBUFDS (Prop_ibufds_I_O)     0.935     0.935 r  i_system_wrapper/system_i/axi_ad9361/inst/i_dev_if/i_clk/i_rx_clk_ibuf/O
+                         net (fo=1, routed)           2.404     3.339    i_system_wrapper/system_i/axi_ad9361/inst/i_dev_if/i_clk/clk_ibuf_s
+    BUFGCTRL_X0Y17       BUFG (Prop_bufg_I_O)         0.113     3.452 r  i_system_wrapper/system_i/axi_ad9361/inst/i_dev_if/i_clk/i_clk_gbuf/O
+                         net (fo=3703, routed)        1.928     5.380    i_system_wrapper/system_i/util_ad9361_divclk/inst/clk
+    BUFR_X1Y25           BUFR (Prop_bufr_I_O)         0.735     6.115 r  i_system_wrapper/system_i/util_ad9361_divclk/inst/clk_divide_sel_0/O
+                         net (fo=1, routed)           1.493     7.608    i_system_wrapper/system_i/util_ad9361_divclk/inst/clk_div_sel_0_s
+    BUFGCTRL_X0Y19       BUFGCTRL (Prop_bufgctrl_I0_O)
+                                                      0.113     7.721 r  i_system_wrapper/system_i/util_ad9361_divclk/inst/i_div_clk_gbuf/O
+                         net (fo=693, routed)         1.632     9.353    i_system_wrapper/system_i/openwifi_ip/rx_intf_0/inst/gpio_status_rf_to_bb_i/xpm_fifo_async_gpio_status_rf_to_bb/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.rd_pntr_cdc_inst/dest_clk
+    SLICE_X149Y298       FDRE                                         r  i_system_wrapper/system_i/openwifi_ip/rx_intf_0/inst/gpio_status_rf_to_bb_i/xpm_fifo_async_gpio_status_rf_to_bb/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.rd_pntr_cdc_inst/dest_graysync_ff_reg[0][1]/C
+                         clock pessimism              0.803    10.156    
+    SLICE_X149Y298       FDRE (Setup_fdre_C_D)       -0.123    10.033    i_system_wrapper/system_i/openwifi_ip/rx_intf_0/inst/gpio_status_rf_to_bb_i/xpm_fifo_async_gpio_status_rf_to_bb/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.rd_pntr_cdc_inst/dest_graysync_ff_reg[0][1]
+  -------------------------------------------------------------------
+                         data arrival                          15.620    
+                         clock arrival                         10.033    
+  -------------------------------------------------------------------
+                         relative delay                         5.587    
+
+Reference path:
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                         (clock clk_out1_system_clk_wiz_0_0 rise edge)
+                                                      0.000     0.000 r  
+    J14                                               0.000     0.000 r  rx_clk_in_p (IN)
+                         net (fo=0)                   0.000     0.000    i_system_wrapper/system_i/axi_ad9361/inst/i_dev_if/i_clk/rx_clk_in_p
+    J14                  IBUFDS (Prop_ibufds_I_O)     0.935     0.935 r  i_system_wrapper/system_i/axi_ad9361/inst/i_dev_if/i_clk/i_rx_clk_ibuf/O
+                         net (fo=1, routed)           2.404     3.339    i_system_wrapper/system_i/axi_ad9361/inst/i_dev_if/i_clk/clk_ibuf_s
+    BUFGCTRL_X0Y17       BUFG (Prop_bufg_I_O)         0.113     3.452 r  i_system_wrapper/system_i/axi_ad9361/inst/i_dev_if/i_clk/i_clk_gbuf/O
+                         net (fo=3703, routed)        1.928     5.380    i_system_wrapper/system_i/util_ad9361_divclk/inst/clk
+    BUFR_X1Y25           BUFR (Prop_bufr_I_O)         0.735     6.115 r  i_system_wrapper/system_i/util_ad9361_divclk/inst/clk_divide_sel_0/O
+                         net (fo=1, routed)           1.493     7.608    i_system_wrapper/system_i/util_ad9361_divclk/inst/clk_div_sel_0_s
+    BUFGCTRL_X0Y19       BUFGCTRL (Prop_bufgctrl_I0_O)
+                                                      0.113     7.721 r  i_system_wrapper/system_i/util_ad9361_divclk/inst/i_div_clk_gbuf/O
+                         net (fo=693, routed)         1.874     9.595    i_system_wrapper/system_i/clk_wiz_0/inst/clk_in1
+    MMCME2_ADV_X0Y0      MMCME2_ADV (Prop_mmcme2_adv_CLKIN1_CLKOUT0)
+                                                      0.083     9.678 r  i_system_wrapper/system_i/clk_wiz_0/inst/mmcm_adv_inst/CLKOUT0
+                         net (fo=1, routed)           2.304    11.982    i_system_wrapper/system_i/clk_wiz_0/inst/clk_out1_system_clk_wiz_0_0
+    BUFGCTRL_X0Y0        BUFG (Prop_bufg_I_O)         0.113    12.095 r  i_system_wrapper/system_i/clk_wiz_0/inst/clkout1_buf/O
+                         net (fo=51437, routed)       1.635    13.730    i_system_wrapper/system_i/openwifi_ip/rx_intf_0/inst/gpio_status_rf_to_bb_i/xpm_fifo_async_gpio_status_rf_to_bb/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.rd_pntr_cdc_inst/src_clk
+    SLICE_X150Y298       FDRE                                         r  i_system_wrapper/system_i/openwifi_ip/rx_intf_0/inst/gpio_status_rf_to_bb_i/xpm_fifo_async_gpio_status_rf_to_bb/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.rd_pntr_cdc_inst/src_gray_ff_reg[0]/C
+  -------------------------------------------------------------------    -------------------
+    SLICE_X150Y298       FDRE (Prop_fdre_C_Q)         0.216    13.946 r  i_system_wrapper/system_i/openwifi_ip/rx_intf_0/inst/gpio_status_rf_to_bb_i/xpm_fifo_async_gpio_status_rf_to_bb/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.rd_pntr_cdc_inst/src_gray_ff_reg[0]/Q
+                         net (fo=1, routed)           0.285    14.231    i_system_wrapper/system_i/openwifi_ip/rx_intf_0/inst/gpio_status_rf_to_bb_i/xpm_fifo_async_gpio_status_rf_to_bb/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.rd_pntr_cdc_inst/async_path[0]
+    SLICE_X150Y299       FDRE                                         r  i_system_wrapper/system_i/openwifi_ip/rx_intf_0/inst/gpio_status_rf_to_bb_i/xpm_fifo_async_gpio_status_rf_to_bb/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.rd_pntr_cdc_inst/dest_graysync_ff_reg[0][0]/D
+  -------------------------------------------------------------------    -------------------
+
+                         (clock clk_div_sel_0_s rise edge)
+                                                      0.000     0.000 r  
+    J14                                               0.000     0.000 r  rx_clk_in_p (IN)
+                         net (fo=0)                   0.000     0.000    i_system_wrapper/system_i/axi_ad9361/inst/i_dev_if/i_clk/rx_clk_in_p
+    J14                  IBUFDS (Prop_ibufds_I_O)     1.053     1.053 r  i_system_wrapper/system_i/axi_ad9361/inst/i_dev_if/i_clk/i_rx_clk_ibuf/O
+                         net (fo=1, routed)           2.591     3.644    i_system_wrapper/system_i/axi_ad9361/inst/i_dev_if/i_clk/clk_ibuf_s
+    BUFGCTRL_X0Y17       BUFG (Prop_bufg_I_O)         0.120     3.764 r  i_system_wrapper/system_i/axi_ad9361/inst/i_dev_if/i_clk/i_clk_gbuf/O
+                         net (fo=3703, routed)        2.222     5.986    i_system_wrapper/system_i/util_ad9361_divclk/inst/clk
+    BUFR_X1Y25           BUFR (Prop_bufr_I_O)         0.765     6.751 r  i_system_wrapper/system_i/util_ad9361_divclk/inst/clk_divide_sel_0/O
+                         net (fo=1, routed)           1.653     8.404    i_system_wrapper/system_i/util_ad9361_divclk/inst/clk_div_sel_0_s
+    BUFGCTRL_X0Y19       BUFGCTRL (Prop_bufgctrl_I0_O)
+                                                      0.120     8.524 r  i_system_wrapper/system_i/util_ad9361_divclk/inst/i_div_clk_gbuf/O
+                         net (fo=693, routed)         1.851    10.375    i_system_wrapper/system_i/openwifi_ip/rx_intf_0/inst/gpio_status_rf_to_bb_i/xpm_fifo_async_gpio_status_rf_to_bb/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.rd_pntr_cdc_inst/dest_clk
+    SLICE_X150Y299       FDRE                                         r  i_system_wrapper/system_i/openwifi_ip/rx_intf_0/inst/gpio_status_rf_to_bb_i/xpm_fifo_async_gpio_status_rf_to_bb/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.rd_pntr_cdc_inst/dest_graysync_ff_reg[0][0]/C
+                         clock pessimism             -0.803     9.572    
+    SLICE_X150Y299       FDRE (Hold_fdre_C_D)         0.174     9.746    i_system_wrapper/system_i/openwifi_ip/rx_intf_0/inst/gpio_status_rf_to_bb_i/xpm_fifo_async_gpio_status_rf_to_bb/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.rd_pntr_cdc_inst/dest_graysync_ff_reg[0][0]
+  -------------------------------------------------------------------
+                         data arrival                          14.231    
+                         clock arrival                          9.746    
+  -------------------------------------------------------------------
+                         relative delay                         4.485    
+
+
+
+Id: 2
+set_bus_skew -from [get_cells [list {i_system_wrapper/system_i/openwifi_ip/rx_intf_0/inst/gpio_status_rf_to_bb_i/xpm_fifo_async_gpio_status_rf_to_bb/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_inst/src_gray_ff_reg[0]} {i_system_wrapper/system_i/openwifi_ip/rx_intf_0/inst/gpio_status_rf_to_bb_i/xpm_fifo_async_gpio_status_rf_to_bb/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_inst/src_gray_ff_reg[1]} {i_system_wrapper/system_i/openwifi_ip/rx_intf_0/inst/gpio_status_rf_to_bb_i/xpm_fifo_async_gpio_status_rf_to_bb/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_inst/src_gray_ff_reg[2]} {i_system_wrapper/system_i/openwifi_ip/rx_intf_0/inst/gpio_status_rf_to_bb_i/xpm_fifo_async_gpio_status_rf_to_bb/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_inst/src_gray_ff_reg[3]}]] -to [get_cells [list {i_system_wrapper/system_i/openwifi_ip/rx_intf_0/inst/gpio_status_rf_to_bb_i/xpm_fifo_async_gpio_status_rf_to_bb/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_inst/dest_graysync_ff_reg[0][0]} {i_system_wrapper/system_i/openwifi_ip/rx_intf_0/inst/gpio_status_rf_to_bb_i/xpm_fifo_async_gpio_status_rf_to_bb/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_inst/dest_graysync_ff_reg[0][1]} {i_system_wrapper/system_i/openwifi_ip/rx_intf_0/inst/gpio_status_rf_to_bb_i/xpm_fifo_async_gpio_status_rf_to_bb/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_inst/dest_graysync_ff_reg[0][2]} {i_system_wrapper/system_i/openwifi_ip/rx_intf_0/inst/gpio_status_rf_to_bb_i/xpm_fifo_async_gpio_status_rf_to_bb/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_inst/dest_graysync_ff_reg[0][3]}]] 10.000
+Requirement: 10.000ns
+Endpoints: 4
+
+From Clock            To Clock              Endpoint Pin                    Reference Pin                   Corner  Actual(ns)  Slack(ns)
+--------------------  --------------------  ------------------------------  ------------------------------  ------  ----------  ---------
+clk_div_sel_0_s       clk_out1_system_clk_wiz_0_0
+                                            i_system_wrapper/system_i/openwifi_ip/rx_intf_0/inst/gpio_status_rf_to_bb_i/xpm_fifo_async_gpio_status_rf_to_bb/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_inst/dest_graysync_ff_reg[0][3]/D
+                                                                            i_system_wrapper/system_i/openwifi_ip/rx_intf_0/inst/gpio_status_rf_to_bb_i/xpm_fifo_async_gpio_status_rf_to_bb/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_inst/dest_graysync_ff_reg[0][1]/D
+                                                                                                            Slow         0.456      9.544
+
+
+Slack (MET) :             9.544ns  (requirement - actual skew)
+  Endpoint Source:        i_system_wrapper/system_i/openwifi_ip/rx_intf_0/inst/gpio_status_rf_to_bb_i/xpm_fifo_async_gpio_status_rf_to_bb/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_inst/src_gray_ff_reg[3]/C
+                            (rising edge-triggered cell FDRE clocked by clk_div_sel_0_s)
+  Endpoint Destination:   i_system_wrapper/system_i/openwifi_ip/rx_intf_0/inst/gpio_status_rf_to_bb_i/xpm_fifo_async_gpio_status_rf_to_bb/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_inst/dest_graysync_ff_reg[0][3]/D
+                            (rising edge-triggered cell FDRE clocked by clk_out1_system_clk_wiz_0_0)
+  Reference Source:       i_system_wrapper/system_i/openwifi_ip/rx_intf_0/inst/gpio_status_rf_to_bb_i/xpm_fifo_async_gpio_status_rf_to_bb/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_inst/src_gray_ff_reg[1]/C
+                            (rising edge-triggered cell FDRE clocked by clk_div_sel_0_s)
+  Reference Destination:  i_system_wrapper/system_i/openwifi_ip/rx_intf_0/inst/gpio_status_rf_to_bb_i/xpm_fifo_async_gpio_status_rf_to_bb/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_inst/dest_graysync_ff_reg[0][1]/D
+                            (rising edge-triggered cell FDRE clocked by clk_out1_system_clk_wiz_0_0)
+  Path Type:              Bus Skew (Max at Slow Process Corner)
+  Requirement:            10.000ns
+  Endpoint Relative Delay:   -3.341ns
+  Reference Relative Delay:  -4.447ns
+  Relative CRPR:              0.649ns
+  Actual Bus Skew:            0.456ns  (Endpoint Relative Delay - Reference Relative Delay - Relative CRPR)
+
+Endpoint path:
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                         (clock clk_div_sel_0_s rise edge)
+                                                      0.000     0.000 r  
+    J14                                               0.000     0.000 r  rx_clk_in_p (IN)
+                         net (fo=0)                   0.000     0.000    i_system_wrapper/system_i/axi_ad9361/inst/i_dev_if/i_clk/rx_clk_in_p
+    J14                  IBUFDS (Prop_ibufds_I_O)     1.053     1.053 r  i_system_wrapper/system_i/axi_ad9361/inst/i_dev_if/i_clk/i_rx_clk_ibuf/O
+                         net (fo=1, routed)           2.591     3.644    i_system_wrapper/system_i/axi_ad9361/inst/i_dev_if/i_clk/clk_ibuf_s
+    BUFGCTRL_X0Y17       BUFG (Prop_bufg_I_O)         0.120     3.764 r  i_system_wrapper/system_i/axi_ad9361/inst/i_dev_if/i_clk/i_clk_gbuf/O
+                         net (fo=3703, routed)        2.222     5.986    i_system_wrapper/system_i/util_ad9361_divclk/inst/clk
+    BUFR_X1Y25           BUFR (Prop_bufr_I_O)         0.765     6.751 r  i_system_wrapper/system_i/util_ad9361_divclk/inst/clk_divide_sel_0/O
+                         net (fo=1, routed)           1.653     8.404    i_system_wrapper/system_i/util_ad9361_divclk/inst/clk_div_sel_0_s
+    BUFGCTRL_X0Y19       BUFGCTRL (Prop_bufgctrl_I0_O)
+                                                      0.120     8.524 r  i_system_wrapper/system_i/util_ad9361_divclk/inst/i_div_clk_gbuf/O
+                         net (fo=693, routed)         1.851    10.375    i_system_wrapper/system_i/openwifi_ip/rx_intf_0/inst/gpio_status_rf_to_bb_i/xpm_fifo_async_gpio_status_rf_to_bb/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_inst/src_clk
+    SLICE_X150Y297       FDRE                                         r  i_system_wrapper/system_i/openwifi_ip/rx_intf_0/inst/gpio_status_rf_to_bb_i/xpm_fifo_async_gpio_status_rf_to_bb/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_inst/src_gray_ff_reg[3]/C
+  -------------------------------------------------------------------    -------------------
+    SLICE_X150Y297       FDRE (Prop_fdre_C_Q)         0.246    10.621 r  i_system_wrapper/system_i/openwifi_ip/rx_intf_0/inst/gpio_status_rf_to_bb_i/xpm_fifo_async_gpio_status_rf_to_bb/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_inst/src_gray_ff_reg[3]/Q
+                         net (fo=1, routed)           0.447    11.068    i_system_wrapper/system_i/openwifi_ip/rx_intf_0/inst/gpio_status_rf_to_bb_i/xpm_fifo_async_gpio_status_rf_to_bb/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_inst/async_path[3]
+    SLICE_X151Y297       FDRE                                         r  i_system_wrapper/system_i/openwifi_ip/rx_intf_0/inst/gpio_status_rf_to_bb_i/xpm_fifo_async_gpio_status_rf_to_bb/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_inst/dest_graysync_ff_reg[0][3]/D
+  -------------------------------------------------------------------    -------------------
+
+                         (clock clk_out1_system_clk_wiz_0_0 rise edge)
+                                                      0.000     0.000 r  
+    J14                                               0.000     0.000 r  rx_clk_in_p (IN)
+                         net (fo=0)                   0.000     0.000    i_system_wrapper/system_i/axi_ad9361/inst/i_dev_if/i_clk/rx_clk_in_p
+    J14                  IBUFDS (Prop_ibufds_I_O)     0.935     0.935 r  i_system_wrapper/system_i/axi_ad9361/inst/i_dev_if/i_clk/i_rx_clk_ibuf/O
+                         net (fo=1, routed)           2.404     3.339    i_system_wrapper/system_i/axi_ad9361/inst/i_dev_if/i_clk/clk_ibuf_s
+    BUFGCTRL_X0Y17       BUFG (Prop_bufg_I_O)         0.113     3.452 r  i_system_wrapper/system_i/axi_ad9361/inst/i_dev_if/i_clk/i_clk_gbuf/O
+                         net (fo=3703, routed)        1.928     5.380    i_system_wrapper/system_i/util_ad9361_divclk/inst/clk
+    BUFR_X1Y25           BUFR (Prop_bufr_I_O)         0.735     6.115 r  i_system_wrapper/system_i/util_ad9361_divclk/inst/clk_divide_sel_0/O
+                         net (fo=1, routed)           1.493     7.608    i_system_wrapper/system_i/util_ad9361_divclk/inst/clk_div_sel_0_s
+    BUFGCTRL_X0Y19       BUFGCTRL (Prop_bufgctrl_I0_O)
+                                                      0.113     7.721 r  i_system_wrapper/system_i/util_ad9361_divclk/inst/i_div_clk_gbuf/O
+                         net (fo=693, routed)         1.874     9.595    i_system_wrapper/system_i/clk_wiz_0/inst/clk_in1
+    MMCME2_ADV_X0Y0      MMCME2_ADV (Prop_mmcme2_adv_CLKIN1_CLKOUT0)
+                                                      0.083     9.678 r  i_system_wrapper/system_i/clk_wiz_0/inst/mmcm_adv_inst/CLKOUT0
+                         net (fo=1, routed)           2.304    11.982    i_system_wrapper/system_i/clk_wiz_0/inst/clk_out1_system_clk_wiz_0_0
+    BUFGCTRL_X0Y0        BUFG (Prop_bufg_I_O)         0.113    12.095 r  i_system_wrapper/system_i/clk_wiz_0/inst/clkout1_buf/O
+                         net (fo=51437, routed)       1.635    13.730    i_system_wrapper/system_i/openwifi_ip/rx_intf_0/inst/gpio_status_rf_to_bb_i/xpm_fifo_async_gpio_status_rf_to_bb/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_inst/dest_clk
+    SLICE_X151Y297       FDRE                                         r  i_system_wrapper/system_i/openwifi_ip/rx_intf_0/inst/gpio_status_rf_to_bb_i/xpm_fifo_async_gpio_status_rf_to_bb/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_inst/dest_graysync_ff_reg[0][3]/C
+                         clock pessimism              0.803    14.533    
+    SLICE_X151Y297       FDRE (Setup_fdre_C_D)       -0.124    14.409    i_system_wrapper/system_i/openwifi_ip/rx_intf_0/inst/gpio_status_rf_to_bb_i/xpm_fifo_async_gpio_status_rf_to_bb/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_inst/dest_graysync_ff_reg[0][3]
+  -------------------------------------------------------------------
+                         data arrival                          11.068    
+                         clock arrival                         14.409    
+  -------------------------------------------------------------------
+                         relative delay                        -3.341    
+
+Reference path:
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                         (clock clk_div_sel_0_s rise edge)
+                                                      0.000     0.000 r  
+    J14                                               0.000     0.000 r  rx_clk_in_p (IN)
+                         net (fo=0)                   0.000     0.000    i_system_wrapper/system_i/axi_ad9361/inst/i_dev_if/i_clk/rx_clk_in_p
+    J14                  IBUFDS (Prop_ibufds_I_O)     0.935     0.935 r  i_system_wrapper/system_i/axi_ad9361/inst/i_dev_if/i_clk/i_rx_clk_ibuf/O
+                         net (fo=1, routed)           2.404     3.339    i_system_wrapper/system_i/axi_ad9361/inst/i_dev_if/i_clk/clk_ibuf_s
+    BUFGCTRL_X0Y17       BUFG (Prop_bufg_I_O)         0.113     3.452 r  i_system_wrapper/system_i/axi_ad9361/inst/i_dev_if/i_clk/i_clk_gbuf/O
+                         net (fo=3703, routed)        1.928     5.380    i_system_wrapper/system_i/util_ad9361_divclk/inst/clk
+    BUFR_X1Y25           BUFR (Prop_bufr_I_O)         0.735     6.115 r  i_system_wrapper/system_i/util_ad9361_divclk/inst/clk_divide_sel_0/O
+                         net (fo=1, routed)           1.493     7.608    i_system_wrapper/system_i/util_ad9361_divclk/inst/clk_div_sel_0_s
+    BUFGCTRL_X0Y19       BUFGCTRL (Prop_bufgctrl_I0_O)
+                                                      0.113     7.721 r  i_system_wrapper/system_i/util_ad9361_divclk/inst/i_div_clk_gbuf/O
+                         net (fo=693, routed)         1.632     9.353    i_system_wrapper/system_i/openwifi_ip/rx_intf_0/inst/gpio_status_rf_to_bb_i/xpm_fifo_async_gpio_status_rf_to_bb/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_inst/src_clk
+    SLICE_X149Y298       FDRE                                         r  i_system_wrapper/system_i/openwifi_ip/rx_intf_0/inst/gpio_status_rf_to_bb_i/xpm_fifo_async_gpio_status_rf_to_bb/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_inst/src_gray_ff_reg[1]/C
+  -------------------------------------------------------------------    -------------------
+    SLICE_X149Y298       FDRE (Prop_fdre_C_Q)         0.197     9.550 r  i_system_wrapper/system_i/openwifi_ip/rx_intf_0/inst/gpio_status_rf_to_bb_i/xpm_fifo_async_gpio_status_rf_to_bb/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_inst/src_gray_ff_reg[1]/Q
+                         net (fo=1, routed)           0.296     9.846    i_system_wrapper/system_i/openwifi_ip/rx_intf_0/inst/gpio_status_rf_to_bb_i/xpm_fifo_async_gpio_status_rf_to_bb/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_inst/async_path[1]
+    SLICE_X150Y298       FDRE                                         r  i_system_wrapper/system_i/openwifi_ip/rx_intf_0/inst/gpio_status_rf_to_bb_i/xpm_fifo_async_gpio_status_rf_to_bb/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_inst/dest_graysync_ff_reg[0][1]/D
+  -------------------------------------------------------------------    -------------------
+
+                         (clock clk_out1_system_clk_wiz_0_0 rise edge)
+                                                      0.000     0.000 r  
+    J14                                               0.000     0.000 r  rx_clk_in_p (IN)
+                         net (fo=0)                   0.000     0.000    i_system_wrapper/system_i/axi_ad9361/inst/i_dev_if/i_clk/rx_clk_in_p
+    J14                  IBUFDS (Prop_ibufds_I_O)     1.053     1.053 r  i_system_wrapper/system_i/axi_ad9361/inst/i_dev_if/i_clk/i_rx_clk_ibuf/O
+                         net (fo=1, routed)           2.591     3.644    i_system_wrapper/system_i/axi_ad9361/inst/i_dev_if/i_clk/clk_ibuf_s
+    BUFGCTRL_X0Y17       BUFG (Prop_bufg_I_O)         0.120     3.764 r  i_system_wrapper/system_i/axi_ad9361/inst/i_dev_if/i_clk/i_clk_gbuf/O
+                         net (fo=3703, routed)        2.222     5.986    i_system_wrapper/system_i/util_ad9361_divclk/inst/clk
+    BUFR_X1Y25           BUFR (Prop_bufr_I_O)         0.765     6.751 r  i_system_wrapper/system_i/util_ad9361_divclk/inst/clk_divide_sel_0/O
+                         net (fo=1, routed)           1.653     8.404    i_system_wrapper/system_i/util_ad9361_divclk/inst/clk_div_sel_0_s
+    BUFGCTRL_X0Y19       BUFGCTRL (Prop_bufgctrl_I0_O)
+                                                      0.120     8.524 r  i_system_wrapper/system_i/util_ad9361_divclk/inst/i_div_clk_gbuf/O
+                         net (fo=693, routed)         2.008    10.532    i_system_wrapper/system_i/clk_wiz_0/inst/clk_in1
+    MMCME2_ADV_X0Y0      MMCME2_ADV (Prop_mmcme2_adv_CLKIN1_CLKOUT0)
+                                                      0.088    10.620 r  i_system_wrapper/system_i/clk_wiz_0/inst/mmcm_adv_inst/CLKOUT0
+                         net (fo=1, routed)           2.422    13.042    i_system_wrapper/system_i/clk_wiz_0/inst/clk_out1_system_clk_wiz_0_0
+    BUFGCTRL_X0Y0        BUFG (Prop_bufg_I_O)         0.120    13.162 r  i_system_wrapper/system_i/clk_wiz_0/inst/clkout1_buf/O
+                         net (fo=51437, routed)       1.853    15.015    i_system_wrapper/system_i/openwifi_ip/rx_intf_0/inst/gpio_status_rf_to_bb_i/xpm_fifo_async_gpio_status_rf_to_bb/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_inst/dest_clk
+    SLICE_X150Y298       FDRE                                         r  i_system_wrapper/system_i/openwifi_ip/rx_intf_0/inst/gpio_status_rf_to_bb_i/xpm_fifo_async_gpio_status_rf_to_bb/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_inst/dest_graysync_ff_reg[0][1]/C
+                         clock pessimism             -0.803    14.212    
+    SLICE_X150Y298       FDRE (Hold_fdre_C_D)         0.081    14.293    i_system_wrapper/system_i/openwifi_ip/rx_intf_0/inst/gpio_status_rf_to_bb_i/xpm_fifo_async_gpio_status_rf_to_bb/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_inst/dest_graysync_ff_reg[0][1]
+  -------------------------------------------------------------------
+                         data arrival                           9.846    
+                         clock arrival                         14.293    
+  -------------------------------------------------------------------
+                         relative delay                        -4.447    
+
+
+

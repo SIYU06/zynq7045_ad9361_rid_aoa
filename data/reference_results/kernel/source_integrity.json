@@ -1,0 +1,23 @@
+{
+  "source_files": 64497,
+  "source_bytes": 1059394757,
+  "symlinks_preserved": 22,
+  "compiled_artifacts": [],
+  "patch_contexts": [
+    {
+      "file": "drivers/iio/adc/ad9361.c",
+      "patch": "ad9361_openwifi_exports.patch",
+      "hunks": 7,
+      "base_sha256": "5bc4ee4a4fc9d83aa58f0611ee3198733d41efb30193f2c517f0ddaac7ae452c",
+      "patched_sha256": "76e74ac241c72cbfcd031fad9099e871c738661824146d2c312fa36a06912c1b"
+    },
+    {
+      "file": "net/mac80211/rx.c",
+      "patch": "mac80211_radiotap_cursor.patch",
+      "hunks": 1,
+      "base_sha256": "9ff1d82c36e2a5810dd7e137d866f20594f0a4fbd2117bb049b52222758ac688",
+      "patched_sha256": "c112a067f41d013a478ff17dd22b9b8592621e5a1c6ff284d7b377285d2604f4"
+    }
+  ],
+  "archive_sha256": "fc85a0cff10ff092c503a5db98120790e81c66bce2db389b292fceacd1837e69"
+}

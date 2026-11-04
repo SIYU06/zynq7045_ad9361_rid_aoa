@@ -1,0 +1,49 @@
+{
+  "passed": true,
+  "node": "v24.13.0",
+  "syntaxChecked": [
+    "aoa-reference.js",
+    "channel-scan.js",
+    "config.js",
+    "data.js",
+    "direction-view.js",
+    "doa-tracks.js",
+    "home-experience.js",
+    "map-controls.js",
+    "map-symbols.js",
+    "monitor-data.js",
+    "monitor-targets.js",
+    "pipeline-view.js",
+    "position-display.js",
+    "receiver-control.js",
+    "records-view.js",
+    "runtime-config.js",
+    "signals-view.js",
+    "station-editor.js",
+    "transport.js",
+    "vendor\\leaflet.js",
+    "workspace-core.js",
+    "workspace.js"
+  ],
+  "recordings": [
+    {
+      "file": "dual_center_20261102.json",
+      "samples": 35,
+      "markedHistorical": true
+    },
+    {
+      "file": "nonrid_video_20261102.json",
+      "samples": 75,
+      "markedHistorical": true
+    }
+  ],
+  "additionalChecks": [
+    "empty record rejected",
+    "coordinate roundtrip",
+    "frame mismatch rejected",
+    "stale pair rejected",
+    "disconnected pair rejected",
+    "front/back ambiguity retained"
+  ],
+  "scope": "JavaScript execution and saved recording integrity; no browser interaction."
+}
