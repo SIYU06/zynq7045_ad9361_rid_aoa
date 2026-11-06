@@ -50,7 +50,7 @@
   "documents": {
     "ok": true,
     "documents": 118,
-    "local_links_checked": 404,
+    "local_links_checked": 408,
     "issues": [],
     "privacy_scope": "heuristic candidates only; manual identity and location review remains necessary"
   },
@@ -77,6 +77,14 @@
     "hardware": "Each terminal uses AD9361 and XC7Z045; FPGA and Linux CPU responsibilities stated separately",
     "positioning": "Two terminal bearings and known geometry are combined on PC; rangeAM/rangeBM are geometric outputs",
     "identity": "RID parsing and source association do not establish identity authenticity",
+    "code_and_archives_unchanged": true,
+    "new_board_or_build_test": false
+  },
+  "license_documentation_update": {
+    "date": "2026-11-06",
+    "license": "MIT",
+    "scope": "Independently licensable original code, scripts and documentation; third-party components and derivative changes retain applicable licenses",
+    "copyright_notice": "2026 Project contributors",
     "code_and_archives_unchanged": true,
     "new_board_or_build_test": false
   }

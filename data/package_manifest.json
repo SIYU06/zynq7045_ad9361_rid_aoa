@@ -1373,13 +1373,18 @@
     },
     {
       "path": "data/release_validation.json",
-      "size": 2748,
-      "sha256": "7d69ccb101f4bf1c9557bea1e15be1f19874b9072daf3edd636f7a39e3e107d6"
+      "size": 3124,
+      "sha256": "2050ed32d442498cf0349b3fef4f98e2c84777582ecae7231f7c348131ef8e89"
+    },
+    {
+      "path": "license",
+      "size": 1077,
+      "sha256": "f5eee63fb76b6585d82d7c3e7e7c5136331316c3256e72cb6bdf587f234d20de"
     },
     {
       "path": "README.md",
-      "size": 32284,
-      "sha256": "56f64257e93bc8d5170ce4d47d94179e6246bbd1357b71437018e1906793d50e"
+      "size": 32914,
+      "sha256": "95f8bae411b0e283b04dc06af89dc89c97bce311092f1eb248683ca686a939d8"
     },
     {
       "path": "report/llm_collaboration.md",
@@ -1488,8 +1493,8 @@
     },
     {
       "path": "third_party_notices.md",
-      "size": 801,
-      "sha256": "a2d6c21b6ad66d6430d228240f7efba9c6699b6dc5c12c19c0cb5a0b0ff2c22f"
+      "size": 1413,
+      "sha256": "93e62dc301215158651ff564746e3b70ec89589c40dffccb7274d2b2fe040f9e"
     }
   ]
 }
